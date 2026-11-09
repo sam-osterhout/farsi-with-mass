@@ -476,6 +476,8 @@
       case 'listen': html = renderListenStep(step); break;
       case 'words': html = renderWordsStep(step, chNum, dayNum); break;
       case 'pattern': html = renderPatternStep(step); break;
+      case 'grammar': html = renderGrammarStep(step); break;
+      case 'writing': html = renderWritingStep(step); break;
       case 'drill': html = renderDrillStep(step, stepIdx); break;
       case 'speak': html = renderSpeakStep(step, stepIdx); break;
       case 'talkWithMass': html = renderTalkStep(step); break;
@@ -596,6 +598,106 @@
     }
     if (step.note) {
       html += '<div class="pattern-note">' + esc(step.note) + '</div>';
+    }
+    return html;
+  }
+
+  function renderGrammarStep(step) {
+    var html = '';
+    if (step.explanation) {
+      html += '<div class="grammar-explanation">' + step.explanation + '</div>';
+    }
+    if (step.tables) {
+      for (var t = 0; t < step.tables.length; t++) {
+        var tbl = step.tables[t];
+        html += '<div class="conj-table">';
+        html += '<div class="conj-header">';
+        html += '<span class="conj-verb">' + esc(tbl.verb) + '</span>';
+        if (tbl.verbPronunciation) html += ' <span class="conj-verb-pron">(' + esc(tbl.verbPronunciation) + ')</span>';
+        html += ' — ' + esc(tbl.meaning);
+        if (tbl.stem && tbl.stem !== '—') html += ' <span class="conj-stem">stem: ' + esc(tbl.stem) + '</span>';
+        html += '</div>';
+        html += '<table class="conj-grid"><tbody>';
+        for (var r = 0; r < tbl.rows.length; r++) {
+          var row = tbl.rows[r];
+          html += '<tr>';
+          html += '<td class="conj-label">' + esc(row.label) + '</td>';
+          html += '<td class="conj-persian">' + esc(row.example || row.persian) + '</td>';
+          html += '<td class="conj-pron">' + esc(row.pronunciation) + '</td>';
+          html += '<td class="conj-eng">' + esc(row.english) + '</td>';
+          html += '</tr>';
+        }
+        html += '</tbody></table></div>';
+      }
+    }
+    if (step.note) {
+      html += '<div class="pattern-note">' + esc(step.note) + '</div>';
+    }
+    return html;
+  }
+
+  function renderWritingStep(step) {
+    var html = '';
+    if (step.instruction) {
+      html += '<p class="step-instruction">' + esc(step.instruction) + '</p>';
+    }
+    if (step.letters) {
+      html += '<div class="letter-grid">';
+      for (var i = 0; i < step.letters.length; i++) {
+        var lt = step.letters[i];
+        html += '<div class="letter-card">';
+        html += '<div class="letter-big">' + esc(lt.letter) + '</div>';
+        html += '<div class="letter-name">' + esc(lt.name) + '</div>';
+        html += '<div class="letter-sound">' + esc(lt.sound) + '</div>';
+        if (lt.forms) {
+          html += '<div class="letter-forms">';
+          html += '<span class="form-label">Forms:</span> ';
+          var fkeys = ['initial', 'medial', 'final', 'isolated'];
+          var flabels = ['Initial', 'Medial', 'Final', 'Isolated'];
+          for (var f = 0; f < fkeys.length; f++) {
+            if (lt.forms[fkeys[f]]) {
+              html += '<span class="letter-form"><span class="form-pos">' + flabels[f] + '</span> ' + esc(lt.forms[fkeys[f]]) + '</span>';
+            }
+          }
+          html += '</div>';
+        }
+        if (lt.examples) {
+          html += '<div class="letter-examples">';
+          for (var e = 0; e < lt.examples.length; e++) {
+            var ex = lt.examples[e];
+            html += '<span class="letter-ex-word">' + esc(ex.word) + '</span> <span class="letter-ex-meaning">(' + esc(ex.meaning) + ')</span> ';
+          }
+          html += '</div>';
+        }
+        if (lt.tip) {
+          html += '<div class="letter-tip">' + esc(lt.tip) + '</div>';
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+    }
+    if (step.practice) {
+      html += '<h3 style="margin:var(--space-lg) 0 var(--space-md)">Practice</h3>';
+      for (var p = 0; p < step.practice.length; p++) {
+        var pr = step.practice[p];
+        if (pr.options) {
+          html += '<div class="writing-quiz">';
+          html += '<p class="quiz-prompt">' + esc(pr.prompt) + '</p>';
+          html += '<div class="quiz-options">';
+          for (var o = 0; o < pr.options.length; o++) {
+            html += '<button class="quiz-option" onclick="window.app.checkWritingQuiz(this,' + pr.correct + ',' + o + ')">' + esc(pr.options[o]) + '</button>';
+          }
+          html += '</div></div>';
+        } else {
+          html += '<div class="writing-practice-prompt">';
+          html += '<p>' + esc(pr.prompt) + '</p>';
+          if (pr.answer) {
+            html += '<div class="writing-answer-reveal" style="display:none"><span class="persian-text">' + esc(pr.answer) + '</span></div>';
+            html += '<button class="btn btn--outline" onclick="this.previousElementSibling.style.display=\'block\';this.style.display=\'none\'">Show Answer</button>';
+          }
+          html += '</div>';
+        }
+      }
     }
     return html;
   }
@@ -1122,6 +1224,15 @@
     }, 1000);
   }
 
+  function checkWritingQuiz(btn, correctIdx, chosenIdx) {
+    var siblings = btn.parentElement.querySelectorAll('.quiz-option');
+    for (var i = 0; i < siblings.length; i++) {
+      siblings[i].disabled = true;
+      if (i === correctIdx) siblings[i].classList.add('correct');
+    }
+    if (chosenIdx !== correctIdx) btn.classList.add('incorrect');
+  }
+
   // ─── Bind Events ───────────────────────────
   function bindEvents() {
     $$('.audio-btn').forEach(function(btn) { btn.addEventListener('click', function(e) { e.stopPropagation(); }); });
@@ -1177,6 +1288,7 @@
       revealTyping: revealTyping,
       answerQuestion: answerQuestion,
       startTimer: startTimer,
+      checkWritingQuiz: checkWritingQuiz,
     };
 
     window.addEventListener('hashchange', handleHash);

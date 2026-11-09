@@ -463,6 +463,118 @@
           "note": "بیا (come) and برو (go) are irregular — they don't follow the بـ pattern. You just memorize them."
         },
         {
+          "type": "grammar",
+          "title": "Verb Forms: Commands",
+          "explanation": "<p>Today's verbs are all <strong>commands</strong> (imperatives). In spoken Farsi, you make a command by using the <strong>present stem</strong>. For compound verbs like بلند شدن, only the helper verb شدن conjugates.</p><p>Here are the three forms you need:</p>",
+          "tables": [
+            {
+              "verb": "آمدن",
+              "verbPronunciation": "ah-madan",
+              "meaning": "to come",
+              "stem": "آ",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "بیا",
+                  "pronunciation": "bee-ah",
+                  "english": "come!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "بیایید",
+                  "pronunciation": "bee-ah-yeed",
+                  "english": "come! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "نیا",
+                  "pronunciation": "nee-ah",
+                  "english": "don't come!"
+                }
+              ]
+            },
+            {
+              "verb": "رفتن",
+              "verbPronunciation": "raftan",
+              "meaning": "to go",
+              "stem": "رو",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "برو",
+                  "pronunciation": "boro",
+                  "english": "go!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "برید",
+                  "pronunciation": "boreed",
+                  "english": "go! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "نرو",
+                  "pronunciation": "naro",
+                  "english": "don't go!"
+                }
+              ]
+            },
+            {
+              "verb": "بلند شدن",
+              "verbPronunciation": "boland shodan",
+              "meaning": "to get up",
+              "stem": "شو",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "بلند شو",
+                  "pronunciation": "boland sho",
+                  "english": "get up!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "بلند شید",
+                  "pronunciation": "boland sheed",
+                  "english": "get up! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "بلند نشو",
+                  "pronunciation": "boland nasho",
+                  "english": "don't get up!"
+                }
+              ]
+            },
+            {
+              "verb": "بیدار شدن",
+              "verbPronunciation": "bee-dahr shodan",
+              "meaning": "to wake up",
+              "stem": "شو",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "بیدار شو",
+                  "pronunciation": "bee-dahr sho",
+                  "english": "wake up!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "بیدار شید",
+                  "pronunciation": "bee-dahr sheed",
+                  "english": "wake up! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "بیدار نشو",
+                  "pronunciation": "bee-dahr nasho",
+                  "english": "don't wake up!"
+                }
+              ]
+            }
+          ],
+          "note": "بیا and برو are irregular — they don't follow the بـ + stem pattern. You just memorize them. For compound verbs (بلند شدن, بیدار شدن), only the شدن part conjugates."
+        },
+        {
           "type": "drill",
           "title": "Practice",
           "exercises": [
@@ -533,6 +645,109 @@
             "pronunciation": "sobh bekheyr! khasteh-am. bee-ah injah.",
             "english": "Good morning! I'm tired. Come here."
           }
+        },
+        {
+          "type": "writing",
+          "title": "The Alphabet: ا ب پ",
+          "instruction": "Three letters you'll see in today's words. Each letter has up to four forms depending on where it appears in a word.",
+          "letters": [
+            {
+              "letter": "ا",
+              "name": "alef",
+              "sound": "ah / a / silent (carries other sounds)",
+              "forms": {
+                "isolated": "ا",
+                "initial": "ا",
+                "medial": "ـا",
+                "final": "ـا"
+              },
+              "connectsLeft": false,
+              "examples": [
+                {
+                  "word": "آب",
+                  "meaning": "water",
+                  "pronunciation": "ahb"
+                },
+                {
+                  "word": "اینجا",
+                  "meaning": "here",
+                  "pronunciation": "injah"
+                }
+              ],
+              "tip": "Alef never connects to the letter after it. When it carries an آ sound (with the hat), it's always at the start."
+            },
+            {
+              "letter": "ب",
+              "name": "be",
+              "sound": "b (like English b)",
+              "forms": {
+                "isolated": "ب",
+                "initial": "بـ",
+                "medial": "ـبـ",
+                "final": "ـب"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "بیا",
+                  "meaning": "come!",
+                  "pronunciation": "bee-ah"
+                },
+                {
+                  "word": "بلند",
+                  "meaning": "tall / up",
+                  "pronunciation": "boland"
+                },
+                {
+                  "word": "آب",
+                  "meaning": "water",
+                  "pronunciation": "ahb"
+                }
+              ],
+              "tip": "The dot goes below. Compare with پ (three dots below) and ت (two dots above)."
+            },
+            {
+              "letter": "پ",
+              "name": "pe",
+              "sound": "p (like English p)",
+              "forms": {
+                "isolated": "پ",
+                "initial": "پـ",
+                "medial": "ـپـ",
+                "final": "ـپ"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "صبح بخیر",
+                  "meaning": "good morning",
+                  "pronunciation": "sobh bekheyr"
+                }
+              ],
+              "tip": "Same shape as ب but with three dots below. This letter doesn't exist in Arabic — it's uniquely Persian."
+            }
+          ],
+          "practice": [
+            {
+              "prompt": "Which letter is this? ب",
+              "options": [
+                "alef",
+                "be",
+                "pe",
+                "te"
+              ],
+              "correct": 1
+            },
+            {
+              "prompt": "Find the ا in this word: بیا",
+              "type": "identify"
+            },
+            {
+              "prompt": "Write the word آب (water) — it uses two of today's letters.",
+              "type": "write",
+              "answer": "آب"
+            }
+          ]
         },
         {
           "type": "talkWithMass",
@@ -691,6 +906,118 @@
           "note": "The negative pattern: بشین (sit!) → نشین (don't sit!). The بـ becomes نـ."
         },
         {
+          "type": "grammar",
+          "title": "Verb Forms: At the Table",
+          "explanation": "<p>Three more commands for breakfast. Notice the pattern: <strong>بـ + present stem</strong> for regular verbs. To say \"don't,\" swap بـ for <strong>نـ</strong>.</p>",
+          "tables": [
+            {
+              "verb": "نشستن",
+              "verbPronunciation": "neshastan",
+              "meaning": "to sit",
+              "stem": "شین",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "بشین",
+                  "pronunciation": "besheen",
+                  "english": "sit!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "بشینید",
+                  "pronunciation": "besheeneed",
+                  "english": "sit! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "نشین",
+                  "pronunciation": "nasheen",
+                  "english": "don't sit!"
+                }
+              ]
+            },
+            {
+              "verb": "خوردن",
+              "verbPronunciation": "khordan",
+              "meaning": "to eat",
+              "stem": "خور",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "بخور",
+                  "pronunciation": "bokhor",
+                  "english": "eat!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "بخورید",
+                  "pronunciation": "bokhoreed",
+                  "english": "eat! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "نخور",
+                  "pronunciation": "nakhor",
+                  "english": "don't eat!"
+                }
+              ]
+            },
+            {
+              "verb": "صبر کردن",
+              "verbPronunciation": "sabr kardan",
+              "meaning": "to wait",
+              "stem": "کن",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "صبر کن",
+                  "pronunciation": "sabr kon",
+                  "english": "wait!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "صبر کنید",
+                  "pronunciation": "sabr koneed",
+                  "english": "wait! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "صبر نکن",
+                  "pronunciation": "sabr nakon",
+                  "english": "don't wait!"
+                }
+              ]
+            },
+            {
+              "verb": "دیدن",
+              "verbPronunciation": "deedan",
+              "meaning": "to see / look",
+              "stem": "بین",
+              "rows": [
+                {
+                  "label": "تو (you, informal)",
+                  "persian": "ببین",
+                  "pronunciation": "bebeen",
+                  "english": "look!"
+                },
+                {
+                  "label": "شما (you, formal)",
+                  "persian": "ببینید",
+                  "pronunciation": "bebeeneed",
+                  "english": "look! (formal)"
+                },
+                {
+                  "label": "منفی (don't)",
+                  "persian": "نبین",
+                  "pronunciation": "nabeen",
+                  "english": "don't look!"
+                }
+              ]
+            }
+          ],
+          "note": "صبر کردن is a compound verb like بلند شدن — only the کردن part conjugates. The negative goes on the helper: صبر نکن."
+        },
+        {
           "type": "drill",
           "title": "Practice",
           "exercises": [
@@ -760,6 +1087,125 @@
             "pronunciation": "lotfan yeh kam chahy bedeh. goshnameh. mamnoon!",
             "english": "Please give me some tea. I'm hungry. Thanks!"
           }
+        },
+        {
+          "type": "writing",
+          "title": "The Alphabet: ت ن م",
+          "instruction": "Three more letters from this week's vocabulary. Pay attention to the dots — they're the only difference between some of these shapes.",
+          "letters": [
+            {
+              "letter": "ت",
+              "name": "te",
+              "sound": "t (like English t)",
+              "forms": {
+                "isolated": "ت",
+                "initial": "تـ",
+                "medial": "ـتـ",
+                "final": "ـت"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "تشنه",
+                  "meaning": "thirsty",
+                  "pronunciation": "teshneh"
+                },
+                {
+                  "word": "خسته",
+                  "meaning": "tired",
+                  "pronunciation": "khasteh"
+                }
+              ],
+              "tip": "Same body as ب and پ, but two dots above. At the end of a word it often looks like ـه."
+            },
+            {
+              "letter": "ن",
+              "name": "noon",
+              "sound": "n (like English n)",
+              "forms": {
+                "isolated": "ن",
+                "initial": "نـ",
+                "medial": "ـنـ",
+                "final": "ـن"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "نه",
+                  "meaning": "no",
+                  "pronunciation": "nah"
+                },
+                {
+                  "word": "ناراحت",
+                  "meaning": "upset",
+                  "pronunciation": "nah-rah-hat"
+                },
+                {
+                  "word": "ممنون",
+                  "meaning": "thank you",
+                  "pronunciation": "mamnoon"
+                }
+              ],
+              "tip": "One dot above, with a deeper bowl shape than ب. In initial form (نـ) it can look like بـ — watch for the dot position."
+            },
+            {
+              "letter": "م",
+              "name": "mim",
+              "sound": "m (like English m)",
+              "forms": {
+                "isolated": "م",
+                "initial": "مـ",
+                "medial": "ـمـ",
+                "final": "ـم"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "من",
+                  "meaning": "I / me",
+                  "pronunciation": "man"
+                },
+                {
+                  "word": "ممنون",
+                  "meaning": "thank you",
+                  "pronunciation": "mamnoon"
+                },
+                {
+                  "word": "صبحونه",
+                  "meaning": "breakfast",
+                  "pronunciation": "sobhooneh"
+                }
+              ],
+              "tip": "A round loop. In the middle of a word (ـمـ) it's a small bump on the baseline."
+            }
+          ],
+          "practice": [
+            {
+              "prompt": "How many dots does ت have, and where?",
+              "options": [
+                "1 below",
+                "2 above",
+                "3 below",
+                "none"
+              ],
+              "correct": 1
+            },
+            {
+              "prompt": "Which letter starts the word ممنون?",
+              "options": [
+                "ن",
+                "م",
+                "ب",
+                "ت"
+              ],
+              "correct": 1
+            },
+            {
+              "prompt": "Write the word من (I/me).",
+              "type": "write",
+              "answer": "من"
+            }
+          ]
         },
         {
           "type": "talkWithMass",
@@ -944,6 +1390,71 @@
           "note": "حوصله ندارم (howseleh nadahram) means \"I have no patience\" or \"I'm bored\" — you'll use this one a lot!"
         },
         {
+          "type": "grammar",
+          "title": "Verb Forms: How You Feel",
+          "explanation": "<p>To say how you feel, attach the <strong>short pronoun suffix</strong> to the adjective. This is like saying \"tired-am\" instead of \"I am tired.\" Here's the full pattern with خسته (tired):</p>",
+          "tables": [
+            {
+              "verb": "بودن",
+              "verbPronunciation": "boodan",
+              "meaning": "to be (with adjectives)",
+              "stem": "—",
+              "columns": [
+                "Person",
+                "Suffix",
+                "Example",
+                "Pronunciation",
+                "English"
+              ],
+              "rows": [
+                {
+                  "label": "من (I)",
+                  "persian": "ـَم",
+                  "example": "خسته‌ام",
+                  "pronunciation": "khasteh-am",
+                  "english": "I'm tired"
+                },
+                {
+                  "label": "تو (you)",
+                  "persian": "ـی",
+                  "example": "خسته‌ای",
+                  "pronunciation": "khasteh-ee",
+                  "english": "you're tired"
+                },
+                {
+                  "label": "اون (he/she)",
+                  "persian": "ـه / ـست",
+                  "example": "خسته‌ست",
+                  "pronunciation": "khasteh-st",
+                  "english": "he/she is tired"
+                },
+                {
+                  "label": "ما (we)",
+                  "persian": "ـیم",
+                  "example": "خسته‌ایم",
+                  "pronunciation": "khasteh-eem",
+                  "english": "we're tired"
+                },
+                {
+                  "label": "شما (you pl.)",
+                  "persian": "ـید",
+                  "example": "خسته‌اید",
+                  "pronunciation": "khasteh-eed",
+                  "english": "you're tired"
+                },
+                {
+                  "label": "اونا (they)",
+                  "persian": "ـن",
+                  "example": "خسته‌ان",
+                  "pronunciation": "khasteh-an",
+                  "english": "they're tired"
+                }
+              ]
+            }
+          ],
+          "note": "This works with any adjective: گشنمه (I'm hungry), تشنته (you're thirsty), خوشحالم (I'm happy), ناراحته (he/she is upset). In casual speech, من گشنمه is more natural than من گشنه‌ام."
+        },
+        {
           "type": "drill",
           "title": "Practice",
           "exercises": [
@@ -1025,6 +1536,125 @@
             "pronunciation": "man yeh kam khasteh-am valee khosh-hahlam. howseleh nadahram. dobah-reh chahy mee-khahm.",
             "english": "I'm a little tired but I'm happy. I'm bored. I want tea again."
           }
+        },
+        {
+          "type": "writing",
+          "title": "The Alphabet: خ چ ش",
+          "instruction": "Today's letters include some sounds that don't exist in English. Listen to the words to hear the difference.",
+          "letters": [
+            {
+              "letter": "خ",
+              "name": "khe",
+              "sound": "kh (back-of-throat h, like clearing your throat gently)",
+              "forms": {
+                "isolated": "خ",
+                "initial": "خـ",
+                "medial": "ـخـ",
+                "final": "ـخ"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "خسته",
+                  "meaning": "tired",
+                  "pronunciation": "khasteh"
+                },
+                {
+                  "word": "خوشحال",
+                  "meaning": "happy",
+                  "pronunciation": "khosh-hahl"
+                },
+                {
+                  "word": "خونه",
+                  "meaning": "house",
+                  "pronunciation": "khooneh"
+                }
+              ],
+              "tip": "Same shape as ح and ج but with a dot above. kh is NOT like English k — it's the sound you make when you say 'Bach' in German."
+            },
+            {
+              "letter": "چ",
+              "name": "che",
+              "sound": "ch (like English 'ch' in 'chair')",
+              "forms": {
+                "isolated": "چ",
+                "initial": "چـ",
+                "medial": "ـچـ",
+                "final": "ـچ"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "چای",
+                  "meaning": "tea",
+                  "pronunciation": "chahy"
+                },
+                {
+                  "word": "چطوره",
+                  "meaning": "how is it?",
+                  "pronunciation": "chetoreh"
+                }
+              ],
+              "tip": "Same shape as ج and خ but with three dots below. Like پ, this letter is uniquely Persian — Arabic doesn't have it."
+            },
+            {
+              "letter": "ش",
+              "name": "shin",
+              "sound": "sh (like English 'sh' in 'ship')",
+              "forms": {
+                "isolated": "ش",
+                "initial": "شـ",
+                "medial": "ـشـ",
+                "final": "ـش"
+              },
+              "connectsLeft": true,
+              "examples": [
+                {
+                  "word": "بلند شو",
+                  "meaning": "get up!",
+                  "pronunciation": "boland sho"
+                },
+                {
+                  "word": "بشین",
+                  "meaning": "sit!",
+                  "pronunciation": "besheen"
+                },
+                {
+                  "word": "گشنه",
+                  "meaning": "hungry",
+                  "pronunciation": "goshneh"
+                }
+              ],
+              "tip": "Three teeth with three dots above. Compare with س (same shape, no dots)."
+            }
+          ],
+          "practice": [
+            {
+              "prompt": "Which letter makes the 'kh' sound?",
+              "options": [
+                "ک",
+                "خ",
+                "ح",
+                "چ"
+              ],
+              "correct": 1
+            },
+            {
+              "prompt": "How is چ different from ج?",
+              "options": [
+                "Dot above vs below",
+                "3 dots below vs 1 dot below",
+                "Different shape",
+                "No difference"
+              ],
+              "correct": 1
+            },
+            {
+              "prompt": "Write the word چای (tea).",
+              "type": "write",
+              "answer": "چای"
+            }
+          ]
         },
         {
           "type": "talkWithMass",
