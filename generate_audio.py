@@ -1,5 +1,6 @@
 """Generate audio for Chapter 1 words and sentences using edge-tts."""
 import asyncio
+import subprocess
 import edge_tts
 import os
 
@@ -9,12 +10,28 @@ MALE = "fa-IR-FaridNeural"
 AUDIO_DIR = "audio"
 os.makedirs(AUDIO_DIR, exist_ok=True)
 
+def normalize(path):
+    """Normalize audio to -16 LUFS using ffmpeg loudnorm."""
+    tmp = path + ".tmp.mp3"
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", path, "-af",
+             "loudnorm=I=-16:TP=-1.5:LRA=11",
+             "-ar", "24000", "-b:a", "48k", tmp],
+            capture_output=True, check=True,
+        )
+        os.replace(tmp, path)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        if os.path.exists(tmp):
+            os.remove(tmp)
+
 async def gen(text, voice, filename):
     path = os.path.join(AUDIO_DIR, filename)
     if os.path.exists(path):
         return
     comm = edge_tts.Communicate(text, voice)
     await comm.save(path)
+    normalize(path)
     print(f"  {filename}")
 
 async def main():
