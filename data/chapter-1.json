@@ -1,0 +1,782 @@
+{
+  "number": 1,
+  "title": "صبح بخیر",
+  "theme": "Morning at Home — Greetings, feelings, and simple commands around the house",
+  "words": [
+    {
+      "id": 1001,
+      "isNew": true,
+      "english": "hungry",
+      "persian_written": "گرسنه",
+      "persian_spoken": "گشنه",
+      "pronunciation": "goshneh",
+      "spoken_pronunciation": "goshneh",
+      "audio": "audio/word_1001.mp3",
+      "example": {
+        "persian": "من گشنمه.",
+        "pronunciation": "man goshnameh.",
+        "english": "I'm hungry."
+      }
+    },
+    {
+      "id": 1002,
+      "isNew": true,
+      "english": "thirsty",
+      "persian_written": "تشنه",
+      "persian_spoken": "تشنه",
+      "pronunciation": "teshneh",
+      "spoken_pronunciation": "teshneh",
+      "audio": "audio/word_1002.mp3",
+      "example": {
+        "persian": "تشنته؟",
+        "pronunciation": "teshnateh?",
+        "english": "Are you thirsty?"
+      }
+    },
+    {
+      "id": 1003,
+      "isNew": true,
+      "english": "happy",
+      "persian_written": "خوشحال",
+      "persian_spoken": "خوشحال",
+      "pronunciation": "khosh-hahl",
+      "spoken_pronunciation": "khosh-hahl",
+      "audio": "audio/word_1003.mp3",
+      "example": {
+        "persian": "خوشحالم که اینجایی.",
+        "pronunciation": "khosh-hahlam keh injaee.",
+        "english": "I'm happy you're here."
+      }
+    },
+    {
+      "id": 1004,
+      "isNew": true,
+      "english": "upset, sad",
+      "persian_written": "ناراحت",
+      "persian_spoken": "ناراحت",
+      "pronunciation": "nah-rah-hat",
+      "spoken_pronunciation": "nah-rah-hat",
+      "audio": "audio/word_1004.mp3",
+      "example": {
+        "persian": "چرا ناراحتی؟",
+        "pronunciation": "cherah nah-rah-hatee?",
+        "english": "Why are you upset?"
+      }
+    },
+    {
+      "id": 1005,
+      "isNew": true,
+      "english": "tired",
+      "persian_written": "خسته",
+      "persian_spoken": "خسته",
+      "pronunciation": "khasteh",
+      "spoken_pronunciation": "khasteh",
+      "audio": "audio/word_1005.mp3",
+      "example": {
+        "persian": "خسته‌ای؟",
+        "pronunciation": "khasteh-ee?",
+        "english": "Are you tired?"
+      }
+    },
+    {
+      "id": 1006,
+      "isNew": true,
+      "english": "awake",
+      "persian_written": "بیدار",
+      "persian_spoken": "بیدار",
+      "pronunciation": "bee-dahr",
+      "spoken_pronunciation": "bee-dahr",
+      "audio": "audio/word_1006.mp3",
+      "example": {
+        "persian": "بیداری؟",
+        "pronunciation": "bee-dahree?",
+        "english": "Are you awake?"
+      }
+    },
+    {
+      "id": 1007,
+      "isNew": true,
+      "english": "come!",
+      "persian_written": "بیا",
+      "persian_spoken": "بیا",
+      "pronunciation": "bee-ah",
+      "spoken_pronunciation": "bee-ah",
+      "audio": "audio/word_1007.mp3",
+      "example": {
+        "persian": "بیا اینجا.",
+        "pronunciation": "bee-ah injah.",
+        "english": "Come here."
+      }
+    },
+    {
+      "id": 1008,
+      "isNew": true,
+      "english": "go!",
+      "persian_written": "برو",
+      "persian_spoken": "برو",
+      "pronunciation": "boro",
+      "spoken_pronunciation": "boro",
+      "audio": "audio/word_1008.mp3",
+      "example": {
+        "persian": "برو دستاتو بشور.",
+        "pronunciation": "boro dastaht-o beshoor.",
+        "english": "Go wash your hands."
+      }
+    },
+    {
+      "id": 1009,
+      "isNew": true,
+      "english": "sit down!",
+      "persian_written": "بشین",
+      "persian_spoken": "بشین",
+      "pronunciation": "beshin",
+      "spoken_pronunciation": "beshin",
+      "audio": "audio/word_1009.mp3",
+      "example": {
+        "persian": "بشین صبحونه بخور.",
+        "pronunciation": "beshin sobhooneh bokhor.",
+        "english": "Sit down and eat breakfast."
+      }
+    },
+    {
+      "id": 1010,
+      "isNew": true,
+      "english": "get up!",
+      "persian_written": "بلند شو",
+      "persian_spoken": "بلند شو",
+      "pronunciation": "boland sho",
+      "spoken_pronunciation": "boland sho",
+      "audio": "audio/word_1010.mp3",
+      "example": {
+        "persian": "بلند شو، دیر شده.",
+        "pronunciation": "boland sho, deer shodeh.",
+        "english": "Get up, it's late."
+      }
+    },
+    {
+      "id": 1011,
+      "isNew": true,
+      "english": "wait!",
+      "persian_written": "صبر کن",
+      "persian_spoken": "صبر کن",
+      "pronunciation": "sabr kon",
+      "spoken_pronunciation": "sabr kon",
+      "audio": "audio/word_1011.mp3",
+      "example": {
+        "persian": "صبر کن، الان میام.",
+        "pronunciation": "sabr kon, alahn mee-ahm.",
+        "english": "Wait, I'm coming now."
+      }
+    },
+    {
+      "id": 1012,
+      "isNew": true,
+      "english": "look!",
+      "persian_written": "ببین",
+      "persian_spoken": "ببین",
+      "pronunciation": "bebin",
+      "spoken_pronunciation": "bebin",
+      "audio": "audio/word_1012.mp3",
+      "example": {
+        "persian": "ببین چی درست کردم.",
+        "pronunciation": "bebin chee dorost kardam.",
+        "english": "Look what I made."
+      }
+    },
+    {
+      "id": 1013,
+      "isNew": true,
+      "english": "again",
+      "persian_written": "دوباره",
+      "persian_spoken": "دوباره",
+      "pronunciation": "dobah-reh",
+      "spoken_pronunciation": "dobah-reh",
+      "audio": "audio/word_1013.mp3",
+      "example": {
+        "persian": "دوباره بگو.",
+        "pronunciation": "dobah-reh begoo.",
+        "english": "Say it again."
+      }
+    },
+    {
+      "id": 1014,
+      "isNew": true,
+      "english": "a little",
+      "persian_written": "یک کم",
+      "persian_spoken": "یه کم",
+      "pronunciation": "yeh kam",
+      "spoken_pronunciation": "yeh kam",
+      "audio": "audio/word_1014.mp3",
+      "example": {
+        "persian": "یه کم صبر کن.",
+        "pronunciation": "yeh kam sabr kon.",
+        "english": "Wait a little."
+      }
+    },
+    {
+      "id": 1015,
+      "isNew": true,
+      "english": "patience, mood",
+      "persian_written": "حوصله",
+      "persian_spoken": "حوصله",
+      "pronunciation": "howseleh",
+      "spoken_pronunciation": "howseleh",
+      "audio": "audio/word_1015.mp3",
+      "example": {
+        "persian": "حوصله ندارم.",
+        "pronunciation": "howseleh nadahram.",
+        "english": "I don't have patience. / I'm bored."
+      }
+    },
+    {
+      "id": 1016,
+      "isNew": true,
+      "english": "hurry",
+      "persian_written": "عجله",
+      "persian_spoken": "عجله",
+      "pronunciation": "ajaleh",
+      "spoken_pronunciation": "ajaleh",
+      "audio": "audio/word_1016.mp3",
+      "example": {
+        "persian": "عجله نکن.",
+        "pronunciation": "ajaleh nakon.",
+        "english": "Don't hurry."
+      }
+    },
+    {
+      "id": 1017,
+      "isNew": true,
+      "english": "breakfast",
+      "persian_written": "صبحانه",
+      "persian_spoken": "صبحونه",
+      "pronunciation": "sobhooneh",
+      "spoken_pronunciation": "sobhooneh",
+      "audio": "audio/word_1017.mp3",
+      "example": {
+        "persian": "صبحونه خوردی؟",
+        "pronunciation": "sobhooneh khordee?",
+        "english": "Did you eat breakfast?"
+      }
+    },
+    {
+      "id": 7,
+      "isNew": false,
+      "english": "good morning",
+      "persian_written": "صبح بخیر",
+      "persian_spoken": "صبح بخیر",
+      "pronunciation": "sobh bekheyr",
+      "spoken_pronunciation": "sobh bekheyr"
+    },
+    {
+      "id": 1,
+      "isNew": false,
+      "english": "hello",
+      "persian_written": "سلام",
+      "persian_spoken": "سلام",
+      "pronunciation": "salahm",
+      "spoken_pronunciation": "salahm"
+    },
+    {
+      "id": 11,
+      "isNew": false,
+      "english": "how are you?",
+      "persian_written": "حال شما چطوره",
+      "persian_spoken": "حالت چطوره",
+      "pronunciation": "hahlet chetoreh",
+      "spoken_pronunciation": "hahlet chetoreh"
+    },
+    {
+      "id": 3,
+      "isNew": false,
+      "english": "I'm fine",
+      "persian_written": "من خوبم",
+      "persian_spoken": "من خوبم",
+      "pronunciation": "man khoobam",
+      "spoken_pronunciation": "man khoobam"
+    },
+    {
+      "id": 12,
+      "isNew": false,
+      "english": "thank you",
+      "persian_written": "ممنون",
+      "persian_spoken": "ممنون",
+      "pronunciation": "mamnoon",
+      "spoken_pronunciation": "mamnoon"
+    },
+    {
+      "id": 15,
+      "isNew": false,
+      "english": "yes",
+      "persian_written": "بله",
+      "persian_spoken": "آره",
+      "pronunciation": "ah-reh",
+      "spoken_pronunciation": "ah-reh"
+    },
+    {
+      "id": 16,
+      "isNew": false,
+      "english": "no",
+      "persian_written": "نه",
+      "persian_spoken": "نه",
+      "pronunciation": "nah",
+      "spoken_pronunciation": "nah"
+    },
+    {
+      "id": 21,
+      "isNew": false,
+      "english": "please",
+      "persian_written": "لطفاً",
+      "persian_spoken": "لطفاً",
+      "pronunciation": "lotfan",
+      "spoken_pronunciation": "lotfan"
+    },
+    {
+      "id": 285,
+      "isNew": false,
+      "english": "water",
+      "persian_written": "آب",
+      "persian_spoken": "آب",
+      "pronunciation": "ahb",
+      "spoken_pronunciation": "ahb"
+    },
+    {
+      "id": 290,
+      "isNew": false,
+      "english": "tea",
+      "persian_written": "چای",
+      "persian_spoken": "چای",
+      "pronunciation": "chahy",
+      "spoken_pronunciation": "chahy"
+    },
+    {
+      "id": 448,
+      "isNew": false,
+      "english": "house, home",
+      "persian_written": "خانه",
+      "persian_spoken": "خونه",
+      "pronunciation": "khooneh",
+      "spoken_pronunciation": "khooneh"
+    }
+  ],
+  "grammar": {
+    "title": "Informal Imperatives",
+    "subtitle": "Telling someone to do something — the way people actually talk at home",
+    "explanation": "<h3>Making commands in spoken Farsi</h3><p>When you tell someone to do something at home, you use the <strong>informal imperative</strong> — the simplest verb form in Farsi. You hear it constantly: <em>biyah</em> (come!), <em>boro</em> (go!), <em>beshin</em> (sit!).</p><p>For most verbs, you take the present stem and add <strong>be-</strong> (بـ) at the front:</p>",
+    "formation": [
+      "Take the present stem of the verb (the short form, like <em>shin</em> from نشستن)",
+      "Add <strong>be-</strong> (بـ) to the front → <strong>بشین</strong> <em>beshin</em> (sit!)",
+      "For negative commands, use <strong>na-</strong> (نـ) instead → <strong>نشین</strong> <em>nashin</em> (don't sit!)",
+      "Some common verbs are irregular: بیا <em>biyah</em> (come!), برو <em>boro</em> (go!), ببین <em>bebin</em> (look!)"
+    ],
+    "examples": [
+      {
+        "persian": "بیا اینجا.",
+        "pronunciation": "bee-ah injah.",
+        "english": "Come here.",
+        "audio": "audio/ch1_gram_1.mp3"
+      },
+      {
+        "persian": "برو دستاتو بشور.",
+        "pronunciation": "boro dastaht-o beshoor.",
+        "english": "Go wash your hands.",
+        "audio": "audio/ch1_gram_2.mp3"
+      },
+      {
+        "persian": "بشین صبحونه بخور.",
+        "pronunciation": "beshin sobhooneh bokhor.",
+        "english": "Sit down and eat breakfast.",
+        "audio": "audio/ch1_gram_3.mp3"
+      },
+      {
+        "persian": "بلند شو، دیر شده.",
+        "pronunciation": "boland sho, deer shodeh.",
+        "english": "Get up, it's late.",
+        "audio": "audio/ch1_gram_4.mp3"
+      },
+      {
+        "persian": "صبر کن، الان میام.",
+        "pronunciation": "sabr kon, alahn mee-ahm.",
+        "english": "Wait, I'm coming now.",
+        "audio": "audio/ch1_gram_5.mp3"
+      },
+      {
+        "persian": "ببین چی درست کردم.",
+        "pronunciation": "bebin chee dorost kardam.",
+        "english": "Look what I made.",
+        "audio": "audio/ch1_gram_6.mp3"
+      },
+      {
+        "persian": "عجله نکن.",
+        "pronunciation": "ajaleh nakon.",
+        "english": "Don't hurry.",
+        "audio": "audio/ch1_gram_7.mp3"
+      },
+      {
+        "persian": "دوباره بگو.",
+        "pronunciation": "dobah-reh begoo.",
+        "english": "Say it again.",
+        "audio": "audio/ch1_gram_8.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "prompt": "How do you say <strong>\"Come here\"</strong> in spoken Farsi?",
+        "placeholder": "Type in Persian...",
+        "rtl": true,
+        "answer": "بیا اینجا"
+      },
+      {
+        "type": "translate",
+        "prompt": "How do you say <strong>\"Don't hurry\"</strong> in spoken Farsi?",
+        "placeholder": "Type in Persian...",
+        "rtl": true,
+        "answer": "عجله نکن"
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "_____ صبحونه بخور. (Sit down and eat breakfast.)",
+        "placeholder": "One word...",
+        "rtl": true,
+        "answer": "بشین"
+      },
+      {
+        "type": "multiple-choice",
+        "prompt": "Which is the negative command for \"don't sit\"?",
+        "options": ["نشین", "بشین", "بنشین", "نبشین"],
+        "correct": 0
+      }
+    ]
+  },
+  "listening": {
+    "dialogue": {
+      "title": "Morning Conversation",
+      "context": "It's 7 AM. Sam is still in bed. Mass is already up and has made tea.",
+      "audio": "audio/ch1_dialogue.mp3",
+      "lines": [
+        {
+          "speaker": "Mass",
+          "persian": "صبح بخیر! بیدار شو.",
+          "pronunciation": "sobh bekheyr! bee-dahr sho.",
+          "english": "Good morning! Wake up.",
+          "audio": "audio/ch1_dial_1.mp3"
+        },
+        {
+          "speaker": "Sam",
+          "persian": "صبح بخیر... خسته‌ام.",
+          "pronunciation": "sobh bekheyr... khasteh-am.",
+          "english": "Good morning... I'm tired.",
+          "audio": "audio/ch1_dial_2.mp3"
+        },
+        {
+          "speaker": "Mass",
+          "persian": "بلند شو، صبحونه حاضره.",
+          "pronunciation": "boland sho, sobhooneh hahzereh.",
+          "english": "Get up, breakfast is ready.",
+          "audio": "audio/ch1_dial_3.mp3"
+        },
+        {
+          "speaker": "Sam",
+          "persian": "صبر کن، یه کم.",
+          "pronunciation": "sabr kon, yeh kam.",
+          "english": "Wait, a little.",
+          "audio": "audio/ch1_dial_4.mp3"
+        },
+        {
+          "speaker": "Mass",
+          "persian": "بیا چای بخور. تشنه نیستی؟",
+          "pronunciation": "bee-ah chahy bokhor. teshneh neestee?",
+          "english": "Come drink tea. Aren't you thirsty?",
+          "audio": "audio/ch1_dial_5.mp3"
+        },
+        {
+          "speaker": "Sam",
+          "persian": "آره، ممنون. گشنمم.",
+          "pronunciation": "ah-reh, mamnoon. goshnam-am.",
+          "english": "Yes, thanks. I'm hungry too.",
+          "audio": "audio/ch1_dial_6.mp3"
+        },
+        {
+          "speaker": "Mass",
+          "persian": "بشین، الان میارم.",
+          "pronunciation": "beshin, alahn mee-ahram.",
+          "english": "Sit down, I'll bring it now.",
+          "audio": "audio/ch1_dial_7.mp3"
+        },
+        {
+          "speaker": "Sam",
+          "persian": "خوشحالم. ممنون!",
+          "pronunciation": "khosh-hahlam. mamnoon!",
+          "english": "I'm happy. Thanks!",
+          "audio": "audio/ch1_dial_8.mp3"
+        }
+      ]
+    },
+    "dictation": [
+      {
+        "audio": "audio/ch1_dict_1.mp3",
+        "answer": "بلند شو"
+      },
+      {
+        "audio": "audio/ch1_dict_2.mp3",
+        "answer": "من گشنمه"
+      },
+      {
+        "audio": "audio/ch1_dict_3.mp3",
+        "answer": "صبر کن"
+      },
+      {
+        "audio": "audio/ch1_dict_4.mp3",
+        "answer": "بیا اینجا"
+      }
+    ],
+    "comprehension": [
+      {
+        "question": "Who is already awake at the beginning?",
+        "options": ["Sam", "Mass", "Both of them", "Neither"],
+        "correct": 1
+      },
+      {
+        "question": "What does Mass say is ready?",
+        "options": ["Lunch", "Breakfast", "Dinner", "Coffee"],
+        "correct": 1
+      },
+      {
+        "question": "How does Sam feel at first?",
+        "options": ["Hungry", "Tired", "Happy", "Upset"],
+        "correct": 1
+      },
+      {
+        "question": "What does Sam ask Mass to do?",
+        "options": ["Come here", "Wait a little", "Get up", "Sit down"],
+        "correct": 1
+      }
+    ]
+  },
+  "speaking": {
+    "prompts": [
+      {
+        "title": "Good Morning",
+        "instruction": "Mass says good morning. Greet her back, ask how she is, and say you're hungry.",
+        "audio": "audio/ch1_speak_prompt_1.mp3",
+        "timeLimit": 30,
+        "hints": ["صبح بخیر", "حالت چطوره", "گشنمه"],
+        "model": {
+          "persian": "صبح بخیر! حالت چطوره؟ من خوبم ولی گشنمه.",
+          "pronunciation": "sobh bekheyr! hahlet chetoreh? man khoobam valee goshnameh.",
+          "english": "Good morning! How are you? I'm fine but I'm hungry."
+        }
+      },
+      {
+        "title": "At the Table",
+        "instruction": "You sit down for breakfast. Ask for tea and say thank you. Tell Mass you're happy.",
+        "timeLimit": 30,
+        "hints": ["چای", "لطفاً", "ممنون", "خوشحال"],
+        "model": {
+          "persian": "لطفاً یه کم چای بده. ممنون! خوشحالم.",
+          "pronunciation": "lotfan yeh kam chahy bedeh. mamnoon! khosh-hahlam.",
+          "english": "Please give me some tea. Thanks! I'm happy."
+        }
+      },
+      {
+        "title": "Give Commands",
+        "instruction": "Imagine you're telling someone: come here, sit down, look at this, wait a little. Say each one.",
+        "timeLimit": 45,
+        "hints": ["بیا", "بشین", "ببین", "صبر کن"],
+        "model": {
+          "persian": "بیا اینجا. بشین. ببین! یه کم صبر کن.",
+          "pronunciation": "bee-ah injah. beshin. bebin! yeh kam sabr kon.",
+          "english": "Come here. Sit down. Look! Wait a little."
+        }
+      }
+    ]
+  },
+  "reading": {
+    "text": {
+      "persian": "صبح بخیر! بلند شو. صبحونه حاضره. بیا بشین. چای می‌خوای؟ آره ممنون. من گشنمه. صبر کن الان میارم. ببین چی درست کردم. خوشحالم ممنون!",
+      "pronunciation": "sobh bekheyr! boland sho. sobhooneh hahzereh. bee-ah beshin. chahy mee-khahy? ah-reh mamnoon. man goshnameh. sabr kon alahn mee-ahram. bebin chee dorost kardam. khosh-hahlam mamnoon!",
+      "english": "Good morning! Get up. Breakfast is ready. Come sit down. Do you want tea? Yes, thanks. I'm hungry. Wait, I'll bring it now. Look what I made. I'm happy, thanks!"
+    },
+    "typing": [
+      {
+        "english": "Good morning!",
+        "answer": "صبح بخیر"
+      },
+      {
+        "english": "Get up!",
+        "answer": "بلند شو"
+      },
+      {
+        "english": "Come here.",
+        "answer": "بیا اینجا"
+      },
+      {
+        "english": "I'm hungry.",
+        "answer": "من گشنمه"
+      },
+      {
+        "english": "Wait a little.",
+        "answer": "یه کم صبر کن"
+      }
+    ]
+  },
+  "story": {
+    "title": "صبح بخیر",
+    "subtitle": "Episode 1 — A morning in the kitchen",
+    "audio": "audio/ch1_story.mp3",
+    "lines": [
+      {
+        "persian": "صبح بود. خونه ساکت بود.",
+        "pronunciation": "sobh bood. khooneh sahket bood.",
+        "english": "It was morning. The house was quiet."
+      },
+      {
+        "speaker": "مسعومه",
+        "persian": "بلند شو! صبح بخیر!",
+        "pronunciation": "boland sho! sobh bekheyr!",
+        "english": "Get up! Good morning!"
+      },
+      {
+        "speaker": "سام",
+        "persian": "صبح بخیر... خسته‌ام.",
+        "pronunciation": "sobh bekheyr... khasteh-am.",
+        "english": "Good morning... I'm tired."
+      },
+      {
+        "speaker": "مسعومه",
+        "persian": "بیا صبحونه بخور. گشنه نیستی؟",
+        "pronunciation": "bee-ah sobhooneh bokhor. goshneh neestee?",
+        "english": "Come eat breakfast. Aren't you hungry?"
+      },
+      {
+        "speaker": "سام",
+        "persian": "آره، خیلی گشنمه. چای هم هست؟",
+        "pronunciation": "ah-reh, kheylee goshnameh. chahy ham hast?",
+        "english": "Yes, I'm very hungry. Is there tea too?"
+      },
+      {
+        "speaker": "مسعومه",
+        "persian": "آره، بشین. الان میارم.",
+        "pronunciation": "ah-reh, beshin. alahn mee-ahram.",
+        "english": "Yes, sit down. I'll bring it now."
+      },
+      {
+        "persian": "سام نشست. چای خورد. خوشحال بود.",
+        "pronunciation": "sahm neshasht. chahy khord. khosh-hahl bood.",
+        "english": "Sam sat down. He drank tea. He was happy."
+      },
+      {
+        "speaker": "سام",
+        "persian": "ممنون! خوشحالم.",
+        "pronunciation": "mamnoon! khosh-hahlam.",
+        "english": "Thanks! I'm happy."
+      },
+      {
+        "speaker": "مسعومه",
+        "persian": "خواهش می‌کنم. عجله نکن.",
+        "pronunciation": "khahesh mee-konam. ajaleh nakon.",
+        "english": "You're welcome. Don't hurry."
+      }
+    ],
+    "questions": [
+      {
+        "question": "How did Sam feel when he woke up?",
+        "options": ["Happy", "Tired", "Hungry", "Thirsty"],
+        "correct": 1
+      },
+      {
+        "question": "What did Mass tell Sam to do?",
+        "options": ["Go to work", "Come eat breakfast", "Wait outside", "Look at the garden"],
+        "correct": 1
+      },
+      {
+        "question": "How did Sam feel after eating?",
+        "options": ["Tired", "Upset", "Happy", "Thirsty"],
+        "correct": 2
+      }
+    ]
+  },
+  "culture": {
+    "title": "Taarof at the Breakfast Table",
+    "content": "<p><strong>Taarof</strong> (تعارف) is the art of politeness in Persian culture. You'll hear it everywhere — at the table, at the door, even at the store. It's not just manners; it's a rhythm that every Iranian learns from childhood.</p><p>At breakfast, if Mass offers you tea, the taarof way is to first decline:</p><div class='culture-example'><div class='example-persian'>نه ممنون، زحمت نکش.</div><div class='pronunciation'>nah mamnoon, zahmat nakesh.</div><div>No thanks, don't trouble yourself.</div></div><p>Mass will insist — maybe two or three times. This is normal. When you finally accept, you show gratitude:</p><div class='culture-example'><div class='example-persian'>دستت درد نکنه.</div><div class='pronunciation'>dastet dard nakoneh.</div><div>Literally: \"May your hand not hurt.\" (Thank you for the effort.)</div></div><p>You'll hear <strong>خواهش می‌کنم</strong> (<em>khahesh mee-konam</em>) constantly — it means \"you're welcome\" but literally \"I beg of you.\" That captures the taarof spirit: everything is offered as if the other person is doing you a favor by accepting.</p><p><strong>Tip for Sam:</strong> You don't need to do full taarof with Mass at home — she'll laugh if you refuse tea three times! But notice when she does it with guests or on the phone. It's one of the most beautiful parts of Persian culture.</p>"
+  },
+  "conversationCards": [
+    {
+      "day": "Day 1 — Monday",
+      "topic": "Morning Greetings",
+      "openers": [
+        {"persian": "صبح بخیر! حالت چطوره؟", "pronunciation": "sobh bekheyr! hahlet chetoreh?", "english": "Good morning! How are you?"},
+        {"persian": "خوب خوابیدی؟", "pronunciation": "khoob khahbeedee?", "english": "Did you sleep well?"},
+        {"persian": "صبحونه چی داریم؟", "pronunciation": "sobhooneh chee dahrim?", "english": "What do we have for breakfast?"}
+      ],
+      "practiceWords": ["صبح بخیر", "خسته", "گشنه", "صبحونه"],
+      "massNote": "Sam is practicing morning greetings and talking about how he feels (tired, hungry). Just chat normally in Farsi — he knows the basics."
+    },
+    {
+      "day": "Day 2 — Tuesday",
+      "topic": "Simple Commands",
+      "openers": [
+        {"persian": "بیا اینجا!", "pronunciation": "bee-ah injah!", "english": "Come here!"},
+        {"persian": "ببین!", "pronunciation": "bebin!", "english": "Look!"},
+        {"persian": "صبر کن یه کم.", "pronunciation": "sabr kon yeh kam.", "english": "Wait a little."}
+      ],
+      "practiceWords": ["بیا", "ببین", "صبر کن", "برو", "بشین"],
+      "massNote": "Sam is practicing informal commands (come, go, sit, look, wait). You can give him commands too and see if he understands."
+    },
+    {
+      "day": "Day 3 — Wednesday",
+      "topic": "Feelings",
+      "openers": [
+        {"persian": "حالت خوبه؟", "pronunciation": "hahlet khoobeh?", "english": "Are you OK?"},
+        {"persian": "خسته‌ای؟", "pronunciation": "khasteh-ee?", "english": "Are you tired?"},
+        {"persian": "من خوشحالم.", "pronunciation": "man khosh-hahlam.", "english": "I'm happy."}
+      ],
+      "practiceWords": ["خسته", "خوشحال", "ناراحت", "گشنه", "تشنه"],
+      "massNote": "Sam is practicing talking about feelings: tired, happy, upset, hungry, thirsty. Ask him how he feels and why."
+    },
+    {
+      "day": "Day 4 — Thursday",
+      "topic": "Tea Time",
+      "openers": [
+        {"persian": "چای می‌خوای؟", "pronunciation": "chahy mee-khahy?", "english": "Do you want tea?"},
+        {"persian": "ممنون، لطفاً.", "pronunciation": "mamnoon, lotfan.", "english": "Thanks, please."},
+        {"persian": "خیلی خوشمزه‌ست.", "pronunciation": "kheylee khosh-mazeh-st.", "english": "It's very delicious."}
+      ],
+      "practiceWords": ["چای", "آب", "لطفاً", "ممنون", "بیا"],
+      "massNote": "Sam is practicing tea/drink vocabulary and polite requests. Offer him things and let him accept or decline."
+    },
+    {
+      "day": "Day 5 — Friday",
+      "topic": "Making Requests",
+      "openers": [
+        {"persian": "لطفاً یه کم آب بده.", "pronunciation": "lotfan yeh kam ahb bedeh.", "english": "Please give me some water."},
+        {"persian": "دوباره بگو.", "pronunciation": "dobah-reh begoo.", "english": "Say it again."},
+        {"persian": "یه کم صبر کن.", "pronunciation": "yeh kam sabr kon.", "english": "Wait a little."}
+      ],
+      "practiceWords": ["لطفاً", "دوباره", "یه کم", "صبر کن"],
+      "massNote": "Sam is practicing polite requests: please, a little, again, wait. Give him tasks and let him ask you to repeat things."
+    },
+    {
+      "day": "Day 6 — Saturday",
+      "topic": "Weekend Morning (Review)",
+      "openers": [
+        {"persian": "صبح بخیر! بیدار شدی؟", "pronunciation": "sobh bekheyr! bee-dahr shodee?", "english": "Good morning! Did you wake up?"},
+        {"persian": "عجله نکن.", "pronunciation": "ajaleh nakon.", "english": "Don't hurry."},
+        {"persian": "حوصله ندارم.", "pronunciation": "howseleh nadahram.", "english": "I'm bored. / I have no patience."}
+      ],
+      "practiceWords": ["بیدار", "عجله", "حوصله", "بلند شو", "خسته"],
+      "massNote": "Sam is reviewing everything from this week: commands, feelings, and morning vocabulary. Chat freely in Farsi about your morning plans."
+    },
+    {
+      "day": "Day 7 — Sunday",
+      "topic": "Free Conversation",
+      "openers": [
+        {"persian": "امروز چیکار می‌خوای بکنی؟", "pronunciation": "emrooz cheekahr mee-khahy bokonee?", "english": "What do you want to do today?"},
+        {"persian": "بیا بریم بیرون.", "pronunciation": "bee-ah berim biroon.", "english": "Let's go outside."},
+        {"persian": "خوشحالم که باهاتم.", "pronunciation": "khosh-hahlam keh bah-hah-tam.", "english": "I'm happy I'm with you."}
+      ],
+      "practiceWords": ["خوشحال", "بیا", "ببین", "دوباره", "ممنون"],
+      "massNote": "Today is free conversation day! Sam will try to use all the words from this week. Just talk naturally and correct him when needed."
+    }
+  ]
+}
