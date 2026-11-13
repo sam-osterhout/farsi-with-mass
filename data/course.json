@@ -1,0 +1,65 @@
+{
+ "title": "Farsi with Mass",
+ "goal": "Real conversations with Massoumeh now; reading and writing by summer 2027.",
+ "week": {
+  "screen": "About 20–25 minutes on the laptop, 5 days a week. Longer days get the extras (roots, verse, gossip).",
+  "paper": "About 10 minutes in the notebook every lesson. Tracing sheets print from each day.",
+  "kitchen": "Every day: one conversation card with Mass. Weekends: a longer one, sometimes in public."
+ },
+ "tracks": [
+  {"id": "talk", "name": "Talk", "desc": "One household scene per chapter, a daily card for Mass, and from Chapter 5, unscripted speaking."},
+  {"id": "verbs", "name": "Verb lab", "desc": "Full tables, every tense learned so far, six persons, with negatives. About 40 core verbs and the dozen helpers that build thousands more."},
+  {"id": "ear", "name": "Ear gym", "desc": "Minimal pairs in two voices, spoken-vs-written rules, shadowing with recording, and Mass-speed clips."},
+  {"id": "script", "name": "Reading & writing", "desc": "10 letters a week until the alphabet is done, then decoding, then real texts, then writing."},
+  {"id": "roots", "name": "Word stories & verse", "desc": "Word families, roots, and a line of Persian poetry each chapter."},
+  {"id": "home", "name": "Home", "desc": "Teach the girls, kitchen labels, the gossip kit."}
+ ],
+ "milestones": [
+  {"date": "2026-12-13", "text": "Whole alphabet learned (Chapter 4)"},
+  {"date": "2026-12-21", "text": "Yalda night: read your first fāl-e Hafez with Mass"},
+  {"date": "2027-01-17", "text": "First unhelped gossip walk: 5 minutes in public, all Farsi"},
+  {"date": "2027-03-20", "text": "Nowruz: hold up your end of the family visits, tarof included"},
+  {"date": "2027-04-30", "text": "Read a children’s story aloud to the girls"},
+  {"date": "2027-06-20", "text": "Write Mass a letter in Persian script, and read her reply"}
+ ],
+ "seasons": [
+  {"n": 1, "name": "The house", "dates": "November–January", "chapters": [
+   {"n": 1, "week": "2026-11-16", "en": "Good morning", "fa": "صبح بخیر", "tr": "sobh bekheyr", "talk": "Waking up, breakfast, how are you, first gossip", "verbs": "Commands + full tables: come, go, become, sit, be, do, see, eat", "ear": "ā/a, kh/h, written vs spoken", "script": "ا آ ب پ ت ث ن ی د ر و", "roots": "bin- family, ham- family; Hafez: “It’s morning, cupbearer”"},
+   {"n": 2, "week": "2026-11-23", "en": "Our day", "fa": "روزمون", "tr": "ruzemun", "talk": "Schedules, work, pickups, what time, days of the week (Thanksgiving week)", "verbs": "Present tense in depth: have, want, know, can, say, give; time words", "ear": "gh/g, the glottal stop, stress on mi-", "script": "ذ ز ژ ج چ ح خ س ش م", "roots": "-gāh (place): dāneshgāh, forudgāh"},
+   {"n": 3, "week": "2026-11-30", "en": "Last week", "fa": "هفته‌ی پیش", "tr": "hafte-ye pish", "talk": "What we did, where we went, who we saw", "verbs": "Simple past in depth; time expressions; ‘and then…’", "ear": "Past vs present at speed; sh/s; ezafe -e", "script": "ص ض ط ظ ع غ ف ق ک گ", "roots": "-stān (place of): tābestān, bimārestān"},
+   {"n": 4, "week": "2026-12-07", "en": "This weekend", "fa": "آخر هفته", "tr": "ākhar-e hafte", "talk": "Plans: Saturday, next week, who’s driving", "verbs": "Subjunctive: mikhām beram (I want to go); bāyad (must)", "ear": "be-/bo- prefixes; contractions in plans", "script": "ل ه + the extras (ـهٔ ء ئ) — alphabet complete", "roots": "-dān (holder): namakdān, goldān"},
+   {"n": 5, "week": "2026-12-14", "en": "Yalda", "fa": "شب یلدا", "tr": "shab-e yaldā", "talk": "The longest night; family gathers; first unscripted speaking", "verbs": "Ezafe and possession; dāshtan (to have) in all tenses", "ear": "Poetry rhythm; Mass-speed family talk", "script": "Decoding: unvowelled words you already know", "roots": "Fāl-e Hafez on December 21"},
+   {"n": 6, "week": "2026-12-21", "en": "The kitchen", "fa": "آشپزخونه", "tr": "āshpazkhune", "talk": "Cooking with Mass, the market, tarof at the table", "verbs": "Object marker -ro/-o; commands in recipes", "ear": "Food words at speed", "script": "Reading labels and menus", "roots": "-khāne (house of): ketābkhāne, āshpazkhāne"},
+   {"n": 7, "week": "2026-12-28", "en": "How I feel", "fa": "حالم", "tr": "hālam", "talk": "Moods, small disagreements, making up, New Year resolutions", "verbs": "Present progressive: dāram miram (I’m going)", "ear": "Intonation: questions, sarcasm, teasing", "script": "Short sentences; first copywork from memory", "roots": "del (heart) idioms: delam tang shode"},
+   {"n": 8, "week": "2027-01-04", "en": "People", "fa": "آدما", "tr": "ādamā", "talk": "Describing people: looks, clothes, behavior. Gossip kit, part 2", "verbs": "Past continuous: midid (he was seeing); relative ‘ke’", "ear": "Whisper speed; names and titles", "script": "Reading a paragraph", "roots": "Saadi: “Human beings are members of one body”"}
+  ]},
+  {"n": 2, "name": "Out in the world", "dates": "January–March", "chapters": [
+   {"n": 9, "week": "2027-01-11", "en": "Work", "fa": "کار", "tr": "kār", "talk": "Our jobs, meetings, being busy", "verbs": "The 12 helper verbs: zadan, gereftan, dādan, dāshtan, keshidan…", "ear": "Formal vs informal registers", "script": "Writing short notes to Mass", "roots": "Persian ↔ English cousins: pedar/father, nām/name, setāre/star"},
+   {"n": 10, "week": "2027-01-18", "en": "Errands", "fa": "کارای بیرون", "tr": "kārā-ye birun", "talk": "The city, directions, appointments", "verbs": "Prepositions; directional verbs without ‘be’", "ear": "Fast numbers, addresses", "script": "Signs and shop names", "roots": "-bān (keeper): bāghbān, darbān"},
+   {"n": 11, "week": "2027-01-25", "en": "Calling family", "fa": "زنگ زدن", "tr": "zang zadan", "talk": "Phone calls with in-laws, formal shomā, tarof", "verbs": "Polite forms; befarmāyin and friends", "ear": "Phone-quality audio, overlapping voices", "script": "Reading a text message", "roots": "Tarof phrases decoded word by word"},
+   {"n": 12, "week": "2027-02-01", "en": "Arguments", "fa": "دعوا", "tr": "da’vā", "talk": "Disagreeing, apologizing, making up", "verbs": "Conditionals: age… (if…)", "ear": "Emotion in the voice", "script": "Writing your side of the story", "roots": "āshti (making up) and its family"},
+   {"n": 13, "week": "2027-02-08", "en": "Did you hear?", "fa": "شنیدی؟", "tr": "shenidi?", "talk": "Gossip kit, part 3: reported speech", "verbs": "goft ke… (she said that…); present perfect", "ear": "Who said what: tracking speakers", "script": "Reading a short dialogue unaided", "roots": "Rumi: “Listen to this reed”"},
+   {"n": 14, "week": "2027-02-15", "en": "Cooking with Mass", "fa": "آشپزی", "tr": "āshpazi", "talk": "A full recipe, start to finish, in Farsi", "verbs": "Imperatives return: chop, stir, add, wait", "ear": "Kitchen noise + speech", "script": "Write a recipe card in script", "roots": "Spices and their old names"},
+   {"n": 15, "week": "2027-02-22", "en": "Travel plans", "fa": "سفر", "tr": "safar", "talk": "Trips, tickets, airports, family abroad", "verbs": "Future: khāham raft (written) vs miram (spoken); qarāre", "ear": "Announcements; place names", "script": "Read a map and a ticket", "roots": "forudgāh (landing place), safarnāme"},
+   {"n": 16, "week": "2027-03-01", "en": "Getting ready for Nowruz", "fa": "خونه‌تکونی", "tr": "khune-tekuni", "talk": "Spring cleaning, haft-sin, chahārshanbe-suri", "verbs": "Review: all tenses so far", "ear": "Songs of Nowruz", "script": "Write the haft-sin labels", "roots": "Nowruz: now (new) + ruz (day)"}
+  ]},
+  {"n": 3, "name": "Spring", "dates": "March–May", "chapters": [
+   {"n": 17, "week": "2027-03-15", "en": "Nowruz", "fa": "نوروز", "tr": "noruz", "talk": "Visits (did-o-bāzdid), gifts, family stories", "verbs": "Tarof mastery; English moves to on-request", "ear": "Big family table", "script": "Read a Nowruz card", "roots": "Ferdowsi and the Shahnameh, a taste"},
+   {"n": 18, "week": "2027-03-22", "en": "Stories", "fa": "قصه‌ها", "tr": "ghesse-hā", "talk": "Tell a story from your past", "verbs": "Past perfect; narrative linking", "ear": "Long listening: a 3-minute story", "script": "Read a one-page story", "roots": "ghesse, dāstān, afsāne"},
+   {"n": 19, "week": "2027-03-29", "en": "The girls", "fa": "دخترا", "tr": "dokhtarā", "talk": "School, activities, raising kids", "verbs": "Causatives: khābidan → khābundan (to put to sleep)", "ear": "Kids’ speech, lullabies", "script": "Read a children’s rhyme", "roots": "jegar-gushe (liver-corner): darling"},
+   {"n": 20, "week": "2027-04-05", "en": "Health", "fa": "سلامتی", "tr": "salāmati", "talk": "Body, the doctor, feeling sick", "verbs": "Impersonal verbs: sardame (I’m cold)", "ear": "Clinic dialogues", "script": "Read a prescription label", "roots": "bimār-estān (sick-place)"},
+   {"n": 21, "week": "2027-04-12", "en": "Opinions", "fa": "به نظرم", "tr": "be nazaram", "talk": "News, politics at the table, agreeing and disagreeing", "verbs": "Subjunctive after feelings and opinions", "ear": "Radio-speed Persian", "script": "Read a headline", "roots": "nazar (view) and its family"},
+   {"n": 22, "week": "2027-04-19", "en": "Slang", "fa": "اصطلاحات", "tr": "estelāhāt", "talk": "Mass’s slang, idioms, jokes. Gossip kit, part 4", "verbs": "Idiomatic compounds", "ear": "Tehrani street speed", "script": "Read a meme", "roots": "Idioms decoded literally"},
+   {"n": 23, "week": "2027-04-26", "en": "Reading week", "fa": "هفته‌ی کتاب", "tr": "hafte-ye ketāb", "talk": "Read aloud to the girls", "verbs": "Written forms side by side with spoken", "ear": "Read-along audio", "script": "A full children’s book", "roots": "Story vocabulary"},
+   {"n": 24, "week": "2027-05-03", "en": "Writing week", "fa": "هفته‌ی نوشتن", "tr": "hafte-ye neveshtan", "talk": "Talk through what you wrote", "verbs": "Written grammar: -and, -ad, rā", "ear": "Dictation in script", "script": "A letter to Mass, in script", "roots": "nāme (letter) family"}
+  ]},
+  {"n": 4, "name": "Summer", "dates": "May–June", "chapters": [
+   {"n": 25, "week": "2027-05-10", "en": "Hafez", "fa": "حافظ", "tr": "hāfez", "talk": "Favorite lines, what they mean to us", "verbs": "Classical verb forms", "ear": "Recitation", "script": "Copy a ghazal by hand", "roots": "The vocabulary of love and wine"},
+   {"n": 26, "week": "2027-05-17", "en": "Rumi", "fa": "مولانا", "tr": "molānā", "talk": "The reed’s complaint", "verbs": "Imperatives in poetry", "ear": "Sung poetry", "script": "Read the Masnavi’s first lines", "roots": "ney (reed) and longing"},
+   {"n": 27, "week": "2027-05-24", "en": "Out to dinner", "fa": "رستوران", "tr": "resturān", "talk": "The gossip date: a full evening in public", "verbs": "Everything", "ear": "A real restaurant", "script": "Read the menu", "roots": "Food words from every language Persian borrowed from"},
+   {"n": 28, "week": "2027-05-31", "en": "Big talks", "fa": "حرفای مهم", "tr": "harfā-ye mohem", "talk": "Memories, dreams, the future", "verbs": "Wishes: kāsh (if only)", "ear": "Long conversation", "script": "Journal entries", "roots": "ārezu (wish) family"},
+   {"n": 29, "week": "2027-06-07", "en": "For the girls", "fa": "برای دخترا", "tr": "barā-ye dokhtarā", "talk": "Teach a whole afternoon in Farsi", "verbs": "Review", "ear": "Kids’ songs", "script": "Make the girls a picture book", "roots": "Family words"},
+   {"n": 30, "week": "2027-06-14", "en": "Capstone", "fa": "پایان", "tr": "pāyān", "talk": "A full evening in Farsi", "verbs": "Your own verb book", "ear": "Mass at full speed", "script": "Write and read your own story", "roots": "Your notebook, reread"}
+  ]}
+ ]
+}

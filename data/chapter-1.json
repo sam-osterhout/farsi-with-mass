@@ -1,2281 +1,3609 @@
 {
-  "number": 1,
-  "title": "صبح بخیر",
-  "theme": "Morning at Home",
-  "description": "Greetings, feelings, and simple commands around the house",
-  "objectives": [
-    "Greet someone in the morning and ask how they are",
-    "Say how you feel — tired, hungry, happy, upset",
-    "Give simple commands — come, go, sit, get up, wait, look",
-    "Navigate breakfast taarof with confidence"
-  ],
-  "words": [
+ "number": 1,
+ "season": 1,
+ "week": "2026-11-16",
+ "title": {
+  "fa": "صبح بخیر",
+  "tr": "sobh bekheyr",
+  "en": "Good morning",
+  "audio": "audio/tts/8ffb85d1cdd8.mp3"
+ },
+ "description": "The house wakes up. Commands, the first eight verbs in three tenses, and the first ten letters.",
+ "objectives": [
+  "Understand and give the commands of a morning: wake up, get up, come, go, sit, wait, look, eat.",
+  "Conjugate eight verbs in present, past, and command, with negatives, for all six persons.",
+  "Hear the difference between ā and a, kh and h, and written and spoken forms.",
+  "Read and write 10 letters (ا آ ب پ ت ث ن ی د ر و) and about 25 real words made from them.",
+  "Whisper your first gossip to Mass, and teach the girls “Bābā mige.”"
+ ],
+ "letters": [
+  "ا",
+  "آ",
+  "ب",
+  "پ",
+  "ت",
+  "ث",
+  "ن",
+  "ی",
+  "د",
+  "ر",
+  "و"
+ ],
+ "words": [
+  {
+   "id": 1006,
+   "isNew": true,
+   "fa": "بیدار",
+   "tr": "bidār",
+   "en": "awake",
+   "audio": "audio/tts/e42f1f6dd2a1.mp3",
+   "example": {
+    "fa": "بیداری؟",
+    "tr": "bidāri?",
+    "en": "Are you awake?",
+    "audio": "audio/tts/ca620e435c0b.mp3"
+   }
+  },
+  {
+   "id": 1005,
+   "isNew": true,
+   "fa": "خسته",
+   "tr": "khaste",
+   "en": "tired",
+   "audio": "audio/tts/a525298f55f4.mp3",
+   "root": "From the old verb khastan, “to wound.” Tired is, literally, wounded.",
+   "example": {
+    "fa": "خسته‌ای؟",
+    "tr": "khaste-i?",
+    "en": "Are you tired?",
+    "audio": "audio/tts/19a680d6f3ce.mp3"
+   }
+  },
+  {
+   "id": 1010,
+   "isNew": true,
+   "fa": "بلند شو",
+   "tr": "boland sho",
+   "en": "get up!",
+   "audio": "audio/tts/1f61b77c6b89.mp3",
+   "root": "boland (tall, high) + sho (become!). Become tall.",
+   "example": {
+    "fa": "بلند شو، دیر شد.",
+    "tr": "boland sho, dir shod.",
+    "en": "Get up, it’s late.",
+    "audio": "audio/tts/a64fb874fd53.mp3"
+   }
+  },
+  {
+   "id": 1007,
+   "isNew": true,
+   "fa": "بیا",
+   "tr": "biyā",
+   "en": "come!",
+   "audio": "audio/tts/2a835d31e5d9.mp3",
+   "example": {
+    "fa": "بیا اینجا.",
+    "tr": "biyā injā.",
+    "en": "Come here.",
+    "audio": "audio/tts/6900d33ceb44.mp3"
+   }
+  },
+  {
+   "id": 1008,
+   "isNew": true,
+   "fa": "برو",
+   "tr": "boro",
+   "en": "go!",
+   "audio": "audio/tts/e59227a80639.mp3",
+   "example": {
+    "fa": "برو بیرون.",
+    "tr": "boro birun.",
+    "en": "Go outside.",
+    "audio": "audio/tts/2a25e6a6d8f2.mp3"
+   }
+  },
+  {
+   "id": 1017,
+   "isNew": true,
+   "fa": "صبحونه",
+   "tr": "sobhune",
+   "en": "breakfast",
+   "w": "صبحانه",
+   "wtr": "sobhāne",
+   "audio": "audio/tts/8d5e827c1055.mp3",
+   "root": "sobh (morning) + -āne, the suffix of belonging: the morning thing. Spoken Tehrani turns ān into un.",
+   "example": {
+    "fa": "صبحونه حاضره.",
+    "tr": "sobhune hāzere.",
+    "en": "Breakfast is ready.",
+    "audio": "audio/tts/bc35bb795e6b.mp3"
+   }
+  },
+  {
+   "id": 1009,
+   "isNew": true,
+   "fa": "بشین",
+   "tr": "beshin",
+   "en": "sit!",
+   "w": "بنشین",
+   "wtr": "beneshin",
+   "audio": "audio/tts/974072e2f48a.mp3",
+   "example": {
+    "fa": "بیا بشین.",
+    "tr": "biyā beshin.",
+    "en": "Come sit.",
+    "audio": "audio/tts/d5c1201dd0d3.mp3"
+   }
+  },
+  {
+   "id": 1011,
+   "isNew": true,
+   "fa": "صبر کن",
+   "tr": "sabr kon",
+   "en": "wait!",
+   "audio": "audio/tts/d01b3990aabe.mp3",
+   "root": "sabr (patience) + kon (do!). Do patience.",
+   "example": {
+    "fa": "یه کم صبر کن.",
+    "tr": "ye kam sabr kon.",
+    "en": "Wait a little.",
+    "audio": "audio/tts/599f6e168053.mp3"
+   }
+  },
+  {
+   "id": 1014,
+   "isNew": true,
+   "fa": "یه کم",
+   "tr": "ye kam",
+   "en": "a little",
+   "w": "یک کم",
+   "wtr": "yek kam",
+   "audio": "audio/tts/9b47520e0e1e.mp3",
+   "example": {
+    "fa": "یه کم چای می‌خوای؟",
+    "tr": "ye kam chāy mikhāy?",
+    "en": "Do you want a little tea?",
+    "audio": "audio/tts/d16e1d593ef2.mp3"
+   }
+  },
+  {
+   "id": 1013,
+   "isNew": true,
+   "fa": "دوباره",
+   "tr": "dobāre",
+   "en": "again",
+   "audio": "audio/tts/dbfec6f41fa4.mp3",
+   "root": "do (two) + bār (a time). A second time.",
+   "example": {
+    "fa": "دوباره بگو.",
+    "tr": "dobāre begu.",
+    "en": "Say it again.",
+    "audio": "audio/tts/ad0d2f8dd472.mp3"
+   }
+  },
+  {
+   "id": 1001,
+   "isNew": true,
+   "fa": "گشنه",
+   "tr": "goshne",
+   "en": "hungry",
+   "w": "گرسنه",
+   "wtr": "gorosne",
+   "audio": "audio/tts/341137792604.mp3",
+   "example": {
+    "fa": "گشنمه.",
+    "tr": "goshname.",
+    "en": "I’m hungry. (literally “my hunger is”)",
+    "audio": "audio/tts/7bab6d8f0458.mp3"
+   }
+  },
+  {
+   "id": 1002,
+   "isNew": true,
+   "fa": "تشنه",
+   "tr": "teshne",
+   "en": "thirsty",
+   "audio": "audio/tts/a10216c28310.mp3",
+   "example": {
+    "fa": "تشنه‌ای؟",
+    "tr": "teshne-i?",
+    "en": "Are you thirsty?",
+    "audio": "audio/tts/8bdb16b62079.mp3"
+   }
+  },
+  {
+   "id": 1003,
+   "isNew": true,
+   "fa": "خوشحال",
+   "tr": "khoshhāl",
+   "en": "happy",
+   "audio": "audio/tts/5185b2581e76.mp3",
+   "root": "khosh (good) + hāl (state, condition). The same hāl as in hālet chetore, “how is your state?”",
+   "example": {
+    "fa": "خوشحالم که اینجایی.",
+    "tr": "khoshhālam ke injāyi.",
+    "en": "I’m happy you’re here.",
+    "audio": "audio/tts/d82921cc1e3f.mp3"
+   }
+  },
+  {
+   "id": 1004,
+   "isNew": true,
+   "fa": "ناراحت",
+   "tr": "nārāhat",
+   "en": "upset",
+   "audio": "audio/tts/c3bcde38ae6b.mp3",
+   "root": "nā- (not) + rāhat (at ease). Not at ease.",
+   "example": {
+    "fa": "چرا ناراحتی؟",
+    "tr": "cherā nārāhati?",
+    "en": "Why are you upset?",
+    "audio": "audio/tts/45564f2be964.mp3"
+   }
+  },
+  {
+   "id": 1015,
+   "isNew": true,
+   "fa": "حوصله",
+   "tr": "hosele",
+   "en": "patience, mood for something",
+   "audio": "audio/tts/685d0d4ac7a2.mp3",
+   "root": "From the Arabic word for a bird’s crop, the pouch that holds its food. Your hosele is how much you can hold.",
+   "example": {
+    "fa": "حوصله ندارم.",
+    "tr": "hosele nadāram.",
+    "en": "I’m not in the mood.",
+    "audio": "audio/tts/2a4bbe1cde01.mp3"
+   }
+  },
+  {
+   "id": 1016,
+   "isNew": true,
+   "fa": "عجله",
+   "tr": "ajale",
+   "en": "hurry, rush",
+   "audio": "audio/tts/783b94f9c8ec.mp3",
+   "example": {
+    "fa": "عجله نکن.",
+    "tr": "ajale nakon.",
+    "en": "Don’t rush.",
+    "audio": "audio/tts/4f2cc6f09988.mp3"
+   }
+  },
+  {
+   "id": 1012,
+   "isNew": true,
+   "fa": "ببین",
+   "tr": "bebin",
+   "en": "look! see!",
+   "audio": "audio/tts/143487a718ff.mp3",
+   "root": "be- + bin, the present stem of didan (to see). The same bin as durbin, the “far-seer” (camera).",
+   "example": {
+    "fa": "ببین چی درست کردم.",
+    "tr": "bebin chi dorost kardam.",
+    "en": "Look what I made.",
+    "audio": "audio/tts/72ded6040d51.mp3"
+   }
+  },
+  {
+   "id": 1018,
+   "isNew": true,
+   "fa": "نگاه کن",
+   "tr": "negāh kon",
+   "en": "look! (at something)",
+   "audio": "audio/tts/cf9366d3baf8.mp3",
+   "root": "negāh (a look) + kon (do!). Do a look.",
+   "example": {
+    "fa": "نگاه کن! بارون میاد.",
+    "tr": "negāh kon! bārun miyād.",
+    "en": "Look! It’s raining. (literally “rain comes”)",
+    "audio": "audio/tts/c9bc895019af.mp3"
+   }
+  },
+  {
+   "id": 1,
+   "isNew": false,
+   "fa": "سلام",
+   "tr": "salām",
+   "en": "hello",
+   "audio": "audio/tts/67bba87e09bc.mp3"
+  },
+  {
+   "id": 73,
+   "isNew": false,
+   "fa": "آره",
+   "tr": "āre",
+   "en": "yes",
+   "w": "بله",
+   "wtr": "bale",
+   "audio": "audio/tts/f2907c6ae60d.mp3"
+  },
+  {
+   "id": 342,
+   "isNew": false,
+   "fa": "خونه",
+   "tr": "khune",
+   "en": "house, home",
+   "w": "خانه",
+   "wtr": "khāne",
+   "audio": "audio/tts/1b6288224cee.mp3"
+  },
+  {
+   "id": 198,
+   "isNew": false,
+   "fa": "نون",
+   "tr": "nun",
+   "en": "bread",
+   "w": "نان",
+   "wtr": "nān",
+   "audio": "audio/tts/2d422effc043.mp3"
+  },
+  {
+   "id": 192,
+   "isNew": false,
+   "fa": "پنیر",
+   "tr": "panir",
+   "en": "cheese",
+   "audio": "audio/tts/435d3d5e8205.mp3"
+  },
+  {
+   "id": 450,
+   "isNew": false,
+   "fa": "دیر",
+   "tr": "dir",
+   "en": "late",
+   "audio": "audio/tts/d5cc114e6763.mp3"
+  },
+  {
+   "id": 42,
+   "isNew": false,
+   "fa": "یواش",
+   "tr": "yavāsh",
+   "en": "slowly, quietly",
+   "audio": "audio/tts/55a9833068f3.mp3"
+  },
+  {
+   "id": 64,
+   "isNew": false,
+   "fa": "آقا",
+   "tr": "āghā",
+   "en": "sir, man",
+   "audio": "audio/tts/6ba9b210a841.mp3"
+  },
+  {
+   "id": 62,
+   "isNew": false,
+   "fa": "خانوم",
+   "tr": "khānum",
+   "en": "woman, wife, ma’am",
+   "w": "خانم",
+   "wtr": "khānom",
+   "audio": "audio/tts/e5a1d2aa7bdf.mp3"
+  },
+  {
+   "id": 120,
+   "isNew": false,
+   "fa": "الان",
+   "tr": "alān",
+   "en": "now",
+   "audio": "audio/tts/3903db95622f.mp3"
+  },
+  {
+   "id": 10,
+   "isNew": false,
+   "fa": "اون",
+   "tr": "un",
+   "en": "that; he/she",
+   "w": "آن",
+   "wtr": "ān",
+   "audio": "audio/tts/21d9d0fd83e1.mp3"
+  },
+  {
+   "id": 596,
+   "isNew": false,
+   "fa": "بیرون",
+   "tr": "birun",
+   "en": "outside",
+   "audio": "audio/tts/37685f9f988b.mp3"
+  },
+  {
+   "id": 267,
+   "isNew": false,
+   "fa": "در",
+   "tr": "dar",
+   "en": "door",
+   "audio": "audio/tts/55fdf28804fa.mp3"
+  },
+  {
+   "id": 714,
+   "isNew": false,
+   "fa": "دوربین",
+   "tr": "durbin",
+   "en": "camera",
+   "audio": "audio/tts/d4719f0d9be3.mp3"
+  },
+  {
+   "id": 466,
+   "isNew": false,
+   "fa": "همسر",
+   "tr": "hamsar",
+   "en": "spouse",
+   "audio": "audio/tts/a1297525c7e5.mp3"
+  },
+  {
+   "id": 455,
+   "isNew": false,
+   "fa": "همکار",
+   "tr": "hamkār",
+   "en": "co-worker",
+   "audio": "audio/tts/82ce1f61cecc.mp3"
+  },
+  {
+   "id": 287,
+   "isNew": false,
+   "fa": "پدر",
+   "tr": "pedar",
+   "en": "father",
+   "audio": "audio/tts/9e1cf7464dea.mp3"
+  },
+  {
+   "id": 271,
+   "isNew": false,
+   "fa": "برادر",
+   "tr": "barādar",
+   "en": "brother",
+   "audio": "audio/tts/e05949ce25e9.mp3"
+  },
+  {
+   "id": 570,
+   "isNew": false,
+   "fa": "بارون",
+   "tr": "bārun",
+   "en": "rain",
+   "w": "باران",
+   "wtr": "bārān",
+   "audio": "audio/tts/3231b290d21a.mp3"
+  },
+  {
+   "id": 598,
+   "isNew": false,
+   "fa": "باد",
+   "tr": "bād",
+   "en": "wind",
+   "audio": "audio/tts/ce2a43018eba.mp3"
+  },
+  {
+   "id": 91,
+   "isNew": false,
+   "fa": "دور",
+   "tr": "dur",
+   "en": "far",
+   "audio": "audio/tts/2226a6bbe3e8.mp3"
+  }
+ ],
+ "days": [
+  {
+   "number": 1,
+   "title": {
+    "fa": "بیدار شو",
+    "tr": "bidār sho",
+    "en": "Wake up",
+    "audio": "audio/tts/2d3047359082.mp3"
+   },
+   "subtitle": "Come and go: the first two verbs of every morning",
+   "objective": "Understand Mass’s wake-up commands, conjugate come and go in three tenses, and read your first word: آب.",
+   "newWordIds": [
+    1006,
+    1005,
+    1010,
+    1007,
+    1008
+   ],
+   "reviewWordIds": [
+    450,
+    120
+   ],
+   "steps": [
     {
-      "id": 1001,
-      "isNew": true,
-      "english": "hungry",
-      "persian_written": "گرسنه",
-      "persian_spoken": "گشنه",
-      "pronunciation": "goshneh",
-      "spoken_pronunciation": "goshneh",
-      "audio": "audio/word_1001.mp3",
-      "example": {
-        "persian": "من گشنمه.",
-        "pronunciation": "man goshnameh.",
-        "english": "I'm hungry."
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 6,
+     "instruction": "Every lesson opens by pulling old words out of memory. Getting some wrong is how the remembering gets stronger."
+    },
+    {
+     "type": "listen",
+     "title": "Listen first",
+     "minutes": 3,
+     "audio": "audio/tts/scene_42498d03a701.mp3",
+     "instruction": "It’s 7 a.m. Sam is still in bed. Mass is already up. Play the scene twice before you look at the words. The English is hidden: tap a line to reveal it.",
+     "lines": [
+      {
+       "fa": "صبح بخیر! بیدار شو.",
+       "tr": "sobh bekheyr! bidār sho.",
+       "en": "Good morning! Wake up.",
+       "audio": "audio/tts/0eed33ffd891.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "صبح بخیر… خسته‌ام.",
+       "tr": "sobh bekheyr… khaste-am.",
+       "en": "Good morning… I’m tired.",
+       "audio": "audio/tts/f16abab6d5d1.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "بلند شو! دیر شد.",
+       "tr": "boland sho! dir shod.",
+       "en": "Get up! It got late.",
+       "audio": "audio/tts/8ff31b933db4.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "باشه، باشه… الان میام.",
+       "tr": "bāshe, bāshe… alān miyām.",
+       "en": "Okay, okay… I’m coming now.",
+       "audio": "audio/tts/9710bff01f19.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "زود باش! بیا.",
+       "tr": "zud bāsh! biyā.",
+       "en": "Hurry up! Come.",
+       "audio": "audio/tts/51e49fd7db1e.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "اومدم!",
+       "tr": "umadam!",
+       "en": "Coming! (literally “I came!”)",
+       "audio": "audio/tts/f1fe32307339.mp3",
+       "speaker": "Sam"
       }
+     ]
     },
     {
-      "id": 1002,
-      "isNew": true,
-      "english": "thirsty",
-      "persian_written": "تشنه",
-      "persian_spoken": "تشنه",
-      "pronunciation": "teshneh",
-      "spoken_pronunciation": "teshneh",
-      "audio": "audio/word_1002.mp3",
-      "example": {
-        "persian": "تشنته؟",
-        "pronunciation": "teshnateh?",
-        "english": "Are you thirsty?"
+     "type": "words",
+     "title": "New words",
+     "minutes": 4,
+     "instruction": "Five words from the scene. Tap to hear each one, say it out loud, and read the small story under the words that have one."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: come and go",
+     "minutes": 8,
+     "verbs": [
+      "amadan",
+      "raftan"
+     ],
+     "intro": "This week’s focus is the command (biyā! boro!), but a verb only makes sense once you see its whole life. Every Persian verb has two stems: one for the past and one for the present. The endings stay the same everywhere: <b>-am</b> (I), <b>-i</b> (you), <b>-e</b> (he/she), <b>-im</b> (we), <b>-in</b> (you, polite or plural), <b>-an</b> (they). In the tables, the prefix is coral, the stem is blue, and the ending is green. Tap any form to hear it.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "raftan",
+       "variant": "raftan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "raftan",
+       "variant": "raftan",
+       "tense": "present",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "amadan",
+       "variant": "amadan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "amadan",
+       "variant": "amadan",
+       "tense": "past",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "raftan",
+       "variant": "raftan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "amadan",
+       "variant": "amadan",
+       "tense": "imperative",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "raftan",
+       "variant": "raftan",
+       "tense": "neg_present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "amadan",
+       "variant": "amadan",
+       "tense": "neg_past",
+       "person": 1
       }
+     ]
     },
     {
-      "id": 1003,
-      "isNew": true,
-      "english": "happy",
-      "persian_written": "خوشحال",
-      "persian_spoken": "خوشحال",
-      "pronunciation": "khosh-hahl",
-      "spoken_pronunciation": "khosh-hahl",
-      "audio": "audio/word_1003.mp3",
-      "example": {
-        "persian": "خوشحالم که اینجایی.",
-        "pronunciation": "khosh-hahlam keh injaee.",
-        "english": "I'm happy you're here."
+     "type": "ear",
+     "title": "Ear gym: ā or a?",
+     "minutes": 3,
+     "instruction": "Persian has a long, open ā (like “father”) and a short a (like “cat”). They change meaning. Listen to each pair until you can hear the difference, then take the test. Two voices speak, because hearing many voices trains the ear faster.",
+     "pairs": [
+      {
+       "a": {
+        "fa": "باد",
+        "tr": "bād",
+        "en": "wind",
+        "audio": "audio/tts/ce2a43018eba.mp3",
+        "audio2": "audio/tts/30ba495132e7.mp3"
+       },
+       "b": {
+        "fa": "بد",
+        "tr": "bad",
+        "en": "bad",
+        "audio": "audio/tts/9e1f6b9f9b08.mp3",
+        "audio2": "audio/tts/d1ba4848fa30.mp3"
+       },
+       "contrast": "ā / a"
+      },
+      {
+       "a": {
+        "fa": "ماست",
+        "tr": "māst",
+        "en": "yogurt",
+        "audio": "audio/tts/e81f14a3cfda.mp3",
+        "audio2": "audio/tts/7b77c92e1dfd.mp3"
+       },
+       "b": {
+        "fa": "مست",
+        "tr": "mast",
+        "en": "drunk",
+        "audio": "audio/tts/183a973dde2d.mp3",
+        "audio2": "audio/tts/93cfd422f3f1.mp3"
+       },
+       "contrast": "ā / a"
+      },
+      {
+       "a": {
+        "fa": "کار",
+        "tr": "kār",
+        "en": "work",
+        "audio": "audio/tts/58eb32cd31aa.mp3",
+        "audio2": "audio/tts/475183895e26.mp3"
+       },
+       "b": {
+        "fa": "کم",
+        "tr": "kam",
+        "en": "a little",
+        "audio": "audio/tts/7b45a42ad96f.mp3",
+        "audio2": "audio/tts/45553a6b4979.mp3"
+       },
+       "contrast": "ā / a"
       }
+     ],
+     "rounds": 6
     },
     {
-      "id": 1004,
-      "isNew": true,
-      "english": "upset, sad",
-      "persian_written": "ناراحت",
-      "persian_spoken": "ناراحت",
-      "pronunciation": "nah-rah-hat",
-      "spoken_pronunciation": "nah-rah-hat",
-      "audio": "audio/word_1004.mp3",
-      "example": {
-        "persian": "چرا ناراحتی؟",
-        "pronunciation": "cherah nah-rah-hatee?",
-        "english": "Why are you upset?"
+     "type": "script",
+     "title": "Reading: ا آ ب پ",
+     "minutes": 6,
+     "letters": [
+      {
+       "ch": "ا",
+       "name": "alef",
+       "sound": "ā in the middle or end of a word; at the very start it carries a short vowel (a, e, o)",
+       "forms": {
+        "isolated": "ا",
+        "final": "ـا"
+       },
+       "connects": false,
+       "tip": "One stroke, top to bottom. Alef never joins the letter after it, so there’s always a little gap to its left.",
+       "examples": [
+        {
+         "fa": "آب",
+         "tr": "āb",
+         "en": "water",
+         "audio": "audio/tts/82f7f801475f.mp3"
+        },
+        {
+         "fa": "بابا",
+         "tr": "bābā",
+         "en": "dad",
+         "audio": "audio/tts/c72477473ad8.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "آ",
+       "name": "alef madde",
+       "sound": "ā at the start of a word",
+       "forms": {
+        "isolated": "آ"
+       },
+       "connects": false,
+       "tip": "Alef with a wavy hat (madde, “stretch”). The hat stretches the start of a word into a long ā: āb, āre, āghā.",
+       "examples": [
+        {
+         "fa": "آب",
+         "tr": "āb",
+         "en": "water",
+         "audio": "audio/tts/82f7f801475f.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "ب",
+       "name": "be",
+       "sound": "b",
+       "forms": {
+        "initial": "بـ",
+        "medial": "ـبـ",
+        "final": "ـب",
+        "isolated": "ب"
+       },
+       "connects": true,
+       "tip": "A shallow boat, written right to left, then one dot underneath. Joined up, it shrinks to a small tooth with a dot below.",
+       "examples": [
+        {
+         "fa": "بابا",
+         "tr": "bābā",
+         "en": "dad",
+         "audio": "audio/tts/c72477473ad8.mp3"
+        },
+        {
+         "fa": "آب",
+         "tr": "āb",
+         "en": "water",
+         "audio": "audio/tts/82f7f801475f.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "پ",
+       "name": "pe",
+       "sound": "p",
+       "forms": {
+        "initial": "پـ",
+        "medial": "ـپـ",
+        "final": "ـپ",
+        "isolated": "پ"
+       },
+       "connects": true,
+       "tip": "The same boat as be, with three dots below. Arabic has no p sound, so Persian added the dots to make one. It’s a Persian letter.",
+       "examples": [
+        {
+         "fa": "پا",
+         "tr": "pā",
+         "en": "foot, leg",
+         "audio": "audio/tts/ecc7a48b2617.mp3"
+        }
+       ]
       }
-    },
-    {
-      "id": 1005,
-      "isNew": true,
-      "english": "tired",
-      "persian_written": "خسته",
-      "persian_spoken": "خسته",
-      "pronunciation": "khasteh",
-      "spoken_pronunciation": "khasteh",
-      "audio": "audio/word_1005.mp3",
-      "example": {
-        "persian": "خسته‌ای؟",
-        "pronunciation": "khasteh-ee?",
-        "english": "Are you tired?"
+     ],
+     "intro": "Persian runs right to left, and most letters hold hands with the next one, so each letter has up to four shapes: alone, at the start, in the middle, and at the end. The good news is that the shape barely changes. What changes are the dots. Learn letters in families: sound first, then shape, then name.",
+     "readIt": [
+      {
+       "type": "read",
+       "item": {
+        "fa": "آب",
+        "tr": "āb",
+        "audio": "audio/tts/82f7f801475f.mp3"
+       },
+       "options": [
+        "āb",
+        "bābā",
+        "pā",
+        "ab"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "بابا",
+        "tr": "bābā",
+        "audio": "audio/tts/c72477473ad8.mp3"
+       },
+       "options": [
+        "bābā",
+        "pāpā",
+        "āb",
+        "bā"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "پا",
+        "tr": "pā",
+        "audio": "audio/tts/9c32addf798a.mp3"
+       },
+       "options": [
+        "pā",
+        "bā",
+        "āb",
+        "pāpā"
+       ],
+       "answer": 0
       }
+     ]
     },
     {
-      "id": 1006,
-      "isNew": true,
-      "english": "awake",
-      "persian_written": "بیدار",
-      "persian_spoken": "بیدار",
-      "pronunciation": "bee-dahr",
-      "spoken_pronunciation": "bee-dahr",
-      "audio": "audio/word_1006.mp3",
-      "example": {
-        "persian": "بیداری؟",
-        "pronunciation": "bee-dahree?",
-        "english": "Are you awake?"
+     "type": "shadow",
+     "title": "Shadow Mass",
+     "minutes": 3,
+     "instruction": "Play a line, then say it right on top of the voice, matching the rhythm and melody. Record yourself and compare. Shadowing trains your mouth and your ear together.",
+     "lines": [
+      {
+       "fa": "صبح بخیر! بیدار شو.",
+       "tr": "sobh bekheyr! bidār sho.",
+       "en": "Good morning! Wake up.",
+       "audio": "audio/tts/0eed33ffd891.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "بلند شو! دیر شد.",
+       "tr": "boland sho! dir shod.",
+       "en": "Get up! It got late.",
+       "audio": "audio/tts/8ff31b933db4.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "زود باش! بیا.",
+       "tr": "zud bāsh! biyā.",
+       "en": "Hurry up! Come.",
+       "audio": "audio/tts/51e49fd7db1e.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "اومدم!",
+       "tr": "umadam!",
+       "en": "Coming! (literally “I came!”)",
+       "audio": "audio/tts/f1fe32307339.mp3",
+       "speaker": "Sam"
       }
+     ]
     },
     {
-      "id": 1007,
-      "isNew": true,
-      "english": "come!",
-      "persian_written": "بیا",
-      "persian_spoken": "بیا",
-      "pronunciation": "bee-ah",
-      "spoken_pronunciation": "bee-ah",
-      "audio": "audio/word_1007.mp3",
-      "example": {
-        "persian": "بیا اینجا.",
-        "pronunciation": "bee-ah injah.",
-        "english": "Come here."
+     "type": "check",
+     "title": "Day 1 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "item": {
+        "fa": "بلند شو",
+        "tr": "boland sho",
+        "en": "Get up!",
+        "audio": "audio/tts/be2194ad8bf5.mp3"
+       },
+       "options": [
+        "Get up!",
+        "Come!",
+        "Go!",
+        "Wake up!"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "How do you say “Come!”?",
+       "options": [
+        {
+         "fa": "بیا",
+         "tr": "biyā"
+        },
+        {
+         "fa": "برو",
+         "tr": "boro"
+        },
+        {
+         "fa": "بشین",
+         "tr": "beshin"
+        },
+        {
+         "fa": "بلند شو",
+         "tr": "boland sho"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "conj",
+       "verb": "raftan",
+       "variant": "raftan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Mass calls you from the kitchen. You’re on your way. What do you shout?",
+       "options": [
+        {
+         "fa": "اومدم!",
+         "tr": "umadam!"
+        },
+        {
+         "fa": "می‌رم!",
+         "tr": "miram!"
+        },
+        {
+         "fa": "برو!",
+         "tr": "boro!"
+        },
+        {
+         "fa": "نیا!",
+         "tr": "nayā!"
+        }
+       ],
+       "answer": 0,
+       "explain": "Persian says “I came!” while it’s still coming."
+      },
+      {
+       "type": "type",
+       "item": {
+        "fa": "برو",
+        "tr": "boro",
+        "en": "Go!",
+        "audio": "audio/tts/e59227a80639.mp3"
+       },
+       "prompt": "Type what you hear, in English letters."
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "آب",
+        "tr": "āb",
+        "audio": "audio/tts/0b7183171cb5.mp3"
+       },
+       "options": [
+        "āb",
+        "pā",
+        "bābā",
+        "ab"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "Okay, I’m coming now.",
+       "tiles": [
+        {
+         "fa": "باشه",
+         "tr": "bāshe"
+        },
+        {
+         "fa": "الان",
+         "tr": "alān"
+        },
+        {
+         "fa": "میام",
+         "tr": "miyām"
+        }
+       ]
+      },
+      {
+       "type": "conj",
+       "verb": "amadan",
+       "variant": "amadan",
+       "tense": "present",
+       "person": 4
       }
+     ]
     },
     {
-      "id": 1008,
-      "isNew": true,
-      "english": "go!",
-      "persian_written": "برو",
-      "persian_spoken": "برو",
-      "pronunciation": "boro",
-      "spoken_pronunciation": "boro",
-      "audio": "audio/word_1008.mp3",
-      "example": {
-        "persian": "برو دستاتو بشور.",
-        "pronunciation": "boro dastaht-o beshoor.",
-        "english": "Go wash your hands."
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Persian books open from what you’d call the back. Flip your notebook over and start on the right-hand page. This notebook is now Persian.",
+      "Write ا, آ, ب, and پ five times each, right to left, saying the sound every time: ā… b… p…",
+      "Write آب (āb), بابا (bābā), and پا (pā) three times each. Under each one, write the phonetics and the meaning.",
+      "Copy the past tense of raftan (go) from the verb lab, in phonetics: raftam, rafti, raft… Then cover it and write it again from memory.",
+      "On a page at the back, start a list called “Verbs I own.” Add umadan and raftan with both stems."
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "Waking up",
+     "openers": [
+      {
+       "fa": "صبح بخیر! بیدار شدی؟",
+       "tr": "sobh bekheyr! bidār shodi?",
+       "en": "Good morning! Did you wake up?",
+       "audio": "audio/tts/b1d0fd2cd039.mp3"
+      },
+      {
+       "fa": "خسته‌ای؟",
+       "tr": "khaste-i?",
+       "en": "Are you tired?",
+       "audio": "audio/tts/19a680d6f3ce.mp3"
+      },
+      {
+       "fa": "کی بیدار شدی؟",
+       "tr": "key bidār shodi?",
+       "en": "When did you wake up?",
+       "audio": "audio/tts/fab42c0a8782.mp3"
       }
-    },
-    {
-      "id": 1009,
-      "isNew": true,
-      "english": "sit down!",
-      "persian_written": "بشین",
-      "persian_spoken": "بشین",
-      "pronunciation": "beshin",
-      "spoken_pronunciation": "beshin",
-      "audio": "audio/word_1009.mp3",
-      "example": {
-        "persian": "بشین صبحونه بخور.",
-        "pronunciation": "beshin sobhooneh bokhor.",
-        "english": "Sit down and eat breakfast."
+     ],
+     "practice": [
+      {
+       "fa": "بیدار",
+       "tr": "bidār"
+      },
+      {
+       "fa": "خسته",
+       "tr": "khaste"
+      },
+      {
+       "fa": "بلند شو",
+       "tr": "boland sho"
+      },
+      {
+       "fa": "بیا",
+       "tr": "biyā"
+      },
+      {
+       "fa": "برو",
+       "tr": "boro"
+      },
+      {
+       "fa": "اومدم!",
+       "tr": "umadam!"
       }
+     ],
+     "massNote": "Sam is practicing come and go. When you call him, make him answer “umadam!”"
     },
     {
-      "id": 1010,
-      "isNew": true,
-      "english": "get up!",
-      "persian_written": "بلند شو",
-      "persian_spoken": "بلند شو",
-      "pronunciation": "boland sho",
-      "spoken_pronunciation": "boland sho",
-      "audio": "audio/word_1010.mp3",
-      "example": {
-        "persian": "بلند شو، دیر شده.",
-        "pronunciation": "boland sho, deer shodeh.",
-        "english": "Get up, it's late."
+     "type": "teach",
+     "title": "Teach the girls: Bābā mige",
+     "game": "Simon Says, Persian style. “Bābā mige…” means “Dad says…”. Call a command and they do it, but only if you said “Bābā mige” first. Older kids can take a turn calling the commands to catch you out.",
+     "items": [
+      {
+       "fa": "بابا میگه بیا!",
+       "tr": "bābā mige biyā!",
+       "en": "Dad says come!",
+       "audio": "audio/tts/565c25fdbc5a.mp3"
+      },
+      {
+       "fa": "بابا میگه برو!",
+       "tr": "bābā mige boro!",
+       "en": "Dad says go!",
+       "audio": "audio/tts/d0347d034a36.mp3"
+      },
+      {
+       "fa": "بابا میگه بشین!",
+       "tr": "bābā mige beshin!",
+       "en": "Dad says sit!",
+       "audio": "audio/tts/b698efb07aa0.mp3"
+      },
+      {
+       "fa": "بابا میگه بلند شو!",
+       "tr": "bābā mige boland sho!",
+       "en": "Dad says stand up!",
+       "audio": "audio/tts/2e3453f5bc0f.mp3"
+      },
+      {
+       "fa": "بابا میگه ببین!",
+       "tr": "bābā mige bebin!",
+       "en": "Dad says look!",
+       "audio": "audio/tts/6faa0c083337.mp3"
       }
-    },
-    {
-      "id": 1011,
-      "isNew": true,
-      "english": "wait!",
-      "persian_written": "صبر کن",
-      "persian_spoken": "صبر کن",
-      "pronunciation": "sabr kon",
-      "spoken_pronunciation": "sabr kon",
-      "audio": "audio/word_1011.mp3",
-      "example": {
-        "persian": "صبر کن، الان میام.",
-        "pronunciation": "sabr kon, alahn mee-ahm.",
-        "english": "Wait, I'm coming now."
-      }
-    },
-    {
-      "id": 1012,
-      "isNew": true,
-      "english": "look!",
-      "persian_written": "ببین",
-      "persian_spoken": "ببین",
-      "pronunciation": "bebin",
-      "spoken_pronunciation": "bebin",
-      "audio": "audio/word_1012.mp3",
-      "example": {
-        "persian": "ببین چی درست کردم.",
-        "pronunciation": "bebin chee dorost kardam.",
-        "english": "Look what I made."
-      }
-    },
-    {
-      "id": 1013,
-      "isNew": true,
-      "english": "again",
-      "persian_written": "دوباره",
-      "persian_spoken": "دوباره",
-      "pronunciation": "dobah-reh",
-      "spoken_pronunciation": "dobah-reh",
-      "audio": "audio/word_1013.mp3",
-      "example": {
-        "persian": "دوباره بگو.",
-        "pronunciation": "dobah-reh begoo.",
-        "english": "Say it again."
-      }
-    },
-    {
-      "id": 1014,
-      "isNew": true,
-      "english": "a little",
-      "persian_written": "یک کم",
-      "persian_spoken": "یه کم",
-      "pronunciation": "yeh kam",
-      "spoken_pronunciation": "yeh kam",
-      "audio": "audio/word_1014.mp3",
-      "example": {
-        "persian": "یه کم صبر کن.",
-        "pronunciation": "yeh kam sabr kon.",
-        "english": "Wait a little."
-      }
-    },
-    {
-      "id": 1015,
-      "isNew": true,
-      "english": "patience, mood",
-      "persian_written": "حوصله",
-      "persian_spoken": "حوصله",
-      "pronunciation": "howseleh",
-      "spoken_pronunciation": "howseleh",
-      "audio": "audio/word_1015.mp3",
-      "example": {
-        "persian": "حوصله ندارم.",
-        "pronunciation": "howseleh nadahram.",
-        "english": "I don't have patience. / I'm bored."
-      }
-    },
-    {
-      "id": 1016,
-      "isNew": true,
-      "english": "hurry",
-      "persian_written": "عجله",
-      "persian_spoken": "عجله",
-      "pronunciation": "ajaleh",
-      "spoken_pronunciation": "ajaleh",
-      "audio": "audio/word_1016.mp3",
-      "example": {
-        "persian": "عجله نکن.",
-        "pronunciation": "ajaleh nakon.",
-        "english": "Don't hurry."
-      }
-    },
-    {
-      "id": 1017,
-      "isNew": true,
-      "english": "breakfast",
-      "persian_written": "صبحانه",
-      "persian_spoken": "صبحونه",
-      "pronunciation": "sobhooneh",
-      "spoken_pronunciation": "sobhooneh",
-      "audio": "audio/word_1017.mp3",
-      "example": {
-        "persian": "صبحونه خوردی؟",
-        "pronunciation": "sobhooneh khordee?",
-        "english": "Did you eat breakfast?"
-      }
-    },
-    {
-      "id": 7,
-      "isNew": false,
-      "english": "good morning",
-      "persian_written": "صبح بخیر",
-      "persian_spoken": "صبح بخیر",
-      "pronunciation": "sobh bekheyr",
-      "spoken_pronunciation": "sobh bekheyr",
-      "audio": "audio/word_7.mp3"
-    },
-    {
-      "id": 1,
-      "isNew": false,
-      "english": "hello",
-      "persian_written": "سلام",
-      "persian_spoken": "سلام",
-      "pronunciation": "salahm",
-      "spoken_pronunciation": "salahm",
-      "audio": "audio/word_1.mp3"
-    },
-    {
-      "id": 11,
-      "isNew": false,
-      "english": "how are you?",
-      "persian_written": "حال شما چطوره",
-      "persian_spoken": "حالت چطوره",
-      "pronunciation": "hahlet chetoreh",
-      "spoken_pronunciation": "hahlet chetoreh",
-      "audio": "audio/word_11.mp3"
-    },
-    {
-      "id": 3,
-      "isNew": false,
-      "english": "I'm fine",
-      "persian_written": "من خوبم",
-      "persian_spoken": "من خوبم",
-      "pronunciation": "man khoobam",
-      "spoken_pronunciation": "man khoobam",
-      "audio": "audio/word_3.mp3"
-    },
-    {
-      "id": 12,
-      "isNew": false,
-      "english": "thank you",
-      "persian_written": "ممنون",
-      "persian_spoken": "ممنون",
-      "pronunciation": "mamnoon",
-      "spoken_pronunciation": "mamnoon",
-      "audio": "audio/word_12.mp3"
-    },
-    {
-      "id": 15,
-      "isNew": false,
-      "english": "yes",
-      "persian_written": "بله",
-      "persian_spoken": "آره",
-      "pronunciation": "ah-reh",
-      "spoken_pronunciation": "ah-reh",
-      "audio": "audio/word_15.mp3"
-    },
-    {
-      "id": 16,
-      "isNew": false,
-      "english": "no",
-      "persian_written": "نه",
-      "persian_spoken": "نه",
-      "pronunciation": "nah",
-      "spoken_pronunciation": "nah",
-      "audio": "audio/word_16.mp3"
-    },
-    {
-      "id": 21,
-      "isNew": false,
-      "english": "please",
-      "persian_written": "لطفاً",
-      "persian_spoken": "لطفاً",
-      "pronunciation": "lotfan",
-      "spoken_pronunciation": "lotfan",
-      "audio": "audio/word_21.mp3"
-    },
-    {
-      "id": 285,
-      "isNew": false,
-      "english": "water",
-      "persian_written": "آب",
-      "persian_spoken": "آب",
-      "pronunciation": "ahb",
-      "spoken_pronunciation": "ahb",
-      "audio": "audio/word_285.mp3"
-    },
-    {
-      "id": 290,
-      "isNew": false,
-      "english": "tea",
-      "persian_written": "چای",
-      "persian_spoken": "چای",
-      "pronunciation": "chahy",
-      "spoken_pronunciation": "chahy",
-      "audio": "audio/word_290.mp3"
-    },
-    {
-      "id": 448,
-      "isNew": false,
-      "english": "house, home",
-      "persian_written": "خانه",
-      "persian_spoken": "خونه",
-      "pronunciation": "khooneh",
-      "spoken_pronunciation": "khooneh",
-      "audio": "audio/word_448.mp3"
+     ]
     }
-  ],
-  "days": [
+   ]
+  },
+  {
+   "number": 2,
+   "title": {
+    "fa": "صبحونه حاضره",
+    "tr": "sobhune hāzere",
+    "en": "Breakfast is ready",
+    "audio": "audio/tts/6aaf5e3de7da.mp3"
+   },
+   "subtitle": "Sit, wait, get up, wake up: the verb that becomes",
+   "objective": "Follow a breakfast exchange, see how one helper verb builds “get up” and “wake up,” and read بیا and نان.",
+   "newWordIds": [
+    1017,
+    1009,
+    1011,
+    1014,
+    1013
+   ],
+   "reviewWordIds": [
+    198,
+    192
+   ],
+   "steps": [
     {
-      "number": 1,
-      "title": "بلند شو!",
-      "subtitle": "Wake Up!",
-      "objective": "Greet someone in the morning and use basic commands to get moving",
-      "newWordIds": [
-        1006,
-        1005,
-        1010,
-        1007,
-        1008
-      ],
-      "reviewWordIds": [
-        7,
-        1,
-        11
-      ],
-      "steps": [
-        {
-          "type": "listen",
-          "title": "Listen First",
-          "instruction": "It's 7 AM. Sam is still in bed. Mass is already up. Listen — don't read yet.",
-          "audio": "audio/ch1_dialogue.mp3",
-          "lines": [
-            {
-              "speaker": "Mass",
-              "persian": "صبح بخیر! بیدار شو.",
-              "pronunciation": "sobh bekheyr! bee-dahr sho.",
-              "english": "Good morning! Wake up.",
-              "audio": "audio/ch1_dial_1.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "صبح بخیر... خسته‌ام.",
-              "pronunciation": "sobh bekheyr... khasteh-am.",
-              "english": "Good morning... I'm tired.",
-              "audio": "audio/ch1_dial_2.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بلند شو، صبحونه حاضره.",
-              "pronunciation": "boland sho, sobhooneh hahzereh.",
-              "english": "Get up, breakfast is ready.",
-              "audio": "audio/ch1_dial_3.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "صبر کن، یه کم.",
-              "pronunciation": "sabr kon, yeh kam.",
-              "english": "Wait, a little.",
-              "audio": "audio/ch1_dial_4.mp3"
-            }
-          ]
-        },
-        {
-          "type": "words",
-          "title": "New Words",
-          "instruction": "These are the words from the scene. Tap each one to hear it."
-        },
-        {
-          "type": "pattern",
-          "title": "The Pattern: Commands",
-          "content": "<p>Mass says <strong>بلند شو</strong> (get up!), <strong>بیا</strong> (come!), <strong>برو</strong> (go!). These are <strong>informal imperatives</strong> — the way you tell someone to do something at home.</p><p>For most verbs, take the present stem and add <strong>بـ</strong> (be-) at the front:</p>",
-          "examples": [
-            {
-              "persian": "بیا اینجا.",
-              "pronunciation": "bee-ah injah.",
-              "english": "Come here.",
-              "audio": "audio/ch1_gram_1.mp3"
-            },
-            {
-              "persian": "برو دستاتو بشور.",
-              "pronunciation": "boro dastaht-o beshoor.",
-              "english": "Go wash your hands.",
-              "audio": "audio/ch1_gram_2.mp3"
-            },
-            {
-              "persian": "بلند شو، دیر شده.",
-              "pronunciation": "boland sho, deer shodeh.",
-              "english": "Get up, it's late.",
-              "audio": "audio/ch1_gram_4.mp3"
-            }
-          ],
-          "note": "بیا (come) and برو (go) are irregular — they don't follow the بـ pattern. You just memorize them."
-        },
-        {
-          "type": "grammar",
-          "title": "Verb Forms: Commands",
-          "explanation": "<p>Today's verbs are all <strong>commands</strong> (imperatives). In spoken Farsi, you make a command by using the <strong>present stem</strong>. For compound verbs like بلند شدن, only the helper verb شدن conjugates.</p><p>Here are the three forms you need:</p>",
-          "tables": [
-            {
-              "verb": "آمدن",
-              "verbPronunciation": "ah-madan",
-              "meaning": "to come",
-              "stem": "آ",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "بیا",
-                  "pronunciation": "bee-ah",
-                  "english": "come!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "بیایید",
-                  "pronunciation": "bee-ah-yeed",
-                  "english": "come! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "نیا",
-                  "pronunciation": "nee-ah",
-                  "english": "don't come!"
-                }
-              ]
-            },
-            {
-              "verb": "رفتن",
-              "verbPronunciation": "raftan",
-              "meaning": "to go",
-              "stem": "رو",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "برو",
-                  "pronunciation": "boro",
-                  "english": "go!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "برید",
-                  "pronunciation": "boreed",
-                  "english": "go! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "نرو",
-                  "pronunciation": "naro",
-                  "english": "don't go!"
-                }
-              ]
-            },
-            {
-              "verb": "بلند شدن",
-              "verbPronunciation": "boland shodan",
-              "meaning": "to get up",
-              "stem": "شو",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "بلند شو",
-                  "pronunciation": "boland sho",
-                  "english": "get up!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "بلند شید",
-                  "pronunciation": "boland sheed",
-                  "english": "get up! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "بلند نشو",
-                  "pronunciation": "boland nasho",
-                  "english": "don't get up!"
-                }
-              ]
-            },
-            {
-              "verb": "بیدار شدن",
-              "verbPronunciation": "bee-dahr shodan",
-              "meaning": "to wake up",
-              "stem": "شو",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "بیدار شو",
-                  "pronunciation": "bee-dahr sho",
-                  "english": "wake up!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "بیدار شید",
-                  "pronunciation": "bee-dahr sheed",
-                  "english": "wake up! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "بیدار نشو",
-                  "pronunciation": "bee-dahr nasho",
-                  "english": "don't wake up!"
-                }
-              ]
-            }
-          ],
-          "note": "بیا and برو are irregular — they don't follow the بـ + stem pattern. You just memorize them. For compound verbs (بلند شدن, بیدار شدن), only the شدن part conjugates."
-        },
-        {
-          "type": "drill",
-          "title": "Practice",
-          "exercises": [
-            {
-              "type": "multiple-choice",
-              "prompt": "You hear Mass say: بلند شو! What does she want you to do?",
-              "options": [
-                "Come here",
-                "Get up",
-                "Sit down",
-                "Wait"
-              ],
-              "correct": 1
-            },
-            {
-              "type": "translate",
-              "prompt": "How do you say <strong>\"Come here\"</strong>?",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "بیا اینجا"
-            },
-            {
-              "type": "multiple-choice",
-              "prompt": "Which one means \"go\"?",
-              "options": [
-                "بیا",
-                "برو",
-                "بشین",
-                "ببین"
-              ],
-              "correct": 1
-            },
-            {
-              "type": "fill-blank",
-              "prompt": "صبح بخیر! _____ شو. (Good morning! Wake up.)",
-              "placeholder": "One word...",
-              "rtl": true,
-              "answer": "بیدار"
-            },
-            {
-              "type": "translate",
-              "prompt": "How do you say <strong>\"I'm tired\"</strong>?",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "خسته‌ام"
-            },
-            {
-              "type": "dictation",
-              "instruction": "Listen and type what you hear.",
-              "audio": "audio/ch1_dict_1.mp3",
-              "answer": "بلند شو"
-            }
-          ]
-        },
-        {
-          "type": "speak",
-          "title": "Speak",
-          "instruction": "Mass says good morning. Greet her back, say how you feel, and use one command.",
-          "audio": "audio/ch1_speak_prompt_1.mp3",
-          "timeLimit": 30,
-          "hints": [
-            "صبح بخیر",
-            "خسته‌ام",
-            "بیا"
-          ],
-          "model": {
-            "persian": "صبح بخیر! خسته‌ام. بیا اینجا.",
-            "pronunciation": "sobh bekheyr! khasteh-am. bee-ah injah.",
-            "english": "Good morning! I'm tired. Come here."
-          }
-        },
-        {
-          "type": "writing",
-          "title": "The Alphabet: ا ب پ",
-          "instruction": "Three letters you'll see in today's words. Each letter has up to four forms depending on where it appears in a word.",
-          "letters": [
-            {
-              "letter": "ا",
-              "name": "alef",
-              "sound": "ah / a / silent (carries other sounds)",
-              "forms": {
-                "isolated": "ا",
-                "initial": "ا",
-                "medial": "ـا",
-                "final": "ـا"
-              },
-              "connectsLeft": false,
-              "examples": [
-                {
-                  "word": "آب",
-                  "meaning": "water",
-                  "pronunciation": "ahb"
-                },
-                {
-                  "word": "اینجا",
-                  "meaning": "here",
-                  "pronunciation": "injah"
-                }
-              ],
-              "tip": "Alef never connects to the letter after it. When it carries an آ sound (with the hat), it's always at the start."
-            },
-            {
-              "letter": "ب",
-              "name": "be",
-              "sound": "b (like English b)",
-              "forms": {
-                "isolated": "ب",
-                "initial": "بـ",
-                "medial": "ـبـ",
-                "final": "ـب"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "بیا",
-                  "meaning": "come!",
-                  "pronunciation": "bee-ah"
-                },
-                {
-                  "word": "بلند",
-                  "meaning": "tall / up",
-                  "pronunciation": "boland"
-                },
-                {
-                  "word": "آب",
-                  "meaning": "water",
-                  "pronunciation": "ahb"
-                }
-              ],
-              "tip": "The dot goes below. Compare with پ (three dots below) and ت (two dots above)."
-            },
-            {
-              "letter": "پ",
-              "name": "pe",
-              "sound": "p (like English p)",
-              "forms": {
-                "isolated": "پ",
-                "initial": "پـ",
-                "medial": "ـپـ",
-                "final": "ـپ"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "صبح بخیر",
-                  "meaning": "good morning",
-                  "pronunciation": "sobh bekheyr"
-                }
-              ],
-              "tip": "Same shape as ب but with three dots below. This letter doesn't exist in Arabic — it's uniquely Persian."
-            }
-          ],
-          "practice": [
-            {
-              "prompt": "Which letter is this? ب",
-              "options": [
-                "alef",
-                "be",
-                "pe",
-                "te"
-              ],
-              "correct": 1
-            },
-            {
-              "prompt": "Find the ا in this word: بیا",
-              "type": "identify"
-            },
-            {
-              "prompt": "Write the word آب (water) — it uses two of today's letters.",
-              "type": "write",
-              "answer": "آب"
-            }
-          ]
-        },
-        {
-          "type": "talkWithMass",
-          "title": "Talk with Mass",
-          "topic": "Morning Greetings",
-          "openers": [
-            {
-              "persian": "صبح بخیر! حالت چطوره؟",
-              "pronunciation": "sobh bekheyr! hahlet chetoreh?",
-              "english": "Good morning! How are you?"
-            },
-            {
-              "persian": "خوب خوابیدی؟",
-              "pronunciation": "khoob khahbeedee?",
-              "english": "Did you sleep well?"
-            },
-            {
-              "persian": "صبحونه چی داریم؟",
-              "pronunciation": "sobhooneh chee dahrim?",
-              "english": "What do we have for breakfast?"
-            }
-          ],
-          "practiceWords": [
-            "صبح بخیر",
-            "خسته",
-            "بیدار",
-            "بلند شو",
-            "بیا"
-          ],
-          "massNote": "Sam is practicing morning greetings and wake-up commands. Chat normally — he knows the basics."
-        },
-        {
-          "type": "check",
-          "title": "Day 1 Check",
-          "questions": [
-            {
-              "question": "How do you say \"get up\" in spoken Farsi?",
-              "options": [
-                "بشین",
-                "بلند شو",
-                "بیا",
-                "برو"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "What does خسته‌ام mean?",
-              "options": [
-                "I'm hungry",
-                "I'm happy",
-                "I'm tired",
-                "I'm upset"
-              ],
-              "correct": 2
-            },
-            {
-              "question": "Which is the correct command for \"come here\"?",
-              "options": [
-                "برو اینجا",
-                "بیا اینجا",
-                "بشین اینجا",
-                "ببین اینجا"
-              ],
-              "correct": 1
-            }
-          ]
-        }
-      ]
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 6,
+     "instruction": "Yesterday’s words and some old friends from Mango."
     },
     {
-      "number": 2,
-      "title": "صبحونه حاضره",
-      "subtitle": "Breakfast is Ready",
-      "objective": "Talk about hunger and thirst, use commands at the breakfast table",
-      "newWordIds": [
-        1001,
-        1002,
-        1017,
-        1009,
-        1011,
-        1012
-      ],
-      "reviewWordIds": [
-        12,
-        15,
-        16,
-        285,
-        290
-      ],
-      "steps": [
-        {
-          "type": "listen",
-          "title": "Listen First",
-          "instruction": "Sam finally gets to the table. Listen to what happens next.",
-          "audio": null,
-          "lines": [
-            {
-              "speaker": "Mass",
-              "persian": "بیا چای بخور. تشنه نیستی؟",
-              "pronunciation": "bee-ah chahy bokhor. teshneh neestee?",
-              "english": "Come drink tea. Aren't you thirsty?",
-              "audio": "audio/ch1_dial_5.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "آره، ممنون. گشنمم.",
-              "pronunciation": "ah-reh, mamnoon. goshnam-am.",
-              "english": "Yes, thanks. I'm hungry too.",
-              "audio": "audio/ch1_dial_6.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بشین، الان میارم.",
-              "pronunciation": "beshin, alahn mee-ahram.",
-              "english": "Sit down, I'll bring it now.",
-              "audio": "audio/ch1_dial_7.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "خوشحالم. ممنون!",
-              "pronunciation": "khosh-hahlam. mamnoon!",
-              "english": "I'm happy. Thanks!",
-              "audio": "audio/ch1_dial_8.mp3"
-            }
-          ]
-        },
-        {
-          "type": "words",
-          "title": "New Words",
-          "instruction": "The breakfast table words. Tap to hear, then practice."
-        },
-        {
-          "type": "pattern",
-          "title": "The Pattern: More Commands + \"Don't\"",
-          "content": "<p>You already know <strong>بیا</strong> and <strong>برو</strong>. Now add three more:</p><ul><li><strong>بشین</strong> <em>beshin</em> — sit down!</li><li><strong>صبر کن</strong> <em>sabr kon</em> — wait!</li><li><strong>ببین</strong> <em>bebin</em> — look!</li></ul><p>To say <strong>don't</strong>, swap <strong>بـ</strong> for <strong>نـ</strong> (na-):</p>",
-          "examples": [
-            {
-              "persian": "بشین صبحونه بخور.",
-              "pronunciation": "beshin sobhooneh bokhor.",
-              "english": "Sit down and eat breakfast.",
-              "audio": "audio/ch1_gram_3.mp3"
-            },
-            {
-              "persian": "صبر کن، الان میام.",
-              "pronunciation": "sabr kon, alahn mee-ahm.",
-              "english": "Wait, I'm coming now.",
-              "audio": "audio/ch1_gram_5.mp3"
-            },
-            {
-              "persian": "ببین چی درست کردم.",
-              "pronunciation": "bebin chee dorost kardam.",
-              "english": "Look what I made.",
-              "audio": "audio/ch1_gram_6.mp3"
-            }
-          ],
-          "note": "The negative pattern: بشین (sit!) → نشین (don't sit!). The بـ becomes نـ."
-        },
-        {
-          "type": "grammar",
-          "title": "Verb Forms: At the Table",
-          "explanation": "<p>Three more commands for breakfast. Notice the pattern: <strong>بـ + present stem</strong> for regular verbs. To say \"don't,\" swap بـ for <strong>نـ</strong>.</p>",
-          "tables": [
-            {
-              "verb": "نشستن",
-              "verbPronunciation": "neshastan",
-              "meaning": "to sit",
-              "stem": "شین",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "بشین",
-                  "pronunciation": "besheen",
-                  "english": "sit!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "بشینید",
-                  "pronunciation": "besheeneed",
-                  "english": "sit! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "نشین",
-                  "pronunciation": "nasheen",
-                  "english": "don't sit!"
-                }
-              ]
-            },
-            {
-              "verb": "خوردن",
-              "verbPronunciation": "khordan",
-              "meaning": "to eat",
-              "stem": "خور",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "بخور",
-                  "pronunciation": "bokhor",
-                  "english": "eat!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "بخورید",
-                  "pronunciation": "bokhoreed",
-                  "english": "eat! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "نخور",
-                  "pronunciation": "nakhor",
-                  "english": "don't eat!"
-                }
-              ]
-            },
-            {
-              "verb": "صبر کردن",
-              "verbPronunciation": "sabr kardan",
-              "meaning": "to wait",
-              "stem": "کن",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "صبر کن",
-                  "pronunciation": "sabr kon",
-                  "english": "wait!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "صبر کنید",
-                  "pronunciation": "sabr koneed",
-                  "english": "wait! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "صبر نکن",
-                  "pronunciation": "sabr nakon",
-                  "english": "don't wait!"
-                }
-              ]
-            },
-            {
-              "verb": "دیدن",
-              "verbPronunciation": "deedan",
-              "meaning": "to see / look",
-              "stem": "بین",
-              "rows": [
-                {
-                  "label": "تو (you, informal)",
-                  "persian": "ببین",
-                  "pronunciation": "bebeen",
-                  "english": "look!"
-                },
-                {
-                  "label": "شما (you, formal)",
-                  "persian": "ببینید",
-                  "pronunciation": "bebeeneed",
-                  "english": "look! (formal)"
-                },
-                {
-                  "label": "منفی (don't)",
-                  "persian": "نبین",
-                  "pronunciation": "nabeen",
-                  "english": "don't look!"
-                }
-              ]
-            }
-          ],
-          "note": "صبر کردن is a compound verb like بلند شدن — only the کردن part conjugates. The negative goes on the helper: صبر نکن."
-        },
-        {
-          "type": "drill",
-          "title": "Practice",
-          "exercises": [
-            {
-              "type": "multiple-choice",
-              "prompt": "Mass says: بشین. She wants you to:",
-              "options": [
-                "Get up",
-                "Look",
-                "Sit down",
-                "Wait"
-              ],
-              "correct": 2
-            },
-            {
-              "type": "translate",
-              "prompt": "How do you say <strong>\"I'm hungry\"</strong>?",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "من گشنمه"
-            },
-            {
-              "type": "fill-blank",
-              "prompt": "_____ بخور. تشنه نیستی؟ (Come drink tea. Aren't you thirsty?)",
-              "placeholder": "One verb...",
-              "rtl": true,
-              "answer": "بیا چای"
-            },
-            {
-              "type": "dictation",
-              "instruction": "Listen and type what you hear.",
-              "audio": "audio/ch1_dict_2.mp3",
-              "answer": "من گشنمه"
-            },
-            {
-              "type": "dictation",
-              "instruction": "Listen and type what you hear.",
-              "audio": "audio/ch1_dict_3.mp3",
-              "answer": "صبر کن"
-            },
-            {
-              "type": "multiple-choice",
-              "prompt": "What does صبحونه mean?",
-              "options": [
-                "Lunch",
-                "Dinner",
-                "Breakfast",
-                "Snack"
-              ],
-              "correct": 2
-            }
-          ]
-        },
-        {
-          "type": "speak",
-          "title": "Speak",
-          "instruction": "You sit down for breakfast. Ask for tea, say you're hungry, say thank you.",
-          "timeLimit": 30,
-          "hints": [
-            "چای",
-            "گشنمه",
-            "ممنون",
-            "لطفاً"
-          ],
-          "model": {
-            "persian": "لطفاً یه کم چای بده. گشنمه. ممنون!",
-            "pronunciation": "lotfan yeh kam chahy bedeh. goshnameh. mamnoon!",
-            "english": "Please give me some tea. I'm hungry. Thanks!"
-          }
-        },
-        {
-          "type": "writing",
-          "title": "The Alphabet: ت ن م",
-          "instruction": "Three more letters from this week's vocabulary. Pay attention to the dots — they're the only difference between some of these shapes.",
-          "letters": [
-            {
-              "letter": "ت",
-              "name": "te",
-              "sound": "t (like English t)",
-              "forms": {
-                "isolated": "ت",
-                "initial": "تـ",
-                "medial": "ـتـ",
-                "final": "ـت"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "تشنه",
-                  "meaning": "thirsty",
-                  "pronunciation": "teshneh"
-                },
-                {
-                  "word": "خسته",
-                  "meaning": "tired",
-                  "pronunciation": "khasteh"
-                }
-              ],
-              "tip": "Same body as ب and پ, but two dots above. At the end of a word it often looks like ـه."
-            },
-            {
-              "letter": "ن",
-              "name": "noon",
-              "sound": "n (like English n)",
-              "forms": {
-                "isolated": "ن",
-                "initial": "نـ",
-                "medial": "ـنـ",
-                "final": "ـن"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "نه",
-                  "meaning": "no",
-                  "pronunciation": "nah"
-                },
-                {
-                  "word": "ناراحت",
-                  "meaning": "upset",
-                  "pronunciation": "nah-rah-hat"
-                },
-                {
-                  "word": "ممنون",
-                  "meaning": "thank you",
-                  "pronunciation": "mamnoon"
-                }
-              ],
-              "tip": "One dot above, with a deeper bowl shape than ب. In initial form (نـ) it can look like بـ — watch for the dot position."
-            },
-            {
-              "letter": "م",
-              "name": "mim",
-              "sound": "m (like English m)",
-              "forms": {
-                "isolated": "م",
-                "initial": "مـ",
-                "medial": "ـمـ",
-                "final": "ـم"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "من",
-                  "meaning": "I / me",
-                  "pronunciation": "man"
-                },
-                {
-                  "word": "ممنون",
-                  "meaning": "thank you",
-                  "pronunciation": "mamnoon"
-                },
-                {
-                  "word": "صبحونه",
-                  "meaning": "breakfast",
-                  "pronunciation": "sobhooneh"
-                }
-              ],
-              "tip": "A round loop. In the middle of a word (ـمـ) it's a small bump on the baseline."
-            }
-          ],
-          "practice": [
-            {
-              "prompt": "How many dots does ت have, and where?",
-              "options": [
-                "1 below",
-                "2 above",
-                "3 below",
-                "none"
-              ],
-              "correct": 1
-            },
-            {
-              "prompt": "Which letter starts the word ممنون?",
-              "options": [
-                "ن",
-                "م",
-                "ب",
-                "ت"
-              ],
-              "correct": 1
-            },
-            {
-              "prompt": "Write the word من (I/me).",
-              "type": "write",
-              "answer": "من"
-            }
-          ]
-        },
-        {
-          "type": "talkWithMass",
-          "title": "Talk with Mass",
-          "topic": "At the Table",
-          "openers": [
-            {
-              "persian": "بیا اینجا بشین.",
-              "pronunciation": "bee-ah injah beshin.",
-              "english": "Come sit here."
-            },
-            {
-              "persian": "ببین!",
-              "pronunciation": "bebin!",
-              "english": "Look!"
-            },
-            {
-              "persian": "صبر کن یه کم.",
-              "pronunciation": "sabr kon yeh kam.",
-              "english": "Wait a little."
-            }
-          ],
-          "practiceWords": [
-            "بشین",
-            "صبر کن",
-            "ببین",
-            "گشنه",
-            "تشنه",
-            "صبحونه"
-          ],
-          "massNote": "Sam is practicing table commands (sit, wait, look) and hunger/thirst words. Give him commands and see if he understands."
-        },
-        {
-          "type": "check",
-          "title": "Day 2 Check",
-          "questions": [
-            {
-              "question": "How do you say \"I'm hungry\" in spoken Farsi?",
-              "options": [
-                "من تشنمه",
-                "من گشنمه",
-                "من خسته‌ام",
-                "من خوشحالم"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "What is the negative of بشین (sit)?",
-              "options": [
-                "مشین",
-                "بنشین",
-                "نشین",
-                "بیشین"
-              ],
-              "correct": 2
-            },
-            {
-              "question": "صبر کن means:",
-              "options": [
-                "Sit down",
-                "Look",
-                "Wait",
-                "Come"
-              ],
-              "correct": 2
-            }
-          ]
-        }
-      ]
+     "type": "listen",
+     "title": "Listen first",
+     "minutes": 3,
+     "audio": "audio/tts/scene_ea05580d02d3.mp3",
+     "instruction": "Breakfast. Listen twice, then tap lines for the English.",
+     "lines": [
+      {
+       "fa": "صبحونه حاضره. بیا بشین.",
+       "tr": "sobhune hāzere. biyā beshin.",
+       "en": "Breakfast is ready. Come sit.",
+       "audio": "audio/tts/b04c291d37cd.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "چای هست؟",
+       "tr": "chāy hast?",
+       "en": "Is there tea?",
+       "audio": "audio/tts/19c10ce5f8b3.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "آره. یه کم صبر کن.",
+       "tr": "āre. ye kam sabr kon.",
+       "en": "Yes. Wait a little.",
+       "audio": "audio/tts/2dfa1d59c944.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "نون و پنیر هم هست؟",
+       "tr": "nun-o panir ham hast?",
+       "en": "Is there bread and cheese too?",
+       "audio": "audio/tts/955eea307a65.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "آره عزیزم. بشین، بخور.",
+       "tr": "āre azizam. beshin, bokhor.",
+       "en": "Yes, dear. Sit, eat.",
+       "audio": "audio/tts/793e8ba3c259.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "ممنون! دوباره چای!",
+       "tr": "mamnun! dobāre chāy!",
+       "en": "Thanks! Tea again!",
+       "audio": "audio/tts/178e610286bb.mp3",
+       "speaker": "Sam"
+      }
+     ]
     },
     {
-      "number": 3,
-      "title": "حالت چطوره؟",
-      "subtitle": "How Are You?",
-      "objective": "Express feelings and use modifiers like \"a little\" and \"again\"",
-      "newWordIds": [
-        1003,
-        1004,
-        1013,
-        1014,
-        1015,
-        1016
-      ],
-      "reviewWordIds": [
-        3,
-        21,
-        448
-      ],
-      "steps": [
-        {
-          "type": "listen",
-          "title": "Listen Again",
-          "instruction": "Listen to the full morning dialogue one more time. Now you know most of the words — how much more do you catch?",
-          "audio": "audio/ch1_dialogue.mp3",
-          "lines": [
-            {
-              "speaker": "Mass",
-              "persian": "صبح بخیر! بیدار شو.",
-              "pronunciation": "sobh bekheyr! bee-dahr sho.",
-              "english": "Good morning! Wake up.",
-              "audio": "audio/ch1_dial_1.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "صبح بخیر... خسته‌ام.",
-              "pronunciation": "sobh bekheyr... khasteh-am.",
-              "english": "Good morning... I'm tired.",
-              "audio": "audio/ch1_dial_2.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بلند شو، صبحونه حاضره.",
-              "pronunciation": "boland sho, sobhooneh hahzereh.",
-              "english": "Get up, breakfast is ready.",
-              "audio": "audio/ch1_dial_3.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "صبر کن، یه کم.",
-              "pronunciation": "sabr kon, yeh kam.",
-              "english": "Wait, a little.",
-              "audio": "audio/ch1_dial_4.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بیا چای بخور. تشنه نیستی؟",
-              "pronunciation": "bee-ah chahy bokhor. teshneh neestee?",
-              "english": "Come drink tea. Aren't you thirsty?",
-              "audio": "audio/ch1_dial_5.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "آره، ممنون. گشنمم.",
-              "pronunciation": "ah-reh, mamnoon. goshnam-am.",
-              "english": "Yes, thanks. I'm hungry too.",
-              "audio": "audio/ch1_dial_6.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بشین، الان میارم.",
-              "pronunciation": "beshin, alahn mee-ahram.",
-              "english": "Sit down, I'll bring it now.",
-              "audio": "audio/ch1_dial_7.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "خوشحالم. ممنون!",
-              "pronunciation": "khosh-hahlam. mamnoon!",
-              "english": "I'm happy. Thanks!",
-              "audio": "audio/ch1_dial_8.mp3"
-            }
-          ]
-        },
-        {
-          "type": "words",
-          "title": "New Words",
-          "instruction": "Today's words are about feelings and useful modifiers."
-        },
-        {
-          "type": "pattern",
-          "title": "The Pattern: Negatives + Modifiers",
-          "content": "<p>You've learned commands. Now learn to <strong>soften</strong> and <strong>negate</strong> them:</p><ul><li><strong>عجله نکن</strong> <em>ajaleh nakon</em> — Don't hurry (نکن = don't do)</li><li><strong>دوباره بگو</strong> <em>dobah-reh begoo</em> — Say it again</li><li><strong>یه کم صبر کن</strong> <em>yeh kam sabr kon</em> — Wait a little</li></ul><p><strong>یه کم</strong> (a little) and <strong>دوباره</strong> (again) are modifiers you can add to almost any sentence to make it more natural.</p>",
-          "examples": [
-            {
-              "persian": "عجله نکن.",
-              "pronunciation": "ajaleh nakon.",
-              "english": "Don't hurry.",
-              "audio": "audio/ch1_gram_7.mp3"
-            },
-            {
-              "persian": "دوباره بگو.",
-              "pronunciation": "dobah-reh begoo.",
-              "english": "Say it again.",
-              "audio": "audio/ch1_gram_8.mp3"
-            },
-            {
-              "persian": "یه کم صبر کن.",
-              "pronunciation": "yeh kam sabr kon.",
-              "english": "Wait a little."
-            }
-          ],
-          "note": "حوصله ندارم (howseleh nadahram) means \"I have no patience\" or \"I'm bored\" — you'll use this one a lot!"
-        },
-        {
-          "type": "grammar",
-          "title": "Verb Forms: How You Feel",
-          "explanation": "<p>To say how you feel, attach the <strong>short pronoun suffix</strong> to the adjective. This is like saying \"tired-am\" instead of \"I am tired.\" Here's the full pattern with خسته (tired):</p>",
-          "tables": [
-            {
-              "verb": "بودن",
-              "verbPronunciation": "boodan",
-              "meaning": "to be (with adjectives)",
-              "stem": "—",
-              "columns": [
-                "Person",
-                "Suffix",
-                "Example",
-                "Pronunciation",
-                "English"
-              ],
-              "rows": [
-                {
-                  "label": "من (I)",
-                  "persian": "ـَم",
-                  "example": "خسته‌ام",
-                  "pronunciation": "khasteh-am",
-                  "english": "I'm tired"
-                },
-                {
-                  "label": "تو (you)",
-                  "persian": "ـی",
-                  "example": "خسته‌ای",
-                  "pronunciation": "khasteh-ee",
-                  "english": "you're tired"
-                },
-                {
-                  "label": "اون (he/she)",
-                  "persian": "ـه / ـست",
-                  "example": "خسته‌ست",
-                  "pronunciation": "khasteh-st",
-                  "english": "he/she is tired"
-                },
-                {
-                  "label": "ما (we)",
-                  "persian": "ـیم",
-                  "example": "خسته‌ایم",
-                  "pronunciation": "khasteh-eem",
-                  "english": "we're tired"
-                },
-                {
-                  "label": "شما (you pl.)",
-                  "persian": "ـید",
-                  "example": "خسته‌اید",
-                  "pronunciation": "khasteh-eed",
-                  "english": "you're tired"
-                },
-                {
-                  "label": "اونا (they)",
-                  "persian": "ـن",
-                  "example": "خسته‌ان",
-                  "pronunciation": "khasteh-an",
-                  "english": "they're tired"
-                }
-              ]
-            }
-          ],
-          "note": "This works with any adjective: گشنمه (I'm hungry), تشنته (you're thirsty), خوشحالم (I'm happy), ناراحته (he/she is upset). In casual speech, من گشنمه is more natural than من گشنه‌ام."
-        },
-        {
-          "type": "drill",
-          "title": "Practice",
-          "exercises": [
-            {
-              "type": "translate",
-              "prompt": "How do you say <strong>\"Don't hurry\"</strong>?",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "عجله نکن"
-            },
-            {
-              "type": "multiple-choice",
-              "prompt": "What does خوشحالم mean?",
-              "options": [
-                "I'm tired",
-                "I'm upset",
-                "I'm happy",
-                "I'm hungry"
-              ],
-              "correct": 2
-            },
-            {
-              "type": "fill-blank",
-              "prompt": "_____ بگو. (Say it again.)",
-              "placeholder": "One word...",
-              "rtl": true,
-              "answer": "دوباره"
-            },
-            {
-              "type": "multiple-choice",
-              "prompt": "حوصله ندارم means:",
-              "options": [
-                "I'm happy",
-                "I'm bored / I have no patience",
-                "I'm in a hurry",
-                "I'm hungry"
-              ],
-              "correct": 1
-            },
-            {
-              "type": "translate",
-              "prompt": "How do you say <strong>\"Why are you upset?\"</strong>",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "چرا ناراحتی"
-            },
-            {
-              "type": "dictation",
-              "instruction": "Listen and type what you hear.",
-              "audio": "audio/ch1_dict_4.mp3",
-              "answer": "بیا اینجا"
-            }
-          ]
-        },
-        {
-          "type": "read",
-          "title": "Read",
-          "instruction": "Read this passage. It uses only words you know. Try reading it aloud before checking the translation.",
-          "text": {
-            "persian": "صبح بخیر! بلند شو. صبحونه حاضره. بیا بشین. چای می‌خوای؟ آره ممنون. من گشنمه. صبر کن الان میارم. ببین چی درست کردم. خوشحالم ممنون!",
-            "pronunciation": "sobh bekheyr! boland sho. sobhooneh hahzereh. bee-ah beshin. chahy mee-khahy? ah-reh mamnoon. man goshnameh. sabr kon alahn mee-ahram. bebin chee dorost kardam. khosh-hahlam mamnoon!",
-            "english": "Good morning! Get up. Breakfast is ready. Come sit down. Do you want tea? Yes, thanks. I'm hungry. Wait, I'll bring it now. Look what I made. I'm happy, thanks!"
-          }
-        },
-        {
-          "type": "speak",
-          "title": "Speak",
-          "instruction": "Describe how you're feeling right now. Use at least three feeling words. Try to add یه کم or دوباره.",
-          "timeLimit": 45,
-          "hints": [
-            "خوشحال",
-            "خسته",
-            "ناراحت",
-            "یه کم",
-            "حوصله"
-          ],
-          "model": {
-            "persian": "من یه کم خسته‌ام ولی خوشحالم. حوصله ندارم. دوباره چای می‌خوام.",
-            "pronunciation": "man yeh kam khasteh-am valee khosh-hahlam. howseleh nadahram. dobah-reh chahy mee-khahm.",
-            "english": "I'm a little tired but I'm happy. I'm bored. I want tea again."
-          }
-        },
-        {
-          "type": "writing",
-          "title": "The Alphabet: خ چ ش",
-          "instruction": "Today's letters include some sounds that don't exist in English. Listen to the words to hear the difference.",
-          "letters": [
-            {
-              "letter": "خ",
-              "name": "khe",
-              "sound": "kh (back-of-throat h, like clearing your throat gently)",
-              "forms": {
-                "isolated": "خ",
-                "initial": "خـ",
-                "medial": "ـخـ",
-                "final": "ـخ"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "خسته",
-                  "meaning": "tired",
-                  "pronunciation": "khasteh"
-                },
-                {
-                  "word": "خوشحال",
-                  "meaning": "happy",
-                  "pronunciation": "khosh-hahl"
-                },
-                {
-                  "word": "خونه",
-                  "meaning": "house",
-                  "pronunciation": "khooneh"
-                }
-              ],
-              "tip": "Same shape as ح and ج but with a dot above. kh is NOT like English k — it's the sound you make when you say 'Bach' in German."
-            },
-            {
-              "letter": "چ",
-              "name": "che",
-              "sound": "ch (like English 'ch' in 'chair')",
-              "forms": {
-                "isolated": "چ",
-                "initial": "چـ",
-                "medial": "ـچـ",
-                "final": "ـچ"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "چای",
-                  "meaning": "tea",
-                  "pronunciation": "chahy"
-                },
-                {
-                  "word": "چطوره",
-                  "meaning": "how is it?",
-                  "pronunciation": "chetoreh"
-                }
-              ],
-              "tip": "Same shape as ج and خ but with three dots below. Like پ, this letter is uniquely Persian — Arabic doesn't have it."
-            },
-            {
-              "letter": "ش",
-              "name": "shin",
-              "sound": "sh (like English 'sh' in 'ship')",
-              "forms": {
-                "isolated": "ش",
-                "initial": "شـ",
-                "medial": "ـشـ",
-                "final": "ـش"
-              },
-              "connectsLeft": true,
-              "examples": [
-                {
-                  "word": "بلند شو",
-                  "meaning": "get up!",
-                  "pronunciation": "boland sho"
-                },
-                {
-                  "word": "بشین",
-                  "meaning": "sit!",
-                  "pronunciation": "besheen"
-                },
-                {
-                  "word": "گشنه",
-                  "meaning": "hungry",
-                  "pronunciation": "goshneh"
-                }
-              ],
-              "tip": "Three teeth with three dots above. Compare with س (same shape, no dots)."
-            }
-          ],
-          "practice": [
-            {
-              "prompt": "Which letter makes the 'kh' sound?",
-              "options": [
-                "ک",
-                "خ",
-                "ح",
-                "چ"
-              ],
-              "correct": 1
-            },
-            {
-              "prompt": "How is چ different from ج?",
-              "options": [
-                "Dot above vs below",
-                "3 dots below vs 1 dot below",
-                "Different shape",
-                "No difference"
-              ],
-              "correct": 1
-            },
-            {
-              "prompt": "Write the word چای (tea).",
-              "type": "write",
-              "answer": "چای"
-            }
-          ]
-        },
-        {
-          "type": "talkWithMass",
-          "title": "Talk with Mass",
-          "topic": "Feelings",
-          "openers": [
-            {
-              "persian": "حالت خوبه؟",
-              "pronunciation": "hahlet khoobeh?",
-              "english": "Are you OK?"
-            },
-            {
-              "persian": "خسته‌ای؟",
-              "pronunciation": "khasteh-ee?",
-              "english": "Are you tired?"
-            },
-            {
-              "persian": "من خوشحالم.",
-              "pronunciation": "man khosh-hahlam.",
-              "english": "I'm happy."
-            }
-          ],
-          "practiceWords": [
-            "خوشحال",
-            "ناراحت",
-            "حوصله",
-            "دوباره",
-            "یه کم",
-            "عجله"
-          ],
-          "massNote": "Sam is practicing feelings: happy, upset, bored, and modifiers like \"a little\" and \"again.\" Ask him how he feels and why."
-        },
-        {
-          "type": "check",
-          "title": "Day 3 Check",
-          "questions": [
-            {
-              "question": "How do you say \"say it again\"?",
-              "options": [
-                "یه کم بگو",
-                "بیا بگو",
-                "دوباره بگو",
-                "صبر کن بگو"
-              ],
-              "correct": 2
-            },
-            {
-              "question": "What does ناراحت mean?",
-              "options": [
-                "Tired",
-                "Happy",
-                "Upset",
-                "Bored"
-              ],
-              "correct": 2
-            },
-            {
-              "question": "عجله نکن means:",
-              "options": [
-                "Don't sit",
-                "Don't hurry",
-                "Don't look",
-                "Don't come"
-              ],
-              "correct": 1
-            }
-          ]
-        }
-      ]
+     "type": "words",
+     "title": "New words",
+     "minutes": 4,
+     "instruction": "Five words for the table."
     },
     {
-      "number": 4,
-      "title": "قصه صبح بخیر",
-      "subtitle": "Story Time",
-      "objective": "Follow a story using all the words you've learned, and learn about taarof",
-      "newWordIds": [],
-      "reviewWordIds": [],
-      "steps": [
-        {
-          "type": "story",
-          "title": "صبح بخیر — Episode 1",
-          "subtitle": "A morning in the kitchen",
-          "instruction": "Listen to the story first, then read along. Every word is one you've already learned.",
-          "audio": "audio/ch1_story.mp3",
-          "lines": [
-            {
-              "persian": "صبح بود. خونه ساکت بود.",
-              "pronunciation": "sobh bood. khooneh sahket bood.",
-              "english": "It was morning. The house was quiet."
-            },
-            {
-              "speaker": "مسعومه",
-              "persian": "بلند شو! صبح بخیر!",
-              "pronunciation": "boland sho! sobh bekheyr!",
-              "english": "Get up! Good morning!"
-            },
-            {
-              "speaker": "سام",
-              "persian": "صبح بخیر... خسته‌ام.",
-              "pronunciation": "sobh bekheyr... khasteh-am.",
-              "english": "Good morning... I'm tired."
-            },
-            {
-              "speaker": "مسعومه",
-              "persian": "بیا صبحونه بخور. گشنه نیستی؟",
-              "pronunciation": "bee-ah sobhooneh bokhor. goshneh neestee?",
-              "english": "Come eat breakfast. Aren't you hungry?"
-            },
-            {
-              "speaker": "سام",
-              "persian": "آره، خیلی گشنمه. چای هم هست؟",
-              "pronunciation": "ah-reh, kheylee goshnameh. chahy ham hast?",
-              "english": "Yes, I'm very hungry. Is there tea too?"
-            },
-            {
-              "speaker": "مسعومه",
-              "persian": "آره، بشین. الان میارم.",
-              "pronunciation": "ah-reh, beshin. alahn mee-ahram.",
-              "english": "Yes, sit down. I'll bring it now."
-            },
-            {
-              "persian": "سام نشست. چای خورد. خوشحال بود.",
-              "pronunciation": "sahm neshasht. chahy khord. khosh-hahl bood.",
-              "english": "Sam sat down. He drank tea. He was happy."
-            },
-            {
-              "speaker": "سام",
-              "persian": "ممنون! خوشحالم.",
-              "pronunciation": "mamnoon! khosh-hahlam.",
-              "english": "Thanks! I'm happy."
-            },
-            {
-              "speaker": "مسعومه",
-              "persian": "خواهش می‌کنم. عجله نکن.",
-              "pronunciation": "khahesh mee-konam. ajaleh nakon.",
-              "english": "You're welcome. Don't hurry."
-            }
-          ],
-          "questions": [
-            {
-              "question": "How did Sam feel when he woke up?",
-              "options": [
-                "Happy",
-                "Tired",
-                "Hungry",
-                "Thirsty"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "What did Mass tell Sam to do?",
-              "options": [
-                "Go to work",
-                "Come eat breakfast",
-                "Wait outside",
-                "Look at the garden"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "How did Sam feel after eating?",
-              "options": [
-                "Tired",
-                "Upset",
-                "Happy",
-                "Thirsty"
-              ],
-              "correct": 2
-            }
-          ]
-        },
-        {
-          "type": "culture",
-          "title": "Culture: Taarof at Breakfast",
-          "content": "<p><strong>Taarof</strong> (تعارف) is the art of politeness in Persian culture. You'll hear it everywhere — at the table, at the door, even at the store. It's not just manners; it's a rhythm that every Iranian learns from childhood.</p><p>At breakfast, if Mass offers you tea, the taarof way is to first decline:</p><div class='culture-example'><div class='example-persian'>نه ممنون، زحمت نکش.</div><div class='pronunciation'>nah mamnoon, zahmat nakesh.</div><div>No thanks, don't trouble yourself.</div></div><p>Mass will insist — maybe two or three times. This is normal. When you finally accept, you show gratitude:</p><div class='culture-example'><div class='example-persian'>دستت درد نکنه.</div><div class='pronunciation'>dastet dard nakoneh.</div><div>Literally: \"May your hand not hurt.\" (Thank you for the effort.)</div></div><p>You'll hear <strong>خواهش می‌کنم</strong> (<em>khahesh mee-konam</em>) constantly — it means \"you're welcome\" but literally \"I beg of you.\" That captures the taarof spirit: everything is offered as if the other person is doing you a favor by accepting.</p><p><strong>Tip:</strong> You don't need to do full taarof with Mass at home — she'll laugh if you refuse tea three times! But notice when she does it with guests or on the phone. It's one of the most beautiful parts of Persian culture.</p>"
-        },
-        {
-          "type": "drill",
-          "title": "Review Drill",
-          "exercises": [
-            {
-              "type": "multiple-choice",
-              "prompt": "In the story, what was the house like in the morning?",
-              "options": [
-                "Noisy",
-                "Quiet",
-                "Cold",
-                "Dark"
-              ],
-              "correct": 1
-            },
-            {
-              "type": "translate",
-              "prompt": "How do you say <strong>\"You're welcome\"</strong> (the taarof way)?",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "خواهش می‌کنم"
-            },
-            {
-              "type": "fill-blank",
-              "prompt": "دستت درد _____. (May your hand not hurt.)",
-              "placeholder": "One word...",
-              "rtl": true,
-              "answer": "نکنه"
-            },
-            {
-              "type": "multiple-choice",
-              "prompt": "When someone offers you tea using taarof, the polite first response is to:",
-              "options": [
-                "Accept immediately",
-                "Decline politely",
-                "Ask for coffee instead",
-                "Say nothing"
-              ],
-              "correct": 1
-            }
-          ]
-        },
-        {
-          "type": "talkWithMass",
-          "title": "Talk with Mass",
-          "topic": "Taarof Practice",
-          "openers": [
-            {
-              "persian": "چای می‌خوای؟",
-              "pronunciation": "chahy mee-khahy?",
-              "english": "Do you want tea?"
-            },
-            {
-              "persian": "ممنون، لطفاً.",
-              "pronunciation": "mamnoon, lotfan.",
-              "english": "Thanks, please."
-            },
-            {
-              "persian": "خیلی خوشمزه‌ست.",
-              "pronunciation": "kheylee khosh-mazeh-st.",
-              "english": "It's very delicious."
-            }
-          ],
-          "practiceWords": [
-            "ممنون",
-            "لطفاً",
-            "خواهش می‌کنم",
-            "چای",
-            "آب"
-          ],
-          "massNote": "Sam learned about taarof today! Offer him something and see if he tries to decline first, then accept. It's OK to laugh."
-        },
-        {
-          "type": "check",
-          "title": "Day 4 Check",
-          "questions": [
-            {
-              "question": "What does تعارف (taarof) mean?",
-              "options": [
-                "Cooking",
-                "The art of politeness",
-                "A greeting",
-                "A command"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "\"دستت درد نکنه\" literally means:",
-              "options": [
-                "You're welcome",
-                "May your hand not hurt",
-                "Don't hurry",
-                "Thank you"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "In the story, what did Mass say at the very end?",
-              "options": [
-                "بلند شو",
-                "خواهش می‌کنم. عجله نکن.",
-                "بشین",
-                "صبح بخیر"
-              ],
-              "correct": 1
-            }
-          ]
-        }
-      ]
+     "type": "verbs",
+     "title": "Verb lab: become and sit",
+     "minutes": 8,
+     "verbs": [
+      "shodan",
+      "neshastan"
+     ],
+     "intro": "<b>shodan</b> means “to become,” and it’s the engine behind half of yesterday’s words. Put an adjective in front and only shodan conjugates: <b>boland</b> (tall) + shodan = get up; <b>bidār</b> (awake) + shodan = wake up. Switch between them with the tabs and watch only the second word change. In these compounds the command drops its be-: boland sho, not boland besho.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "shodan",
+       "variant": "boland_shodan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "shodan",
+       "variant": "bidar_shodan",
+       "tense": "past",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "neshastan",
+       "variant": "neshastan",
+       "tense": "past",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "neshastan",
+       "variant": "neshastan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "shodan",
+       "variant": "boland_shodan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "neshastan",
+       "variant": "neshastan",
+       "tense": "present",
+       "person": 5
+      },
+      {
+       "type": "conj",
+       "verb": "shodan",
+       "variant": "bidar_shodan",
+       "tense": "neg_past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "neshastan",
+       "variant": "neshastan",
+       "tense": "imperative",
+       "person": 1
+      }
+     ]
     },
     {
-      "number": 5,
-      "title": "همه با هم",
-      "subtitle": "All Together",
-      "objective": "Use everything from this week fluently — and teach some to your girls",
-      "newWordIds": [],
-      "reviewWordIds": [],
-      "steps": [
+     "type": "ear",
+     "title": "Ear gym: kh or h?",
+     "minutes": 3,
+     "instruction": "Persian kh (خ) is a scrape at the back of the throat, like the ch in Bach. Plain h (ح or ه) is just breath. Mass’s “hālet chetore” starts with breath, not a scrape.",
+     "pairs": [
+      {
+       "a": {
+        "fa": "خال",
+        "tr": "khāl",
+        "en": "a mole, beauty mark",
+        "audio": "audio/tts/e77e6263eba3.mp3",
+        "audio2": "audio/tts/5b3b35331359.mp3"
+       },
+       "b": {
+        "fa": "حال",
+        "tr": "hāl",
+        "en": "state, condition",
+        "audio": "audio/tts/cbf035a8d504.mp3",
+        "audio2": "audio/tts/8396e17598c8.mp3"
+       },
+       "contrast": "kh / h"
+      },
+      {
+       "a": {
+        "fa": "خر",
+        "tr": "khar",
+        "en": "donkey",
+        "audio": "audio/tts/106912f8d96d.mp3",
+        "audio2": "audio/tts/d29f8f066880.mp3"
+       },
+       "b": {
+        "fa": "هر",
+        "tr": "har",
+        "en": "every",
+        "audio": "audio/tts/f92cbe62aa43.mp3",
+        "audio2": "audio/tts/c442d823b86c.mp3"
+       },
+       "contrast": "kh / h"
+      },
+      {
+       "a": {
+        "fa": "خواب",
+        "tr": "khāb",
+        "en": "sleep",
+        "audio": "audio/tts/2b14380fbcb3.mp3",
+        "audio2": "audio/tts/9622522d34d8.mp3"
+       },
+       "b": {
+        "fa": "آب",
+        "tr": "āb",
+        "en": "water",
+        "audio": "audio/tts/82f7f801475f.mp3",
+        "audio2": "audio/tts/0b7183171cb5.mp3"
+       },
+       "contrast": "kh / nothing"
+      }
+     ],
+     "rounds": 6
+    },
+    {
+     "type": "script",
+     "title": "Reading: ت ث ن ی",
+     "minutes": 6,
+     "letters": [
+      {
+       "ch": "ت",
+       "name": "te",
+       "sound": "t",
+       "forms": {
+        "initial": "تـ",
+        "medial": "ـتـ",
+        "final": "ـت",
+        "isolated": "ت"
+       },
+       "connects": true,
+       "tip": "The boat again, with two dots on top. Below means b or p; above means t, s, or n.",
+       "examples": [
         {
-          "type": "listen",
-          "title": "Full Dialogue — No English",
-          "instruction": "Listen to the full morning dialogue one last time. This time, try to understand everything without reading the English.",
-          "audio": "audio/ch1_dialogue.mp3",
-          "hideEnglish": true,
-          "lines": [
-            {
-              "speaker": "Mass",
-              "persian": "صبح بخیر! بیدار شو.",
-              "pronunciation": "sobh bekheyr! bee-dahr sho.",
-              "english": "Good morning! Wake up.",
-              "audio": "audio/ch1_dial_1.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "صبح بخیر... خسته‌ام.",
-              "pronunciation": "sobh bekheyr... khasteh-am.",
-              "english": "Good morning... I'm tired.",
-              "audio": "audio/ch1_dial_2.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بلند شو، صبحونه حاضره.",
-              "pronunciation": "boland sho, sobhooneh hahzereh.",
-              "english": "Get up, breakfast is ready.",
-              "audio": "audio/ch1_dial_3.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "صبر کن، یه کم.",
-              "pronunciation": "sabr kon, yeh kam.",
-              "english": "Wait, a little.",
-              "audio": "audio/ch1_dial_4.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بیا چای بخور. تشنه نیستی؟",
-              "pronunciation": "bee-ah chahy bokhor. teshneh neestee?",
-              "english": "Come drink tea. Aren't you thirsty?",
-              "audio": "audio/ch1_dial_5.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "آره، ممنون. گشنمم.",
-              "pronunciation": "ah-reh, mamnoon. goshnam-am.",
-              "english": "Yes, thanks. I'm hungry too.",
-              "audio": "audio/ch1_dial_6.mp3"
-            },
-            {
-              "speaker": "Mass",
-              "persian": "بشین، الان میارم.",
-              "pronunciation": "beshin, alahn mee-ahram.",
-              "english": "Sit down, I'll bring it now.",
-              "audio": "audio/ch1_dial_7.mp3"
-            },
-            {
-              "speaker": "Sam",
-              "persian": "خوشحالم. ممنون!",
-              "pronunciation": "khosh-hahlam. mamnoon!",
-              "english": "I'm happy. Thanks!",
-              "audio": "audio/ch1_dial_8.mp3"
-            }
-          ]
+         "fa": "تاب",
+         "tr": "tāb",
+         "en": "a swing",
+         "audio": "audio/tts/3268934a2cea.mp3"
         },
         {
-          "type": "drill",
-          "title": "Comprehensive Review",
-          "exercises": [
-            {
-              "type": "translate",
-              "prompt": "\"Get up, breakfast is ready.\"",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "بلند شو، صبحونه حاضره"
-            },
-            {
-              "type": "translate",
-              "prompt": "\"Don't hurry.\"",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "عجله نکن"
-            },
-            {
-              "type": "fill-blank",
-              "prompt": "من _____ ولی خوشحالم. (I'm tired but I'm happy.)",
-              "placeholder": "...",
-              "rtl": true,
-              "answer": "خسته‌ام"
-            },
-            {
-              "type": "translate",
-              "prompt": "\"Wait a little.\"",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "یه کم صبر کن"
-            },
-            {
-              "type": "translate",
-              "prompt": "\"Look what I made.\"",
-              "placeholder": "Type in Persian...",
-              "rtl": true,
-              "answer": "ببین چی درست کردم"
-            },
-            {
-              "type": "fill-blank",
-              "prompt": "_____ ندارم. (I'm bored. / I have no patience.)",
-              "placeholder": "...",
-              "rtl": true,
-              "answer": "حوصله"
-            }
-          ]
-        },
-        {
-          "type": "speak",
-          "title": "Free Speaking",
-          "instruction": "Describe your whole morning in Farsi. From waking up to sitting down for breakfast. Use as many words from this week as you can. Aim for at least 6 sentences.",
-          "timeLimit": 60,
-          "hints": [
-            "صبح بخیر",
-            "بلند شو",
-            "خسته",
-            "گشنه",
-            "صبحونه",
-            "بشین",
-            "چای",
-            "خوشحال",
-            "ممنون"
-          ],
-          "model": {
-            "persian": "صبح بخیر. من خسته‌ام ولی بلند شدم. بیا صبحونه بخوریم. گشنمه. لطفاً چای بده. ممنون! خوشحالم. عجله نکن.",
-            "pronunciation": "sobh bekheyr. man khasteh-am valee boland shodam. bee-ah sobhooneh bokhorim. goshnameh. lotfan chahy bedeh. mamnoon! khosh-hahlam. ajaleh nakon.",
-            "english": "Good morning. I'm tired but I got up. Let's eat breakfast. I'm hungry. Please give me tea. Thanks! I'm happy. Don't hurry."
-          }
-        },
-        {
-          "type": "typing",
-          "title": "Write It",
-          "instruction": "Type these phrases in Persian. Use the Persian keyboard.",
-          "exercises": [
-            {
-              "english": "Good morning!",
-              "answer": "صبح بخیر"
-            },
-            {
-              "english": "Get up!",
-              "answer": "بلند شو"
-            },
-            {
-              "english": "Come here.",
-              "answer": "بیا اینجا"
-            },
-            {
-              "english": "I'm hungry.",
-              "answer": "من گشنمه"
-            },
-            {
-              "english": "Wait a little.",
-              "answer": "یه کم صبر کن"
-            }
-          ]
-        },
-        {
-          "type": "teachTheGirls",
-          "title": "Teach the Girls",
-          "instruction": "Teaching someone else is the best way to learn. Here are five words and activities to try with your daughters this week.",
-          "activities": [
-            {
-              "persian": "بیا",
-              "pronunciation": "bee-ah",
-              "english": "Come!",
-              "game": "Play \"Simon Says\" in Farsi. Start with بیا (come!) and برو (go!). Use gestures so they connect the word to the action. Keep switching between the two until they react without thinking."
-            },
-            {
-              "persian": "صبح بخیر",
-              "pronunciation": "sobh bekheyr",
-              "english": "Good morning!",
-              "game": "Every morning this week, say صبح بخیر to each girl when they wake up. By the weekend, see who says it first. Make it a race."
-            },
-            {
-              "persian": "ممنون",
-              "pronunciation": "mamnoon",
-              "english": "Thank you!",
-              "game": "Replace \"thank you\" with ممنون for the whole week. Every time they say thanks in English, say \"In Farsi?\" and wait for ممنون."
-            },
-            {
-              "persian": "آب",
-              "pronunciation": "ahb",
-              "english": "Water",
-              "game": "At meals, ask \"آب می‌خوای؟\" (Do you want water?). They answer آره (yes) or نه (no). Simple call-and-response."
-            },
-            {
-              "persian": "بشین",
-              "pronunciation": "beshin",
-              "english": "Sit down!",
-              "game": "Play musical chairs in Farsi. When the music stops, yell بشین! They'll remember it after one round."
-            }
-          ]
-        },
-        {
-          "type": "talkWithMass",
-          "title": "Talk with Mass",
-          "topic": "Free Conversation",
-          "openers": [
-            {
-              "persian": "امروز چیکار می‌خوای بکنی؟",
-              "pronunciation": "emrooz cheekahr mee-khahy bokonee?",
-              "english": "What do you want to do today?"
-            },
-            {
-              "persian": "بیا بریم بیرون.",
-              "pronunciation": "bee-ah berim biroon.",
-              "english": "Let's go outside."
-            },
-            {
-              "persian": "خوشحالم که باهاتم.",
-              "pronunciation": "khosh-hahlam keh bah-hah-tam.",
-              "english": "I'm happy I'm with you."
-            }
-          ],
-          "practiceWords": [
-            "خوشحال",
-            "بیا",
-            "ببین",
-            "دوباره",
-            "ممنون"
-          ],
-          "massNote": "Today is free conversation! Sam will try to use all the words from this week. Chat naturally and correct him gently when needed."
-        },
-        {
-          "type": "check",
-          "title": "Week 1 Final Check",
-          "description": "Can you do these things in Farsi?",
-          "questions": [
-            {
-              "question": "Say \"Good morning! Get up!\" in Farsi:",
-              "options": [
-                "صبح بخیر! بلند شو!",
-                "سلام! بیا!",
-                "صبح بخیر! برو!",
-                "سلام! بشین!"
-              ],
-              "correct": 0
-            },
-            {
-              "question": "Tell someone you're hungry and ask for tea:",
-              "options": [
-                "خسته‌ام. آب بده.",
-                "گشنمه. چای بده لطفاً.",
-                "خوشحالم. صبحونه بده.",
-                "ناراحتم. آب بده."
-              ],
-              "correct": 1
-            },
-            {
-              "question": "Say \"Wait a little\" and \"Don't hurry\":",
-              "options": [
-                "بیا اینجا. برو.",
-                "دوباره بگو. ببین.",
-                "یه کم صبر کن. عجله نکن.",
-                "بشین. بلند شو."
-              ],
-              "correct": 2
-            }
-          ]
+         "fa": "تب",
+         "tr": "tab",
+         "en": "fever",
+         "audio": "audio/tts/9f44832e8180.mp3"
         }
-      ]
+       ]
+      },
+      {
+       "ch": "ث",
+       "name": "se",
+       "sound": "s (a rare spelling)",
+       "forms": {
+        "initial": "ثـ",
+        "medial": "ـثـ",
+        "final": "ـث",
+        "isolated": "ث"
+       },
+       "connects": true,
+       "tip": "Three dots on top. It sounds exactly like s and shows up only in words borrowed from Arabic, like masalan (for example). Learn to recognize it; you’ll rarely write it.",
+       "examples": []
+      },
+      {
+       "ch": "ن",
+       "name": "nun",
+       "sound": "n",
+       "forms": {
+        "initial": "نـ",
+        "medial": "ـنـ",
+        "final": "ـن",
+        "isolated": "ن"
+       },
+       "connects": true,
+       "tip": "One dot on top. At the end of a word it becomes a deep bowl that dips below the line. In the middle it looks like be with the dot moved upstairs.",
+       "examples": [
+        {
+         "fa": "نان",
+         "tr": "nān",
+         "en": "bread (written; Mass says nun)",
+         "audio": "audio/tts/ef1bec338d68.mp3"
+        },
+        {
+         "fa": "نی",
+         "tr": "ney",
+         "en": "reed flute",
+         "audio": "audio/tts/0cfa21cef0ae.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "ی",
+       "name": "ye",
+       "sound": "y, or the vowel i (and ey at the end of some words)",
+       "forms": {
+        "initial": "یـ",
+        "medial": "ـیـ",
+        "final": "ـی",
+        "isolated": "ی"
+       },
+       "connects": true,
+       "tip": "Two dots below while it’s joining; at the end of a word the Persian ye drops its dots and curls back like a swan. It writes the long i in bidār and biyā.",
+       "examples": [
+        {
+         "fa": "بیا",
+         "tr": "biyā",
+         "en": "come!",
+         "audio": "audio/tts/2a835d31e5d9.mp3"
+        },
+        {
+         "fa": "آبی",
+         "tr": "ābi",
+         "en": "blue",
+         "audio": "audio/tts/e45ac11083b4.mp3"
+        },
+        {
+         "fa": "بینی",
+         "tr": "bini",
+         "en": "nose",
+         "audio": "audio/tts/a010919b3a5a.mp3"
+        }
+       ]
+      }
+     ],
+     "intro": "Four letters that share be’s boat. The dots tell them apart: two on top for t, three on top for s, one on top for n. Ye is the shape-shifter: it’s y, it’s the long i, and at the end of a word it loses its dots. Short vowels (a, e, o) usually aren’t written at all. You supply them from memory of the word, and as a speaker you already have that memory.",
+     "readIt": [
+      {
+       "type": "read",
+       "item": {
+        "fa": "بیا",
+        "tr": "biyā",
+        "audio": "audio/tts/ac9e3ac904cc.mp3"
+       },
+       "options": [
+        "biyā",
+        "bābā",
+        "tāb",
+        "boro"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "نان",
+        "tr": "nān",
+        "audio": "audio/tts/ef1bec338d68.mp3"
+       },
+       "options": [
+        "nān",
+        "bān",
+        "tān",
+        "nun"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "آبی",
+        "tr": "ābi",
+        "audio": "audio/tts/e45ac11083b4.mp3"
+       },
+       "options": [
+        "ābi",
+        "āb",
+        "bini",
+        "tāb"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "نی",
+        "tr": "ney",
+        "audio": "audio/tts/96bcb4bfdead.mp3"
+       },
+       "options": [
+        "ney",
+        "bi",
+        "ti",
+        "pā"
+       ],
+       "answer": 0
+      }
+     ],
+     "aside": "نی (ney) is the reed flute, the first image of Rumi’s Masnavi: “Listen to this reed, how it complains.” You can already read the word that starts the most famous poem in the language."
+    },
+    {
+     "type": "shadow",
+     "title": "Shadow Mass",
+     "minutes": 3,
+     "instruction": "Match her rhythm. Record, compare, repeat.",
+     "lines": [
+      {
+       "fa": "صبحونه حاضره. بیا بشین.",
+       "tr": "sobhune hāzere. biyā beshin.",
+       "en": "Breakfast is ready. Come sit.",
+       "audio": "audio/tts/b04c291d37cd.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "آره. یه کم صبر کن.",
+       "tr": "āre. ye kam sabr kon.",
+       "en": "Yes. Wait a little.",
+       "audio": "audio/tts/2dfa1d59c944.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "آره عزیزم. بشین، بخور.",
+       "tr": "āre azizam. beshin, bokhor.",
+       "en": "Yes, dear. Sit, eat.",
+       "audio": "audio/tts/793e8ba3c259.mp3",
+       "speaker": "Mass"
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 2 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "item": {
+        "fa": "صبر کن",
+        "tr": "sabr kon",
+        "en": "Wait!",
+        "audio": "audio/tts/ddbeac05ecba.mp3"
+       },
+       "options": [
+        "Wait!",
+        "Sit!",
+        "Look!",
+        "Again!"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Mass has set the table. Which line means “Come sit”?",
+       "options": [
+        {
+         "fa": "بیا بشین",
+         "tr": "biyā beshin"
+        },
+        {
+         "fa": "بیا ببین",
+         "tr": "biyā bebin"
+        },
+        {
+         "fa": "برو بشین",
+         "tr": "boro beshin"
+        },
+        {
+         "fa": "بلند شو",
+         "tr": "boland sho"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "conj",
+       "verb": "neshastan",
+       "variant": "neshastan",
+       "tense": "past",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "shodan",
+       "variant": "boland_shodan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Which means “a little”?",
+       "options": [
+        {
+         "fa": "یه کم",
+         "tr": "ye kam"
+        },
+        {
+         "fa": "دوباره",
+         "tr": "dobāre"
+        },
+        {
+         "fa": "صبر",
+         "tr": "sabr"
+        },
+        {
+         "fa": "حوصله",
+         "tr": "hosele"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "type",
+       "item": {
+        "fa": "دوباره",
+        "tr": "dobāre",
+        "en": "again",
+        "audio": "audio/tts/dbfec6f41fa4.mp3"
+       },
+       "prompt": "Type what you hear, in English letters."
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "نان",
+        "tr": "nān",
+        "audio": "audio/tts/f6d9da487774.mp3"
+       },
+       "options": [
+        "nān",
+        "bān",
+        "nun",
+        "tān"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "Wait a little.",
+       "tiles": [
+        {
+         "fa": "یه کم",
+         "tr": "ye kam"
+        },
+        {
+         "fa": "صبر کن",
+         "tr": "sabr kon"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Write ت, ث, ن, and ی five times each in all their shapes. Say the sound every time.",
+      "Write بیا, نان, آبی, and نی. Under each: phonetics and meaning.",
+      "Draw a two-column table: “boland misham / boland shodam,” all six persons, from memory. Check it against the verb lab.",
+      "Add shodan and neshastan to “Verbs I own.” Note the collision: nashin = “don’t sit” and “don’t become.”"
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "At the breakfast table",
+     "openers": [
+      {
+       "fa": "صبحونه چی می‌خوری؟",
+       "tr": "sobhune chi mikhori?",
+       "en": "What are you having for breakfast?",
+       "audio": "audio/tts/3507eb960786.mp3"
+      },
+      {
+       "fa": "چای می‌خوای؟",
+       "tr": "chāy mikhāy?",
+       "en": "Do you want tea?",
+       "audio": "audio/tts/a374adc1dee9.mp3"
+      },
+      {
+       "fa": "بیا بشین.",
+       "tr": "biyā beshin.",
+       "en": "Come sit.",
+       "audio": "audio/tts/e87a4bfae294.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "صبحونه",
+       "tr": "sobhune"
+      },
+      {
+       "fa": "بشین",
+       "tr": "beshin"
+      },
+      {
+       "fa": "صبر کن",
+       "tr": "sabr kon"
+      },
+      {
+       "fa": "یه کم",
+       "tr": "ye kam"
+      },
+      {
+       "fa": "دوباره",
+       "tr": "dobāre"
+      }
+     ],
+     "massNote": "Sam is learning sit, wait, and again. When he says something, ask him to say it again: “dobāre begu!”"
     }
-  ],
-  "weekendCards": [
+   ]
+  },
+  {
+   "number": 3,
+   "title": {
+    "fa": "حالت چطوره؟",
+    "tr": "hālet chetore?",
+    "en": "How are you?",
+    "audio": "audio/tts/4e5c5423d21b.mp3"
+   },
+   "subtitle": "Be and do: feelings, and the verb that builds verbs",
+   "objective": "Say how you feel with the hidden “be” endings, use kardan to wait and hurry, and read بیدار and برو on your own.",
+   "newWordIds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1015,
+    1016
+   ],
+   "reviewWordIds": [
+    342
+   ],
+   "steps": [
     {
-      "day": "Saturday",
-      "topic": "Weekend Morning (Review)",
-      "openers": [
-        {
-          "persian": "صبح بخیر! بیدار شدی؟",
-          "pronunciation": "sobh bekheyr! bee-dahr shodee?",
-          "english": "Good morning! Did you wake up?"
-        },
-        {
-          "persian": "عجله نکن.",
-          "pronunciation": "ajaleh nakon.",
-          "english": "Don't hurry."
-        },
-        {
-          "persian": "حوصله ندارم.",
-          "pronunciation": "howseleh nadahram.",
-          "english": "I'm bored. / I have no patience."
-        }
-      ],
-      "practiceWords": [
-        "بیدار",
-        "عجله",
-        "حوصله",
-        "بلند شو",
-        "خسته"
-      ],
-      "massNote": "Sam is reviewing everything from this week: commands, feelings, and morning vocabulary. Chat freely in Farsi about your morning plans."
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 6,
+     "instruction": "Retrieval first, always."
     },
     {
-      "day": "Sunday",
-      "topic": "Free Conversation",
-      "openers": [
+     "type": "listen",
+     "title": "Listen first",
+     "minutes": 3,
+     "audio": "audio/tts/scene_9aa5e1940a81.mp3",
+     "instruction": "A morning check-in. Listen twice before reading.",
+     "lines": [
+      {
+       "fa": "حالت چطوره؟",
+       "tr": "hālet chetore?",
+       "en": "How are you?",
+       "audio": "audio/tts/c7017fdc3a8d.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "خوبم، ولی خسته‌ام. تو چطوری؟",
+       "tr": "khubam, vali khaste-am. to chetori?",
+       "en": "I’m fine, but I’m tired. How are you?",
+       "audio": "audio/tts/2644c3f7abbd.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "من خوشحالم! ولی گشنمه.",
+       "tr": "man khoshhālam! vali goshname.",
+       "en": "I’m happy! But I’m hungry.",
+       "audio": "audio/tts/be4816ccf02b.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "عجله نکن. صبحونه حاضره.",
+       "tr": "ajale nakon. sobhune hāzere.",
+       "en": "Don’t rush. Breakfast is ready.",
+       "audio": "audio/tts/8002b0551e86.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "چرا ناراحتی؟",
+       "tr": "cherā nārāhati?",
+       "en": "Why are you upset?",
+       "audio": "audio/tts/deb04940abee.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "ناراحت نیستم. فقط حوصله ندارم.",
+       "tr": "nārāhat nistam. faghat hosele nadāram.",
+       "en": "I’m not upset. I’m just not in the mood.",
+       "audio": "audio/tts/f3857aac4c75.mp3",
+       "speaker": "Mass"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "title": "New words",
+     "minutes": 5,
+     "instruction": "Six words for how you feel."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: be and do",
+     "minutes": 9,
+     "verbs": [
+      "budan",
+      "kardan"
+     ],
+     "intro": "<b>budan</b> (to be) hides in the present: the endings alone carry it. Khub (fine) + am = <b>khubam</b>, I’m fine. After a word ending in a vowel, like khaste, the endings sit apart: khaste-am. In the negative, “be” borrows its own word: <b>nistam</b>, I’m not. <b>kardan</b> (to do) is the Lego verb: patience + do = wait; haste + do = hurry; a look + do = look.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "budan",
+       "variant": "budan_khaste",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "budan",
+       "variant": "budan_khoshhal",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "budan",
+       "variant": "budan_khub",
+       "tense": "neg_present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "budan",
+       "variant": "budan_khaste",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "kardan",
+       "variant": "ajale_kardan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "kardan",
+       "variant": "sabr_kardan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "kardan",
+       "variant": "sabr_kardan",
+       "tense": "past",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "kardan",
+       "variant": "negah_kardan",
+       "tense": "imperative",
+       "person": 0
+      }
+     ]
+    },
+    {
+     "type": "rule",
+     "title": "Ear gym: written vs. spoken",
+     "minutes": 4,
+     "instruction": "Why does Mass say khune when the dictionary says khāne? Spoken Tehrani follows rules, and once you know them, her speech stops sounding like a different language from the textbook.",
+     "rules": [
+      {
+       "name": "ān → un",
+       "text": "A long ā before n becomes u.",
+       "examples": [
+        [
+         {
+          "fa": "خانه",
+          "tr": "khāne",
+          "en": "house (written)",
+          "audio": "audio/tts/5b13c8aa1b98.mp3"
+         },
+         {
+          "fa": "خونه",
+          "tr": "khune",
+          "en": "house (spoken)",
+          "audio": "audio/tts/1b6288224cee.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "صبحانه",
+          "tr": "sobhāne",
+          "en": "breakfast (written)",
+          "audio": "audio/tts/d52e4981b4f6.mp3"
+         },
+         {
+          "fa": "صبحونه",
+          "tr": "sobhune",
+          "en": "breakfast (spoken)",
+          "audio": "audio/tts/8d5e827c1055.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "نان",
+          "tr": "nān",
+          "en": "bread (written)",
+          "audio": "audio/tts/f6d9da487774.mp3"
+         },
+         {
+          "fa": "نون",
+          "tr": "nun",
+          "en": "bread (spoken)",
+          "audio": "audio/tts/976f921082b2.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "باران",
+          "tr": "bārān",
+          "en": "rain (written)",
+          "audio": "audio/tts/2cb9d462d21a.mp3"
+         },
+         {
+          "fa": "بارون",
+          "tr": "bārun",
+          "en": "rain (spoken)",
+          "audio": "audio/tts/b3eae7e2dcf8.mp3"
+         }
+        ]
+       ]
+      },
+      {
+       "name": "verbs shrink",
+       "text": "Written -ad becomes -e, -id becomes -in, -and becomes -an, and stems get squeezed.",
+       "examples": [
+        [
+         {
+          "fa": "می‌رود",
+          "tr": "miravad",
+          "en": "goes (written)",
+          "audio": "audio/tts/bf40a503f9c3.mp3"
+         },
+         {
+          "fa": "می‌ره",
+          "tr": "mire",
+          "en": "goes (spoken)",
+          "audio": "audio/tts/10b24be87185.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "می‌آید",
+          "tr": "miāyad",
+          "en": "comes (written)",
+          "audio": "audio/tts/5c0c9bfa4d74.mp3"
+         },
+         {
+          "fa": "میاد",
+          "tr": "miyād",
+          "en": "comes (spoken)",
+          "audio": "audio/tts/345ecb094008.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "می‌نشینید",
+          "tr": "mineshinid",
+          "en": "you sit (written)",
+          "audio": "audio/tts/948080f6b31c.mp3"
+         },
+         {
+          "fa": "می‌شینین",
+          "tr": "mishinin",
+          "en": "you sit (spoken)",
+          "audio": "audio/tts/09b0518a59e7.mp3"
+         }
+        ]
+       ]
+      }
+     ],
+     "rounds": 6
+    },
+    {
+     "type": "script",
+     "title": "Reading: د ر و (the letters that never join forward)",
+     "minutes": 7,
+     "letters": [
+      {
+       "ch": "د",
+       "name": "dāl",
+       "sound": "d",
+       "forms": {
+        "isolated": "د",
+        "final": "ـد"
+       },
+       "connects": false,
+       "tip": "A bent elbow sitting on the line. Like alef, it never joins the letter after it.",
+       "examples": [
         {
-          "persian": "امروز چیکار می‌خوای بکنی؟",
-          "pronunciation": "emrooz cheekahr mee-khahy bokonee?",
-          "english": "What do you want to do today?"
+         "fa": "دیر",
+         "tr": "dir",
+         "en": "late",
+         "audio": "audio/tts/5050c736e32c.mp3"
         },
         {
-          "persian": "بیا بریم بیرون.",
-          "pronunciation": "bee-ah berim biroon.",
-          "english": "Let's go outside."
-        },
-        {
-          "persian": "خوشحالم که باهاتم.",
-          "pronunciation": "khosh-hahlam keh bah-hah-tam.",
-          "english": "I'm happy I'm with you."
+         "fa": "در",
+         "tr": "dar",
+         "en": "door",
+         "audio": "audio/tts/4a945bada8a8.mp3"
         }
-      ],
-      "practiceWords": [
-        "خوشحال",
-        "بیا",
-        "ببین",
-        "دوباره",
-        "ممنون"
-      ],
-      "massNote": "Free conversation day. Sam will try to use everything. Chat naturally!"
+       ]
+      },
+      {
+       "ch": "ر",
+       "name": "re",
+       "sound": "r (lightly tapped, like the tt in Spanish “pero”)",
+       "forms": {
+        "isolated": "ر",
+        "final": "ـر"
+       },
+       "connects": false,
+       "tip": "A short slide that dips below the line. Never joins forward. Next week, dots turn it into z (ز) and zh (ژ).",
+       "examples": [
+        {
+         "fa": "برو",
+         "tr": "boro",
+         "en": "go!",
+         "audio": "audio/tts/f9f0904f0a87.mp3"
+        },
+        {
+         "fa": "پنیر",
+         "tr": "panir",
+         "en": "cheese",
+         "audio": "audio/tts/fb2fcfcd97db.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "و",
+       "name": "vāv",
+       "sound": "v, or the vowels u and o",
+       "forms": {
+        "isolated": "و",
+        "final": "ـو"
+       },
+       "connects": false,
+       "tip": "A small loop with a tail below the line. It writes v in vaght, u in nun, o in boro and to. Never joins forward.",
+       "examples": [
+        {
+         "fa": "نون",
+         "tr": "nun",
+         "en": "bread",
+         "audio": "audio/tts/976f921082b2.mp3"
+        },
+        {
+         "fa": "تو",
+         "tr": "to",
+         "en": "you",
+         "audio": "audio/tts/45f2c363944a.mp3"
+        },
+        {
+         "fa": "دور",
+         "tr": "dur",
+         "en": "far",
+         "audio": "audio/tts/2226a6bbe3e8.mp3"
+        }
+       ]
+      }
+     ],
+     "intro": "Seven Persian letters refuse to join the letter after them: ا د ذ ر ز ژ و. You’ve met four. After one of them, the next letter starts fresh, which is why بیدار has a gap after the alef. With these three, a lot of your vocabulary suddenly becomes readable.",
+     "readIt": [
+      {
+       "type": "read",
+       "item": {
+        "fa": "بیدار",
+        "tr": "bidār",
+        "audio": "audio/tts/e42f1f6dd2a1.mp3"
+       },
+       "options": [
+        "bidār",
+        "pedar",
+        "dir",
+        "barādar"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "برو",
+        "tr": "boro",
+        "audio": "audio/tts/f9f0904f0a87.mp3"
+       },
+       "options": [
+        "boro",
+        "biyā",
+        "birun",
+        "dur"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "پنیر",
+        "tr": "panir",
+        "audio": "audio/tts/fb2fcfcd97db.mp3"
+       },
+       "options": [
+        "panir",
+        "pedar",
+        "birun",
+        "nun"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "نون",
+        "tr": "nun",
+        "audio": "audio/tts/976f921082b2.mp3"
+       },
+       "options": [
+        "nun",
+        "nān",
+        "dur",
+        "tu"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "برو بیرون",
+        "tr": "boro birun",
+        "audio": "audio/tts/f3c103fdd5bf.mp3"
+       },
+       "options": [
+        "boro birun",
+        "biyā tu",
+        "bārun",
+        "dur"
+       ],
+       "answer": 0
+      }
+     ],
+     "aside": "Two phrases you can now read and use at the front door: بیا تو (biyā tu, come in!) and برو بیرون (boro birun, go outside!)."
+    },
+    {
+     "type": "shadow",
+     "title": "Shadow Mass",
+     "minutes": 3,
+     "instruction": "Feelings carry melody. Copy her tune, not just her words.",
+     "lines": [
+      {
+       "fa": "خوبم، ولی خسته‌ام. تو چطوری؟",
+       "tr": "khubam, vali khaste-am. to chetori?",
+       "en": "I’m fine, but I’m tired. How are you?",
+       "audio": "audio/tts/2644c3f7abbd.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "عجله نکن. صبحونه حاضره.",
+       "tr": "ajale nakon. sobhune hāzere.",
+       "en": "Don’t rush. Breakfast is ready.",
+       "audio": "audio/tts/8002b0551e86.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "ناراحت نیستم. فقط حوصله ندارم.",
+       "tr": "nārāhat nistam. faghat hosele nadāram.",
+       "en": "I’m not upset. I’m just not in the mood.",
+       "audio": "audio/tts/f3857aac4c75.mp3",
+       "speaker": "Mass"
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 3 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "item": {
+        "fa": "خوشحالم",
+        "tr": "khoshhālam",
+        "en": "I’m happy",
+        "audio": "audio/tts/0d60479d3f8a.mp3"
+       },
+       "options": [
+        "I’m happy",
+        "I’m tired",
+        "I’m hungry",
+        "I’m upset"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "conj",
+       "verb": "budan",
+       "variant": "budan_khaste",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "kardan",
+       "variant": "ajale_kardan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "mc",
+       "prompt": "How do you say “I’m not upset”?",
+       "options": [
+        {
+         "fa": "ناراحت نیستم",
+         "tr": "nārāhat nistam"
+        },
+        {
+         "fa": "ناراحت نبودم",
+         "tr": "nārāhat nabudam"
+        },
+        {
+         "fa": "ناراحتم",
+         "tr": "nārāhatam"
+        },
+        {
+         "fa": "ناراحت نکن",
+         "tr": "nārāhat nakon"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "بیدار",
+        "tr": "bidār",
+        "audio": "audio/tts/e42f1f6dd2a1.mp3"
+       },
+       "options": [
+        "bidār",
+        "pedar",
+        "dir",
+        "barādar"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "برو بیرون",
+        "tr": "boro birun",
+        "audio": "audio/tts/065724cde2a8.mp3"
+       },
+       "options": [
+        "boro birun",
+        "biyā tu",
+        "bārun",
+        "dur"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "type",
+       "item": {
+        "fa": "تشنه",
+        "tr": "teshne",
+        "en": "thirsty",
+        "audio": "audio/tts/a10216c28310.mp3"
+       },
+       "prompt": "Type what you hear, in English letters."
+      },
+      {
+       "type": "build",
+       "en": "Why are you upset?",
+       "tiles": [
+        {
+         "fa": "چرا",
+         "tr": "cherā"
+        },
+        {
+         "fa": "ناراحتی؟",
+         "tr": "nārāhati?"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Write د, ر, and و five times each. Then write all 10 letters from this week in a row, from memory.",
+      "Write these words in script, with phonetics and meaning under each: بیدار، برو، دیر، پنیر، نون، بیرون، دوربین.",
+      "Write a feelings table in phonetics: khaste-am, khaste-i, khastas… then the same for khoshhāl.",
+      "Write three true sentences about how you feel today, in phonetics. Read them to Mass."
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "How are you, really?",
+     "openers": [
+      {
+       "fa": "حالت چطوره؟",
+       "tr": "hālet chetore?",
+       "en": "How are you?",
+       "audio": "audio/tts/4e5c5423d21b.mp3"
+      },
+      {
+       "fa": "خسته‌ای؟",
+       "tr": "khaste-i?",
+       "en": "Are you tired?",
+       "audio": "audio/tts/d6949e8b39a1.mp3"
+      },
+      {
+       "fa": "چرا ناراحتی؟",
+       "tr": "cherā nārāhati?",
+       "en": "Why are you upset?",
+       "audio": "audio/tts/45564f2be964.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "خوشحال",
+       "tr": "khoshhāl"
+      },
+      {
+       "fa": "ناراحت",
+       "tr": "nārāhat"
+      },
+      {
+       "fa": "گشنه",
+       "tr": "goshne"
+      },
+      {
+       "fa": "تشنه",
+       "tr": "teshne"
+      },
+      {
+       "fa": "حوصله",
+       "tr": "hosele"
+      }
+     ],
+     "massNote": "Sam is learning to say how he feels (khaste-am, khoshhālam). Ask him how he is, and make him answer in full."
     }
-  ]
+   ]
+  },
+  {
+   "number": 4,
+   "title": {
+    "fa": "همسایه",
+    "tr": "hamsāye",
+    "en": "The neighbor",
+    "audio": "audio/tts/7ba157236197.mp3"
+   },
+   "subtitle": "Story day: see and eat, the first gossip, and a line of Hafez",
+   "objective": "Follow a short story, gossip quietly with Mass, and read a line of Hafez with a word-by-word key.",
+   "newWordIds": [
+    1012,
+    1018
+   ],
+   "reviewWordIds": [
+    42,
+    64,
+    62,
+    10
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 8,
+     "instruction": "Mixed: this week and older words."
+    },
+    {
+     "type": "story",
+     "title": "Story, episode 1: The neighbor",
+     "minutes": 6,
+     "audio": "audio/tts/scene_1b7e4ff08831.mp3",
+     "instruction": "Sam and Massoumeh, by the window, every episode. Listen to the whole episode before reading. Then read along line by line.",
+     "lines": [
+      {
+       "fa": "صبحه. سام و معصومه تو خونه‌ان.",
+       "tr": "sobhe. sām-o ma’sume tu khune-an.",
+       "en": "It’s morning. Sam and Massoumeh are at home.",
+       "audio": "audio/tts/c7c8cf19b332.mp3"
+      },
+      {
+       "fa": "ببین! اون آقا رو ببین!",
+       "tr": "bebin! un āghā ro bebin!",
+       "en": "Look! Look at that man!",
+       "audio": "audio/tts/563e8627c0b2.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "کدوم آقا؟",
+       "tr": "kodum āghā?",
+       "en": "Which man?",
+       "audio": "audio/tts/230e6e78512e.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "یواش! نگاه نکن!",
+       "tr": "yavāsh! negāh nakon!",
+       "en": "Quietly! Don’t look!",
+       "audio": "audio/tts/173a507722f1.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "دیرش شد!",
+       "tr": "dir-esh shod!",
+       "en": "He’s late!",
+       "audio": "audio/tts/a05c83278e39.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "آره. هر روز دیر می‌ره.",
+       "tr": "āre. har ruz dir mire.",
+       "en": "Yes. Every day he leaves late.",
+       "audio": "audio/tts/fe07acb7e57f.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "بیچاره! خسته‌س.",
+       "tr": "bichāre! khastas.",
+       "en": "Poor guy! He’s tired.",
+       "audio": "audio/tts/935d629a7739.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "نه، تنبله!",
+       "tr": "na, tanbale!",
+       "en": "No, he’s lazy!",
+       "audio": "audio/tts/36363bd241e2.mp3",
+       "speaker": "Mass"
+      }
+     ],
+     "questions": [
+      {
+       "type": "mc",
+       "prompt": "Who is late?",
+       "options": [
+        "the man across the street",
+        "Sam",
+        "Massoumeh",
+        "nobody"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "What does Mass tell Sam when he turns to look?",
+       "options": [
+        {
+         "fa": "نگاه نکن!",
+         "tr": "negāh nakon!",
+         "en": "Don’t look!"
+        },
+        {
+         "fa": "بیا!",
+         "tr": "biyā!",
+         "en": "Come!"
+        },
+        {
+         "fa": "برو!",
+         "tr": "boro!",
+         "en": "Go!"
+        },
+        {
+         "fa": "بشین!",
+         "tr": "beshin!",
+         "en": "Sit!"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Sam thinks the man is tired. What does Mass think?",
+       "options": [
+        "He’s lazy.",
+        "He’s sick.",
+        "He’s happy.",
+        "He’s hungry."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "title": "New words",
+     "minutes": 2,
+     "instruction": "Two ways to say look, plus the review words the story leans on."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: see and eat",
+     "minutes": 8,
+     "verbs": [
+      "didan",
+      "khordan"
+     ],
+     "intro": "<b>didan</b> (to see) has one of the most useful present stems in the language: <b>bin</b>. <b>khordan</b> (to eat) covers drinking too: Persians eat their tea. Use the tabs to try khordan with breakfast and with tea, and notice that the command keeps its bo- here.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "didan",
+       "variant": "didan",
+       "tense": "past",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "didan",
+       "variant": "didan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "khordan",
+       "variant": "sobhune_khordan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "khordan",
+       "variant": "chay_khordan",
+       "tense": "present",
+       "person": 4
+      },
+      {
+       "type": "conj",
+       "verb": "didan",
+       "variant": "didan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "khordan",
+       "variant": "khordan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "didan",
+       "variant": "didan",
+       "tense": "neg_past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "khordan",
+       "variant": "khordan",
+       "tense": "neg_present",
+       "person": 2
+      }
+     ]
+    },
+    {
+     "type": "gossip",
+     "title": "Gossip kit, part 1",
+     "minutes": 3,
+     "intro": "Your dream is to hold a whispered conversation with Mass in public. It starts with eight phrases, almost all of them commands you now know how to build.",
+     "phrases": [
+      {
+       "fa": "ببین!",
+       "tr": "bebin!",
+       "en": "Look!",
+       "audio": "audio/tts/2a8bcbc33598.mp3"
+      },
+      {
+       "fa": "اون آقا رو ببین.",
+       "tr": "un āghā ro bebin.",
+       "en": "Look at that man.",
+       "audio": "audio/tts/3c6e125cd9fc.mp3"
+      },
+      {
+       "fa": "اون خانومو ببین.",
+       "tr": "un khānum-o bebin.",
+       "en": "Look at that woman.",
+       "audio": "audio/tts/96d4e7e52861.mp3"
+      },
+      {
+       "fa": "یواش!",
+       "tr": "yavāsh!",
+       "en": "Quietly!",
+       "audio": "audio/tts/ab754308b824.mp3"
+      },
+      {
+       "fa": "نگاه نکن!",
+       "tr": "negāh nakon!",
+       "en": "Don’t look!",
+       "audio": "audio/tts/396abafee378.mp3"
+      },
+      {
+       "fa": "دیدی؟!",
+       "tr": "didi?!",
+       "en": "Did you see?!",
+       "audio": "audio/tts/ab27645285a1.mp3"
+      },
+      {
+       "fa": "الان نه.",
+       "tr": "alān na.",
+       "en": "Not now.",
+       "audio": "audio/tts/2c0b3c82462d.mp3"
+      },
+      {
+       "fa": "بعداً می‌گم.",
+       "tr": "ba’dan migam.",
+       "en": "I’ll tell you later.",
+       "audio": "audio/tts/c7c740db92eb.mp3"
+      }
+     ],
+     "proverb": {
+      "fa": "دیوار موش داره، موش هم گوش داره.",
+      "tr": "divār mush dāre, mush ham gush dāre.",
+      "en": "The wall has mice, and the mice have ears.",
+      "audio": "audio/tts/69a0679ecf17.mp3"
+     },
+     "tip": "Assume the person at the next table speaks Persian. Tehranis are everywhere."
+    },
+    {
+     "type": "verse",
+     "title": "A line of Hafez",
+     "minutes": 4,
+     "poet": "Hafez of Shiraz, 14th century",
+     "lines": [
+      {
+       "fa": "صبح است ساقیا قدحی پر شراب کن",
+       "tr": "sobh ast sāghiyā ghadahi por sharāb kon",
+       "en": "It’s morning, cupbearer: fill a cup with wine.",
+       "audio": "audio/tts/9b38741e429a.mp3"
+      },
+      {
+       "fa": "دور فلک درنگ ندارد شتاب کن",
+       "tr": "dowr-e falak derang nadārad shetāb kon",
+       "en": "The turning sky won’t linger. Hurry.",
+       "audio": "audio/tts/fc918ca42f72.mp3"
+      }
+     ],
+     "gloss": [
+      {
+       "fa": "صبح",
+       "tr": "sobh",
+       "en": "morning"
+      },
+      {
+       "fa": "است",
+       "tr": "ast",
+       "en": "is (written form of -e)"
+      },
+      {
+       "fa": "ساقیا",
+       "tr": "sāghiyā",
+       "en": "O cupbearer"
+      },
+      {
+       "fa": "قدحی",
+       "tr": "ghadahi",
+       "en": "a cup"
+      },
+      {
+       "fa": "پر",
+       "tr": "por",
+       "en": "full"
+      },
+      {
+       "fa": "شراب",
+       "tr": "sharāb",
+       "en": "wine"
+      },
+      {
+       "fa": "کن",
+       "tr": "kon",
+       "en": "make! (from kardan)"
+      },
+      {
+       "fa": "دور فلک",
+       "tr": "dowr-e falak",
+       "en": "the turning of the sky"
+      },
+      {
+       "fa": "درنگ",
+       "tr": "derang",
+       "en": "delay"
+      },
+      {
+       "fa": "ندارد",
+       "tr": "nadārad",
+       "en": "doesn’t have"
+      },
+      {
+       "fa": "شتاب",
+       "tr": "shetāb",
+       "en": "haste"
+      }
+     ],
+     "note": "Both halves end on kon, the same command as in sabr kon. Hafez gives two orders: fill the cup, and hurry. Iranians open his book at random for a fortune (fāl-e Hafez), above all on Yalda night, December 21. You’ll do that in Chapter 5."
+    },
+    {
+     "type": "roots",
+     "title": "Word stories: the bin family",
+     "minutes": 3,
+     "items": [
+      {
+       "word": {
+        "fa": "دوربین",
+        "tr": "durbin",
+        "en": "camera",
+        "audio": "audio/tts/d4719f0d9be3.mp3"
+       },
+       "parts": [
+        {
+         "fa": "دور",
+         "tr": "dur",
+         "en": "far"
+        },
+        {
+         "fa": "بین",
+         "tr": "bin",
+         "en": "see (stem of didan)"
+        }
+       ],
+       "story": "A far-seer. Originally binoculars, now any camera."
+      },
+      {
+       "word": {
+        "fa": "خوش‌بین",
+        "tr": "khoshbin",
+        "en": "optimist",
+        "audio": "audio/tts/925a50c5988e.mp3"
+       },
+       "parts": [
+        {
+         "fa": "خوش",
+         "tr": "khosh",
+         "en": "good"
+        },
+        {
+         "fa": "بین",
+         "tr": "bin",
+         "en": "see"
+        }
+       ],
+       "story": "Someone who sees good."
+      },
+      {
+       "word": {
+        "fa": "بدبین",
+        "tr": "badbin",
+        "en": "pessimist",
+        "audio": "audio/tts/d2f411b47a39.mp3"
+       },
+       "parts": [
+        {
+         "fa": "بد",
+         "tr": "bad",
+         "en": "bad"
+        },
+        {
+         "fa": "بین",
+         "tr": "bin",
+         "en": "see"
+        }
+       ],
+       "story": "Someone who sees bad. It also means suspicious, as in suspicious of your neighbors."
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 4 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "conj",
+       "verb": "didan",
+       "variant": "didan",
+       "tense": "past",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "khordan",
+       "variant": "sobhune_khordan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Whisper “Quietly!”",
+       "options": [
+        {
+         "fa": "یواش!",
+         "tr": "yavāsh!"
+        },
+        {
+         "fa": "ببین!",
+         "tr": "bebin!"
+        },
+        {
+         "fa": "دیدی؟",
+         "tr": "didi?"
+        },
+        {
+         "fa": "دیر!",
+         "tr": "dir!"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "listen",
+       "item": {
+        "fa": "اون آقا رو ببین",
+        "tr": "un āghā ro bebin",
+        "en": "Look at that man",
+        "audio": "audio/tts/8db2a3b4a3fc.mp3"
+       },
+       "options": [
+        "Look at that man.",
+        "Look at that woman.",
+        "Don’t look!",
+        "Did you see?"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "دوربین",
+        "tr": "durbin",
+        "audio": "audio/tts/d4719f0d9be3.mp3"
+       },
+       "options": [
+        "durbin",
+        "dur",
+        "birun",
+        "bidār"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "In Hafez’s line, kon is the same verb as in…",
+       "options": [
+        {
+         "fa": "صبر کن",
+         "tr": "sabr kon"
+        },
+        {
+         "fa": "برو",
+         "tr": "boro"
+        },
+        {
+         "fa": "ببین",
+         "tr": "bebin"
+        },
+        {
+         "fa": "بیدار",
+         "tr": "bidār"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "Did you see? Don’t look!",
+       "tiles": [
+        {
+         "fa": "دیدی؟",
+         "tr": "didi?"
+        },
+        {
+         "fa": "نگاه نکن!",
+         "tr": "negāh nakon!"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Copy Hafez’s couplet in phonetics, with the English under it. Underline both kon.",
+      "Start a page at the back called “Word stories.” Add durbin, khoshbin, badbin, and the words with a story from this week (khaste, sobhune, dobāre, khoshhāl, nārāhat).",
+      "Write the gossip kit in phonetics. Pick your three favorites and mark them for this weekend.",
+      "In script, write دوربین and بیرون. You can write every letter in them."
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "People-watching",
+     "openers": [
+      {
+       "fa": "اون آقا رو ببین!",
+       "tr": "un āghā ro bebin!",
+       "en": "Look at that man!",
+       "audio": "audio/tts/fc88a56c1b7e.mp3"
+      },
+      {
+       "fa": "دیدی؟!",
+       "tr": "didi?!",
+       "en": "Did you see?!",
+       "audio": "audio/tts/8816a3934a44.mp3"
+      },
+      {
+       "fa": "یواش!",
+       "tr": "yavāsh!",
+       "en": "Quietly!",
+       "audio": "audio/tts/ab754308b824.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "ببین",
+       "tr": "bebin"
+      },
+      {
+       "fa": "نگاه کن",
+       "tr": "negāh kon"
+      },
+      {
+       "fa": "یواش",
+       "tr": "yavāsh"
+      },
+      {
+       "fa": "دیدی؟",
+       "tr": "didi?"
+      },
+      {
+       "fa": "بعداً می‌گم",
+       "tr": "ba’dan migam"
+      }
+     ],
+     "massNote": "Sam is learning to gossip. Point at someone on TV or out the window and whisper about them in Farsi."
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": {
+    "fa": "همه با هم",
+    "tr": "hame bā ham",
+    "en": "All together",
+    "audio": "audio/tts/f9202f79d7a9.mp3"
+   },
+   "subtitle": "Review day: all eight verbs, all ten letters, and the ham- family",
+   "objective": "Conjugate eight verbs on demand, read six phrases with no help, and plan the weekend with Mass.",
+   "newWordIds": [],
+   "reviewWordIds": [
+    466,
+    455
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: the whole week",
+     "minutes": 3,
+     "count": 10,
+     "chapterOnly": true,
+     "instruction": "Ten words from this chapter, shuffled."
+    },
+    {
+     "type": "earmix",
+     "title": "Ear gym: mixed review",
+     "minutes": 4,
+     "instruction": "Every pair from this week, shuffled together. Mixing them is harder, and harder is better for memory.",
+     "rounds": 10
+    },
+    {
+     "type": "verbgym",
+     "title": "Verb gym: all eight verbs",
+     "minutes": 8,
+     "count": 14,
+     "instruction": "Random persons, tenses, and verbs, including negatives. It isn’t meant to be easy. A wrong answer shows you the right one."
+    },
+    {
+     "type": "secret",
+     "title": "Secret messages",
+     "minutes": 5,
+     "instruction": "Every letter in these phrases is one you learned this week. Read each one out loud, then tap to check.",
+     "items": [
+      {
+       "fa": "بابا، بیا تو!",
+       "tr": "bābā, biyā tu!",
+       "en": "Dad, come in!",
+       "audio": "audio/tts/a26883896fa8.mp3"
+      },
+      {
+       "fa": "نون و پنیر",
+       "tr": "nun-o panir",
+       "en": "bread and cheese",
+       "audio": "audio/tts/fe0522584f85.mp3"
+      },
+      {
+       "fa": "برو بیرون!",
+       "tr": "boro birun!",
+       "en": "Go outside!",
+       "audio": "audio/tts/629dd3d68f00.mp3"
+      },
+      {
+       "fa": "پدر و برادر",
+       "tr": "pedar-o barādar",
+       "en": "father and brother",
+       "audio": "audio/tts/aa771a5724de.mp3"
+      },
+      {
+       "fa": "دیر",
+       "tr": "dir",
+       "en": "late",
+       "audio": "audio/tts/d5cc114e6763.mp3"
+      },
+      {
+       "fa": "بارون",
+       "tr": "bārun",
+       "en": "rain",
+       "audio": "audio/tts/3231b290d21a.mp3"
+      }
+     ]
+    },
+    {
+     "type": "roots",
+     "title": "Word stories: the ham- family",
+     "minutes": 4,
+     "intro": "You described hamsar as “other head.” It’s closer to “same head”: ham means same, together, or shared.",
+     "items": [
+      {
+       "word": {
+        "fa": "همسر",
+        "tr": "hamsar",
+        "en": "spouse",
+        "audio": "audio/tts/a1297525c7e5.mp3"
+       },
+       "parts": [
+        {
+         "fa": "هم",
+         "tr": "ham",
+         "en": "same, shared"
+        },
+        {
+         "fa": "سر",
+         "tr": "sar",
+         "en": "head"
+        }
+       ],
+       "story": "One who shares your head, usually glossed as sharing a pillow. Massoumeh is your hamsar."
+      },
+      {
+       "word": {
+        "fa": "همسایه",
+        "tr": "hamsāye",
+        "en": "neighbor",
+        "audio": "audio/tts/7ba157236197.mp3"
+       },
+       "parts": [
+        {
+         "fa": "هم",
+         "tr": "ham",
+         "en": "shared"
+        },
+        {
+         "fa": "سایه",
+         "tr": "sāye",
+         "en": "shade, shadow"
+        }
+       ],
+       "story": "The people who share your shade. Like the lazy man in the story."
+      },
+      {
+       "word": {
+        "fa": "همکار",
+        "tr": "hamkār",
+        "en": "co-worker",
+        "audio": "audio/tts/a29373e846f9.mp3"
+       },
+       "parts": [
+        {
+         "fa": "هم",
+         "tr": "ham",
+         "en": "shared"
+        },
+        {
+         "fa": "کار",
+         "tr": "kār",
+         "en": "work"
+        }
+       ],
+       "story": "One who shares your work."
+      },
+      {
+       "word": {
+        "fa": "همراه",
+        "tr": "hamrāh",
+        "en": "companion; also, a cell phone",
+        "audio": "audio/tts/ef83329adb43.mp3"
+       },
+       "parts": [
+        {
+         "fa": "هم",
+         "tr": "ham",
+         "en": "shared"
+        },
+        {
+         "fa": "راه",
+         "tr": "rāh",
+         "en": "road"
+        }
+       ],
+       "story": "One who shares your road. Iranians call a cell phone a “mobile” or a telefon-e hamrāh, the phone that travels with you."
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Chapter 1 check",
+     "minutes": 5,
+     "questions": [
+      {
+       "type": "conj",
+       "verb": "raftan",
+       "variant": "raftan",
+       "tense": "past",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "amadan",
+       "variant": "amadan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "shodan",
+       "variant": "bidar_shodan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "neshastan",
+       "variant": "neshastan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "budan",
+       "variant": "budan_khub",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "kardan",
+       "variant": "sabr_kardan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "didan",
+       "variant": "didan",
+       "tense": "past",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "khordan",
+       "variant": "khordan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "listen",
+       "item": {
+        "fa": "بیا بشین، صبحونه بخور",
+        "tr": "biyā beshin, sobhune bokhor",
+        "en": "Come sit, eat breakfast",
+        "audio": "audio/tts/19c34f1bf4f3.mp3"
+       },
+       "options": [
+        "Come sit, eat breakfast.",
+        "Go outside, it’s late.",
+        "Wait a little, I’m coming.",
+        "Look, it’s raining."
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "پنیر",
+        "tr": "panir",
+        "audio": "audio/tts/fb2fcfcd97db.mp3"
+       },
+       "options": [
+        "panir",
+        "pedar",
+        "birun",
+        "bārun"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "Get up, it’s late!",
+       "tiles": [
+        {
+         "fa": "بلند شو",
+         "tr": "boland sho"
+        },
+        {
+         "fa": "دیر",
+         "tr": "dir"
+        },
+        {
+         "fa": "شد",
+         "tr": "shod"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 12,
+     "print": true,
+     "tasks": [
+      "From memory, write all 10 letters in every shape they take. Then check.",
+      "Write the six secret messages in script, then the phonetics under each.",
+      "Fill one page with a verb chart from memory: raftan, umadan, didan, and khordan in the past tense, all six persons.",
+      "Write five sentences about your morning in phonetics. Use at least three different verbs and one negative.",
+      "Add the ham- family to “Word stories.”"
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "What did you do today?",
+     "openers": [
+      {
+       "fa": "امروز چیکار کردی؟",
+       "tr": "emruz chikār kardi?",
+       "en": "What did you do today?",
+       "audio": "audio/tts/804985949d23.mp3"
+      },
+      {
+       "fa": "صبحونه چی خوردی؟",
+       "tr": "sobhune chi khordi?",
+       "en": "What did you have for breakfast?",
+       "audio": "audio/tts/3117a35e90bc.mp3"
+      },
+      {
+       "fa": "کجا رفتی؟",
+       "tr": "kojā rafti?",
+       "en": "Where did you go?",
+       "audio": "audio/tts/f0a827909713.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "رفتم",
+       "tr": "raftam"
+      },
+      {
+       "fa": "اومدم",
+       "tr": "umadam"
+      },
+      {
+       "fa": "خوردم",
+       "tr": "khordam"
+      },
+      {
+       "fa": "دیدم",
+       "tr": "didam"
+      },
+      {
+       "fa": "نشستم",
+       "tr": "neshastam"
+      }
+     ],
+     "massNote": "Sam has learned the past tense of eight verbs. Ask him what he did today, and push for full sentences."
+    },
+    {
+     "type": "teach",
+     "title": "Teach the girls: a morning routine",
+     "game": "Pick one line a day and use it every morning this week. Routines beat lessons with kids. By Friday it’s just how mornings sound.",
+     "items": [
+      {
+       "fa": "صبح بخیر!",
+       "tr": "sobh bekheyr!",
+       "en": "Good morning!",
+       "audio": "audio/tts/865241deb87a.mp3"
+      },
+      {
+       "fa": "بیدار شو!",
+       "tr": "bidār sho!",
+       "en": "Wake up!",
+       "audio": "audio/tts/ee5565a51d38.mp3"
+      },
+      {
+       "fa": "صبحونه بخور!",
+       "tr": "sobhune bokhor!",
+       "en": "Eat your breakfast!",
+       "audio": "audio/tts/a53243c88eb1.mp3"
+      },
+      {
+       "fa": "زود باش!",
+       "tr": "zud bāsh!",
+       "en": "Hurry up!",
+       "audio": "audio/tts/5e46b16b575d.mp3"
+      },
+      {
+       "fa": "خوب باشین!",
+       "tr": "khub bāshin!",
+       "en": "Be good, everyone!",
+       "audio": "audio/tts/bdde469d2309.mp3"
+      },
+      {
+       "fa": "خداحافظ!",
+       "tr": "khodāhāfez!",
+       "en": "Goodbye!",
+       "audio": "audio/tts/6a74e41a79f5.mp3"
+      }
+     ]
+    },
+    {
+     "type": "massvoice",
+     "title": "Optional: Mass’s voice",
+     "minutes": 0,
+     "instruction": "The computer voices are clear but tidy. Real speech is faster and messier, and the fastest way to train your ear is many real voices. If Mass is willing, ask her to record these on her phone at her normal speed. Listen to them on walks.",
+     "items": [
+      {
+       "fa": "صبح بخیر! بیدار شو.",
+       "tr": "sobh bekheyr! bidār sho.",
+       "en": "Good morning! Wake up.",
+       "audio": "audio/tts/f14176f6ea32.mp3"
+      },
+      {
+       "fa": "بلند شو، دیر شد!",
+       "tr": "boland sho, dir shod!",
+       "en": "Get up, it’s late!",
+       "audio": "audio/tts/fa06219efece.mp3"
+      },
+      {
+       "fa": "صبحونه حاضره. بیا بشین.",
+       "tr": "sobhune hāzere. biyā beshin.",
+       "en": "Breakfast is ready. Come sit.",
+       "audio": "audio/tts/96cff716cfeb.mp3"
+      },
+      {
+       "fa": "یه کم صبر کن.",
+       "tr": "ye kam sabr kon.",
+       "en": "Wait a little.",
+       "audio": "audio/tts/599f6e168053.mp3"
+      },
+      {
+       "fa": "خسته‌ای؟",
+       "tr": "khaste-i?",
+       "en": "Are you tired?",
+       "audio": "audio/tts/d6949e8b39a1.mp3"
+      },
+      {
+       "fa": "چرا ناراحتی؟",
+       "tr": "cherā nārāhati?",
+       "en": "Why are you upset?",
+       "audio": "audio/tts/45564f2be964.mp3"
+      },
+      {
+       "fa": "اون آقا رو ببین!",
+       "tr": "un āghā ro bebin!",
+       "en": "Look at that man!",
+       "audio": "audio/tts/d186ba936612.mp3"
+      },
+      {
+       "fa": "یواش! نگاه نکن!",
+       "tr": "yavāsh! negāh nakon!",
+       "en": "Quietly! Don’t look!",
+       "audio": "audio/tts/173a507722f1.mp3"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "weekendCards": [
+  {
+   "day": "Saturday",
+   "topic": "Weekend plans",
+   "openers": [
+    {
+     "fa": "فردا کجا می‌ریم؟",
+     "tr": "fardā kojā mirim?",
+     "en": "Where are we going tomorrow?",
+     "audio": "audio/tts/8a3915b0001b.mp3"
+    },
+    {
+     "fa": "بریم بیرون؟",
+     "tr": "berim birun?",
+     "en": "Shall we go out?",
+     "audio": "audio/tts/7242cb8ed385.mp3"
+    },
+    {
+     "fa": "کی بیدار شدی؟",
+     "tr": "key bidār shodi?",
+     "en": "When did you wake up?",
+     "audio": "audio/tts/fab42c0a8782.mp3"
+    }
+   ],
+   "practice": [
+    {
+     "fa": "می‌ریم",
+     "tr": "mirim"
+    },
+    {
+     "fa": "میایم",
+     "tr": "miyāym"
+    },
+    {
+     "fa": "بیرون",
+     "tr": "birun"
+    },
+    {
+     "fa": "دیر",
+     "tr": "dir"
+    }
+   ],
+   "massNote": "Sam knows the present tense also means the near future: “fardā mirim” = we’ll go tomorrow. Make plans with him in Farsi."
+  },
+  {
+   "day": "Sunday",
+   "topic": "First gossip walk",
+   "openers": [
+    {
+     "fa": "اون خانومو ببین.",
+     "tr": "un khānum-o bebin.",
+     "en": "Look at that woman.",
+     "audio": "audio/tts/798ced85af5e.mp3"
+    },
+    {
+     "fa": "نگاه نکن!",
+     "tr": "negāh nakon!",
+     "en": "Don’t look!",
+     "audio": "audio/tts/396abafee378.mp3"
+    },
+    {
+     "fa": "بعداً می‌گم.",
+     "tr": "ba’dan migam.",
+     "en": "I’ll tell you later.",
+     "audio": "audio/tts/c7c740db92eb.mp3"
+    }
+   ],
+   "practice": [
+    {
+     "fa": "ببین",
+     "tr": "bebin"
+    },
+    {
+     "fa": "یواش",
+     "tr": "yavāsh"
+    },
+    {
+     "fa": "دیدی؟",
+     "tr": "didi?"
+    },
+    {
+     "fa": "خسته‌س",
+     "tr": "khastas"
+    },
+    {
+     "fa": "تنبله",
+     "tr": "tanbale"
+    }
+   ],
+   "massNote": "Go somewhere public: a café, a grocery store, a park. Sam wants to whisper about people in Farsi. Keep it kind… or don’t."
+  }
+ ],
+ "labels": [
+  {
+   "fa": "در",
+   "tr": "dar",
+   "en": "door",
+   "audio": "audio/tts/4a945bada8a8.mp3"
+  },
+  {
+   "fa": "بیا تو!",
+   "tr": "biyā tu!",
+   "en": "come in! (front door, inside)",
+   "audio": "audio/tts/2896a3893e00.mp3"
+  },
+  {
+   "fa": "برو بیرون!",
+   "tr": "boro birun!",
+   "en": "go outside! (back door)",
+   "audio": "audio/tts/629dd3d68f00.mp3"
+  },
+  {
+   "fa": "آب",
+   "tr": "āb",
+   "en": "water (sink)",
+   "audio": "audio/tts/0b7183171cb5.mp3"
+  },
+  {
+   "fa": "نون",
+   "tr": "nun",
+   "en": "bread (bread box)",
+   "audio": "audio/tts/2d422effc043.mp3"
+  },
+  {
+   "fa": "پنیر",
+   "tr": "panir",
+   "en": "cheese (fridge)",
+   "audio": "audio/tts/435d3d5e8205.mp3"
+  },
+  {
+   "fa": "چای",
+   "tr": "chāy",
+   "en": "tea (kettle)",
+   "audio": "audio/tts/98f1f90e61cd.mp3"
+  },
+  {
+   "fa": "صبر کن…",
+   "tr": "sabr kon…",
+   "en": "wait… (kettle)",
+   "audio": "audio/tts/aee6a5e0fd53.mp3"
+  },
+  {
+   "fa": "صبحونه",
+   "tr": "sobhune",
+   "en": "breakfast (table)",
+   "audio": "audio/tts/8d5e827c1055.mp3"
+  },
+  {
+   "fa": "بشین!",
+   "tr": "beshin!",
+   "en": "sit! (chair)",
+   "audio": "audio/tts/a002f178360a.mp3"
+  },
+  {
+   "fa": "میز",
+   "tr": "miz",
+   "en": "table",
+   "audio": "audio/tts/ee2bfdbcc010.mp3"
+  },
+  {
+   "fa": "صندلی",
+   "tr": "sandali",
+   "en": "chair",
+   "audio": "audio/tts/d8e9a2f21280.mp3"
+  },
+  {
+   "fa": "پنجره",
+   "tr": "panjere",
+   "en": "window",
+   "audio": "audio/tts/b33aaf5e31b5.mp3"
+  },
+  {
+   "fa": "نگاه کن!",
+   "tr": "negāh kon!",
+   "en": "look! (window)",
+   "audio": "audio/tts/7545f99d6368.mp3"
+  },
+  {
+   "fa": "بیدار شو!",
+   "tr": "bidār sho!",
+   "en": "wake up! (bedroom door)",
+   "audio": "audio/tts/704ef699401f.mp3"
+  },
+  {
+   "fa": "بلند شو!",
+   "tr": "boland sho!",
+   "en": "get up! (bedside)",
+   "audio": "audio/tts/98b486185ae3.mp3"
+  },
+  {
+   "fa": "یواش!",
+   "tr": "yavāsh!",
+   "en": "quietly! (kids’ door)",
+   "audio": "audio/tts/9a379c3f370b.mp3"
+  },
+  {
+   "fa": "دوربین",
+   "tr": "durbin",
+   "en": "camera",
+   "audio": "audio/tts/0275d265138a.mp3"
+  }
+ ]
 }

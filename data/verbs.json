@@ -1,0 +1,10485 @@
+{
+ "persons": [
+  {
+   "fa": "من",
+   "tr": "man",
+   "en": "I"
+  },
+  {
+   "fa": "تو",
+   "tr": "to",
+   "en": "you"
+  },
+  {
+   "fa": "او",
+   "tr": "u",
+   "en": "he / she"
+  },
+  {
+   "fa": "ما",
+   "tr": "mā",
+   "en": "we"
+  },
+  {
+   "fa": "شما",
+   "tr": "shomā",
+   "en": "you (formal / plural)"
+  },
+  {
+   "fa": "اونا",
+   "tr": "unā",
+   "en": "they",
+   "w": "آنها",
+   "wtr": "ānhā"
+  }
+ ],
+ "verbs": {
+  "amadan": {
+   "inf": {
+    "fa": "اومدن",
+    "tr": "umadan",
+    "en": "to come",
+    "w": "آمدن",
+    "wtr": "āmadan",
+    "audio": "audio/tts/6671b0ba2b80.mp3"
+   },
+   "stems": {
+    "past": "umad- (written āmad-)",
+    "present": "ā- / yā-"
+   },
+   "irregular": true,
+   "story": "Come. The two stems barely resemble each other: past umad-, present ā-, which sounds like yā- after mi- or bi-. Persian shouts “umadam!” (literally “I came!”) to mean “Coming!”, as if it has already arrived. “Khosh umadi” (welcome) is literally “you came well.”",
+   "variants": [
+    {
+     "id": "amadan",
+     "label": {
+      "fa": "اومدن",
+      "tr": "umadan",
+      "en": "to come",
+      "audio": "audio/tts/e32d3e7b0bf5.mp3"
+     },
+     "present": [
+      {
+       "fa": "میام",
+       "tr": "miyām",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "m"
+        ]
+       ],
+       "en": "I come",
+       "w": "می‌آیم",
+       "wtr": "miāyam",
+       "audio": "audio/tts/aeb9af31106d.mp3"
+      },
+      {
+       "fa": "میای",
+       "tr": "miyāy",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "y"
+        ]
+       ],
+       "en": "you come",
+       "w": "می‌آیی",
+       "wtr": "miāyi",
+       "audio": "audio/tts/c39ecc420303.mp3"
+      },
+      {
+       "fa": "میاد",
+       "tr": "miyād",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "d"
+        ]
+       ],
+       "en": "he/she comes",
+       "w": "می‌آید",
+       "wtr": "miāyad",
+       "audio": "audio/tts/345ecb094008.mp3"
+      },
+      {
+       "fa": "میایم",
+       "tr": "miyāym",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "ym"
+        ]
+       ],
+       "en": "we come",
+       "w": "می‌آییم",
+       "wtr": "miāyim",
+       "audio": "audio/tts/32e3590662cb.mp3"
+      },
+      {
+       "fa": "میاین",
+       "tr": "miyāyn",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "yn"
+        ]
+       ],
+       "en": "you (polite/plural) come",
+       "w": "می‌آیید",
+       "wtr": "miāyid",
+       "audio": "audio/tts/184d0d8735d5.mp3"
+      },
+      {
+       "fa": "میان",
+       "tr": "miyān",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "n"
+        ]
+       ],
+       "en": "they come",
+       "w": "می‌آیند",
+       "wtr": "miāyand",
+       "audio": "audio/tts/78ef60a51ed3.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "اومدم",
+       "tr": "umadam",
+       "trp": [
+        [
+         "s",
+         "umad"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I came",
+       "w": "آمدم",
+       "wtr": "āmadam",
+       "audio": "audio/tts/af03ab6ea0bf.mp3"
+      },
+      {
+       "fa": "اومدی",
+       "tr": "umadi",
+       "trp": [
+        [
+         "s",
+         "umad"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you came",
+       "w": "آمدی",
+       "wtr": "āmadi",
+       "audio": "audio/tts/0d99927333d6.mp3"
+      },
+      {
+       "fa": "اومد",
+       "tr": "umad",
+       "trp": [
+        [
+         "s",
+         "umad"
+        ]
+       ],
+       "en": "he/she came",
+       "w": "آمد",
+       "wtr": "āmad",
+       "audio": "audio/tts/513b6c841041.mp3"
+      },
+      {
+       "fa": "اومدیم",
+       "tr": "umadim",
+       "trp": [
+        [
+         "s",
+         "umad"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we came",
+       "w": "آمدیم",
+       "wtr": "āmadim",
+       "audio": "audio/tts/7728ca6f2950.mp3"
+      },
+      {
+       "fa": "اومدین",
+       "tr": "umadin",
+       "trp": [
+        [
+         "s",
+         "umad"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) came",
+       "w": "آمدید",
+       "wtr": "āmadid",
+       "audio": "audio/tts/041432c8f6d0.mp3"
+      },
+      {
+       "fa": "اومدن",
+       "tr": "umadan",
+       "trp": [
+        [
+         "s",
+         "umad"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they came",
+       "w": "آمدند",
+       "wtr": "āmadand",
+       "audio": "audio/tts/e32d3e7b0bf5.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بیا",
+       "tr": "biyā",
+       "trp": [
+        [
+         "p",
+         "bi"
+        ],
+        [
+         "s",
+         "yā"
+        ]
+       ],
+       "en": "come!",
+       "audio": "audio/tts/2a835d31e5d9.mp3"
+      },
+      {
+       "fa": "بیاین",
+       "tr": "biyāyn",
+       "trp": [
+        [
+         "p",
+         "bi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "yn"
+        ]
+       ],
+       "en": "come! (polite, or to more than one)",
+       "w": "بیایید",
+       "wtr": "biyāyid",
+       "audio": "audio/tts/543d41d03a26.mp3"
+      },
+      {
+       "fa": "نیا",
+       "tr": "nayā",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yā"
+        ]
+       ],
+       "en": "don’t come!",
+       "audio": "audio/tts/f30f0d415de5.mp3"
+      },
+      {
+       "fa": "نیاین",
+       "tr": "nayāyn",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "yn"
+        ]
+       ],
+       "en": "don’t come! (polite, or to more than one)",
+       "w": "نیایید",
+       "wtr": "nayāyid",
+       "audio": "audio/tts/7dbeccf636dd.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمیام",
+       "tr": "nemiyām",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "m"
+        ]
+       ],
+       "en": "I don’t come",
+       "w": "نمی‌آیم",
+       "wtr": "nemiāyam",
+       "audio": "audio/tts/af4c8016a523.mp3"
+      },
+      {
+       "fa": "نمیای",
+       "tr": "nemiyāy",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "y"
+        ]
+       ],
+       "en": "you don’t come",
+       "w": "نمی‌آیی",
+       "wtr": "nemiāyi",
+       "audio": "audio/tts/5be3424bfe57.mp3"
+      },
+      {
+       "fa": "نمیاد",
+       "tr": "nemiyād",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "d"
+        ]
+       ],
+       "en": "he/she doesn’t come",
+       "w": "نمی‌آید",
+       "wtr": "nemiāyad",
+       "audio": "audio/tts/a7799f3ae43f.mp3"
+      },
+      {
+       "fa": "نمیایم",
+       "tr": "nemiyāym",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "ym"
+        ]
+       ],
+       "en": "we don’t come",
+       "w": "نمی‌آییم",
+       "wtr": "nemiāyim",
+       "audio": "audio/tts/928d9c8344d7.mp3"
+      },
+      {
+       "fa": "نمیاین",
+       "tr": "nemiyāyn",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "yn"
+        ]
+       ],
+       "en": "you (polite/plural) don’t come",
+       "w": "نمی‌آیید",
+       "wtr": "nemiāyid",
+       "audio": "audio/tts/f0f92f245f2e.mp3"
+      },
+      {
+       "fa": "نمیان",
+       "tr": "nemiyān",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "yā"
+        ],
+        [
+         "e",
+         "n"
+        ]
+       ],
+       "en": "they don’t come",
+       "w": "نمی‌آیند",
+       "wtr": "nemiāyand",
+       "audio": "audio/tts/8e7ff6d51062.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نیومدم",
+       "tr": "nayumadam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yumad"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t come",
+       "w": "نیامدم",
+       "wtr": "nayāmadam",
+       "audio": "audio/tts/4c0884c57bd2.mp3"
+      },
+      {
+       "fa": "نیومدی",
+       "tr": "nayumadi",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yumad"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t come",
+       "w": "نیامدی",
+       "wtr": "nayāmadi",
+       "audio": "audio/tts/af98ffeaf0db.mp3"
+      },
+      {
+       "fa": "نیومد",
+       "tr": "nayumad",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yumad"
+        ]
+       ],
+       "en": "he/she didn’t come",
+       "w": "نیامد",
+       "wtr": "nayāmad",
+       "audio": "audio/tts/a11b76e5d317.mp3"
+      },
+      {
+       "fa": "نیومدیم",
+       "tr": "nayumadim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yumad"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t come",
+       "w": "نیامدیم",
+       "wtr": "nayāmadim",
+       "audio": "audio/tts/70f519c79a6b.mp3"
+      },
+      {
+       "fa": "نیومدین",
+       "tr": "nayumadin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yumad"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t come",
+       "w": "نیامدید",
+       "wtr": "nayāmadid",
+       "audio": "audio/tts/c22f405d5e0e.mp3"
+      },
+      {
+       "fa": "نیومدن",
+       "tr": "nayumadan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "yumad"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t come",
+       "w": "نیامدند",
+       "wtr": "nayāmadand",
+       "audio": "audio/tts/34b7c09cbd75.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "raftan": {
+   "inf": {
+    "fa": "رفتن",
+    "tr": "raftan",
+    "en": "to go",
+    "audio": "audio/tts/a2334be18c4e.mp3"
+   },
+   "stems": {
+    "past": "raft-",
+    "present": "rav- (spoken: just r-)"
+   },
+   "irregular": true,
+   "story": "Go. In the present, the stem rav- shrinks to a single r: miram, I go. In the command, be- becomes bo- because the o in ro pulls the vowel toward itself: boro. Persian likes its vowels to rhyme. The stem makes nouns too: piyāde-ro, the “foot-goer,” is a sidewalk.",
+   "variants": [
+    {
+     "id": "raftan",
+     "label": {
+      "fa": "رفتن",
+      "tr": "raftan",
+      "en": "to go",
+      "audio": "audio/tts/16889d79a3e9.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌رم",
+       "tr": "miram",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I go",
+       "w": "می‌روم",
+       "wtr": "miravam",
+       "audio": "audio/tts/f9d937803ccd.mp3"
+      },
+      {
+       "fa": "می‌ری",
+       "tr": "miri",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you go",
+       "w": "می‌روی",
+       "wtr": "miravi",
+       "audio": "audio/tts/fd7362586e41.mp3"
+      },
+      {
+       "fa": "می‌ره",
+       "tr": "mire",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she goes",
+       "w": "می‌رود",
+       "wtr": "miravad",
+       "audio": "audio/tts/76249eafb24b.mp3"
+      },
+      {
+       "fa": "می‌ریم",
+       "tr": "mirim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we go",
+       "w": "می‌رویم",
+       "wtr": "miravim",
+       "audio": "audio/tts/4df767f2b3d3.mp3"
+      },
+      {
+       "fa": "می‌رین",
+       "tr": "mirin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) go",
+       "w": "می‌روید",
+       "wtr": "miravid",
+       "audio": "audio/tts/44b1ef74b636.mp3"
+      },
+      {
+       "fa": "می‌رن",
+       "tr": "miran",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they go",
+       "w": "می‌روند",
+       "wtr": "miravand",
+       "audio": "audio/tts/af290acf787f.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "رفتم",
+       "tr": "raftam",
+       "trp": [
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I went",
+       "audio": "audio/tts/1b2fb9f16d22.mp3"
+      },
+      {
+       "fa": "رفتی",
+       "tr": "rafti",
+       "trp": [
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you went",
+       "audio": "audio/tts/c2151417b815.mp3"
+      },
+      {
+       "fa": "رفت",
+       "tr": "raft",
+       "trp": [
+        [
+         "s",
+         "raft"
+        ]
+       ],
+       "en": "he/she went",
+       "audio": "audio/tts/e2712cf0a709.mp3"
+      },
+      {
+       "fa": "رفتیم",
+       "tr": "raftim",
+       "trp": [
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we went",
+       "audio": "audio/tts/42113d2a2415.mp3"
+      },
+      {
+       "fa": "رفتین",
+       "tr": "raftin",
+       "trp": [
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) went",
+       "w": "رفتید",
+       "wtr": "raftid",
+       "audio": "audio/tts/d3cd5f81879d.mp3"
+      },
+      {
+       "fa": "رفتن",
+       "tr": "raftan",
+       "trp": [
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they went",
+       "w": "رفتند",
+       "wtr": "raftand",
+       "audio": "audio/tts/16889d79a3e9.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "برو",
+       "tr": "boro",
+       "trp": [
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "ro"
+        ]
+       ],
+       "en": "go!",
+       "audio": "audio/tts/e59227a80639.mp3"
+      },
+      {
+       "fa": "برین",
+       "tr": "borin",
+       "trp": [
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "go! (polite, or to more than one)",
+       "w": "بروید",
+       "wtr": "beravid",
+       "audio": "audio/tts/519c93405871.mp3"
+      },
+      {
+       "fa": "نرو",
+       "tr": "naro",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "ro"
+        ]
+       ],
+       "en": "don’t go!",
+       "audio": "audio/tts/042cff474fb6.mp3"
+      },
+      {
+       "fa": "نرین",
+       "tr": "narin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t go! (polite, or to more than one)",
+       "w": "نروید",
+       "wtr": "naravid",
+       "audio": "audio/tts/b16eb102e6a8.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌رم",
+       "tr": "nemiram",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t go",
+       "w": "نمی‌روم",
+       "wtr": "nemiravam",
+       "audio": "audio/tts/13190c319078.mp3"
+      },
+      {
+       "fa": "نمی‌ری",
+       "tr": "nemiri",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t go",
+       "w": "نمی‌روی",
+       "wtr": "nemiravi",
+       "audio": "audio/tts/3806efe79f95.mp3"
+      },
+      {
+       "fa": "نمی‌ره",
+       "tr": "nemire",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t go",
+       "w": "نمی‌رود",
+       "wtr": "nemiravad",
+       "audio": "audio/tts/4f34fafdfdb5.mp3"
+      },
+      {
+       "fa": "نمی‌ریم",
+       "tr": "nemirim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t go",
+       "w": "نمی‌رویم",
+       "wtr": "nemiravim",
+       "audio": "audio/tts/02501c2525d0.mp3"
+      },
+      {
+       "fa": "نمی‌رین",
+       "tr": "nemirin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t go",
+       "w": "نمی‌روید",
+       "wtr": "nemiravid",
+       "audio": "audio/tts/d3d4eba6490f.mp3"
+      },
+      {
+       "fa": "نمی‌رن",
+       "tr": "nemiran",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "r"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t go",
+       "w": "نمی‌روند",
+       "wtr": "nemiravand",
+       "audio": "audio/tts/150166c85174.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نرفتم",
+       "tr": "naraftam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t go",
+       "audio": "audio/tts/a026b3cc40fd.mp3"
+      },
+      {
+       "fa": "نرفتی",
+       "tr": "narafti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t go",
+       "audio": "audio/tts/4b37852ceb76.mp3"
+      },
+      {
+       "fa": "نرفت",
+       "tr": "naraft",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "raft"
+        ]
+       ],
+       "en": "he/she didn’t go",
+       "audio": "audio/tts/b1463cc4f7ba.mp3"
+      },
+      {
+       "fa": "نرفتیم",
+       "tr": "naraftim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t go",
+       "audio": "audio/tts/263e7de1ef24.mp3"
+      },
+      {
+       "fa": "نرفتین",
+       "tr": "naraftin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t go",
+       "w": "نرفتید",
+       "wtr": "naraftid",
+       "audio": "audio/tts/12bebc2c8b6f.mp3"
+      },
+      {
+       "fa": "نرفتن",
+       "tr": "naraftan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "raft"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t go",
+       "w": "نرفتند",
+       "wtr": "naraftand",
+       "audio": "audio/tts/2cc63b70e3b4.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "shodan": {
+   "inf": {
+    "fa": "شدن",
+    "tr": "shodan",
+    "en": "to become",
+    "audio": "audio/tts/750c4ccfe3cf.mp3"
+   },
+   "stems": {
+    "past": "shod-",
+    "present": "shav- (spoken: just sh-)"
+   },
+   "irregular": true,
+   "story": "Become. The busiest verb in the house: it turns an adjective into an event. Boland (tall) + shodan gives “get up,” literally “become tall.” Bidār (awake) + shodan gives “wake up.” Only shodan changes; the adjective stays put. One collision to watch: nashin can mean “don’t become” (to a group) and also “don’t sit.” Context decides.",
+   "variants": [
+    {
+     "id": "boland_shodan",
+     "label": {
+      "fa": "بلند شدن",
+      "tr": "boland shodan",
+      "en": "to get up",
+      "audio": "audio/tts/5af01e036c95.mp3"
+     },
+     "present": [
+      {
+       "fa": "بلند می‌شم",
+       "tr": "boland misham",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I get up",
+       "w": "بلند می‌شوم",
+       "wtr": "boland mishavam",
+       "audio": "audio/tts/782265af62f1.mp3"
+      },
+      {
+       "fa": "بلند می‌شی",
+       "tr": "boland mishi",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you get up",
+       "w": "بلند می‌شوی",
+       "wtr": "boland mishavi",
+       "audio": "audio/tts/ff841c02ee26.mp3"
+      },
+      {
+       "fa": "بلند می‌شه",
+       "tr": "boland mishe",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she gets up",
+       "w": "بلند می‌شود",
+       "wtr": "boland mishavad",
+       "audio": "audio/tts/3519819b3dbd.mp3"
+      },
+      {
+       "fa": "بلند می‌شیم",
+       "tr": "boland mishim",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we get up",
+       "w": "بلند می‌شویم",
+       "wtr": "boland mishavim",
+       "audio": "audio/tts/ea3220d2be1d.mp3"
+      },
+      {
+       "fa": "بلند می‌شین",
+       "tr": "boland mishin",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) get up",
+       "w": "بلند می‌شوید",
+       "wtr": "boland mishavid",
+       "audio": "audio/tts/96d0b73142a6.mp3"
+      },
+      {
+       "fa": "بلند می‌شن",
+       "tr": "boland mishan",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they get up",
+       "w": "بلند می‌شوند",
+       "wtr": "boland mishavand",
+       "audio": "audio/tts/12427e38fe79.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "بلند شدم",
+       "tr": "boland shodam",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I got up",
+       "audio": "audio/tts/1ceeb6fd3745.mp3"
+      },
+      {
+       "fa": "بلند شدی",
+       "tr": "boland shodi",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you got up",
+       "audio": "audio/tts/08196505a300.mp3"
+      },
+      {
+       "fa": "بلند شد",
+       "tr": "boland shod",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "shod"
+        ]
+       ],
+       "en": "he/she got up",
+       "audio": "audio/tts/f77858ac4aed.mp3"
+      },
+      {
+       "fa": "بلند شدیم",
+       "tr": "boland shodim",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we got up",
+       "audio": "audio/tts/42bf19cbb49b.mp3"
+      },
+      {
+       "fa": "بلند شدین",
+       "tr": "boland shodin",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) got up",
+       "w": "بلند شدید",
+       "wtr": "boland shodid",
+       "audio": "audio/tts/cd305bc5053f.mp3"
+      },
+      {
+       "fa": "بلند شدن",
+       "tr": "boland shodan",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they got up",
+       "w": "بلند شدند",
+       "wtr": "boland shodand",
+       "audio": "audio/tts/5af01e036c95.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بلند شو",
+       "tr": "boland sho",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "sho"
+        ]
+       ],
+       "en": "get up!",
+       "audio": "audio/tts/1f61b77c6b89.mp3"
+      },
+      {
+       "fa": "بلند شین",
+       "tr": "boland shin",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "get up! (polite, or to more than one)",
+       "w": "بلند شوید",
+       "wtr": "boland shavid",
+       "audio": "audio/tts/046b7bdeccff.mp3"
+      },
+      {
+       "fa": "بلند نشو",
+       "tr": "boland nasho",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "sho"
+        ]
+       ],
+       "en": "don’t get up!",
+       "audio": "audio/tts/ee5e562b10c3.mp3"
+      },
+      {
+       "fa": "بلند نشین",
+       "tr": "boland nashin",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t get up! (polite, or to more than one)",
+       "w": "بلند نشوید",
+       "wtr": "boland nashavid",
+       "audio": "audio/tts/69a5281cd34b.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "بلند نمی‌شم",
+       "tr": "boland nemisham",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t get up",
+       "w": "بلند نمی‌شوم",
+       "wtr": "boland nemishavam",
+       "audio": "audio/tts/2b8a67be705e.mp3"
+      },
+      {
+       "fa": "بلند نمی‌شی",
+       "tr": "boland nemishi",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t get up",
+       "w": "بلند نمی‌شوی",
+       "wtr": "boland nemishavi",
+       "audio": "audio/tts/70ec44911175.mp3"
+      },
+      {
+       "fa": "بلند نمی‌شه",
+       "tr": "boland nemishe",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t get up",
+       "w": "بلند نمی‌شود",
+       "wtr": "boland nemishavad",
+       "audio": "audio/tts/6ef6bb9739da.mp3"
+      },
+      {
+       "fa": "بلند نمی‌شیم",
+       "tr": "boland nemishim",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t get up",
+       "w": "بلند نمی‌شویم",
+       "wtr": "boland nemishavim",
+       "audio": "audio/tts/b340550e5239.mp3"
+      },
+      {
+       "fa": "بلند نمی‌شین",
+       "tr": "boland nemishin",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t get up",
+       "w": "بلند نمی‌شوید",
+       "wtr": "boland nemishavid",
+       "audio": "audio/tts/9ba6747f74f3.mp3"
+      },
+      {
+       "fa": "بلند نمی‌شن",
+       "tr": "boland nemishan",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t get up",
+       "w": "بلند نمی‌شوند",
+       "wtr": "boland nemishavand",
+       "audio": "audio/tts/faffca32acbc.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "بلند نشدم",
+       "tr": "boland nashodam",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t get up",
+       "audio": "audio/tts/024c0879143f.mp3"
+      },
+      {
+       "fa": "بلند نشدی",
+       "tr": "boland nashodi",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t get up",
+       "audio": "audio/tts/60d41e067960.mp3"
+      },
+      {
+       "fa": "بلند نشد",
+       "tr": "boland nashod",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ]
+       ],
+       "en": "he/she didn’t get up",
+       "audio": "audio/tts/b011da855202.mp3"
+      },
+      {
+       "fa": "بلند نشدیم",
+       "tr": "boland nashodim",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t get up",
+       "audio": "audio/tts/ac23afb2d245.mp3"
+      },
+      {
+       "fa": "بلند نشدین",
+       "tr": "boland nashodin",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t get up",
+       "w": "بلند نشدید",
+       "wtr": "boland nashodid",
+       "audio": "audio/tts/ff8e20357869.mp3"
+      },
+      {
+       "fa": "بلند نشدن",
+       "tr": "boland nashodan",
+       "trp": [
+        [
+         "w",
+         "boland "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t get up",
+       "w": "بلند نشدند",
+       "wtr": "boland nashodand",
+       "audio": "audio/tts/4d0354ad9508.mp3"
+      }
+     ]
+    },
+    {
+     "id": "bidar_shodan",
+     "label": {
+      "fa": "بیدار شدن",
+      "tr": "bidār shodan",
+      "en": "to wake up",
+      "audio": "audio/tts/91d4837649e5.mp3"
+     },
+     "present": [
+      {
+       "fa": "بیدار می‌شم",
+       "tr": "bidār misham",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I wake up",
+       "w": "بیدار می‌شوم",
+       "wtr": "bidār mishavam",
+       "audio": "audio/tts/65e54f0d5c3d.mp3"
+      },
+      {
+       "fa": "بیدار می‌شی",
+       "tr": "bidār mishi",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you wake up",
+       "w": "بیدار می‌شوی",
+       "wtr": "bidār mishavi",
+       "audio": "audio/tts/64fdbacfb132.mp3"
+      },
+      {
+       "fa": "بیدار می‌شه",
+       "tr": "bidār mishe",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she wakes up",
+       "w": "بیدار می‌شود",
+       "wtr": "bidār mishavad",
+       "audio": "audio/tts/5e500db83cb3.mp3"
+      },
+      {
+       "fa": "بیدار می‌شیم",
+       "tr": "bidār mishim",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we wake up",
+       "w": "بیدار می‌شویم",
+       "wtr": "bidār mishavim",
+       "audio": "audio/tts/7b2dfbd5f025.mp3"
+      },
+      {
+       "fa": "بیدار می‌شین",
+       "tr": "bidār mishin",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) wake up",
+       "w": "بیدار می‌شوید",
+       "wtr": "bidār mishavid",
+       "audio": "audio/tts/36f500429b79.mp3"
+      },
+      {
+       "fa": "بیدار می‌شن",
+       "tr": "bidār mishan",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they wake up",
+       "w": "بیدار می‌شوند",
+       "wtr": "bidār mishavand",
+       "audio": "audio/tts/8faceedd8a09.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "بیدار شدم",
+       "tr": "bidār shodam",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I woke up",
+       "audio": "audio/tts/b5d6e5db1812.mp3"
+      },
+      {
+       "fa": "بیدار شدی",
+       "tr": "bidār shodi",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you woke up",
+       "audio": "audio/tts/0c029ec2443d.mp3"
+      },
+      {
+       "fa": "بیدار شد",
+       "tr": "bidār shod",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "shod"
+        ]
+       ],
+       "en": "he/she woke up",
+       "audio": "audio/tts/0ad68a386d24.mp3"
+      },
+      {
+       "fa": "بیدار شدیم",
+       "tr": "bidār shodim",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we woke up",
+       "audio": "audio/tts/1a1fcc91eb88.mp3"
+      },
+      {
+       "fa": "بیدار شدین",
+       "tr": "bidār shodin",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) woke up",
+       "w": "بیدار شدید",
+       "wtr": "bidār shodid",
+       "audio": "audio/tts/6db8958ddb0d.mp3"
+      },
+      {
+       "fa": "بیدار شدن",
+       "tr": "bidār shodan",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they woke up",
+       "w": "بیدار شدند",
+       "wtr": "bidār shodand",
+       "audio": "audio/tts/91d4837649e5.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بیدار شو",
+       "tr": "bidār sho",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "sho"
+        ]
+       ],
+       "en": "wake up!",
+       "audio": "audio/tts/2d3047359082.mp3"
+      },
+      {
+       "fa": "بیدار شین",
+       "tr": "bidār shin",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "wake up! (polite, or to more than one)",
+       "w": "بیدار شوید",
+       "wtr": "bidār shavid",
+       "audio": "audio/tts/c8649fa2f034.mp3"
+      },
+      {
+       "fa": "بیدار نشو",
+       "tr": "bidār nasho",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "sho"
+        ]
+       ],
+       "en": "don’t wake up!",
+       "audio": "audio/tts/963c80f316f7.mp3"
+      },
+      {
+       "fa": "بیدار نشین",
+       "tr": "bidār nashin",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t wake up! (polite, or to more than one)",
+       "w": "بیدار نشوید",
+       "wtr": "bidār nashavid",
+       "audio": "audio/tts/2014871f0425.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "بیدار نمی‌شم",
+       "tr": "bidār nemisham",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t wake up",
+       "w": "بیدار نمی‌شوم",
+       "wtr": "bidār nemishavam",
+       "audio": "audio/tts/950c4724a490.mp3"
+      },
+      {
+       "fa": "بیدار نمی‌شی",
+       "tr": "bidār nemishi",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t wake up",
+       "w": "بیدار نمی‌شوی",
+       "wtr": "bidār nemishavi",
+       "audio": "audio/tts/875ca07baf22.mp3"
+      },
+      {
+       "fa": "بیدار نمی‌شه",
+       "tr": "bidār nemishe",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t wake up",
+       "w": "بیدار نمی‌شود",
+       "wtr": "bidār nemishavad",
+       "audio": "audio/tts/8b0760113890.mp3"
+      },
+      {
+       "fa": "بیدار نمی‌شیم",
+       "tr": "bidār nemishim",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t wake up",
+       "w": "بیدار نمی‌شویم",
+       "wtr": "bidār nemishavim",
+       "audio": "audio/tts/946fd1585d9b.mp3"
+      },
+      {
+       "fa": "بیدار نمی‌شین",
+       "tr": "bidār nemishin",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t wake up",
+       "w": "بیدار نمی‌شوید",
+       "wtr": "bidār nemishavid",
+       "audio": "audio/tts/fddcbfc070fe.mp3"
+      },
+      {
+       "fa": "بیدار نمی‌شن",
+       "tr": "bidār nemishan",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t wake up",
+       "w": "بیدار نمی‌شوند",
+       "wtr": "bidār nemishavand",
+       "audio": "audio/tts/27243160eee4.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "بیدار نشدم",
+       "tr": "bidār nashodam",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t wake up",
+       "audio": "audio/tts/5bd0ce0687a2.mp3"
+      },
+      {
+       "fa": "بیدار نشدی",
+       "tr": "bidār nashodi",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t wake up",
+       "audio": "audio/tts/e06a5e5928df.mp3"
+      },
+      {
+       "fa": "بیدار نشد",
+       "tr": "bidār nashod",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ]
+       ],
+       "en": "he/she didn’t wake up",
+       "audio": "audio/tts/8c1996082562.mp3"
+      },
+      {
+       "fa": "بیدار نشدیم",
+       "tr": "bidār nashodim",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t wake up",
+       "audio": "audio/tts/a75371567d1e.mp3"
+      },
+      {
+       "fa": "بیدار نشدین",
+       "tr": "bidār nashodin",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t wake up",
+       "w": "بیدار نشدید",
+       "wtr": "bidār nashodid",
+       "audio": "audio/tts/de8b41e1a255.mp3"
+      },
+      {
+       "fa": "بیدار نشدن",
+       "tr": "bidār nashodan",
+       "trp": [
+        [
+         "w",
+         "bidār "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t wake up",
+       "w": "بیدار نشدند",
+       "wtr": "bidār nashodand",
+       "audio": "audio/tts/4e9a37509fff.mp3"
+      }
+     ]
+    },
+    {
+     "id": "shodan",
+     "label": {
+      "fa": "شدن",
+      "tr": "shodan",
+      "en": "to become",
+      "audio": "audio/tts/d009c37961fc.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌شم",
+       "tr": "misham",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I become",
+       "w": "می‌شوم",
+       "wtr": "mishavam",
+       "audio": "audio/tts/03ef5cf2dfbe.mp3"
+      },
+      {
+       "fa": "می‌شی",
+       "tr": "mishi",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you become",
+       "w": "می‌شوی",
+       "wtr": "mishavi",
+       "audio": "audio/tts/4cd8fe94d600.mp3"
+      },
+      {
+       "fa": "می‌شه",
+       "tr": "mishe",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she becomes",
+       "w": "می‌شود",
+       "wtr": "mishavad",
+       "audio": "audio/tts/65b6acaece79.mp3"
+      },
+      {
+       "fa": "می‌شیم",
+       "tr": "mishim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we become",
+       "w": "می‌شویم",
+       "wtr": "mishavim",
+       "audio": "audio/tts/4bca68fbea3d.mp3"
+      },
+      {
+       "fa": "می‌شین",
+       "tr": "mishin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) become",
+       "w": "می‌شوید",
+       "wtr": "mishavid",
+       "audio": "audio/tts/efa8ca2432b2.mp3"
+      },
+      {
+       "fa": "می‌شن",
+       "tr": "mishan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they become",
+       "w": "می‌شوند",
+       "wtr": "mishavand",
+       "audio": "audio/tts/354a04fe651a.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "شدم",
+       "tr": "shodam",
+       "trp": [
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I became",
+       "audio": "audio/tts/52e3a41801ce.mp3"
+      },
+      {
+       "fa": "شدی",
+       "tr": "shodi",
+       "trp": [
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you became",
+       "audio": "audio/tts/151d0bdba541.mp3"
+      },
+      {
+       "fa": "شد",
+       "tr": "shod",
+       "trp": [
+        [
+         "s",
+         "shod"
+        ]
+       ],
+       "en": "he/she became",
+       "audio": "audio/tts/c4562c4c7414.mp3"
+      },
+      {
+       "fa": "شدیم",
+       "tr": "shodim",
+       "trp": [
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we became",
+       "audio": "audio/tts/92b6a573ef82.mp3"
+      },
+      {
+       "fa": "شدین",
+       "tr": "shodin",
+       "trp": [
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) became",
+       "w": "شدید",
+       "wtr": "shodid",
+       "audio": "audio/tts/fb19d486fa1a.mp3"
+      },
+      {
+       "fa": "شدن",
+       "tr": "shodan",
+       "trp": [
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they became",
+       "w": "شدند",
+       "wtr": "shodand",
+       "audio": "audio/tts/d009c37961fc.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بشو",
+       "tr": "besho",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "sho"
+        ]
+       ],
+       "en": "become!",
+       "audio": "audio/tts/b0da3c03d487.mp3"
+      },
+      {
+       "fa": "بشین",
+       "tr": "beshin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "become! (polite, or to more than one)",
+       "w": "بشوید",
+       "wtr": "beshavid",
+       "audio": "audio/tts/d028d3d33c86.mp3"
+      },
+      {
+       "fa": "نشو",
+       "tr": "nasho",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "sho"
+        ]
+       ],
+       "en": "don’t become!",
+       "audio": "audio/tts/a97dee956ccd.mp3"
+      },
+      {
+       "fa": "نشین",
+       "tr": "nashin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t become! (polite, or to more than one)",
+       "w": "نشوید",
+       "wtr": "nashavid",
+       "audio": "audio/tts/05f5b30b8501.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌شم",
+       "tr": "nemisham",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t become",
+       "w": "نمی‌شوم",
+       "wtr": "nemishavam",
+       "audio": "audio/tts/9aabcac721a2.mp3"
+      },
+      {
+       "fa": "نمی‌شی",
+       "tr": "nemishi",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t become",
+       "w": "نمی‌شوی",
+       "wtr": "nemishavi",
+       "audio": "audio/tts/cf084835f18d.mp3"
+      },
+      {
+       "fa": "نمی‌شه",
+       "tr": "nemishe",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t become",
+       "w": "نمی‌شود",
+       "wtr": "nemishavad",
+       "audio": "audio/tts/d083f8d7052a.mp3"
+      },
+      {
+       "fa": "نمی‌شیم",
+       "tr": "nemishim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t become",
+       "w": "نمی‌شویم",
+       "wtr": "nemishavim",
+       "audio": "audio/tts/fcccb1d3e1a7.mp3"
+      },
+      {
+       "fa": "نمی‌شین",
+       "tr": "nemishin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t become",
+       "w": "نمی‌شوید",
+       "wtr": "nemishavid",
+       "audio": "audio/tts/dfbff73df502.mp3"
+      },
+      {
+       "fa": "نمی‌شن",
+       "tr": "nemishan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "sh"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t become",
+       "w": "نمی‌شوند",
+       "wtr": "nemishavand",
+       "audio": "audio/tts/bbc86df2c0a3.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نشدم",
+       "tr": "nashodam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t become",
+       "audio": "audio/tts/3699dbe14ff9.mp3"
+      },
+      {
+       "fa": "نشدی",
+       "tr": "nashodi",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t become",
+       "audio": "audio/tts/d54624f358e2.mp3"
+      },
+      {
+       "fa": "نشد",
+       "tr": "nashod",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ]
+       ],
+       "en": "he/she didn’t become",
+       "audio": "audio/tts/44eb3abbf93d.mp3"
+      },
+      {
+       "fa": "نشدیم",
+       "tr": "nashodim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t become",
+       "audio": "audio/tts/d2e339b56d95.mp3"
+      },
+      {
+       "fa": "نشدین",
+       "tr": "nashodin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t become",
+       "w": "نشدید",
+       "wtr": "nashodid",
+       "audio": "audio/tts/55f0ddc3e891.mp3"
+      },
+      {
+       "fa": "نشدن",
+       "tr": "nashodan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shod"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t become",
+       "w": "نشدند",
+       "wtr": "nashodand",
+       "audio": "audio/tts/671fabd2fedc.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "neshastan": {
+   "inf": {
+    "fa": "نشستن",
+    "tr": "neshastan",
+    "en": "to sit",
+    "audio": "audio/tts/7398f423c16f.mp3"
+   },
+   "stems": {
+    "past": "neshast-",
+    "present": "neshin- (spoken: shin-)"
+   },
+   "irregular": true,
+   "story": "Sit. Spoken Tehrani swallows the first syllable of the present stem: mineshinam becomes mishinam. The stem also makes people: shahr-neshin (city-sitter) is a city dweller, and ruz-neshin, the “day-sitter,” is a person stuck at home.",
+   "variants": [
+    {
+     "id": "neshastan",
+     "label": {
+      "fa": "نشستن",
+      "tr": "neshastan",
+      "en": "to sit",
+      "audio": "audio/tts/ee83d7b56dc8.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌شینم",
+       "tr": "mishinam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I sit",
+       "w": "می‌نشینم",
+       "wtr": "mineshinam",
+       "audio": "audio/tts/decbf9f271f9.mp3"
+      },
+      {
+       "fa": "می‌شینی",
+       "tr": "mishini",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you sit",
+       "w": "می‌نشینی",
+       "wtr": "mineshini",
+       "audio": "audio/tts/ec9ed83009d7.mp3"
+      },
+      {
+       "fa": "می‌شینه",
+       "tr": "mishine",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she sits",
+       "w": "می‌نشیند",
+       "wtr": "mineshinad",
+       "audio": "audio/tts/4ea1a686ece7.mp3"
+      },
+      {
+       "fa": "می‌شینیم",
+       "tr": "mishinim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we sit",
+       "w": "می‌نشینیم",
+       "wtr": "mineshinim",
+       "audio": "audio/tts/9300dbe5cfdb.mp3"
+      },
+      {
+       "fa": "می‌شینین",
+       "tr": "mishinin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) sit",
+       "w": "می‌نشینید",
+       "wtr": "mineshinid",
+       "audio": "audio/tts/ae696e3e8ebe.mp3"
+      },
+      {
+       "fa": "می‌شینن",
+       "tr": "mishinan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they sit",
+       "w": "می‌نشینند",
+       "wtr": "mineshinand",
+       "audio": "audio/tts/29723ea3ffb9.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "نشستم",
+       "tr": "neshastam",
+       "trp": [
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I sat",
+       "audio": "audio/tts/589ed6233f50.mp3"
+      },
+      {
+       "fa": "نشستی",
+       "tr": "neshasti",
+       "trp": [
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you sat",
+       "audio": "audio/tts/038a96c0922d.mp3"
+      },
+      {
+       "fa": "نشست",
+       "tr": "neshast",
+       "trp": [
+        [
+         "s",
+         "neshast"
+        ]
+       ],
+       "en": "he/she sat",
+       "audio": "audio/tts/fe056f35f977.mp3"
+      },
+      {
+       "fa": "نشستیم",
+       "tr": "neshastim",
+       "trp": [
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we sat",
+       "audio": "audio/tts/bbf36ee51e5d.mp3"
+      },
+      {
+       "fa": "نشستین",
+       "tr": "neshastin",
+       "trp": [
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) sat",
+       "w": "نشستید",
+       "wtr": "neshastid",
+       "audio": "audio/tts/6f653bc4122c.mp3"
+      },
+      {
+       "fa": "نشستن",
+       "tr": "neshastan",
+       "trp": [
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they sat",
+       "w": "نشستند",
+       "wtr": "neshastand",
+       "audio": "audio/tts/ee83d7b56dc8.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بشین",
+       "tr": "beshin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "shin"
+        ]
+       ],
+       "en": "sit!",
+       "w": "بنشین",
+       "wtr": "beneshin",
+       "audio": "audio/tts/974072e2f48a.mp3"
+      },
+      {
+       "fa": "بشینین",
+       "tr": "beshinin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "sit! (polite, or to more than one)",
+       "w": "بنشینید",
+       "wtr": "beneshinid",
+       "audio": "audio/tts/27f66ca1fdf2.mp3"
+      },
+      {
+       "fa": "نشین",
+       "tr": "nashin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shin"
+        ]
+       ],
+       "en": "don’t sit!",
+       "w": "ننشین",
+       "wtr": "naneshin",
+       "audio": "audio/tts/5aa2ec944682.mp3"
+      },
+      {
+       "fa": "نشینین",
+       "tr": "nashinin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t sit! (polite, or to more than one)",
+       "w": "ننشینید",
+       "wtr": "naneshinid",
+       "audio": "audio/tts/209f2d48ca67.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌شینم",
+       "tr": "nemishinam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t sit",
+       "w": "نمی‌نشینم",
+       "wtr": "nemineshinam",
+       "audio": "audio/tts/0179c9d20d83.mp3"
+      },
+      {
+       "fa": "نمی‌شینی",
+       "tr": "nemishini",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t sit",
+       "w": "نمی‌نشینی",
+       "wtr": "nemineshini",
+       "audio": "audio/tts/8487fa5dbf39.mp3"
+      },
+      {
+       "fa": "نمی‌شینه",
+       "tr": "nemishine",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t sit",
+       "w": "نمی‌نشیند",
+       "wtr": "nemineshinad",
+       "audio": "audio/tts/39343548f3c2.mp3"
+      },
+      {
+       "fa": "نمی‌شینیم",
+       "tr": "nemishinim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t sit",
+       "w": "نمی‌نشینیم",
+       "wtr": "nemineshinim",
+       "audio": "audio/tts/6847ba9f8600.mp3"
+      },
+      {
+       "fa": "نمی‌شینین",
+       "tr": "nemishinin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t sit",
+       "w": "نمی‌نشینید",
+       "wtr": "nemineshinid",
+       "audio": "audio/tts/e50d07de915c.mp3"
+      },
+      {
+       "fa": "نمی‌شینن",
+       "tr": "nemishinan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "shin"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t sit",
+       "w": "نمی‌نشینند",
+       "wtr": "nemineshinand",
+       "audio": "audio/tts/13c1da9086c9.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "ننشستم",
+       "tr": "naneshastam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t sit",
+       "audio": "audio/tts/0271c680adcf.mp3"
+      },
+      {
+       "fa": "ننشستی",
+       "tr": "naneshasti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t sit",
+       "audio": "audio/tts/f394fa7e96f7.mp3"
+      },
+      {
+       "fa": "ننشست",
+       "tr": "naneshast",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "neshast"
+        ]
+       ],
+       "en": "he/she didn’t sit",
+       "audio": "audio/tts/5c1de182f41e.mp3"
+      },
+      {
+       "fa": "ننشستیم",
+       "tr": "naneshastim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t sit",
+       "audio": "audio/tts/d265eba22572.mp3"
+      },
+      {
+       "fa": "ننشستین",
+       "tr": "naneshastin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t sit",
+       "w": "ننشستید",
+       "wtr": "naneshastid",
+       "audio": "audio/tts/34aea826474d.mp3"
+      },
+      {
+       "fa": "ننشستن",
+       "tr": "naneshastan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "neshast"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t sit",
+       "w": "ننشستند",
+       "wtr": "naneshastand",
+       "audio": "audio/tts/95276abc45ef.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "budan": {
+   "inf": {
+    "fa": "بودن",
+    "tr": "budan",
+    "en": "to be",
+    "audio": "audio/tts/366ba5f81847.mp3"
+   },
+   "stems": {
+    "past": "bud-",
+    "present": "hidden in the endings (-am, -i, -e…), or bāsh- for commands"
+   },
+   "irregular": true,
+   "story": "Be. A cousin of English “be,” from the same ancient root. In the present it hides: the endings do the work, so khubam means “I’m fine.” It shows itself in the past (budam, I was) and borrows its own word for “not” (nistam, I’m not). To someone who has been working, Persians say “khaste nabāshi”: may you not be tired.",
+   "variants": [
+    {
+     "id": "budan_khub",
+     "label": {
+      "fa": "خوب بودن",
+      "tr": "khub budan",
+      "en": "to be fine / good",
+      "audio": "audio/tts/58c363ba4ae4.mp3"
+     },
+     "present": [
+      {
+       "fa": "خوبم",
+       "tr": "khubam",
+       "trp": [
+        [
+         "s",
+         "khub"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I am fine",
+       "audio": "audio/tts/a233e14d6eba.mp3"
+      },
+      {
+       "fa": "خوبی",
+       "tr": "khubi",
+       "trp": [
+        [
+         "s",
+         "khub"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you are fine",
+       "audio": "audio/tts/a3407329bc92.mp3"
+      },
+      {
+       "fa": "خوبه",
+       "tr": "khube",
+       "trp": [
+        [
+         "s",
+         "khub"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she is fine",
+       "w": "خوب است",
+       "wtr": "khub ast",
+       "audio": "audio/tts/c0d728b35aad.mp3"
+      },
+      {
+       "fa": "خوبیم",
+       "tr": "khubim",
+       "trp": [
+        [
+         "s",
+         "khub"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we are fine",
+       "audio": "audio/tts/4ae67aab22f6.mp3"
+      },
+      {
+       "fa": "خوبین",
+       "tr": "khubin",
+       "trp": [
+        [
+         "s",
+         "khub"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) are fine",
+       "w": "خوبید",
+       "wtr": "khubid",
+       "audio": "audio/tts/f1c5adbb3720.mp3"
+      },
+      {
+       "fa": "خوبن",
+       "tr": "khuban",
+       "trp": [
+        [
+         "s",
+         "khub"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they are fine",
+       "w": "خوبند",
+       "wtr": "khuband",
+       "audio": "audio/tts/d97686c2b215.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "خوب بودم",
+       "tr": "khub budam",
+       "trp": [
+        [
+         "s",
+         "khub bud"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was fine",
+       "audio": "audio/tts/b3b33422f50c.mp3"
+      },
+      {
+       "fa": "خوب بودی",
+       "tr": "khub budi",
+       "trp": [
+        [
+         "s",
+         "khub bud"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were fine",
+       "audio": "audio/tts/99b0a815ac24.mp3"
+      },
+      {
+       "fa": "خوب بود",
+       "tr": "khub bud",
+       "trp": [
+        [
+         "s",
+         "khub bud"
+        ]
+       ],
+       "en": "he/she was fine",
+       "audio": "audio/tts/baae3d8f33ae.mp3"
+      },
+      {
+       "fa": "خوب بودیم",
+       "tr": "khub budim",
+       "trp": [
+        [
+         "s",
+         "khub bud"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were fine",
+       "audio": "audio/tts/1ba592729a88.mp3"
+      },
+      {
+       "fa": "خوب بودین",
+       "tr": "khub budin",
+       "trp": [
+        [
+         "s",
+         "khub bud"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were fine",
+       "w": "خوب بودید",
+       "wtr": "khub budid",
+       "audio": "audio/tts/b94d7095f657.mp3"
+      },
+      {
+       "fa": "خوب بودن",
+       "tr": "khub budan",
+       "trp": [
+        [
+         "s",
+         "khub bud"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were fine",
+       "w": "خوب بودند",
+       "wtr": "khub budand",
+       "audio": "audio/tts/58c363ba4ae4.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "خوب باش",
+       "tr": "khub bāsh",
+       "trp": [
+        [
+         "s",
+         "khub bāsh"
+        ]
+       ],
+       "en": "be fine!",
+       "audio": "audio/tts/7808e6e0b83e.mp3"
+      },
+      {
+       "fa": "خوب باشین",
+       "tr": "khub bāshin",
+       "trp": [
+        [
+         "s",
+         "khub bāsh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "be fine! (polite, or to more than one)",
+       "w": "خوب باشید",
+       "wtr": "khub bāshid",
+       "audio": "audio/tts/550967cb7b33.mp3"
+      },
+      {
+       "fa": "خوب نباش",
+       "tr": "khub nabāsh",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bāsh"
+        ]
+       ],
+       "en": "don’t be fine!",
+       "audio": "audio/tts/bd7c04305d72.mp3"
+      },
+      {
+       "fa": "خوب نباشین",
+       "tr": "khub nabāshin",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bāsh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t be fine! (polite, or to more than one)",
+       "w": "خوب نباشید",
+       "wtr": "khub nabāshid",
+       "audio": "audio/tts/bbca95634ab1.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "خوب نیستم",
+       "tr": "khub nistam",
+       "trp": [
+        [
+         "s",
+         "khub nist"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I am not fine",
+       "audio": "audio/tts/102e1e551d83.mp3"
+      },
+      {
+       "fa": "خوب نیستی",
+       "tr": "khub nisti",
+       "trp": [
+        [
+         "s",
+         "khub nist"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you are not fine",
+       "audio": "audio/tts/47296443d958.mp3"
+      },
+      {
+       "fa": "خوب نیست",
+       "tr": "khub nist",
+       "trp": [
+        [
+         "s",
+         "khub nist"
+        ]
+       ],
+       "en": "he/she is not fine",
+       "audio": "audio/tts/bf9b79a7330a.mp3"
+      },
+      {
+       "fa": "خوب نیستیم",
+       "tr": "khub nistim",
+       "trp": [
+        [
+         "s",
+         "khub nist"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we are not fine",
+       "audio": "audio/tts/d9b75470cbc0.mp3"
+      },
+      {
+       "fa": "خوب نیستین",
+       "tr": "khub nistin",
+       "trp": [
+        [
+         "s",
+         "khub nist"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) are not fine",
+       "w": "خوب نیستید",
+       "wtr": "khub nistid",
+       "audio": "audio/tts/df2e78e39eb3.mp3"
+      },
+      {
+       "fa": "خوب نیستن",
+       "tr": "khub nistan",
+       "trp": [
+        [
+         "s",
+         "khub nist"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they are not fine",
+       "w": "خوب نیستند",
+       "wtr": "khub nistand",
+       "audio": "audio/tts/e96916cedc49.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "خوب نبودم",
+       "tr": "khub nabudam",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was not fine",
+       "audio": "audio/tts/73cb300fa556.mp3"
+      },
+      {
+       "fa": "خوب نبودی",
+       "tr": "khub nabudi",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were not fine",
+       "audio": "audio/tts/3e81bb98207f.mp3"
+      },
+      {
+       "fa": "خوب نبود",
+       "tr": "khub nabud",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ]
+       ],
+       "en": "he/she was not fine",
+       "audio": "audio/tts/dbe508453085.mp3"
+      },
+      {
+       "fa": "خوب نبودیم",
+       "tr": "khub nabudim",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were not fine",
+       "audio": "audio/tts/717de7dbad4a.mp3"
+      },
+      {
+       "fa": "خوب نبودین",
+       "tr": "khub nabudin",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were not fine",
+       "w": "خوب نبودید",
+       "wtr": "khub nabudid",
+       "audio": "audio/tts/9309e9b70563.mp3"
+      },
+      {
+       "fa": "خوب نبودن",
+       "tr": "khub nabudan",
+       "trp": [
+        [
+         "s",
+         "khub "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were not fine",
+       "w": "خوب نبودند",
+       "wtr": "khub nabudand",
+       "audio": "audio/tts/57af6fae0217.mp3"
+      }
+     ]
+    },
+    {
+     "id": "budan_khoshhal",
+     "label": {
+      "fa": "خوشحال بودن",
+      "tr": "khoshhāl budan",
+      "en": "to be happy",
+      "audio": "audio/tts/64ccc706c250.mp3"
+     },
+     "present": [
+      {
+       "fa": "خوشحالم",
+       "tr": "khoshhālam",
+       "trp": [
+        [
+         "s",
+         "khoshhāl"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I am happy",
+       "audio": "audio/tts/0d60479d3f8a.mp3"
+      },
+      {
+       "fa": "خوشحالی",
+       "tr": "khoshhāli",
+       "trp": [
+        [
+         "s",
+         "khoshhāl"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you are happy",
+       "audio": "audio/tts/6da795dc2f33.mp3"
+      },
+      {
+       "fa": "خوشحاله",
+       "tr": "khoshhāle",
+       "trp": [
+        [
+         "s",
+         "khoshhāl"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she is happy",
+       "w": "خوشحال است",
+       "wtr": "khoshhāl ast",
+       "audio": "audio/tts/524d7d36a4b2.mp3"
+      },
+      {
+       "fa": "خوشحالیم",
+       "tr": "khoshhālim",
+       "trp": [
+        [
+         "s",
+         "khoshhāl"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we are happy",
+       "audio": "audio/tts/40e1a3bf46dd.mp3"
+      },
+      {
+       "fa": "خوشحالین",
+       "tr": "khoshhālin",
+       "trp": [
+        [
+         "s",
+         "khoshhāl"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) are happy",
+       "w": "خوشحالید",
+       "wtr": "khoshhālid",
+       "audio": "audio/tts/2208a3bafce5.mp3"
+      },
+      {
+       "fa": "خوشحالن",
+       "tr": "khoshhālan",
+       "trp": [
+        [
+         "s",
+         "khoshhāl"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they are happy",
+       "w": "خوشحالند",
+       "wtr": "khoshhāland",
+       "audio": "audio/tts/06e7055e8b52.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "خوشحال بودم",
+       "tr": "khoshhāl budam",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bud"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was happy",
+       "audio": "audio/tts/93420b8c61c4.mp3"
+      },
+      {
+       "fa": "خوشحال بودی",
+       "tr": "khoshhāl budi",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bud"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were happy",
+       "audio": "audio/tts/9d5201992b41.mp3"
+      },
+      {
+       "fa": "خوشحال بود",
+       "tr": "khoshhāl bud",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bud"
+        ]
+       ],
+       "en": "he/she was happy",
+       "audio": "audio/tts/c2468c33894b.mp3"
+      },
+      {
+       "fa": "خوشحال بودیم",
+       "tr": "khoshhāl budim",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bud"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were happy",
+       "audio": "audio/tts/395fd2591fa7.mp3"
+      },
+      {
+       "fa": "خوشحال بودین",
+       "tr": "khoshhāl budin",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bud"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were happy",
+       "w": "خوشحال بودید",
+       "wtr": "khoshhāl budid",
+       "audio": "audio/tts/fb575629d095.mp3"
+      },
+      {
+       "fa": "خوشحال بودن",
+       "tr": "khoshhāl budan",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bud"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were happy",
+       "w": "خوشحال بودند",
+       "wtr": "khoshhāl budand",
+       "audio": "audio/tts/64ccc706c250.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "خوشحال باش",
+       "tr": "khoshhāl bāsh",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bāsh"
+        ]
+       ],
+       "en": "be happy!",
+       "audio": "audio/tts/eb8d45c0291a.mp3"
+      },
+      {
+       "fa": "خوشحال باشین",
+       "tr": "khoshhāl bāshin",
+       "trp": [
+        [
+         "s",
+         "khoshhāl bāsh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "be happy! (polite, or to more than one)",
+       "w": "خوشحال باشید",
+       "wtr": "khoshhāl bāshid",
+       "audio": "audio/tts/da81ba971b6a.mp3"
+      },
+      {
+       "fa": "خوشحال نباش",
+       "tr": "khoshhāl nabāsh",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bāsh"
+        ]
+       ],
+       "en": "don’t be happy!",
+       "audio": "audio/tts/3d78a41a5eee.mp3"
+      },
+      {
+       "fa": "خوشحال نباشین",
+       "tr": "khoshhāl nabāshin",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bāsh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t be happy! (polite, or to more than one)",
+       "w": "خوشحال نباشید",
+       "wtr": "khoshhāl nabāshid",
+       "audio": "audio/tts/3cf41878c5b4.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "خوشحال نیستم",
+       "tr": "khoshhāl nistam",
+       "trp": [
+        [
+         "s",
+         "khoshhāl nist"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I am not happy",
+       "audio": "audio/tts/2ba1cc1ce724.mp3"
+      },
+      {
+       "fa": "خوشحال نیستی",
+       "tr": "khoshhāl nisti",
+       "trp": [
+        [
+         "s",
+         "khoshhāl nist"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you are not happy",
+       "audio": "audio/tts/512b98f4be76.mp3"
+      },
+      {
+       "fa": "خوشحال نیست",
+       "tr": "khoshhāl nist",
+       "trp": [
+        [
+         "s",
+         "khoshhāl nist"
+        ]
+       ],
+       "en": "he/she is not happy",
+       "audio": "audio/tts/fe83932e524b.mp3"
+      },
+      {
+       "fa": "خوشحال نیستیم",
+       "tr": "khoshhāl nistim",
+       "trp": [
+        [
+         "s",
+         "khoshhāl nist"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we are not happy",
+       "audio": "audio/tts/ab642b2bcb36.mp3"
+      },
+      {
+       "fa": "خوشحال نیستین",
+       "tr": "khoshhāl nistin",
+       "trp": [
+        [
+         "s",
+         "khoshhāl nist"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) are not happy",
+       "w": "خوشحال نیستید",
+       "wtr": "khoshhāl nistid",
+       "audio": "audio/tts/72b334b808f4.mp3"
+      },
+      {
+       "fa": "خوشحال نیستن",
+       "tr": "khoshhāl nistan",
+       "trp": [
+        [
+         "s",
+         "khoshhāl nist"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they are not happy",
+       "w": "خوشحال نیستند",
+       "wtr": "khoshhāl nistand",
+       "audio": "audio/tts/b1752d205bc9.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "خوشحال نبودم",
+       "tr": "khoshhāl nabudam",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was not happy",
+       "audio": "audio/tts/3a68e23feee5.mp3"
+      },
+      {
+       "fa": "خوشحال نبودی",
+       "tr": "khoshhāl nabudi",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were not happy",
+       "audio": "audio/tts/8e188dad5429.mp3"
+      },
+      {
+       "fa": "خوشحال نبود",
+       "tr": "khoshhāl nabud",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ]
+       ],
+       "en": "he/she was not happy",
+       "audio": "audio/tts/175d6615197b.mp3"
+      },
+      {
+       "fa": "خوشحال نبودیم",
+       "tr": "khoshhāl nabudim",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were not happy",
+       "audio": "audio/tts/c2f6d7d6104d.mp3"
+      },
+      {
+       "fa": "خوشحال نبودین",
+       "tr": "khoshhāl nabudin",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were not happy",
+       "w": "خوشحال نبودید",
+       "wtr": "khoshhāl nabudid",
+       "audio": "audio/tts/80942d26af89.mp3"
+      },
+      {
+       "fa": "خوشحال نبودن",
+       "tr": "khoshhāl nabudan",
+       "trp": [
+        [
+         "s",
+         "khoshhāl "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were not happy",
+       "w": "خوشحال نبودند",
+       "wtr": "khoshhāl nabudand",
+       "audio": "audio/tts/3b103fab52c8.mp3"
+      }
+     ]
+    },
+    {
+     "id": "budan_khaste",
+     "label": {
+      "fa": "خسته بودن",
+      "tr": "khaste budan",
+      "en": "to be tired",
+      "audio": "audio/tts/58bdf4489285.mp3"
+     },
+     "present": [
+      {
+       "fa": "خسته‌ام",
+       "tr": "khaste-am",
+       "trp": [
+        [
+         "s",
+         "khaste-"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I am tired",
+       "audio": "audio/tts/b62fc601c78d.mp3"
+      },
+      {
+       "fa": "خسته‌ای",
+       "tr": "khaste-i",
+       "trp": [
+        [
+         "s",
+         "khaste-"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you are tired",
+       "audio": "audio/tts/d24c6b82814c.mp3"
+      },
+      {
+       "fa": "خسته‌س",
+       "tr": "khastas",
+       "trp": [
+        [
+         "s",
+         "khasta"
+        ],
+        [
+         "e",
+         "s"
+        ]
+       ],
+       "en": "he/she is tired",
+       "w": "خسته است",
+       "wtr": "khaste ast",
+       "audio": "audio/tts/34319e39913e.mp3"
+      },
+      {
+       "fa": "خسته‌ایم",
+       "tr": "khaste-im",
+       "trp": [
+        [
+         "s",
+         "khaste-"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we are tired",
+       "audio": "audio/tts/8c06970ebcdc.mp3"
+      },
+      {
+       "fa": "خسته‌این",
+       "tr": "khaste-in",
+       "trp": [
+        [
+         "s",
+         "khaste-"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) are tired",
+       "w": "خسته‌اید",
+       "wtr": "khaste-id",
+       "audio": "audio/tts/3018309ead22.mp3"
+      },
+      {
+       "fa": "خسته‌ان",
+       "tr": "khaste-an",
+       "trp": [
+        [
+         "s",
+         "khaste-"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they are tired",
+       "w": "خسته‌اند",
+       "wtr": "khaste-and",
+       "audio": "audio/tts/9a338c1efcef.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "خسته بودم",
+       "tr": "khaste budam",
+       "trp": [
+        [
+         "s",
+         "khaste bud"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was tired",
+       "audio": "audio/tts/eb1a15ce0cc7.mp3"
+      },
+      {
+       "fa": "خسته بودی",
+       "tr": "khaste budi",
+       "trp": [
+        [
+         "s",
+         "khaste bud"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were tired",
+       "audio": "audio/tts/0a96b07c07c0.mp3"
+      },
+      {
+       "fa": "خسته بود",
+       "tr": "khaste bud",
+       "trp": [
+        [
+         "s",
+         "khaste bud"
+        ]
+       ],
+       "en": "he/she was tired",
+       "audio": "audio/tts/1cd995dd57b2.mp3"
+      },
+      {
+       "fa": "خسته بودیم",
+       "tr": "khaste budim",
+       "trp": [
+        [
+         "s",
+         "khaste bud"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were tired",
+       "audio": "audio/tts/2b02484a829a.mp3"
+      },
+      {
+       "fa": "خسته بودین",
+       "tr": "khaste budin",
+       "trp": [
+        [
+         "s",
+         "khaste bud"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were tired",
+       "w": "خسته بودید",
+       "wtr": "khaste budid",
+       "audio": "audio/tts/c07d47411259.mp3"
+      },
+      {
+       "fa": "خسته بودن",
+       "tr": "khaste budan",
+       "trp": [
+        [
+         "s",
+         "khaste bud"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were tired",
+       "w": "خسته بودند",
+       "wtr": "khaste budand",
+       "audio": "audio/tts/58bdf4489285.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "خسته باش",
+       "tr": "khaste bāsh",
+       "trp": [
+        [
+         "s",
+         "khaste bāsh"
+        ]
+       ],
+       "en": "be tired!",
+       "audio": "audio/tts/fea84ece2fb7.mp3"
+      },
+      {
+       "fa": "خسته باشین",
+       "tr": "khaste bāshin",
+       "trp": [
+        [
+         "s",
+         "khaste bāsh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "be tired! (polite, or to more than one)",
+       "w": "خسته باشید",
+       "wtr": "khaste bāshid",
+       "audio": "audio/tts/d142e7f82a1c.mp3"
+      },
+      {
+       "fa": "خسته نباش",
+       "tr": "khaste nabāsh",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bāsh"
+        ]
+       ],
+       "en": "don’t be tired!",
+       "audio": "audio/tts/2ea34ddc14bc.mp3"
+      },
+      {
+       "fa": "خسته نباشین",
+       "tr": "khaste nabāshin",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bāsh"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t be tired! (polite, or to more than one)",
+       "w": "خسته نباشید",
+       "wtr": "khaste nabāshid",
+       "audio": "audio/tts/0089f1aff7ce.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "خسته نیستم",
+       "tr": "khaste nistam",
+       "trp": [
+        [
+         "s",
+         "khaste nist"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I am not tired",
+       "audio": "audio/tts/1973fa7a67bf.mp3"
+      },
+      {
+       "fa": "خسته نیستی",
+       "tr": "khaste nisti",
+       "trp": [
+        [
+         "s",
+         "khaste nist"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you are not tired",
+       "audio": "audio/tts/7dc68180899c.mp3"
+      },
+      {
+       "fa": "خسته نیست",
+       "tr": "khaste nist",
+       "trp": [
+        [
+         "s",
+         "khaste nist"
+        ]
+       ],
+       "en": "he/she is not tired",
+       "audio": "audio/tts/8eb69204521f.mp3"
+      },
+      {
+       "fa": "خسته نیستیم",
+       "tr": "khaste nistim",
+       "trp": [
+        [
+         "s",
+         "khaste nist"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we are not tired",
+       "audio": "audio/tts/d06476f8cc5e.mp3"
+      },
+      {
+       "fa": "خسته نیستین",
+       "tr": "khaste nistin",
+       "trp": [
+        [
+         "s",
+         "khaste nist"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) are not tired",
+       "w": "خسته نیستید",
+       "wtr": "khaste nistid",
+       "audio": "audio/tts/9d86c2442812.mp3"
+      },
+      {
+       "fa": "خسته نیستن",
+       "tr": "khaste nistan",
+       "trp": [
+        [
+         "s",
+         "khaste nist"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they are not tired",
+       "w": "خسته نیستند",
+       "wtr": "khaste nistand",
+       "audio": "audio/tts/88d5c8225c75.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "خسته نبودم",
+       "tr": "khaste nabudam",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was not tired",
+       "audio": "audio/tts/abca79720fa4.mp3"
+      },
+      {
+       "fa": "خسته نبودی",
+       "tr": "khaste nabudi",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were not tired",
+       "audio": "audio/tts/6b78263893d0.mp3"
+      },
+      {
+       "fa": "خسته نبود",
+       "tr": "khaste nabud",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ]
+       ],
+       "en": "he/she was not tired",
+       "audio": "audio/tts/c0babe2609ce.mp3"
+      },
+      {
+       "fa": "خسته نبودیم",
+       "tr": "khaste nabudim",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were not tired",
+       "audio": "audio/tts/fbc4c7508573.mp3"
+      },
+      {
+       "fa": "خسته نبودین",
+       "tr": "khaste nabudin",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were not tired",
+       "w": "خسته نبودید",
+       "wtr": "khaste nabudid",
+       "audio": "audio/tts/92f100efb092.mp3"
+      },
+      {
+       "fa": "خسته نبودن",
+       "tr": "khaste nabudan",
+       "trp": [
+        [
+         "s",
+         "khaste "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bud"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were not tired",
+       "w": "خسته نبودند",
+       "wtr": "khaste nabudand",
+       "audio": "audio/tts/e4ad903a8679.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "kardan": {
+   "inf": {
+    "fa": "کردن",
+    "tr": "kardan",
+    "en": "to do, to make",
+    "audio": "audio/tts/29fbe0f2b562.mp3"
+   },
+   "stems": {
+    "past": "kard-",
+    "present": "kon-"
+   },
+   "irregular": true,
+   "story": "Do, make. Same ancient root as the Sanskrit karma. Persian builds verbs from it like Lego: sabr (patience) + kardan is “wait,” ajale (haste) + kardan is “hurry,” negāh (a look) + kardan is “look.” In these compounds the command usually drops bo-: sabr kon, not sabr bokon.",
+   "variants": [
+    {
+     "id": "sabr_kardan",
+     "label": {
+      "fa": "صبر کردن",
+      "tr": "sabr kardan",
+      "en": "to wait",
+      "audio": "audio/tts/072a9d2ea5b3.mp3"
+     },
+     "present": [
+      {
+       "fa": "صبر می‌کنم",
+       "tr": "sabr mikonam",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I wait",
+       "audio": "audio/tts/7a6860b9f625.mp3"
+      },
+      {
+       "fa": "صبر می‌کنی",
+       "tr": "sabr mikoni",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you wait",
+       "audio": "audio/tts/02036ab9ce48.mp3"
+      },
+      {
+       "fa": "صبر می‌کنه",
+       "tr": "sabr mikone",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she waits",
+       "w": "صبر می‌کند",
+       "wtr": "sabr mikonad",
+       "audio": "audio/tts/424706a693ef.mp3"
+      },
+      {
+       "fa": "صبر می‌کنیم",
+       "tr": "sabr mikonim",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we wait",
+       "audio": "audio/tts/9cd0b369d0a6.mp3"
+      },
+      {
+       "fa": "صبر می‌کنین",
+       "tr": "sabr mikonin",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) wait",
+       "w": "صبر می‌کنید",
+       "wtr": "sabr mikonid",
+       "audio": "audio/tts/fa5aeaa28a9c.mp3"
+      },
+      {
+       "fa": "صبر می‌کنن",
+       "tr": "sabr mikonan",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they wait",
+       "w": "صبر می‌کنند",
+       "wtr": "sabr mikonand",
+       "audio": "audio/tts/5fc9c62809fa.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "صبر کردم",
+       "tr": "sabr kardam",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I waited",
+       "audio": "audio/tts/15fce6c3330c.mp3"
+      },
+      {
+       "fa": "صبر کردی",
+       "tr": "sabr kardi",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you waited",
+       "audio": "audio/tts/cb38f610b18a.mp3"
+      },
+      {
+       "fa": "صبر کرد",
+       "tr": "sabr kard",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she waited",
+       "audio": "audio/tts/5185e6d5c2a6.mp3"
+      },
+      {
+       "fa": "صبر کردیم",
+       "tr": "sabr kardim",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we waited",
+       "audio": "audio/tts/23c6e987f7ed.mp3"
+      },
+      {
+       "fa": "صبر کردین",
+       "tr": "sabr kardin",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) waited",
+       "w": "صبر کردید",
+       "wtr": "sabr kardid",
+       "audio": "audio/tts/929a477e6476.mp3"
+      },
+      {
+       "fa": "صبر کردن",
+       "tr": "sabr kardan",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they waited",
+       "w": "صبر کردند",
+       "wtr": "sabr kardand",
+       "audio": "audio/tts/072a9d2ea5b3.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "صبر کن",
+       "tr": "sabr kon",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "wait!",
+       "audio": "audio/tts/d01b3990aabe.mp3"
+      },
+      {
+       "fa": "صبر کنین",
+       "tr": "sabr konin",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "wait! (polite, or to more than one)",
+       "w": "صبر کنید",
+       "wtr": "sabr konid",
+       "audio": "audio/tts/507931fea26c.mp3"
+      },
+      {
+       "fa": "صبر نکن",
+       "tr": "sabr nakon",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "don’t wait!",
+       "audio": "audio/tts/9cf733b462b8.mp3"
+      },
+      {
+       "fa": "صبر نکنین",
+       "tr": "sabr nakonin",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t wait! (polite, or to more than one)",
+       "w": "صبر نکنید",
+       "wtr": "sabr nakonid",
+       "audio": "audio/tts/27cd6efcd051.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "صبر نمی‌کنم",
+       "tr": "sabr nemikonam",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t wait",
+       "audio": "audio/tts/64459e0898a3.mp3"
+      },
+      {
+       "fa": "صبر نمی‌کنی",
+       "tr": "sabr nemikoni",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t wait",
+       "audio": "audio/tts/b0277ead5f31.mp3"
+      },
+      {
+       "fa": "صبر نمی‌کنه",
+       "tr": "sabr nemikone",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t wait",
+       "w": "صبر نمی‌کند",
+       "wtr": "sabr nemikonad",
+       "audio": "audio/tts/8db09f8a489b.mp3"
+      },
+      {
+       "fa": "صبر نمی‌کنیم",
+       "tr": "sabr nemikonim",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t wait",
+       "audio": "audio/tts/3de15ed6a296.mp3"
+      },
+      {
+       "fa": "صبر نمی‌کنین",
+       "tr": "sabr nemikonin",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t wait",
+       "w": "صبر نمی‌کنید",
+       "wtr": "sabr nemikonid",
+       "audio": "audio/tts/ca8d9cc36553.mp3"
+      },
+      {
+       "fa": "صبر نمی‌کنن",
+       "tr": "sabr nemikonan",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t wait",
+       "w": "صبر نمی‌کنند",
+       "wtr": "sabr nemikonand",
+       "audio": "audio/tts/df9c5248ca91.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "صبر نکردم",
+       "tr": "sabr nakardam",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t wait",
+       "audio": "audio/tts/c2a83e33ef24.mp3"
+      },
+      {
+       "fa": "صبر نکردی",
+       "tr": "sabr nakardi",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t wait",
+       "audio": "audio/tts/d2270cd5682b.mp3"
+      },
+      {
+       "fa": "صبر نکرد",
+       "tr": "sabr nakard",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she didn’t wait",
+       "audio": "audio/tts/f0787dd06f93.mp3"
+      },
+      {
+       "fa": "صبر نکردیم",
+       "tr": "sabr nakardim",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t wait",
+       "audio": "audio/tts/c0d9a3afca57.mp3"
+      },
+      {
+       "fa": "صبر نکردین",
+       "tr": "sabr nakardin",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t wait",
+       "w": "صبر نکردید",
+       "wtr": "sabr nakardid",
+       "audio": "audio/tts/af98e674106a.mp3"
+      },
+      {
+       "fa": "صبر نکردن",
+       "tr": "sabr nakardan",
+       "trp": [
+        [
+         "w",
+         "sabr "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t wait",
+       "w": "صبر نکردند",
+       "wtr": "sabr nakardand",
+       "audio": "audio/tts/a67e61321bb3.mp3"
+      }
+     ]
+    },
+    {
+     "id": "ajale_kardan",
+     "label": {
+      "fa": "عجله کردن",
+      "tr": "ajale kardan",
+      "en": "to hurry",
+      "audio": "audio/tts/df6d49c9a092.mp3"
+     },
+     "present": [
+      {
+       "fa": "عجله می‌کنم",
+       "tr": "ajale mikonam",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I hurry",
+       "audio": "audio/tts/3bf66c98ee2f.mp3"
+      },
+      {
+       "fa": "عجله می‌کنی",
+       "tr": "ajale mikoni",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you hurry",
+       "audio": "audio/tts/ac1b02c32584.mp3"
+      },
+      {
+       "fa": "عجله می‌کنه",
+       "tr": "ajale mikone",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she hurries",
+       "w": "عجله می‌کند",
+       "wtr": "ajale mikonad",
+       "audio": "audio/tts/e86d71eda6d0.mp3"
+      },
+      {
+       "fa": "عجله می‌کنیم",
+       "tr": "ajale mikonim",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we hurry",
+       "audio": "audio/tts/548a3a379885.mp3"
+      },
+      {
+       "fa": "عجله می‌کنین",
+       "tr": "ajale mikonin",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) hurry",
+       "w": "عجله می‌کنید",
+       "wtr": "ajale mikonid",
+       "audio": "audio/tts/788d4e5b4e71.mp3"
+      },
+      {
+       "fa": "عجله می‌کنن",
+       "tr": "ajale mikonan",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they hurry",
+       "w": "عجله می‌کنند",
+       "wtr": "ajale mikonand",
+       "audio": "audio/tts/0d113f26a985.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "عجله کردم",
+       "tr": "ajale kardam",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I hurried",
+       "audio": "audio/tts/c5b1abf4f929.mp3"
+      },
+      {
+       "fa": "عجله کردی",
+       "tr": "ajale kardi",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you hurried",
+       "audio": "audio/tts/a21b5322aee3.mp3"
+      },
+      {
+       "fa": "عجله کرد",
+       "tr": "ajale kard",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she hurried",
+       "audio": "audio/tts/696cdb298f8e.mp3"
+      },
+      {
+       "fa": "عجله کردیم",
+       "tr": "ajale kardim",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we hurried",
+       "audio": "audio/tts/92ca6f945db3.mp3"
+      },
+      {
+       "fa": "عجله کردین",
+       "tr": "ajale kardin",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) hurried",
+       "w": "عجله کردید",
+       "wtr": "ajale kardid",
+       "audio": "audio/tts/698a9f3b9575.mp3"
+      },
+      {
+       "fa": "عجله کردن",
+       "tr": "ajale kardan",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they hurried",
+       "w": "عجله کردند",
+       "wtr": "ajale kardand",
+       "audio": "audio/tts/df6d49c9a092.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "عجله کن",
+       "tr": "ajale kon",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "hurry!",
+       "audio": "audio/tts/c81833e7d2fc.mp3"
+      },
+      {
+       "fa": "عجله کنین",
+       "tr": "ajale konin",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "hurry! (polite, or to more than one)",
+       "w": "عجله کنید",
+       "wtr": "ajale konid",
+       "audio": "audio/tts/7f01164f6d22.mp3"
+      },
+      {
+       "fa": "عجله نکن",
+       "tr": "ajale nakon",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "don’t hurry!",
+       "audio": "audio/tts/7530d2e30789.mp3"
+      },
+      {
+       "fa": "عجله نکنین",
+       "tr": "ajale nakonin",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t hurry! (polite, or to more than one)",
+       "w": "عجله نکنید",
+       "wtr": "ajale nakonid",
+       "audio": "audio/tts/8367dd82d4fc.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "عجله نمی‌کنم",
+       "tr": "ajale nemikonam",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t hurry",
+       "audio": "audio/tts/4fd31b640cb1.mp3"
+      },
+      {
+       "fa": "عجله نمی‌کنی",
+       "tr": "ajale nemikoni",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t hurry",
+       "audio": "audio/tts/06d494c203a1.mp3"
+      },
+      {
+       "fa": "عجله نمی‌کنه",
+       "tr": "ajale nemikone",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t hurry",
+       "w": "عجله نمی‌کند",
+       "wtr": "ajale nemikonad",
+       "audio": "audio/tts/a9af1fe88f7e.mp3"
+      },
+      {
+       "fa": "عجله نمی‌کنیم",
+       "tr": "ajale nemikonim",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t hurry",
+       "audio": "audio/tts/ce575b294c00.mp3"
+      },
+      {
+       "fa": "عجله نمی‌کنین",
+       "tr": "ajale nemikonin",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t hurry",
+       "w": "عجله نمی‌کنید",
+       "wtr": "ajale nemikonid",
+       "audio": "audio/tts/82cba7e84998.mp3"
+      },
+      {
+       "fa": "عجله نمی‌کنن",
+       "tr": "ajale nemikonan",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t hurry",
+       "w": "عجله نمی‌کنند",
+       "wtr": "ajale nemikonand",
+       "audio": "audio/tts/7c98eea438a7.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "عجله نکردم",
+       "tr": "ajale nakardam",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t hurry",
+       "audio": "audio/tts/7727f360dbe9.mp3"
+      },
+      {
+       "fa": "عجله نکردی",
+       "tr": "ajale nakardi",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t hurry",
+       "audio": "audio/tts/36404d0385cf.mp3"
+      },
+      {
+       "fa": "عجله نکرد",
+       "tr": "ajale nakard",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she didn’t hurry",
+       "audio": "audio/tts/dc58a3d63cca.mp3"
+      },
+      {
+       "fa": "عجله نکردیم",
+       "tr": "ajale nakardim",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t hurry",
+       "audio": "audio/tts/6a873471cefa.mp3"
+      },
+      {
+       "fa": "عجله نکردین",
+       "tr": "ajale nakardin",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t hurry",
+       "w": "عجله نکردید",
+       "wtr": "ajale nakardid",
+       "audio": "audio/tts/446a8c87b17e.mp3"
+      },
+      {
+       "fa": "عجله نکردن",
+       "tr": "ajale nakardan",
+       "trp": [
+        [
+         "w",
+         "ajale "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t hurry",
+       "w": "عجله نکردند",
+       "wtr": "ajale nakardand",
+       "audio": "audio/tts/e0569007a3a4.mp3"
+      }
+     ]
+    },
+    {
+     "id": "negah_kardan",
+     "label": {
+      "fa": "نگاه کردن",
+      "tr": "negāh kardan",
+      "en": "to look",
+      "audio": "audio/tts/4fc77ae1d815.mp3"
+     },
+     "present": [
+      {
+       "fa": "نگاه می‌کنم",
+       "tr": "negāh mikonam",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I look",
+       "audio": "audio/tts/3c0695ecd3d6.mp3"
+      },
+      {
+       "fa": "نگاه می‌کنی",
+       "tr": "negāh mikoni",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you look",
+       "audio": "audio/tts/65106c112489.mp3"
+      },
+      {
+       "fa": "نگاه می‌کنه",
+       "tr": "negāh mikone",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she looks",
+       "w": "نگاه می‌کند",
+       "wtr": "negāh mikonad",
+       "audio": "audio/tts/51f15b9ab405.mp3"
+      },
+      {
+       "fa": "نگاه می‌کنیم",
+       "tr": "negāh mikonim",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we look",
+       "audio": "audio/tts/68198b99b2c7.mp3"
+      },
+      {
+       "fa": "نگاه می‌کنین",
+       "tr": "negāh mikonin",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) look",
+       "w": "نگاه می‌کنید",
+       "wtr": "negāh mikonid",
+       "audio": "audio/tts/736fd1ff0e97.mp3"
+      },
+      {
+       "fa": "نگاه می‌کنن",
+       "tr": "negāh mikonan",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they look",
+       "w": "نگاه می‌کنند",
+       "wtr": "negāh mikonand",
+       "audio": "audio/tts/31ed1e22a003.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "نگاه کردم",
+       "tr": "negāh kardam",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I looked",
+       "audio": "audio/tts/5fe5fe18f81c.mp3"
+      },
+      {
+       "fa": "نگاه کردی",
+       "tr": "negāh kardi",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you looked",
+       "audio": "audio/tts/8b698167e5b0.mp3"
+      },
+      {
+       "fa": "نگاه کرد",
+       "tr": "negāh kard",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she looked",
+       "audio": "audio/tts/a94c7b84c7a4.mp3"
+      },
+      {
+       "fa": "نگاه کردیم",
+       "tr": "negāh kardim",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we looked",
+       "audio": "audio/tts/1013ceabe623.mp3"
+      },
+      {
+       "fa": "نگاه کردین",
+       "tr": "negāh kardin",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) looked",
+       "w": "نگاه کردید",
+       "wtr": "negāh kardid",
+       "audio": "audio/tts/32dfee3c79ca.mp3"
+      },
+      {
+       "fa": "نگاه کردن",
+       "tr": "negāh kardan",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they looked",
+       "w": "نگاه کردند",
+       "wtr": "negāh kardand",
+       "audio": "audio/tts/4fc77ae1d815.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "نگاه کن",
+       "tr": "negāh kon",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "look!",
+       "audio": "audio/tts/cf9366d3baf8.mp3"
+      },
+      {
+       "fa": "نگاه کنین",
+       "tr": "negāh konin",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "look! (polite, or to more than one)",
+       "w": "نگاه کنید",
+       "wtr": "negāh konid",
+       "audio": "audio/tts/b3ad6c1afc9f.mp3"
+      },
+      {
+       "fa": "نگاه نکن",
+       "tr": "negāh nakon",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "don’t look!",
+       "audio": "audio/tts/b6ae866048e1.mp3"
+      },
+      {
+       "fa": "نگاه نکنین",
+       "tr": "negāh nakonin",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t look! (polite, or to more than one)",
+       "w": "نگاه نکنید",
+       "wtr": "negāh nakonid",
+       "audio": "audio/tts/48b427964e29.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نگاه نمی‌کنم",
+       "tr": "negāh nemikonam",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t look",
+       "audio": "audio/tts/9adf9f90eaa9.mp3"
+      },
+      {
+       "fa": "نگاه نمی‌کنی",
+       "tr": "negāh nemikoni",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t look",
+       "audio": "audio/tts/932f435b8b21.mp3"
+      },
+      {
+       "fa": "نگاه نمی‌کنه",
+       "tr": "negāh nemikone",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t look",
+       "w": "نگاه نمی‌کند",
+       "wtr": "negāh nemikonad",
+       "audio": "audio/tts/545d748ccc89.mp3"
+      },
+      {
+       "fa": "نگاه نمی‌کنیم",
+       "tr": "negāh nemikonim",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t look",
+       "audio": "audio/tts/aebeb42d1056.mp3"
+      },
+      {
+       "fa": "نگاه نمی‌کنین",
+       "tr": "negāh nemikonin",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t look",
+       "w": "نگاه نمی‌کنید",
+       "wtr": "negāh nemikonid",
+       "audio": "audio/tts/cb78fa0c0fd4.mp3"
+      },
+      {
+       "fa": "نگاه نمی‌کنن",
+       "tr": "negāh nemikonan",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t look",
+       "w": "نگاه نمی‌کنند",
+       "wtr": "negāh nemikonand",
+       "audio": "audio/tts/211552a0e963.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نگاه نکردم",
+       "tr": "negāh nakardam",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t look",
+       "audio": "audio/tts/a3d0476d95d8.mp3"
+      },
+      {
+       "fa": "نگاه نکردی",
+       "tr": "negāh nakardi",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t look",
+       "audio": "audio/tts/ce4f12b925a1.mp3"
+      },
+      {
+       "fa": "نگاه نکرد",
+       "tr": "negāh nakard",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she didn’t look",
+       "audio": "audio/tts/ddaa0aca39b2.mp3"
+      },
+      {
+       "fa": "نگاه نکردیم",
+       "tr": "negāh nakardim",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t look",
+       "audio": "audio/tts/95a6c2d6c990.mp3"
+      },
+      {
+       "fa": "نگاه نکردین",
+       "tr": "negāh nakardin",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t look",
+       "w": "نگاه نکردید",
+       "wtr": "negāh nakardid",
+       "audio": "audio/tts/2ab64d226bf1.mp3"
+      },
+      {
+       "fa": "نگاه نکردن",
+       "tr": "negāh nakardan",
+       "trp": [
+        [
+         "w",
+         "negāh "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t look",
+       "w": "نگاه نکردند",
+       "wtr": "negāh nakardand",
+       "audio": "audio/tts/60b593544b89.mp3"
+      }
+     ]
+    },
+    {
+     "id": "kardan",
+     "label": {
+      "fa": "کردن",
+      "tr": "kardan",
+      "en": "to do",
+      "audio": "audio/tts/29fbe0f2b562.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌کنم",
+       "tr": "mikonam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I do",
+       "audio": "audio/tts/abe76f447932.mp3"
+      },
+      {
+       "fa": "می‌کنی",
+       "tr": "mikoni",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you do",
+       "audio": "audio/tts/81ed5f3295ef.mp3"
+      },
+      {
+       "fa": "می‌کنه",
+       "tr": "mikone",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she does",
+       "w": "می‌کند",
+       "wtr": "mikonad",
+       "audio": "audio/tts/55d28f5f1816.mp3"
+      },
+      {
+       "fa": "می‌کنیم",
+       "tr": "mikonim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we do",
+       "audio": "audio/tts/917899097623.mp3"
+      },
+      {
+       "fa": "می‌کنین",
+       "tr": "mikonin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) do",
+       "w": "می‌کنید",
+       "wtr": "mikonid",
+       "audio": "audio/tts/03b9e88bcf08.mp3"
+      },
+      {
+       "fa": "می‌کنن",
+       "tr": "mikonan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they do",
+       "w": "می‌کنند",
+       "wtr": "mikonand",
+       "audio": "audio/tts/2ecc2abb6e2d.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "کردم",
+       "tr": "kardam",
+       "trp": [
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I did",
+       "audio": "audio/tts/f2604a4462d0.mp3"
+      },
+      {
+       "fa": "کردی",
+       "tr": "kardi",
+       "trp": [
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you did",
+       "audio": "audio/tts/19c6299a6468.mp3"
+      },
+      {
+       "fa": "کرد",
+       "tr": "kard",
+       "trp": [
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she did",
+       "audio": "audio/tts/4fad6355442c.mp3"
+      },
+      {
+       "fa": "کردیم",
+       "tr": "kardim",
+       "trp": [
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we did",
+       "audio": "audio/tts/bd4aae04fef8.mp3"
+      },
+      {
+       "fa": "کردین",
+       "tr": "kardin",
+       "trp": [
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) did",
+       "w": "کردید",
+       "wtr": "kardid",
+       "audio": "audio/tts/b3a61c27f7d4.mp3"
+      },
+      {
+       "fa": "کردن",
+       "tr": "kardan",
+       "trp": [
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they did",
+       "w": "کردند",
+       "wtr": "kardand",
+       "audio": "audio/tts/29fbe0f2b562.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بکن",
+       "tr": "bokon",
+       "trp": [
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "do!",
+       "audio": "audio/tts/737d836408a8.mp3"
+      },
+      {
+       "fa": "بکنین",
+       "tr": "bokonin",
+       "trp": [
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "do! (polite, or to more than one)",
+       "w": "بکنید",
+       "wtr": "bokonid",
+       "audio": "audio/tts/baade765618c.mp3"
+      },
+      {
+       "fa": "نکن",
+       "tr": "nakon",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ]
+       ],
+       "en": "don’t do!",
+       "audio": "audio/tts/0a2baaa07555.mp3"
+      },
+      {
+       "fa": "نکنین",
+       "tr": "nakonin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t do! (polite, or to more than one)",
+       "w": "نکنید",
+       "wtr": "nakonid",
+       "audio": "audio/tts/99491abc7161.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌کنم",
+       "tr": "nemikonam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t do",
+       "audio": "audio/tts/3814d968daee.mp3"
+      },
+      {
+       "fa": "نمی‌کنی",
+       "tr": "nemikoni",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t do",
+       "audio": "audio/tts/467cf81e2c04.mp3"
+      },
+      {
+       "fa": "نمی‌کنه",
+       "tr": "nemikone",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t do",
+       "w": "نمی‌کند",
+       "wtr": "nemikonad",
+       "audio": "audio/tts/ec7162e84da2.mp3"
+      },
+      {
+       "fa": "نمی‌کنیم",
+       "tr": "nemikonim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t do",
+       "audio": "audio/tts/1d00f922d4a6.mp3"
+      },
+      {
+       "fa": "نمی‌کنین",
+       "tr": "nemikonin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t do",
+       "w": "نمی‌کنید",
+       "wtr": "nemikonid",
+       "audio": "audio/tts/11399c17f3a5.mp3"
+      },
+      {
+       "fa": "نمی‌کنن",
+       "tr": "nemikonan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "kon"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t do",
+       "w": "نمی‌کنند",
+       "wtr": "nemikonand",
+       "audio": "audio/tts/f1c673ca9543.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نکردم",
+       "tr": "nakardam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t do",
+       "audio": "audio/tts/847a4a02dee3.mp3"
+      },
+      {
+       "fa": "نکردی",
+       "tr": "nakardi",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t do",
+       "audio": "audio/tts/6a9921b002e8.mp3"
+      },
+      {
+       "fa": "نکرد",
+       "tr": "nakard",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ]
+       ],
+       "en": "he/she didn’t do",
+       "audio": "audio/tts/8de4031f8a2d.mp3"
+      },
+      {
+       "fa": "نکردیم",
+       "tr": "nakardim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t do",
+       "audio": "audio/tts/714363e78ffe.mp3"
+      },
+      {
+       "fa": "نکردین",
+       "tr": "nakardin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t do",
+       "w": "نکردید",
+       "wtr": "nakardid",
+       "audio": "audio/tts/17bdc92da214.mp3"
+      },
+      {
+       "fa": "نکردن",
+       "tr": "nakardan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "kard"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t do",
+       "w": "نکردند",
+       "wtr": "nakardand",
+       "audio": "audio/tts/8092486df187.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "didan": {
+   "inf": {
+    "fa": "دیدن",
+    "tr": "didan",
+    "en": "to see",
+    "audio": "audio/tts/c6bf1e89093e.mp3"
+   },
+   "stems": {
+    "past": "did-",
+    "present": "bin-"
+   },
+   "irregular": true,
+   "story": "See. Past did-, present bin-, and that bin is everywhere: durbin (far-seer) is a camera, khoshbin (good-seer) an optimist, badbin (bad-seer) a pessimist. And “didi?!” (did you see?!) is the gossip’s favorite word.",
+   "variants": [
+    {
+     "id": "didan",
+     "label": {
+      "fa": "دیدن",
+      "tr": "didan",
+      "en": "to see",
+      "audio": "audio/tts/c353d2ca05cb.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌بینم",
+       "tr": "mibinam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I see",
+       "audio": "audio/tts/6279e9a5ed4d.mp3"
+      },
+      {
+       "fa": "می‌بینی",
+       "tr": "mibini",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you see",
+       "audio": "audio/tts/cc8ef7a5ecc9.mp3"
+      },
+      {
+       "fa": "می‌بینه",
+       "tr": "mibine",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she sees",
+       "w": "می‌بیند",
+       "wtr": "mibinad",
+       "audio": "audio/tts/9d796cfed897.mp3"
+      },
+      {
+       "fa": "می‌بینیم",
+       "tr": "mibinim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we see",
+       "audio": "audio/tts/2fd67d8ec1eb.mp3"
+      },
+      {
+       "fa": "می‌بینین",
+       "tr": "mibinin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) see",
+       "w": "می‌بینید",
+       "wtr": "mibinid",
+       "audio": "audio/tts/0a198a4a3ec5.mp3"
+      },
+      {
+       "fa": "می‌بینن",
+       "tr": "mibinan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they see",
+       "w": "می‌بینند",
+       "wtr": "mibinand",
+       "audio": "audio/tts/2678f8018890.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "دیدم",
+       "tr": "didam",
+       "trp": [
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I saw",
+       "audio": "audio/tts/eeece8c9a342.mp3"
+      },
+      {
+       "fa": "دیدی",
+       "tr": "didi",
+       "trp": [
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you saw",
+       "audio": "audio/tts/351f210b8f9b.mp3"
+      },
+      {
+       "fa": "دید",
+       "tr": "did",
+       "trp": [
+        [
+         "s",
+         "did"
+        ]
+       ],
+       "en": "he/she saw",
+       "audio": "audio/tts/e6089ca2f499.mp3"
+      },
+      {
+       "fa": "دیدیم",
+       "tr": "didim",
+       "trp": [
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we saw",
+       "audio": "audio/tts/8380ea883bf5.mp3"
+      },
+      {
+       "fa": "دیدین",
+       "tr": "didin",
+       "trp": [
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) saw",
+       "w": "دیدید",
+       "wtr": "didid",
+       "audio": "audio/tts/efccb22b923c.mp3"
+      },
+      {
+       "fa": "دیدن",
+       "tr": "didan",
+       "trp": [
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they saw",
+       "w": "دیدند",
+       "wtr": "didand",
+       "audio": "audio/tts/c353d2ca05cb.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "ببین",
+       "tr": "bebin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "bin"
+        ]
+       ],
+       "en": "see!",
+       "audio": "audio/tts/f5994c2bf057.mp3"
+      },
+      {
+       "fa": "ببینین",
+       "tr": "bebinin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "see! (polite, or to more than one)",
+       "w": "ببینید",
+       "wtr": "bebinid",
+       "audio": "audio/tts/9e14602b5ddb.mp3"
+      },
+      {
+       "fa": "نبین",
+       "tr": "nabin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bin"
+        ]
+       ],
+       "en": "don’t see!",
+       "audio": "audio/tts/c9ada3891b97.mp3"
+      },
+      {
+       "fa": "نبینین",
+       "tr": "nabinin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t see! (polite, or to more than one)",
+       "w": "نبینید",
+       "wtr": "nabinid",
+       "audio": "audio/tts/25053f9db536.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌بینم",
+       "tr": "nemibinam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t see",
+       "audio": "audio/tts/a1224c63ea2a.mp3"
+      },
+      {
+       "fa": "نمی‌بینی",
+       "tr": "nemibini",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t see",
+       "audio": "audio/tts/f55acfc946a4.mp3"
+      },
+      {
+       "fa": "نمی‌بینه",
+       "tr": "nemibine",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t see",
+       "w": "نمی‌بیند",
+       "wtr": "nemibinad",
+       "audio": "audio/tts/2ef600fc7e66.mp3"
+      },
+      {
+       "fa": "نمی‌بینیم",
+       "tr": "nemibinim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t see",
+       "audio": "audio/tts/2bcb8646a20d.mp3"
+      },
+      {
+       "fa": "نمی‌بینین",
+       "tr": "nemibinin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t see",
+       "w": "نمی‌بینید",
+       "wtr": "nemibinid",
+       "audio": "audio/tts/5aae1b420846.mp3"
+      },
+      {
+       "fa": "نمی‌بینن",
+       "tr": "nemibinan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "bin"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t see",
+       "w": "نمی‌بینند",
+       "wtr": "nemibinand",
+       "audio": "audio/tts/dea38e50b6f0.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "ندیدم",
+       "tr": "nadidam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t see",
+       "audio": "audio/tts/503d6b4799b7.mp3"
+      },
+      {
+       "fa": "ندیدی",
+       "tr": "nadidi",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t see",
+       "audio": "audio/tts/27e7068d6863.mp3"
+      },
+      {
+       "fa": "ندید",
+       "tr": "nadid",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "did"
+        ]
+       ],
+       "en": "he/she didn’t see",
+       "audio": "audio/tts/aebfc93f2540.mp3"
+      },
+      {
+       "fa": "ندیدیم",
+       "tr": "nadidim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t see",
+       "audio": "audio/tts/28f20a79c6ca.mp3"
+      },
+      {
+       "fa": "ندیدین",
+       "tr": "nadidin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t see",
+       "w": "ندیدید",
+       "wtr": "nadidid",
+       "audio": "audio/tts/fedae8657379.mp3"
+      },
+      {
+       "fa": "ندیدن",
+       "tr": "nadidan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "did"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t see",
+       "w": "ندیدند",
+       "wtr": "nadidand",
+       "audio": "audio/tts/502f808a488e.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "khordan": {
+   "inf": {
+    "fa": "خوردن",
+    "tr": "khordan",
+    "en": "to eat",
+    "audio": "audio/tts/10f5707efdb7.mp3"
+   },
+   "stems": {
+    "past": "khord-",
+    "present": "khor-"
+   },
+   "irregular": false,
+   "story": "Eat. Persians also eat water and tea: āb khordan, chāy khordan. Here the command keeps its bo-, because breakfast and tea are things being eaten, not part of the verb: sobhune bokhor!",
+   "variants": [
+    {
+     "id": "khordan",
+     "label": {
+      "fa": "خوردن",
+      "tr": "khordan",
+      "en": "to eat",
+      "audio": "audio/tts/8bb1a4eaad2f.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌خورم",
+       "tr": "mikhoram",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I eat",
+       "audio": "audio/tts/91314c1f2d26.mp3"
+      },
+      {
+       "fa": "می‌خوری",
+       "tr": "mikhori",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you eat",
+       "audio": "audio/tts/a590d310d171.mp3"
+      },
+      {
+       "fa": "می‌خوره",
+       "tr": "mikhore",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she eats",
+       "w": "می‌خورد",
+       "wtr": "mikhorad",
+       "audio": "audio/tts/20ea8a33f781.mp3"
+      },
+      {
+       "fa": "می‌خوریم",
+       "tr": "mikhorim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we eat",
+       "audio": "audio/tts/9af6b506ba9f.mp3"
+      },
+      {
+       "fa": "می‌خورین",
+       "tr": "mikhorin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) eat",
+       "w": "می‌خورید",
+       "wtr": "mikhorid",
+       "audio": "audio/tts/7eb9ffe68f4e.mp3"
+      },
+      {
+       "fa": "می‌خورن",
+       "tr": "mikhoran",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they eat",
+       "w": "می‌خورند",
+       "wtr": "mikhorand",
+       "audio": "audio/tts/4cac3827655b.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "خوردم",
+       "tr": "khordam",
+       "trp": [
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I ate",
+       "audio": "audio/tts/75af772243af.mp3"
+      },
+      {
+       "fa": "خوردی",
+       "tr": "khordi",
+       "trp": [
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you ate",
+       "audio": "audio/tts/6d677fb65ae9.mp3"
+      },
+      {
+       "fa": "خورد",
+       "tr": "khord",
+       "trp": [
+        [
+         "s",
+         "khord"
+        ]
+       ],
+       "en": "he/she ate",
+       "audio": "audio/tts/cf7cc9041da2.mp3"
+      },
+      {
+       "fa": "خوردیم",
+       "tr": "khordim",
+       "trp": [
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we ate",
+       "audio": "audio/tts/21796c26c351.mp3"
+      },
+      {
+       "fa": "خوردین",
+       "tr": "khordin",
+       "trp": [
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) ate",
+       "w": "خوردید",
+       "wtr": "khordid",
+       "audio": "audio/tts/bdd89caf804d.mp3"
+      },
+      {
+       "fa": "خوردن",
+       "tr": "khordan",
+       "trp": [
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they ate",
+       "w": "خوردند",
+       "wtr": "khordand",
+       "audio": "audio/tts/8bb1a4eaad2f.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بخور",
+       "tr": "bokhor",
+       "trp": [
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "khor"
+        ]
+       ],
+       "en": "eat!",
+       "audio": "audio/tts/ea1322be0bd6.mp3"
+      },
+      {
+       "fa": "بخورین",
+       "tr": "bokhorin",
+       "trp": [
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "eat! (polite, or to more than one)",
+       "w": "بخورید",
+       "wtr": "bokhorid",
+       "audio": "audio/tts/2b64980da01e.mp3"
+      },
+      {
+       "fa": "نخور",
+       "tr": "nakhor",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khor"
+        ]
+       ],
+       "en": "don’t eat!",
+       "audio": "audio/tts/e8edd1276e20.mp3"
+      },
+      {
+       "fa": "نخورین",
+       "tr": "nakhorin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t eat! (polite, or to more than one)",
+       "w": "نخورید",
+       "wtr": "nakhorid",
+       "audio": "audio/tts/2dbd9bc48b91.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌خورم",
+       "tr": "nemikhoram",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t eat",
+       "audio": "audio/tts/71c55d73ae3f.mp3"
+      },
+      {
+       "fa": "نمی‌خوری",
+       "tr": "nemikhori",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t eat",
+       "audio": "audio/tts/300f7473eb48.mp3"
+      },
+      {
+       "fa": "نمی‌خوره",
+       "tr": "nemikhore",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t eat",
+       "w": "نمی‌خورد",
+       "wtr": "nemikhorad",
+       "audio": "audio/tts/b9a17a0b9ade.mp3"
+      },
+      {
+       "fa": "نمی‌خوریم",
+       "tr": "nemikhorim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t eat",
+       "audio": "audio/tts/889e51c50cf3.mp3"
+      },
+      {
+       "fa": "نمی‌خورین",
+       "tr": "nemikhorin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t eat",
+       "w": "نمی‌خورید",
+       "wtr": "nemikhorid",
+       "audio": "audio/tts/d2c8b356ece7.mp3"
+      },
+      {
+       "fa": "نمی‌خورن",
+       "tr": "nemikhoran",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t eat",
+       "w": "نمی‌خورند",
+       "wtr": "nemikhorand",
+       "audio": "audio/tts/48f21697aa52.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نخوردم",
+       "tr": "nakhordam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t eat",
+       "audio": "audio/tts/d10be350f80d.mp3"
+      },
+      {
+       "fa": "نخوردی",
+       "tr": "nakhordi",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t eat",
+       "audio": "audio/tts/25c7faf02efa.mp3"
+      },
+      {
+       "fa": "نخورد",
+       "tr": "nakhord",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ]
+       ],
+       "en": "he/she didn’t eat",
+       "audio": "audio/tts/9ad7dc83ca19.mp3"
+      },
+      {
+       "fa": "نخوردیم",
+       "tr": "nakhordim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t eat",
+       "audio": "audio/tts/0d57d8dd2a13.mp3"
+      },
+      {
+       "fa": "نخوردین",
+       "tr": "nakhordin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t eat",
+       "w": "نخوردید",
+       "wtr": "nakhordid",
+       "audio": "audio/tts/a74d623b260c.mp3"
+      },
+      {
+       "fa": "نخوردن",
+       "tr": "nakhordan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t eat",
+       "w": "نخوردند",
+       "wtr": "nakhordand",
+       "audio": "audio/tts/855a1b0f26ac.mp3"
+      }
+     ]
+    },
+    {
+     "id": "sobhune_khordan",
+     "label": {
+      "fa": "صبحونه خوردن",
+      "tr": "sobhune khordan",
+      "en": "to eat breakfast",
+      "audio": "audio/tts/9255d3ee23d5.mp3"
+     },
+     "present": [
+      {
+       "fa": "صبحونه می‌خورم",
+       "tr": "sobhune mikhoram",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I eat breakfast",
+       "audio": "audio/tts/e559f0063123.mp3"
+      },
+      {
+       "fa": "صبحونه می‌خوری",
+       "tr": "sobhune mikhori",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you eat breakfast",
+       "audio": "audio/tts/591fb8c2fe2d.mp3"
+      },
+      {
+       "fa": "صبحونه می‌خوره",
+       "tr": "sobhune mikhore",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she eats breakfast",
+       "w": "صبحونه می‌خورد",
+       "wtr": "sobhune mikhorad",
+       "audio": "audio/tts/d9232da4952e.mp3"
+      },
+      {
+       "fa": "صبحونه می‌خوریم",
+       "tr": "sobhune mikhorim",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we eat breakfast",
+       "audio": "audio/tts/3e9ea448ac09.mp3"
+      },
+      {
+       "fa": "صبحونه می‌خورین",
+       "tr": "sobhune mikhorin",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) eat breakfast",
+       "w": "صبحونه می‌خورید",
+       "wtr": "sobhune mikhorid",
+       "audio": "audio/tts/f6871e8bdce8.mp3"
+      },
+      {
+       "fa": "صبحونه می‌خورن",
+       "tr": "sobhune mikhoran",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they eat breakfast",
+       "w": "صبحونه می‌خورند",
+       "wtr": "sobhune mikhorand",
+       "audio": "audio/tts/dacdab352f9a.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "صبحونه خوردم",
+       "tr": "sobhune khordam",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I ate breakfast",
+       "audio": "audio/tts/02937c0b3d32.mp3"
+      },
+      {
+       "fa": "صبحونه خوردی",
+       "tr": "sobhune khordi",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you ate breakfast",
+       "audio": "audio/tts/9c30954b883d.mp3"
+      },
+      {
+       "fa": "صبحونه خورد",
+       "tr": "sobhune khord",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "s",
+         "khord"
+        ]
+       ],
+       "en": "he/she ate breakfast",
+       "audio": "audio/tts/ea694e229f6d.mp3"
+      },
+      {
+       "fa": "صبحونه خوردیم",
+       "tr": "sobhune khordim",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we ate breakfast",
+       "audio": "audio/tts/48f1c115e765.mp3"
+      },
+      {
+       "fa": "صبحونه خوردین",
+       "tr": "sobhune khordin",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) ate breakfast",
+       "w": "صبحونه خوردید",
+       "wtr": "sobhune khordid",
+       "audio": "audio/tts/e98715ada509.mp3"
+      },
+      {
+       "fa": "صبحونه خوردن",
+       "tr": "sobhune khordan",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they ate breakfast",
+       "w": "صبحونه خوردند",
+       "wtr": "sobhune khordand",
+       "audio": "audio/tts/9255d3ee23d5.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "صبحونه بخور",
+       "tr": "sobhune bokhor",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "khor"
+        ]
+       ],
+       "en": "eat breakfast!",
+       "audio": "audio/tts/09ca0473df8a.mp3"
+      },
+      {
+       "fa": "صبحونه بخورین",
+       "tr": "sobhune bokhorin",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "eat breakfast! (polite, or to more than one)",
+       "w": "صبحونه بخورید",
+       "wtr": "sobhune bokhorid",
+       "audio": "audio/tts/f4b1b47a1306.mp3"
+      },
+      {
+       "fa": "صبحونه نخور",
+       "tr": "sobhune nakhor",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khor"
+        ]
+       ],
+       "en": "don’t eat breakfast!",
+       "audio": "audio/tts/f736ffa3ed00.mp3"
+      },
+      {
+       "fa": "صبحونه نخورین",
+       "tr": "sobhune nakhorin",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t eat breakfast! (polite, or to more than one)",
+       "w": "صبحونه نخورید",
+       "wtr": "sobhune nakhorid",
+       "audio": "audio/tts/545eb1aa0edb.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "صبحونه نمی‌خورم",
+       "tr": "sobhune nemikhoram",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t eat breakfast",
+       "audio": "audio/tts/592e5c313ac8.mp3"
+      },
+      {
+       "fa": "صبحونه نمی‌خوری",
+       "tr": "sobhune nemikhori",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t eat breakfast",
+       "audio": "audio/tts/f31690f3faa2.mp3"
+      },
+      {
+       "fa": "صبحونه نمی‌خوره",
+       "tr": "sobhune nemikhore",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t eat breakfast",
+       "w": "صبحونه نمی‌خورد",
+       "wtr": "sobhune nemikhorad",
+       "audio": "audio/tts/caca65df9be3.mp3"
+      },
+      {
+       "fa": "صبحونه نمی‌خوریم",
+       "tr": "sobhune nemikhorim",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t eat breakfast",
+       "audio": "audio/tts/953f8510d2e2.mp3"
+      },
+      {
+       "fa": "صبحونه نمی‌خورین",
+       "tr": "sobhune nemikhorin",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t eat breakfast",
+       "w": "صبحونه نمی‌خورید",
+       "wtr": "sobhune nemikhorid",
+       "audio": "audio/tts/190c2bb3d4bd.mp3"
+      },
+      {
+       "fa": "صبحونه نمی‌خورن",
+       "tr": "sobhune nemikhoran",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t eat breakfast",
+       "w": "صبحونه نمی‌خورند",
+       "wtr": "sobhune nemikhorand",
+       "audio": "audio/tts/0efb3060473f.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "صبحونه نخوردم",
+       "tr": "sobhune nakhordam",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t eat breakfast",
+       "audio": "audio/tts/95d723a70d55.mp3"
+      },
+      {
+       "fa": "صبحونه نخوردی",
+       "tr": "sobhune nakhordi",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t eat breakfast",
+       "audio": "audio/tts/a0c5250728f3.mp3"
+      },
+      {
+       "fa": "صبحونه نخورد",
+       "tr": "sobhune nakhord",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ]
+       ],
+       "en": "he/she didn’t eat breakfast",
+       "audio": "audio/tts/18206d50b946.mp3"
+      },
+      {
+       "fa": "صبحونه نخوردیم",
+       "tr": "sobhune nakhordim",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t eat breakfast",
+       "audio": "audio/tts/f14754a10a52.mp3"
+      },
+      {
+       "fa": "صبحونه نخوردین",
+       "tr": "sobhune nakhordin",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t eat breakfast",
+       "w": "صبحونه نخوردید",
+       "wtr": "sobhune nakhordid",
+       "audio": "audio/tts/83b127a6558b.mp3"
+      },
+      {
+       "fa": "صبحونه نخوردن",
+       "tr": "sobhune nakhordan",
+       "trp": [
+        [
+         "w",
+         "sobhune "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t eat breakfast",
+       "w": "صبحونه نخوردند",
+       "wtr": "sobhune nakhordand",
+       "audio": "audio/tts/a5a1480a0b20.mp3"
+      }
+     ]
+    },
+    {
+     "id": "chay_khordan",
+     "label": {
+      "fa": "چای خوردن",
+      "tr": "chāy khordan",
+      "en": "to drink tea",
+      "audio": "audio/tts/823be7896b5d.mp3"
+     },
+     "present": [
+      {
+       "fa": "چای می‌خورم",
+       "tr": "chāy mikhoram",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I drink tea",
+       "audio": "audio/tts/e3ee9e48b89f.mp3"
+      },
+      {
+       "fa": "چای می‌خوری",
+       "tr": "chāy mikhori",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you drink tea",
+       "audio": "audio/tts/5069851c39ae.mp3"
+      },
+      {
+       "fa": "چای می‌خوره",
+       "tr": "chāy mikhore",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she drinks tea",
+       "w": "چای می‌خورد",
+       "wtr": "chāy mikhorad",
+       "audio": "audio/tts/152721f6fde3.mp3"
+      },
+      {
+       "fa": "چای می‌خوریم",
+       "tr": "chāy mikhorim",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we drink tea",
+       "audio": "audio/tts/e07cdecfd9ef.mp3"
+      },
+      {
+       "fa": "چای می‌خورین",
+       "tr": "chāy mikhorin",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) drink tea",
+       "w": "چای می‌خورید",
+       "wtr": "chāy mikhorid",
+       "audio": "audio/tts/d60ea734bae8.mp3"
+      },
+      {
+       "fa": "چای می‌خورن",
+       "tr": "chāy mikhoran",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they drink tea",
+       "w": "چای می‌خورند",
+       "wtr": "chāy mikhorand",
+       "audio": "audio/tts/55024e1b7e0b.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "چای خوردم",
+       "tr": "chāy khordam",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I drank tea",
+       "audio": "audio/tts/fde263cb3698.mp3"
+      },
+      {
+       "fa": "چای خوردی",
+       "tr": "chāy khordi",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you drank tea",
+       "audio": "audio/tts/b202c900bcc6.mp3"
+      },
+      {
+       "fa": "چای خورد",
+       "tr": "chāy khord",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "s",
+         "khord"
+        ]
+       ],
+       "en": "he/she drank tea",
+       "audio": "audio/tts/63b78600d4b2.mp3"
+      },
+      {
+       "fa": "چای خوردیم",
+       "tr": "chāy khordim",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we drank tea",
+       "audio": "audio/tts/733fc6d41136.mp3"
+      },
+      {
+       "fa": "چای خوردین",
+       "tr": "chāy khordin",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) drank tea",
+       "w": "چای خوردید",
+       "wtr": "chāy khordid",
+       "audio": "audio/tts/b35deb960deb.mp3"
+      },
+      {
+       "fa": "چای خوردن",
+       "tr": "chāy khordan",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they drank tea",
+       "w": "چای خوردند",
+       "wtr": "chāy khordand",
+       "audio": "audio/tts/823be7896b5d.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "چای بخور",
+       "tr": "chāy bokhor",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "khor"
+        ]
+       ],
+       "en": "drink tea!",
+       "audio": "audio/tts/d0a6c4dec37c.mp3"
+      },
+      {
+       "fa": "چای بخورین",
+       "tr": "chāy bokhorin",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "bo"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "drink tea! (polite, or to more than one)",
+       "w": "چای بخورید",
+       "wtr": "chāy bokhorid",
+       "audio": "audio/tts/8021b742de63.mp3"
+      },
+      {
+       "fa": "چای نخور",
+       "tr": "chāy nakhor",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khor"
+        ]
+       ],
+       "en": "don’t drink tea!",
+       "audio": "audio/tts/6d94c4462c7d.mp3"
+      },
+      {
+       "fa": "چای نخورین",
+       "tr": "chāy nakhorin",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t drink tea! (polite, or to more than one)",
+       "w": "چای نخورید",
+       "wtr": "chāy nakhorid",
+       "audio": "audio/tts/8cb450a93a34.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "چای نمی‌خورم",
+       "tr": "chāy nemikhoram",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t drink tea",
+       "audio": "audio/tts/aa9d7ec8c3c9.mp3"
+      },
+      {
+       "fa": "چای نمی‌خوری",
+       "tr": "chāy nemikhori",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t drink tea",
+       "audio": "audio/tts/4d7fcd88c658.mp3"
+      },
+      {
+       "fa": "چای نمی‌خوره",
+       "tr": "chāy nemikhore",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t drink tea",
+       "w": "چای نمی‌خورد",
+       "wtr": "chāy nemikhorad",
+       "audio": "audio/tts/06ceca89c105.mp3"
+      },
+      {
+       "fa": "چای نمی‌خوریم",
+       "tr": "chāy nemikhorim",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t drink tea",
+       "audio": "audio/tts/43cf5ddeecd7.mp3"
+      },
+      {
+       "fa": "چای نمی‌خورین",
+       "tr": "chāy nemikhorin",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t drink tea",
+       "w": "چای نمی‌خورید",
+       "wtr": "chāy nemikhorid",
+       "audio": "audio/tts/4c9cf9c328d6.mp3"
+      },
+      {
+       "fa": "چای نمی‌خورن",
+       "tr": "chāy nemikhoran",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khor"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t drink tea",
+       "w": "چای نمی‌خورند",
+       "wtr": "chāy nemikhorand",
+       "audio": "audio/tts/b9a24db3cae0.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "چای نخوردم",
+       "tr": "chāy nakhordam",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t drink tea",
+       "audio": "audio/tts/7ab2fcf8cac0.mp3"
+      },
+      {
+       "fa": "چای نخوردی",
+       "tr": "chāy nakhordi",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t drink tea",
+       "audio": "audio/tts/c2e69ae98daa.mp3"
+      },
+      {
+       "fa": "چای نخورد",
+       "tr": "chāy nakhord",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ]
+       ],
+       "en": "he/she didn’t drink tea",
+       "audio": "audio/tts/24abc7b4b29b.mp3"
+      },
+      {
+       "fa": "چای نخوردیم",
+       "tr": "chāy nakhordim",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t drink tea",
+       "audio": "audio/tts/b1f97fe0cc56.mp3"
+      },
+      {
+       "fa": "چای نخوردین",
+       "tr": "chāy nakhordin",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t drink tea",
+       "w": "چای نخوردید",
+       "wtr": "chāy nakhordid",
+       "audio": "audio/tts/a887152ffdce.mp3"
+      },
+      {
+       "fa": "چای نخوردن",
+       "tr": "chāy nakhordan",
+       "trp": [
+        [
+         "w",
+         "chāy "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khord"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t drink tea",
+       "w": "چای نخوردند",
+       "wtr": "chāy nakhordand",
+       "audio": "audio/tts/b8241de19cdb.mp3"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,4 +1,4 @@
-﻿id,mango_set,theme,english,persian_written,mango_pronunciation,persian_spoken,spoken_pronunciation,note,also_in_sets
+﻿id,mango_set,theme,english,persian_written,mango_pronunciation,persian_spoken,spoken_pronunciation,note,also_in_sets,chapter,source
 1,1,Greetings,Hello.,سلام,saLAHM,,,,
 2,1,Greetings,morning,صبح,sobh,,,,
 3,1,Greetings,good (as in good morning),بخیر,BEkheir,,,,
@@ -756,3 +756,21 @@
 755,20,Travel and sightseeing,to set off; to leave,راه افتادن,rah oftahDAN,,,,
 756,20,Travel and sightseeing,to hear,شنیدن,shaneeDAN,,,,
 757,20,Travel and sightseeing,religious,مذهبی,mazhaBEE,,,,
+1001,,Morning at Home,hungry,گرسنه,gorsneh,گشنه,goshneh,spoken form drops the r,,1,course
+1002,,Morning at Home,thirsty,تشنه,teshneh,تشنه,teshneh,,,1,course
+1003,,Morning at Home,happy,خوشحال,khosh-hahl,خوشحال,khosh-hahl,,,1,course
+1004,,Morning at Home,"upset, sad",ناراحت,nah-rah-hat,ناراحت,nah-rah-hat,,,1,course
+1005,,Morning at Home,tired,خسته,khasteh,خسته,khasteh,,,1,course
+1006,,Morning at Home,awake,بیدار,bee-dahr,بیدار,bee-dahr,,,1,course
+1007,,Morning at Home,come!,بیا,bee-ah,بیا,bee-ah,informal imperative,,1,course
+1008,,Morning at Home,go!,برو,boro,برو,boro,informal imperative,,1,course
+1009,,Morning at Home,sit down!,بشین,beshin,بشین,beshin,informal imperative,,1,course
+1010,,Morning at Home,get up!,بلند شو,boland sho,بلند شو,boland sho,informal imperative,,1,course
+1011,,Morning at Home,wait!,صبر کن,sabr kon,صبر کن,sabr kon,informal imperative,,1,course
+1012,,Morning at Home,look!,ببین,bebin,ببین,bebin,informal imperative,,1,course
+1013,,Morning at Home,again,دوباره,dobah-reh,دوباره,dobah-reh,,,1,course
+1014,,Morning at Home,a little,یک کم,yek kam,یه کم,yeh kam,spoken: yeh not yek,,1,course
+1015,,Morning at Home,"patience, mood",حوصله,howseleh,حوصله,howseleh,howseleh nadahram = I'm bored,,1,course
+1016,,Morning at Home,hurry,عجله,ajaleh,عجله,ajaleh,ajaleh nakon = don't hurry,,1,course
+1017,,Morning at Home,breakfast,صبحانه,sobhahneh,صبحونه,sobhooneh,spoken form changes ah to oo,,1,course
+1018,,Morning at Home,look! (at something),نگاه کن,,نگاه کن,negāh kon,negāh (a look) + kon (do!),,1,course
