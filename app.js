@@ -342,7 +342,7 @@
     h += '<h1>' + esc(ch.title.en) + '</h1>' + fa(ch.title, { size: 'lg', noEn: true });
     h += '<p class="chapter-theme">' + esc(ch.description) + '</p></header>';
     h += '<div class="objectives-box"><h3>By the end of this week, you can:</h3><ul>' + ch.objectives.map((o) => '<li>' + esc(o) + '</li>').join('') + '</ul></div>';
-    h += '<div class="letters-week"><span class="text-sm text-muted">This week’s letters</span><div dir="rtl">' + ch.letters.map((l) => '<span class="alpha' + (LEARNED.has(l) ? ' on' : '') + '" lang="fa">' + l + '</span>').join('') + '</div></div>';
+    h += chapterGlance(n, ch);
     h += '<div class="day-list">';
     ch.days.forEach((d) => {
       const p = dayProgress(n, d.number), done = p.done === p.total;
@@ -358,6 +358,62 @@
     h += '<a class="btn btn-secondary" href="#labels/' + n + '" target="_blank">' + ICONS.print + ' Print kitchen labels</a>';
     h += '<a class="btn btn-secondary" href="#flashcards" data-act="flashfilter" data-filter="ch' + n + '">' + ICONS.cards + ' Chapter ' + n + ' flashcards</a></div>';
     return h + '</div>';
+  }
+
+  // Everything the chapter teaches, gathered from its days: a map for review.
+  // Chips play their audio; each group's label jumps to the step that teaches it.
+  function chapterGlance(n, ch) {
+    const byId = (id) => ch.words.find((w) => w.id === id);
+    const link = (d, i) => '#chapter/' + n + '/day/' + d + (i === undefined ? '' : '/step/' + i);
+    const group = (href, label, body) => '<div class="gl-group"><a class="gl-label" href="' + href + '">' + esc(label) + ' ' + ICONS.right + '</a><div class="gl-items">' + body + '</div></div>';
+    const chip = (item) => '<button class="gl-chip" ' + (item.audio ? 'data-audio="' + esc(item.audio) + '"' : 'disabled') + '>' + faChip(item, true) + '</button>';
+    const S = { letters: [], verbs: [], words: [], phrases: [], stories: [] };
+    const counts = { letters: 0, verbs: 0, words: 0, phrases: 0, stories: 0 };
+    const seenPhrase = new Set(), placed = new Set();
+    const phrases = (list) => list.filter((p) => p && p.fa && !seenPhrase.has(p.fa) && seenPhrase.add(p.fa));
+
+    ch.days.forEach((d) => {
+      const D = 'Day ' + d.number + ' · ';
+      const wordsAt = d.steps.findIndex((s) => s.type === 'words');
+      const newWords = (d.newWordIds || []).map(byId).filter(Boolean);
+      if (newWords.length) {
+        newWords.forEach((w) => placed.add(w.id));
+        counts.words += newWords.length;
+        S.words.push(group(link(d.number, wordsAt < 0 ? undefined : wordsAt), D + d.title.en, newWords.map(chip).join('')));
+      }
+      d.steps.forEach((s, i) => {
+        const at = link(d.number, i);
+        if (s.type === 'script' && s.letters) {
+          counts.letters += s.letters.length;
+          S.letters.push(group(at, D + s.title, '<div class="gl-alpha" dir="rtl">' + s.letters.map((l) =>
+            '<a class="gl-letter" href="' + at + '" title="' + esc(l.sound) + '"><span class="alpha' + (LEARNED.has(l.ch) ? ' on' : '') + '" lang="fa">' + l.ch + '</span><span class="gl-lname">' + esc(l.name) + '</span></a>').join('') + '</div>'));
+        } else if (s.type === 'verbs' && s.verbs) {
+          counts.verbs += s.verbs.length;
+          S.verbs.push(group(at, D + s.title, s.verbs.map((vid) => {
+            const v = state.verbs && state.verbs.verbs[vid];
+            if (!v) return '';
+            const extra = v.variants.length > 1 ? '<span class="gl-sub">' + v.variants.map((x) => esc(x.label.tr)).join(' · ') + '</span>' : '<span class="gl-sub">stems ' + esc(v.stems.past) + ' / ' + esc(v.stems.present) + '</span>';
+            return '<div class="gl-verb">' + chip(v.inf) + extra + '</div>';
+          }).join('')));
+        } else if (['shadow', 'gossip', 'teach'].includes(s.type)) {
+          const list = phrases((s.lines || s.phrases || s.items || []).concat(s.proverb ? [s.proverb] : []));
+          if (list.length) { counts.phrases += list.length; S.phrases.push(group(at, D + s.title, list.map(chip).join(''))); }
+        } else if (s.type === 'roots' && s.items) {
+          counts.stories += s.items.length;
+          S.stories.push(group(at, D + s.title, s.items.map((r) => chip(r.word)).join('')));
+        } else if (s.type === 'verse' && s.lines) {
+          counts.stories += 1;
+          S.stories.push(group(at, D + s.title, s.lines.map(chip).join('')));
+        }
+      });
+    });
+    const loose = ch.words.filter((w) => w.isNew && !placed.has(w.id));
+    if (loose.length) { counts.words += loose.length; S.words.push(group(link(1), 'Also this chapter', loose.map(chip).join(''))); }
+
+    const sec = (key, title, open) => S[key].length ? '<details class="gl-sec gl-' + key + '"' + (open ? ' open' : '') + '><summary>' + title + ' <span class="gl-count">' + counts[key] + '</span></summary>' + S[key].join('') + '</details>' : '';
+    let h = '<section class="glance"><div class="glance-head"><h3>This chapter at a glance</h3><p>Tap a word to hear it. Tap a day to go to the lesson.</p></div>';
+    h += sec('letters', 'Letters', true) + sec('verbs', 'Verbs', true) + sec('words', 'New words', true) + sec('phrases', 'Phrases', false) + sec('stories', 'Word stories & verse', false);
+    return h + '</section>';
   }
 
   // ─── Day view ───────────────────────────────
