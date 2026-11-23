@@ -4,7 +4,9 @@ Row format: spoken script | spoken phonetics | written script | written phonetic
 Phonetics markup: {prefix} stem [ending]. Spoken forms were written by Claude
 and haven't been checked by a native speaker; correct them here if Mass says otherwise.
 """
-from content import table, P
+from content import table, P, SUBJ, voice_scope
+
+CH1_VERB_START_VOICE = 'f'
 
 AMADAN = dict(
     present='''
@@ -226,7 +228,212 @@ def budan(adj_fa, adj_tr, vowel_final=False):
     return dict(present=present, past=past, imp=imp), neg_present, neg_past
 
 
+# ── Chapter 2: the present in depth ────────────────────────
+DASHTAN = dict(
+    present='''
+دارم | dār[am] | دارم | dār[am]
+داری | dār[i] | داری | dār[i]
+داره | dār[e] | دارد | dār[ad]
+داریم | dār[im] | داریم | dār[im]
+دارین | dār[in] | دارید | dār[id]
+دارن | dār[an] | دارند | dār[and]''',
+    past='''
+داشتم | dāsht[am] | داشتم | dāsht[am]
+داشتی | dāsht[i] | داشتی | dāsht[i]
+داشت | dāsht | داشت | dāsht
+داشتیم | dāsht[im] | داشتیم | dāsht[im]
+داشتین | dāsht[in] | داشتید | dāsht[id]
+داشتن | dāsht[an] | داشتند | dāsht[and]''',
+)
+DASHTAN_NEG = '''
+ندارم | {na}dār[am] | ندارم | {na}dār[am]
+نداری | {na}dār[i] | نداری | {na}dār[i]
+نداره | {na}dār[e] | ندارد | {na}dār[ad]
+نداریم | {na}dār[im] | نداریم | {na}dār[im]
+ندارین | {na}dār[in] | ندارید | {na}dār[id]
+ندارن | {na}dār[an] | ندارند | {na}dār[and]'''
+
+KHASTAN = dict(
+    present='''
+می‌خوام | {mi}khā[m] | می‌خواهم | {mi}khāh[am]
+می‌خوای | {mi}khā[y] | می‌خواهی | {mi}khāh[i]
+می‌خواد | {mi}khā[d] | می‌خواهد | {mi}khāh[ad]
+می‌خوایم | {mi}khā[ym] | می‌خواهیم | {mi}khāh[im]
+می‌خواین | {mi}khā[yn] | می‌خواهید | {mi}khāh[id]
+می‌خوان | {mi}khā[n] | می‌خواهند | {mi}khāh[and]''',
+    past='''
+خواستم | khāst[am] | خواستم | khāst[am]
+خواستی | khāst[i] | خواستی | khāst[i]
+خواست | khāst | خواست | khāst
+خواستیم | khāst[im] | خواستیم | khāst[im]
+خواستین | khāst[in] | خواستید | khāst[id]
+خواستن | khāst[an] | خواستند | khāst[and]''',
+)
+
+DUNESTAN = dict(
+    present='''
+می‌دونم | {mi}dun[am] | می‌دانم | {mi}dān[am]
+می‌دونی | {mi}dun[i] | می‌دانی | {mi}dān[i]
+می‌دونه | {mi}dun[e] | می‌داند | {mi}dān[ad]
+می‌دونیم | {mi}dun[im] | می‌دانیم | {mi}dān[im]
+می‌دونین | {mi}dun[in] | می‌دانید | {mi}dān[id]
+می‌دونن | {mi}dun[an] | می‌دانند | {mi}dān[and]''',
+    past='''
+دونستم | dunest[am] | دانستم | dānest[am]
+دونستی | dunest[i] | دانستی | dānest[i]
+دونست | dunest | دانست | dānest
+دونستیم | dunest[im] | دانستیم | dānest[im]
+دونستین | dunest[in] | دانستید | dānest[id]
+دونستن | dunest[an] | دانستند | dānest[and]''',
+)
+
+TUNESTAN = dict(
+    present='''
+می‌تونم | {mi}tun[am] | می‌توانم | {mi}tavān[am]
+می‌تونی | {mi}tun[i] | می‌توانی | {mi}tavān[i]
+می‌تونه | {mi}tun[e] | می‌تواند | {mi}tavān[ad]
+می‌تونیم | {mi}tun[im] | می‌توانیم | {mi}tavān[im]
+می‌تونین | {mi}tun[in] | می‌توانید | {mi}tavān[id]
+می‌تونن | {mi}tun[an] | می‌توانند | {mi}tavān[and]''',
+    past='''
+تونستم | tunest[am] | توانستم | tavānest[am]
+تونستی | tunest[i] | توانستی | tavānest[i]
+تونست | tunest | توانست | tavānest
+تونستیم | tunest[im] | توانستیم | tavānest[im]
+تونستین | tunest[in] | توانستید | tavānest[id]
+تونستن | tunest[an] | توانستند | tavānest[and]''',
+)
+
+GOFTAN = dict(
+    present='''
+می‌گم | {mi}g[am] | می‌گویم | {mi}guy[am]
+می‌گی | {mi}g[i] | می‌گویی | {mi}guy[i]
+می‌گه | {mi}g[e] | می‌گوید | {mi}guy[ad]
+می‌گیم | {mi}g[im] | می‌گوییم | {mi}guy[im]
+می‌گین | {mi}g[in] | می‌گویید | {mi}guy[id]
+می‌گن | {mi}g[an] | می‌گویند | {mi}guy[and]''',
+    past='''
+گفتم | goft[am] | گفتم | goft[am]
+گفتی | goft[i] | گفتی | goft[i]
+گفت | goft | گفت | goft
+گفتیم | goft[im] | گفتیم | goft[im]
+گفتین | goft[in] | گفتید | goft[id]
+گفتن | goft[an] | گفتند | goft[and]''',
+    imp='''
+بگو | {be}gu | بگو | {be}gu
+بگین | {be}g[in] | بگویید | {be}guy[id]
+نگو | {na}gu | نگو | {na}gu
+نگین | {na}g[in] | نگویید | {na}guy[id]''',
+)
+
+DADAN = dict(
+    present='''
+می‌دم | {mi}d[am] | می‌دهم | {mi}dah[am]
+می‌دی | {mi}d[i] | می‌دهی | {mi}dah[i]
+می‌ده | {mi}d[e] | می‌دهد | {mi}dah[ad]
+می‌دیم | {mi}d[im] | می‌دهیم | {mi}dah[im]
+می‌دین | {mi}d[in] | می‌دهید | {mi}dah[id]
+می‌دن | {mi}d[an] | می‌دهند | {mi}dah[and]''',
+    past='''
+دادم | dād[am] | دادم | dād[am]
+دادی | dād[i] | دادی | dād[i]
+داد | dād | داد | dād
+دادیم | dād[im] | دادیم | dād[im]
+دادین | dād[in] | دادید | dād[id]
+دادن | dād[an] | دادند | dād[and]''',
+    imp='''
+بده | {be}de | بده | {be}deh
+بدین | {be}d[in] | بدهید | {be}dah[id]
+نده | {na}de | نده | {na}deh
+ندین | {na}d[in] | ندهید | {na}dah[id]''',
+)
+
+
+TUNESTAN_EN = {
+    'present': [f'{s} can' for s in SUBJ],
+    'neg_present': [f'{s} can’t' for s in SUBJ],
+    'past': [f'{s} {"was" if i in (0, 2) else "were"} able to' for i, s in enumerate(SUBJ)],
+    'neg_past': [f'{s} couldn’t' for s in SUBJ],
+}
+
+
+def chapter2_verbs():
+    return {
+        'dashtan': {
+            'inf': P('داشتن', 'dāshtan', 'to have'),
+            'stems': {'past': 'dāsht-', 'present': 'dār-'},
+            'irregular': True,
+            'story': 'Have. The one everyday verb that refuses mi- in the present: dāram, never midāram. It also runs the “right now” tense: dāram miram, literally “I have going,” means I’m on my way (Day 4). With dust (friend) in front it’s how Persian likes and loves: dust dāram, I like it; dustet dāram, I love you, literally “I have you as a friend.”',
+            'noImp': 'No everyday command. To say “keep it,” Persian switches verbs: negah dār (hold).',
+            'variants': [
+                {'id': 'dashtan', 'label': P('داشتن', 'dāshtan', 'to have'), **table(DASHTAN, ('have', 'has', 'had'), neg_present_spec=DASHTAN_NEG)},
+                {'id': 'dust_dashtan', 'label': P('دوست داشتن', 'dust dāshtan', 'to like, to love'), **table(DASHTAN, ('like', 'likes', 'liked'), prefix=('دوست', 'dust'), neg_present_spec=DASHTAN_NEG)},
+            ],
+        },
+        'khastan': {
+            'inf': P('خواستن', 'khāstan', 'to want'),
+            'stems': {'past': 'khāst-', 'present': 'khā- (written khāh-)'},
+            'irregular': True,
+            'story': 'Want. Spelled with a silent vāv: خواستن is khāstan. A thousand years ago it was said khvāstan, and the spelling never let go; the same ghost vāv sits in khāb (sleep) and khāhar (sister). Speech squeezes the present hard: written mikhāham, Mass says mikhām. In Chapter 4 it learns to pull another verb behind it: mikhām beram, I want to go.',
+            'noImp': 'Commands of khāstan exist but are rare. You won’t need them.',
+            'variants': [
+                {'id': 'khastan', 'label': P('خواستن', 'khāstan', 'to want'), **table(KHASTAN, ('want', 'wants', 'wanted'))},
+            ],
+        },
+        'dunestan': {
+            'inf': P('دونستن', 'dunestan', 'to know', w='دانستن', wtr='dānestan'),
+            'stems': {'past': 'dunest- (written dānest-)', 'present': 'dun- (written dān-)'},
+            'irregular': False,
+            'story': 'Know (a fact). The ān→un rule again: written midānam, Mass says midunam. The family: dānesh (knowledge), dānā (wise), and dāneshgāh, the place of knowledge, a university (Day 4). Knowing a person is a different verb, shenākhtan. Nemidunam (I don’t know) may be the most useful word in this chapter.',
+            'noImp': 'Bedun ke… (know that…) exists in speeches and love songs, but you won’t need a command for “know.”',
+            'variants': [
+                {'id': 'dunestan', 'label': P('دونستن', 'dunestan', 'to know'), **table(DUNESTAN, ('know', 'knows', 'knew'))},
+            ],
+        },
+        'tunestan': {
+            'inf': P('تونستن', 'tunestan', 'to be able, can', w='توانستن', wtr='tavānestan'),
+            'stems': {'past': 'tunest- (written tavānest-)', 'present': 'tun- (written tavān-)'},
+            'irregular': False,
+            'story': 'Can. Written mitavānam shrinks to mitunam. The root tavān means power: tavānā is powerful. The past tunestam means “I managed to,” not “I could if I wanted.” On its own, nemitunam is a full sentence: I can’t.',
+            'noImp': 'No command form. You can’t order someone to be able.',
+            'variants': [
+                {'id': 'tunestan', 'label': P('تونستن', 'tunestan', 'can'), **table(TUNESTAN, ('can', 'can', 'could'), en_forms=TUNESTAN_EN)},
+            ],
+        },
+        'goftan': {
+            'inf': P('گفتن', 'goftan', 'to say, to tell'),
+            'stems': {'past': 'goft-', 'present': 'g- (written gu-)'},
+            'irregular': True,
+            'story': 'Say, tell. Past goft-, present gu-, which Tehrani speech crushes to g-: written miguyam, Mass says migam. You already know mige from “Bābā mige.” Begu! (tell me!) is the gossip’s second favorite word, after didi?!',
+            'variants': [
+                {'id': 'goftan', 'label': P('گفتن', 'goftan', 'to say'), **table(GOFTAN, ('say', 'says', 'said'))},
+            ],
+        },
+        'dadan': {
+            'inf': P('دادن', 'dādan', 'to give'),
+            'stems': {'past': 'dād-', 'present': 'd- (written dah-)'},
+            'irregular': True,
+            'story': 'Give. Past dād-, present dah-, which speech softens to d-: written midaham, Mass says midam. Like kardan, it builds verbs from nouns: gush (ear) + dādan = listen, “give ear.” A look-alike word, dād, means a shout: dād nazan! is “don’t yell!”',
+            'variants': [
+                {'id': 'dadan', 'label': P('دادن', 'dādan', 'to give'), **table(DADAN, ('give', 'gives', 'gave'))},
+                {'id': 'gush_dadan', 'label': P('گوش دادن', 'gush dādan', 'to listen'), **table(DADAN, ('listen', 'listens', 'listened'), prefix=('گوش', 'gush'))},
+            ],
+        },
+    }
+
+
 def build_verbs():
+    # The bank gets its own voice scope so its audio is the same whichever chapter builder runs it.
+    # Chapter 1's verbs start on the voice where they fell when build_ch1 first made their audio,
+    # and still move build_ch1's alternation on, so Chapter 1's audio names never change.
+    with voice_scope(start=CH1_VERB_START_VOICE, advance_outer=True):
+        verbs = chapter1_verbs()
+    with voice_scope():
+        verbs.update(chapter2_verbs())
+    return verbs
+
+
+def chapter1_verbs():
     bud_khub, np_khub, npast_khub = budan('خوب', 'khub')
     bud_khosh, np_khosh, npast_khosh = budan('خوشحال', 'khoshhāl')
     bud_khaste, np_khaste, npast_khaste = budan('خسته', 'khaste', vowel_final=True)

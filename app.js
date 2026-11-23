@@ -369,7 +369,7 @@
     const chip = (item) => '<button class="gl-chip" ' + (item.audio ? 'data-audio="' + esc(item.audio) + '"' : 'disabled') + '>' + faChip(item, true) + '</button>';
     const S = { letters: [], verbs: [], words: [], phrases: [], stories: [] };
     const counts = { letters: 0, verbs: 0, words: 0, phrases: 0, stories: 0 };
-    const seenPhrase = new Set(), placed = new Set();
+    const seenPhrase = new Set(), seenVerb = new Set(), placed = new Set();
     const phrases = (list) => list.filter((p) => p && p.fa && !seenPhrase.has(p.fa) && seenPhrase.add(p.fa));
 
     ch.days.forEach((d) => {
@@ -388,8 +388,10 @@
           S.letters.push(group(at, D + s.title, '<div class="gl-alpha" dir="rtl">' + s.letters.map((l) =>
             '<a class="gl-letter" href="' + at + '" title="' + esc(l.sound) + '"><span class="alpha' + (LEARNED.has(l.ch) ? ' on' : '') + '" lang="fa">' + l.ch + '</span><span class="gl-lname">' + esc(l.name) + '</span></a>').join('') + '</div>'));
         } else if (s.type === 'verbs' && s.verbs) {
-          counts.verbs += s.verbs.length;
-          S.verbs.push(group(at, D + s.title, s.verbs.map((vid) => {
+          const fresh = s.verbs.filter((vid) => !seenVerb.has(vid) && seenVerb.add(vid));
+          if (!fresh.length) return;
+          counts.verbs += fresh.length;
+          S.verbs.push(group(at, D + s.title, fresh.map((vid) => {
             const v = state.verbs && state.verbs.verbs[vid];
             if (!v) return '';
             const extra = v.variants.length > 1 ? '<span class="gl-sub">' + v.variants.map((x) => esc(x.label.tr)).join(' · ') + '</span>' : '<span class="gl-sub">stems ' + esc(v.stems.past) + ' / ' + esc(v.stems.present) + '</span>';
@@ -533,6 +535,7 @@
     });
     h += '</tbody></table>';
     const imp = variant.imperative;
+    if (!imp || !imp.length) return h + '<div class="imp-head">Commands</div><p class="imp-none">' + esc(v.noImp || 'No command form.') + '</p>';
     h += '<div class="imp-head">Commands</div><table class="conj conj-imp"><tbody>';
     h += '<tr><th class="conj-person"><span lang="fa" dir="rtl">تو</span><span class="cp-tr">to</span><span class="cp-en">one person, casual</span></th>' + conjCell(imp[0]) + conjCell(imp[2]) + '</tr>';
     h += '<tr><th class="conj-person"><span lang="fa" dir="rtl">شما</span><span class="cp-tr">shomā</span><span class="cp-en">polite, or a group</span></th>' + conjCell(imp[1]) + conjCell(imp[3]) + '</tr>';
@@ -831,14 +834,23 @@
   function stepVerbGym(s, ctx) {
     if (!GEN[ctx.key]) {
       const qs = [];
-      const tenses = ['present', 'past', 'imperative', 'neg_present', 'neg_past'];
+      const vids = (s.verbs || verbsTaught(ctx.ch)).filter((id) => state.verbs.verbs[id]);
       for (let k = 0; k < (s.count || 12); k++) {
-        const vid = pick(Object.keys(state.verbs.verbs)), v = state.verbs.verbs[vid], variant = pick(v.variants), tense = pick(tenses);
+        const vid = pick(vids), v = state.verbs.verbs[vid], variant = pick(v.variants);
+        const tense = pick(['present', 'past', 'neg_present', 'neg_past'].concat(variant.imperative.length ? ['imperative'] : []));
         qs.push({ type: 'conj', verb: vid, variant: variant.id, tense, person: Math.floor(Math.random() * (tense === 'imperative' ? 4 : 6)) });
       }
       GEN[ctx.key] = qs;
     }
     return instr(s) + quizGroup(GEN[ctx.key], ctx);
+  }
+
+  // Verbs from every verb lab up to and including chapter n, in the order they were taught.
+  function verbsTaught(n) {
+    const out = [];
+    Object.keys(state.chapters).map(Number).filter((c) => c <= n).sort((a, b) => a - b).forEach((c) =>
+      state.chapters[c].days.forEach((d) => d.steps.forEach((st) => { if (st.type === 'verbs') st.verbs.forEach((id) => { if (!out.includes(id)) out.push(id); }); })));
+    return out;
   }
 
   // ─── Paper ──────────────────────────────────

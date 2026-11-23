@@ -14,6 +14,13 @@ import edge_tts
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOICES = {'d': 'fa-IR-DilaraNeural', 'f': 'fa-IR-FaridNeural'}
 CONCURRENCY = 6
+# Behind an HTTPS proxy (e.g. a cloud session), route through it and trust its CA bundle.
+PROXY = os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
+CA_FILE = os.environ.get('SSL_CERT_FILE')
+if CA_FILE:
+    import ssl
+    import edge_tts.communicate
+    edge_tts.communicate._SSL_CTX = ssl.create_default_context(cafile=CA_FILE)
 
 
 def normalize(path):
@@ -33,10 +40,14 @@ async def speak(rel, entry, sem):
         for attempt in range(3):
             try:
                 kwargs = {'rate': entry['rate']} if entry.get('rate') else {}
+                if PROXY:
+                    kwargs['proxy'] = PROXY
                 await edge_tts.Communicate(entry['text'], VOICES[entry['voice']], **kwargs).save(path)
                 await asyncio.to_thread(normalize, path)
                 return
             except Exception as e:  # network hiccups
+                if os.path.exists(path):
+                    os.remove(path)  # never leave a half-written clip that looks finished
                 if attempt == 2:
                     print('FAILED', rel, entry['text'], e)
                 await asyncio.sleep(2)

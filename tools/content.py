@@ -5,6 +5,8 @@ Every Persian item is a dict {fa, tr, en?, w?, wtr?, audio?}:
   w   written/formal script     wtr its phonetics
 Audio paths are content-hashed so regeneration is idempotent.
 """
+import contextlib
+import csv
 import hashlib
 import itertools
 import json
@@ -14,6 +16,46 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = {}
 _voices = itertools.cycle('df')  # d = fa-IR-DilaraNeural, f = fa-IR-FaridNeural
+
+
+def reset_voices():
+    """Start the d/f alternation fresh. Chapter builders call this after build_verbs(),
+    so adding verbs to the bank never shifts the voices (and audio hashes) of a chapter."""
+    global _voices
+    _voices = itertools.cycle('df')
+
+
+class _Voices:
+    """The d/f alternation, counting how many voices it has handed out."""
+    def __init__(self, start='d'):
+        self._cycle = itertools.cycle('df' if start == 'd' else 'fd')
+        self.used = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self.used += 1
+        return next(self._cycle)
+
+
+@contextlib.contextmanager
+def voice_scope(start='d', advance_outer=False):
+    """Build a block with its own d/f alternation, then restore the outer one.
+    The verb bank is built this way, so its audio is the same whichever builder runs it.
+    advance_outer=True moves the outer alternation on as if the block had used it
+    (Chapter 1 was first built that way, and its audio names depend on it)."""
+    global _voices
+    saved = _voices
+    _voices = _Voices(start)
+    try:
+        yield
+    finally:
+        used = _voices.used
+        _voices = saved
+        if advance_outer:
+            for _ in range(used):
+                next(_voices)
 
 
 def audio_for(text, voice=None, rate=None):
@@ -134,11 +176,13 @@ def en_past(i, base, past, neg=False, be=None):
     return f"{SUBJ[i]} didn’t {base}" if neg else f"{SUBJ[i]} {past}"
 
 
-def table(base, en, prefix=None, imp_spec=None, neg_present_spec=None, neg_past_spec=None, be=None):
+def table(base, en, prefix=None, imp_spec=None, neg_present_spec=None, neg_past_spec=None, be=None, en_forms=None):
     """Build present/past/imperative (+ negatives) for one verb or compound.
 
     base: dict with 'present','past','imp' spec strings (fa | tr | w | wtr).
+          Leave out 'imp' for a verb with no everyday command (tunestan, dāshtan).
     en: (base, third, past) English, e.g. ('go', 'goes', 'went').
+    en_forms: {tense: [English per row]} for verbs English can't conjugate regularly (can / could).
     """
     b, third, past = en
     out = {'present': [], 'past': [], 'imperative': [], 'neg_present': [], 'neg_past': []}
@@ -163,9 +207,36 @@ def table(base, en, prefix=None, imp_spec=None, neg_present_spec=None, neg_past_
     imp_en = [f'{b}!', f'{b}! (polite, or to more than one)', f'don’t {b}!', f'don’t {b}! (polite, or to more than one)']
     if be:
         imp_en = [f'be {be}!', f'be {be}! (polite, or to more than one)', f'don’t be {be}!', f'don’t be {be}! (polite, or to more than one)']
-    for i, (fa, trm, w, wtrm) in enumerate(_rows(imp_spec or base['imp'])):
-        out['imperative'].append(form(fa, trm, w or None, wtrm or None, imp_en[i], prefix))
+    imp = imp_spec or base.get('imp')
+    if imp:
+        for i, (fa, trm, w, wtrm) in enumerate(_rows(imp)):
+            out['imperative'].append(form(fa, trm, w or None, wtrm or None, imp_en[i], prefix))
+    for tense, labels in (en_forms or {}).items():
+        for f, label in zip(out[tense], labels):
+            f['en'] = label
     return out
+
+
+CSV_COLUMNS = ['id', 'mango_set', 'theme', 'english', 'persian_written', 'mango_pronunciation', 'persian_spoken',
+               'spoken_pronunciation', 'note', 'also_in_sets', 'chapter', 'source']
+
+
+def sync_word_list(words, chapter, theme):
+    """Append a chapter's new words to farsi_word_list.csv (the master list).
+    Rows already in the list, matched by id, are left as they are."""
+    path = os.path.join(ROOT, 'farsi_word_list.csv')
+    with open(path, encoding='utf-8-sig') as f:
+        have = {row['id'] for row in csv.DictReader(f)}
+    added = 0
+    with open(path, 'a', encoding='utf-8', newline='') as f:
+        out = csv.writer(f, lineterminator='\n')
+        for w in words:
+            if str(w['id']) in have:
+                continue
+            out.writerow([w['id'], '', theme, w['en'], w.get('w') or w['fa'], '', w['fa'], w['tr'],
+                          w.get('note', ''), '', chapter, 'course'])
+            added += 1
+    print(f'word list: {added} new rows')
 
 
 def write_json(rel, data):

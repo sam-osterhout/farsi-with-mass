@@ -2768,5 +2768,1788 @@
  "audio/tts/8ffb85d1cdd8.mp3": {
   "text": "صبح بخیر",
   "voice": "f"
+ },
+ "audio/tts/bcc6aca2c461.mp3": {
+  "text": "داشتن",
+  "voice": "d"
+ },
+ "audio/tts/e64ed271bb34.mp3": {
+  "text": "داشتن",
+  "voice": "f"
+ },
+ "audio/tts/27e3c3906d45.mp3": {
+  "text": "دارم",
+  "voice": "d"
+ },
+ "audio/tts/201359b2e321.mp3": {
+  "text": "داری",
+  "voice": "f"
+ },
+ "audio/tts/0c673d84ccc4.mp3": {
+  "text": "داره",
+  "voice": "d"
+ },
+ "audio/tts/3d78279fffc9.mp3": {
+  "text": "داریم",
+  "voice": "f"
+ },
+ "audio/tts/4d22a3103e41.mp3": {
+  "text": "دارین",
+  "voice": "d"
+ },
+ "audio/tts/b49cf33f511a.mp3": {
+  "text": "دارن",
+  "voice": "f"
+ },
+ "audio/tts/010aabcdcdf6.mp3": {
+  "text": "داشتم",
+  "voice": "d"
+ },
+ "audio/tts/7dcdf9fe7c6a.mp3": {
+  "text": "داشتی",
+  "voice": "f"
+ },
+ "audio/tts/a696801f78e8.mp3": {
+  "text": "داشت",
+  "voice": "d"
+ },
+ "audio/tts/92a1aa33b9f7.mp3": {
+  "text": "داشتیم",
+  "voice": "f"
+ },
+ "audio/tts/dd0b9c8cfefe.mp3": {
+  "text": "داشتین",
+  "voice": "d"
+ },
+ "audio/tts/eaf28981064d.mp3": {
+  "text": "ندارم",
+  "voice": "d"
+ },
+ "audio/tts/cbc996ba1b2c.mp3": {
+  "text": "نداری",
+  "voice": "f"
+ },
+ "audio/tts/b490c790fa68.mp3": {
+  "text": "نداره",
+  "voice": "d"
+ },
+ "audio/tts/28cb418e0e57.mp3": {
+  "text": "نداریم",
+  "voice": "f"
+ },
+ "audio/tts/9331749c7a6f.mp3": {
+  "text": "ندارین",
+  "voice": "d"
+ },
+ "audio/tts/842595da8821.mp3": {
+  "text": "ندارن",
+  "voice": "f"
+ },
+ "audio/tts/86071c3b4a70.mp3": {
+  "text": "نداشتم",
+  "voice": "d"
+ },
+ "audio/tts/cb2a3c329cfc.mp3": {
+  "text": "نداشتی",
+  "voice": "f"
+ },
+ "audio/tts/eaebea8555ec.mp3": {
+  "text": "نداشت",
+  "voice": "d"
+ },
+ "audio/tts/b97da545f98d.mp3": {
+  "text": "نداشتیم",
+  "voice": "f"
+ },
+ "audio/tts/6bc92c99cc23.mp3": {
+  "text": "نداشتین",
+  "voice": "d"
+ },
+ "audio/tts/ea14650312be.mp3": {
+  "text": "نداشتن",
+  "voice": "f"
+ },
+ "audio/tts/ea5e9186f60a.mp3": {
+  "text": "دوست داشتن",
+  "voice": "d"
+ },
+ "audio/tts/590058ab733b.mp3": {
+  "text": "دوست دارم",
+  "voice": "f"
+ },
+ "audio/tts/b0896704c235.mp3": {
+  "text": "دوست داری",
+  "voice": "d"
+ },
+ "audio/tts/200bda1d6663.mp3": {
+  "text": "دوست داره",
+  "voice": "f"
+ },
+ "audio/tts/7b07e22cb56a.mp3": {
+  "text": "دوست داریم",
+  "voice": "d"
+ },
+ "audio/tts/cd1da5c824a7.mp3": {
+  "text": "دوست دارین",
+  "voice": "f"
+ },
+ "audio/tts/fe2a9b1e4011.mp3": {
+  "text": "دوست دارن",
+  "voice": "d"
+ },
+ "audio/tts/d2cc8e889210.mp3": {
+  "text": "دوست داشتم",
+  "voice": "f"
+ },
+ "audio/tts/d6bdf5d3272f.mp3": {
+  "text": "دوست داشتی",
+  "voice": "d"
+ },
+ "audio/tts/81045072fc11.mp3": {
+  "text": "دوست داشت",
+  "voice": "f"
+ },
+ "audio/tts/d1142edb65c4.mp3": {
+  "text": "دوست داشتیم",
+  "voice": "d"
+ },
+ "audio/tts/981c0e87bb79.mp3": {
+  "text": "دوست داشتین",
+  "voice": "f"
+ },
+ "audio/tts/325dd5997dc3.mp3": {
+  "text": "دوست ندارم",
+  "voice": "f"
+ },
+ "audio/tts/ff7f16acd1f4.mp3": {
+  "text": "دوست نداری",
+  "voice": "d"
+ },
+ "audio/tts/92e128f383b0.mp3": {
+  "text": "دوست نداره",
+  "voice": "f"
+ },
+ "audio/tts/7f61fcf349f6.mp3": {
+  "text": "دوست نداریم",
+  "voice": "d"
+ },
+ "audio/tts/b251379f5b50.mp3": {
+  "text": "دوست ندارین",
+  "voice": "f"
+ },
+ "audio/tts/4aa2a0e620bb.mp3": {
+  "text": "دوست ندارن",
+  "voice": "d"
+ },
+ "audio/tts/7c4fb48c3d93.mp3": {
+  "text": "دوست نداشتم",
+  "voice": "f"
+ },
+ "audio/tts/c6ee22a626c2.mp3": {
+  "text": "دوست نداشتی",
+  "voice": "d"
+ },
+ "audio/tts/78317386f505.mp3": {
+  "text": "دوست نداشت",
+  "voice": "f"
+ },
+ "audio/tts/77e8f6147e57.mp3": {
+  "text": "دوست نداشتیم",
+  "voice": "d"
+ },
+ "audio/tts/bdfc9828e69a.mp3": {
+  "text": "دوست نداشتین",
+  "voice": "f"
+ },
+ "audio/tts/bbdc5cc6906d.mp3": {
+  "text": "دوست نداشتن",
+  "voice": "d"
+ },
+ "audio/tts/a9b3192b8c98.mp3": {
+  "text": "خواستن",
+  "voice": "f"
+ },
+ "audio/tts/68ddf6eadfb0.mp3": {
+  "text": "خواستن",
+  "voice": "d"
+ },
+ "audio/tts/501d0d5ba3be.mp3": {
+  "text": "می‌خوام",
+  "voice": "f"
+ },
+ "audio/tts/7cd363c17607.mp3": {
+  "text": "می‌خوای",
+  "voice": "d"
+ },
+ "audio/tts/01902e21816a.mp3": {
+  "text": "می‌خواد",
+  "voice": "f"
+ },
+ "audio/tts/51e462f4bb9b.mp3": {
+  "text": "می‌خوایم",
+  "voice": "d"
+ },
+ "audio/tts/915c8fa871d3.mp3": {
+  "text": "می‌خواین",
+  "voice": "f"
+ },
+ "audio/tts/11ab0c286ae3.mp3": {
+  "text": "می‌خوان",
+  "voice": "d"
+ },
+ "audio/tts/50fd3545fb76.mp3": {
+  "text": "خواستم",
+  "voice": "f"
+ },
+ "audio/tts/941fb385993d.mp3": {
+  "text": "خواستی",
+  "voice": "d"
+ },
+ "audio/tts/74e9ac408273.mp3": {
+  "text": "خواست",
+  "voice": "f"
+ },
+ "audio/tts/6946f1a74314.mp3": {
+  "text": "خواستیم",
+  "voice": "d"
+ },
+ "audio/tts/c8f7074f1607.mp3": {
+  "text": "خواستین",
+  "voice": "f"
+ },
+ "audio/tts/865d8e65e90f.mp3": {
+  "text": "نمی‌خوام",
+  "voice": "f"
+ },
+ "audio/tts/52d233101709.mp3": {
+  "text": "نمی‌خوای",
+  "voice": "d"
+ },
+ "audio/tts/da223acc0fd9.mp3": {
+  "text": "نمی‌خواد",
+  "voice": "f"
+ },
+ "audio/tts/7179332c2139.mp3": {
+  "text": "نمی‌خوایم",
+  "voice": "d"
+ },
+ "audio/tts/9196fe614860.mp3": {
+  "text": "نمی‌خواین",
+  "voice": "f"
+ },
+ "audio/tts/1c240d5d616b.mp3": {
+  "text": "نمی‌خوان",
+  "voice": "d"
+ },
+ "audio/tts/9eafcc1527c9.mp3": {
+  "text": "نخواستم",
+  "voice": "f"
+ },
+ "audio/tts/2bafb025bfa1.mp3": {
+  "text": "نخواستی",
+  "voice": "d"
+ },
+ "audio/tts/3efef084eff8.mp3": {
+  "text": "نخواست",
+  "voice": "f"
+ },
+ "audio/tts/c79aa8dd82d7.mp3": {
+  "text": "نخواستیم",
+  "voice": "d"
+ },
+ "audio/tts/3e601dc12d00.mp3": {
+  "text": "نخواستین",
+  "voice": "f"
+ },
+ "audio/tts/a7ad667c0e03.mp3": {
+  "text": "نخواستن",
+  "voice": "d"
+ },
+ "audio/tts/8780efe2f057.mp3": {
+  "text": "دونستن",
+  "voice": "f"
+ },
+ "audio/tts/0d7f8687091b.mp3": {
+  "text": "دونستن",
+  "voice": "d"
+ },
+ "audio/tts/e5f6a518534f.mp3": {
+  "text": "می‌دونم",
+  "voice": "f"
+ },
+ "audio/tts/b99a22a8ad10.mp3": {
+  "text": "می‌دونی",
+  "voice": "d"
+ },
+ "audio/tts/4520ed176046.mp3": {
+  "text": "می‌دونه",
+  "voice": "f"
+ },
+ "audio/tts/07c20d660d80.mp3": {
+  "text": "می‌دونیم",
+  "voice": "d"
+ },
+ "audio/tts/3ff905174229.mp3": {
+  "text": "می‌دونین",
+  "voice": "f"
+ },
+ "audio/tts/4b03dfb1a658.mp3": {
+  "text": "می‌دونن",
+  "voice": "d"
+ },
+ "audio/tts/bb3d2f9a7abd.mp3": {
+  "text": "دونستم",
+  "voice": "f"
+ },
+ "audio/tts/4e6153be7986.mp3": {
+  "text": "دونستی",
+  "voice": "d"
+ },
+ "audio/tts/b87c0485b06f.mp3": {
+  "text": "دونست",
+  "voice": "f"
+ },
+ "audio/tts/2ab08cd8058d.mp3": {
+  "text": "دونستیم",
+  "voice": "d"
+ },
+ "audio/tts/b9e2a4f235dc.mp3": {
+  "text": "دونستین",
+  "voice": "f"
+ },
+ "audio/tts/5772265d7bb4.mp3": {
+  "text": "نمی‌دونم",
+  "voice": "f"
+ },
+ "audio/tts/a19daf31d7bb.mp3": {
+  "text": "نمی‌دونی",
+  "voice": "d"
+ },
+ "audio/tts/25a8f787ec95.mp3": {
+  "text": "نمی‌دونه",
+  "voice": "f"
+ },
+ "audio/tts/10473e93b092.mp3": {
+  "text": "نمی‌دونیم",
+  "voice": "d"
+ },
+ "audio/tts/1ecdad634de5.mp3": {
+  "text": "نمی‌دونین",
+  "voice": "f"
+ },
+ "audio/tts/cc4e45689495.mp3": {
+  "text": "نمی‌دونن",
+  "voice": "d"
+ },
+ "audio/tts/b674bf2dc4fc.mp3": {
+  "text": "ندونستم",
+  "voice": "f"
+ },
+ "audio/tts/917a860d1b66.mp3": {
+  "text": "ندونستی",
+  "voice": "d"
+ },
+ "audio/tts/107c84cc32e2.mp3": {
+  "text": "ندونست",
+  "voice": "f"
+ },
+ "audio/tts/70946dcb251f.mp3": {
+  "text": "ندونستیم",
+  "voice": "d"
+ },
+ "audio/tts/58efac69721c.mp3": {
+  "text": "ندونستین",
+  "voice": "f"
+ },
+ "audio/tts/afe3b3295d59.mp3": {
+  "text": "ندونستن",
+  "voice": "d"
+ },
+ "audio/tts/d167f81e58b7.mp3": {
+  "text": "تونستن",
+  "voice": "f"
+ },
+ "audio/tts/43a767064f93.mp3": {
+  "text": "تونستن",
+  "voice": "d"
+ },
+ "audio/tts/d2139de4e1ce.mp3": {
+  "text": "می‌تونم",
+  "voice": "f"
+ },
+ "audio/tts/b9f27637ffaf.mp3": {
+  "text": "می‌تونی",
+  "voice": "d"
+ },
+ "audio/tts/8fdeac82b81c.mp3": {
+  "text": "می‌تونه",
+  "voice": "f"
+ },
+ "audio/tts/1f516c6c6086.mp3": {
+  "text": "می‌تونیم",
+  "voice": "d"
+ },
+ "audio/tts/09cdcaddc110.mp3": {
+  "text": "می‌تونین",
+  "voice": "f"
+ },
+ "audio/tts/c80e3f1168cb.mp3": {
+  "text": "می‌تونن",
+  "voice": "d"
+ },
+ "audio/tts/e3f55690bb33.mp3": {
+  "text": "تونستم",
+  "voice": "f"
+ },
+ "audio/tts/fec15deb833a.mp3": {
+  "text": "تونستی",
+  "voice": "d"
+ },
+ "audio/tts/ae459652e7be.mp3": {
+  "text": "تونست",
+  "voice": "f"
+ },
+ "audio/tts/ccd68bf1756b.mp3": {
+  "text": "تونستیم",
+  "voice": "d"
+ },
+ "audio/tts/a1d73ed20a35.mp3": {
+  "text": "تونستین",
+  "voice": "f"
+ },
+ "audio/tts/8c24bbe85c0e.mp3": {
+  "text": "نمی‌تونم",
+  "voice": "f"
+ },
+ "audio/tts/f41f5dab3cd6.mp3": {
+  "text": "نمی‌تونی",
+  "voice": "d"
+ },
+ "audio/tts/762c92ec27de.mp3": {
+  "text": "نمی‌تونه",
+  "voice": "f"
+ },
+ "audio/tts/b8f730629a18.mp3": {
+  "text": "نمی‌تونیم",
+  "voice": "d"
+ },
+ "audio/tts/f005b36b22d6.mp3": {
+  "text": "نمی‌تونین",
+  "voice": "f"
+ },
+ "audio/tts/1db7081ae00d.mp3": {
+  "text": "نمی‌تونن",
+  "voice": "d"
+ },
+ "audio/tts/ef28407a0bb4.mp3": {
+  "text": "نتونستم",
+  "voice": "f"
+ },
+ "audio/tts/baa843a667c8.mp3": {
+  "text": "نتونستی",
+  "voice": "d"
+ },
+ "audio/tts/98f72741b08b.mp3": {
+  "text": "نتونست",
+  "voice": "f"
+ },
+ "audio/tts/452511ec5566.mp3": {
+  "text": "نتونستیم",
+  "voice": "d"
+ },
+ "audio/tts/e48bbfe5085c.mp3": {
+  "text": "نتونستین",
+  "voice": "f"
+ },
+ "audio/tts/e34ccab55bb8.mp3": {
+  "text": "نتونستن",
+  "voice": "d"
+ },
+ "audio/tts/0f8db737d5a4.mp3": {
+  "text": "گفتن",
+  "voice": "f"
+ },
+ "audio/tts/528aa00845e6.mp3": {
+  "text": "گفتن",
+  "voice": "d"
+ },
+ "audio/tts/8415c7cf3390.mp3": {
+  "text": "می‌گم",
+  "voice": "f"
+ },
+ "audio/tts/60e351ed46bd.mp3": {
+  "text": "می‌گی",
+  "voice": "d"
+ },
+ "audio/tts/5e9b53cf092b.mp3": {
+  "text": "می‌گه",
+  "voice": "f"
+ },
+ "audio/tts/2ece40193f37.mp3": {
+  "text": "می‌گیم",
+  "voice": "d"
+ },
+ "audio/tts/19053cbcd57f.mp3": {
+  "text": "می‌گین",
+  "voice": "f"
+ },
+ "audio/tts/3eb84ef6c212.mp3": {
+  "text": "می‌گن",
+  "voice": "d"
+ },
+ "audio/tts/ef25a0145cf0.mp3": {
+  "text": "گفتم",
+  "voice": "f"
+ },
+ "audio/tts/07e0758e2ef3.mp3": {
+  "text": "گفتی",
+  "voice": "d"
+ },
+ "audio/tts/95de5861be40.mp3": {
+  "text": "گفت",
+  "voice": "f"
+ },
+ "audio/tts/970eca0070e5.mp3": {
+  "text": "گفتیم",
+  "voice": "d"
+ },
+ "audio/tts/bfdf0c675e01.mp3": {
+  "text": "گفتین",
+  "voice": "f"
+ },
+ "audio/tts/846301cf28ff.mp3": {
+  "text": "نمی‌گم",
+  "voice": "f"
+ },
+ "audio/tts/35ea8640a05b.mp3": {
+  "text": "نمی‌گی",
+  "voice": "d"
+ },
+ "audio/tts/fb6a40830e50.mp3": {
+  "text": "نمی‌گه",
+  "voice": "f"
+ },
+ "audio/tts/dfea73dc0a75.mp3": {
+  "text": "نمی‌گیم",
+  "voice": "d"
+ },
+ "audio/tts/3040cd474f9d.mp3": {
+  "text": "نمی‌گین",
+  "voice": "f"
+ },
+ "audio/tts/b68e1dfba73e.mp3": {
+  "text": "نمی‌گن",
+  "voice": "d"
+ },
+ "audio/tts/5b15d0a06a29.mp3": {
+  "text": "نگفتم",
+  "voice": "f"
+ },
+ "audio/tts/1b44da73c9f1.mp3": {
+  "text": "نگفتی",
+  "voice": "d"
+ },
+ "audio/tts/5d26e0577d71.mp3": {
+  "text": "نگفت",
+  "voice": "f"
+ },
+ "audio/tts/c776e09eae9e.mp3": {
+  "text": "نگفتیم",
+  "voice": "d"
+ },
+ "audio/tts/dd4d2a65da1a.mp3": {
+  "text": "نگفتین",
+  "voice": "f"
+ },
+ "audio/tts/be3c46912a3c.mp3": {
+  "text": "نگفتن",
+  "voice": "d"
+ },
+ "audio/tts/f5169d405e20.mp3": {
+  "text": "بگو",
+  "voice": "f"
+ },
+ "audio/tts/9d5c98e9ffcd.mp3": {
+  "text": "بگین",
+  "voice": "d"
+ },
+ "audio/tts/80c66cfa969c.mp3": {
+  "text": "نگو",
+  "voice": "f"
+ },
+ "audio/tts/f09e199e1988.mp3": {
+  "text": "نگین",
+  "voice": "d"
+ },
+ "audio/tts/fb165cfef98c.mp3": {
+  "text": "دادن",
+  "voice": "f"
+ },
+ "audio/tts/3b96779a04c8.mp3": {
+  "text": "دادن",
+  "voice": "d"
+ },
+ "audio/tts/34364b01ff09.mp3": {
+  "text": "می‌دم",
+  "voice": "f"
+ },
+ "audio/tts/0491a5dd1f4a.mp3": {
+  "text": "می‌دی",
+  "voice": "d"
+ },
+ "audio/tts/d1b0cbf8002f.mp3": {
+  "text": "می‌ده",
+  "voice": "f"
+ },
+ "audio/tts/0fadabf6bc3d.mp3": {
+  "text": "می‌دیم",
+  "voice": "d"
+ },
+ "audio/tts/691df3d675b1.mp3": {
+  "text": "می‌دین",
+  "voice": "f"
+ },
+ "audio/tts/51e255bc72f0.mp3": {
+  "text": "می‌دن",
+  "voice": "d"
+ },
+ "audio/tts/7551257a37a7.mp3": {
+  "text": "دادم",
+  "voice": "f"
+ },
+ "audio/tts/01787ec3a131.mp3": {
+  "text": "دادی",
+  "voice": "d"
+ },
+ "audio/tts/37cdc28cd9f3.mp3": {
+  "text": "داد",
+  "voice": "f"
+ },
+ "audio/tts/daca939562c2.mp3": {
+  "text": "دادیم",
+  "voice": "d"
+ },
+ "audio/tts/91d3845c12eb.mp3": {
+  "text": "دادین",
+  "voice": "f"
+ },
+ "audio/tts/1a0c1179cae8.mp3": {
+  "text": "نمی‌دم",
+  "voice": "f"
+ },
+ "audio/tts/514a4d068aa7.mp3": {
+  "text": "نمی‌دی",
+  "voice": "d"
+ },
+ "audio/tts/f4c2cb9cd5bd.mp3": {
+  "text": "نمی‌ده",
+  "voice": "f"
+ },
+ "audio/tts/435d91124d2c.mp3": {
+  "text": "نمی‌دیم",
+  "voice": "d"
+ },
+ "audio/tts/6ffb2c5227ce.mp3": {
+  "text": "نمی‌دین",
+  "voice": "f"
+ },
+ "audio/tts/6fff04e012f5.mp3": {
+  "text": "نمی‌دن",
+  "voice": "d"
+ },
+ "audio/tts/c721afded97a.mp3": {
+  "text": "ندادم",
+  "voice": "f"
+ },
+ "audio/tts/eb03d85e7b29.mp3": {
+  "text": "ندادی",
+  "voice": "d"
+ },
+ "audio/tts/7049b9c32502.mp3": {
+  "text": "نداد",
+  "voice": "f"
+ },
+ "audio/tts/d036d7a34583.mp3": {
+  "text": "ندادیم",
+  "voice": "d"
+ },
+ "audio/tts/38d8a2ece47b.mp3": {
+  "text": "ندادین",
+  "voice": "f"
+ },
+ "audio/tts/a0d1de94ba48.mp3": {
+  "text": "ندادن",
+  "voice": "d"
+ },
+ "audio/tts/735959c0b119.mp3": {
+  "text": "بده",
+  "voice": "f"
+ },
+ "audio/tts/81c65609aedd.mp3": {
+  "text": "بدین",
+  "voice": "d"
+ },
+ "audio/tts/2d5c8cf74e37.mp3": {
+  "text": "نده",
+  "voice": "f"
+ },
+ "audio/tts/e63a50654168.mp3": {
+  "text": "ندین",
+  "voice": "d"
+ },
+ "audio/tts/56a27f3c8c7b.mp3": {
+  "text": "گوش دادن",
+  "voice": "f"
+ },
+ "audio/tts/f5e3d09d2c0a.mp3": {
+  "text": "گوش می‌دم",
+  "voice": "d"
+ },
+ "audio/tts/f945ed96f3e4.mp3": {
+  "text": "گوش می‌دی",
+  "voice": "f"
+ },
+ "audio/tts/02654d9194dc.mp3": {
+  "text": "گوش می‌ده",
+  "voice": "d"
+ },
+ "audio/tts/1cd83f9b4acd.mp3": {
+  "text": "گوش می‌دیم",
+  "voice": "f"
+ },
+ "audio/tts/c1eb229ed7c8.mp3": {
+  "text": "گوش می‌دین",
+  "voice": "d"
+ },
+ "audio/tts/f927982f8b2f.mp3": {
+  "text": "گوش می‌دن",
+  "voice": "f"
+ },
+ "audio/tts/a3df281fe5ce.mp3": {
+  "text": "گوش دادم",
+  "voice": "d"
+ },
+ "audio/tts/003448cffae9.mp3": {
+  "text": "گوش دادی",
+  "voice": "f"
+ },
+ "audio/tts/015d301d5799.mp3": {
+  "text": "گوش داد",
+  "voice": "d"
+ },
+ "audio/tts/92aac479dfc9.mp3": {
+  "text": "گوش دادیم",
+  "voice": "f"
+ },
+ "audio/tts/eb60556d1631.mp3": {
+  "text": "گوش دادین",
+  "voice": "d"
+ },
+ "audio/tts/be13a5033610.mp3": {
+  "text": "گوش نمی‌دم",
+  "voice": "d"
+ },
+ "audio/tts/2dfcf0a826eb.mp3": {
+  "text": "گوش نمی‌دی",
+  "voice": "f"
+ },
+ "audio/tts/30c3327dc6bf.mp3": {
+  "text": "گوش نمی‌ده",
+  "voice": "d"
+ },
+ "audio/tts/5e345c1216d7.mp3": {
+  "text": "گوش نمی‌دیم",
+  "voice": "f"
+ },
+ "audio/tts/8222a48e43ad.mp3": {
+  "text": "گوش نمی‌دین",
+  "voice": "d"
+ },
+ "audio/tts/c937bdb2d621.mp3": {
+  "text": "گوش نمی‌دن",
+  "voice": "f"
+ },
+ "audio/tts/b393d43ec654.mp3": {
+  "text": "گوش ندادم",
+  "voice": "d"
+ },
+ "audio/tts/c22792a33095.mp3": {
+  "text": "گوش ندادی",
+  "voice": "f"
+ },
+ "audio/tts/d05697220f4b.mp3": {
+  "text": "گوش نداد",
+  "voice": "d"
+ },
+ "audio/tts/24f23b86af22.mp3": {
+  "text": "گوش ندادیم",
+  "voice": "f"
+ },
+ "audio/tts/7e44dd2a605f.mp3": {
+  "text": "گوش ندادین",
+  "voice": "d"
+ },
+ "audio/tts/de9ed75fcd41.mp3": {
+  "text": "گوش ندادن",
+  "voice": "f"
+ },
+ "audio/tts/41b1adafddce.mp3": {
+  "text": "گوش بده",
+  "voice": "d"
+ },
+ "audio/tts/8f723718eb19.mp3": {
+  "text": "گوش بدین",
+  "voice": "f"
+ },
+ "audio/tts/977c9cf0f60a.mp3": {
+  "text": "گوش نده",
+  "voice": "d"
+ },
+ "audio/tts/b1a1b114528b.mp3": {
+  "text": "گوش ندین",
+  "voice": "f"
+ },
+ "audio/tts/247d9ccd0fce.mp3": {
+  "text": "وقت داری؟",
+  "voice": "d"
+ },
+ "audio/tts/6e16c26e463b.mp3": {
+  "text": "وقت",
+  "voice": "f"
+ },
+ "audio/tts/90953d6bdc27.mp3": {
+  "text": "کی میای خونه؟",
+  "voice": "d"
+ },
+ "audio/tts/bed44d5a609d.mp3": {
+  "text": "کی",
+  "voice": "f"
+ },
+ "audio/tts/ca24a523a1ec.mp3": {
+  "text": "ساعت هفت و نیمه.",
+  "voice": "d"
+ },
+ "audio/tts/a5002f2839d1.mp3": {
+  "text": "نیم",
+  "voice": "f"
+ },
+ "audio/tts/82f931af7423.mp3": {
+  "text": "یه ربع صبر کن.",
+  "voice": "d"
+ },
+ "audio/tts/effc122ba457.mp3": {
+  "text": "ربع",
+  "voice": "f"
+ },
+ "audio/tts/3cf162e63e5c.mp3": {
+  "text": "ظهر میای خونه؟",
+  "voice": "d"
+ },
+ "audio/tts/c84759065a70.mp3": {
+  "text": "ظهر",
+  "voice": "f"
+ },
+ "audio/tts/e92f8035e29e.mp3": {
+  "text": "این هفته خیلی کار دارم.",
+  "voice": "d"
+ },
+ "audio/tts/ff8deb752747.mp3": {
+  "text": "هفته",
+  "voice": "f"
+ },
+ "audio/tts/9e7c542ce881.mp3": {
+  "text": "سر کاری؟",
+  "voice": "d"
+ },
+ "audio/tts/e202c1c417e1.mp3": {
+  "text": "سر کار",
+  "voice": "f"
+ },
+ "audio/tts/d32353c620ba.mp3": {
+  "text": "ساعت ده جلسه دارم.",
+  "voice": "d"
+ },
+ "audio/tts/978007f50214.mp3": {
+  "text": "جلسه",
+  "voice": "f"
+ },
+ "audio/tts/effafdc3718c.mp3": {
+  "text": "معمولاً ساعت شش میام خونه.",
+  "voice": "d"
+ },
+ "audio/tts/72af1be38eba.mp3": {
+  "text": "معمولاً",
+  "voice": "f"
+ },
+ "audio/tts/41ab66be9665.mp3": {
+  "text": "هیچ‌وقت دیر نمیاد.",
+  "voice": "d"
+ },
+ "audio/tts/009ff63f9f15.mp3": {
+  "text": "هیچ‌وقت",
+  "voice": "f"
+ },
+ "audio/tts/f29b316df287.mp3": {
+  "text": "خسته نباشی! سلامت باشی.",
+  "voice": "d"
+ },
+ "audio/tts/e7e4ccdc8f26.mp3": {
+  "text": "خسته نباشی",
+  "voice": "f"
+ },
+ "audio/tts/ca8cdfceb2e7.mp3": {
+  "text": "مدرسه ساعت سه تعطیل می‌شه.",
+  "voice": "d"
+ },
+ "audio/tts/47ebee3ff555.mp3": {
+  "text": "مدرسه",
+  "voice": "f"
+ },
+ "audio/tts/9e85e31945c0.mp3": {
+  "text": "می‌رم دنبال بچه‌ها.",
+  "voice": "d"
+ },
+ "audio/tts/f396238e84da.mp3": {
+  "text": "دنبال",
+  "voice": "f"
+ },
+ "audio/tts/6e4dab2733ee.mp3": {
+  "text": "ماشین کجاست؟",
+  "voice": "d"
+ },
+ "audio/tts/848acf2f2893.mp3": {
+  "text": "ماشین",
+  "voice": "f"
+ },
+ "audio/tts/1f7101421ed8.mp3": {
+  "text": "ترافیکه!",
+  "voice": "d"
+ },
+ "audio/tts/119d3676b638.mp3": {
+  "text": "ترافیک",
+  "voice": "f"
+ },
+ "audio/tts/b0accfb55ef1.mp3": {
+  "text": "سه‌شنبه جلسه دارم.",
+  "voice": "d"
+ },
+ "audio/tts/6d51e291f252.mp3": {
+  "text": "سه‌شنبه",
+  "voice": "f"
+ },
+ "audio/tts/38a798f3ba54.mp3": {
+  "text": "پنج‌شنبه خونه‌ای؟",
+  "voice": "d"
+ },
+ "audio/tts/a748ba323e32.mp3": {
+  "text": "پنج‌شنبه",
+  "voice": "f"
+ },
+ "audio/tts/614c70f9810b.mp3": {
+  "text": "بوقلمون دوست داری؟",
+  "voice": "d"
+ },
+ "audio/tts/63a3d49ccb41.mp3": {
+  "text": "بوقلمون",
+  "voice": "f"
+ },
+ "audio/tts/f608d70095fa.mp3": {
+  "text": "حرف نزن!",
+  "voice": "d"
+ },
+ "audio/tts/20223ba51bef.mp3": {
+  "text": "حرف",
+  "voice": "f"
+ },
+ "audio/tts/733f7188d2ff.mp3": {
+  "text": "ساعت",
+  "voice": "d"
+ },
+ "audio/tts/6e826cd84b6a.mp3": {
+  "text": "امروز",
+  "voice": "f"
+ },
+ "audio/tts/59df7f815bae.mp3": {
+  "text": "شام",
+  "voice": "d"
+ },
+ "audio/tts/14e6bf56fff4.mp3": {
+  "text": "همیشه",
+  "voice": "f"
+ },
+ "audio/tts/5169e9fdd297.mp3": {
+  "text": "شلوغ",
+  "voice": "d"
+ },
+ "audio/tts/c6457bc8955b.mp3": {
+  "text": "فردا",
+  "voice": "f"
+ },
+ "audio/tts/7ab0e895a32e.mp3": {
+  "text": "بچه",
+  "voice": "f"
+ },
+ "audio/tts/8840a1732d8f.mp3": {
+  "text": "تعطیل",
+  "voice": "d"
+ },
+ "audio/tts/b0f13f812394.mp3": {
+  "text": "کجا",
+  "voice": "f"
+ },
+ "audio/tts/a380d85261c2.mp3": {
+  "text": "مهمون",
+  "voice": "d"
+ },
+ "audio/tts/8835f8c11bf9.mp3": {
+  "text": "شاید",
+  "voice": "f"
+ },
+ "audio/tts/e5268a21219d.mp3": {
+  "text": "خیلی",
+  "voice": "d"
+ },
+ "audio/tts/f35ef2f75dea.mp3": {
+  "text": "شنبه",
+  "voice": "f"
+ },
+ "audio/tts/2d3df2f342e4.mp3": {
+  "text": "یکشنبه",
+  "voice": "d"
+ },
+ "audio/tts/604994a751c9.mp3": {
+  "text": "دوشنبه",
+  "voice": "f"
+ },
+ "audio/tts/607b435a8cf1.mp3": {
+  "text": "چهارشنبه",
+  "voice": "d"
+ },
+ "audio/tts/f09bc74705c2.mp3": {
+  "text": "جمعه",
+  "voice": "f"
+ },
+ "audio/tts/b39d3b0038fe.mp3": {
+  "text": "روز",
+  "voice": "d"
+ },
+ "audio/tts/14b0bfe77864.mp3": {
+  "text": "زود",
+  "voice": "f"
+ },
+ "audio/tts/5f02c22b615f.mp3": {
+  "text": "ذرت",
+  "voice": "d"
+ },
+ "audio/tts/1f2bc1b42ae6.mp3": {
+  "text": "ژاپن",
+  "voice": "f"
+ },
+ "audio/tts/e65170b22dae.mp3": {
+  "text": "بیژن",
+  "voice": "d"
+ },
+ "audio/tts/faa3e56c1473.mp3": {
+  "text": "جا",
+  "voice": "f"
+ },
+ "audio/tts/77648c4000e5.mp3": {
+  "text": "برنج",
+  "voice": "d"
+ },
+ "audio/tts/e033a6bced68.mp3": {
+  "text": "چرا",
+  "voice": "d"
+ },
+ "audio/tts/b45e6d107479.mp3": {
+  "text": "حنا",
+  "voice": "f"
+ },
+ "audio/tts/e3e6d336478c.mp3": {
+  "text": "حتی",
+  "voice": "d"
+ },
+ "audio/tts/70d660bebeb5.mp3": {
+  "text": "خوب",
+  "voice": "f"
+ },
+ "audio/tts/f16a46fa3593.mp3": {
+  "text": "بخور",
+  "voice": "f"
+ },
+ "audio/tts/61cd38ac8cd4.mp3": {
+  "text": "سیب",
+  "voice": "d"
+ },
+ "audio/tts/172072a3d5ab.mp3": {
+  "text": "دست",
+  "voice": "f"
+ },
+ "audio/tts/11cd075b3594.mp3": {
+  "text": "سبز",
+  "voice": "d"
+ },
+ "audio/tts/e0a9d9607c73.mp3": {
+  "text": "شب",
+  "voice": "f"
+ },
+ "audio/tts/2b7d433d39c5.mp3": {
+  "text": "پیش",
+  "voice": "d"
+ },
+ "audio/tts/2ac41961be84.mp3": {
+  "text": "شام",
+  "voice": "f"
+ },
+ "audio/tts/16a3bf4a70b3.mp3": {
+  "text": "امروز",
+  "voice": "d"
+ },
+ "audio/tts/000cfee65f93.mp3": {
+  "text": "ساعت چنده؟",
+  "voice": "f"
+ },
+ "audio/tts/5ca2d0799d96.mp3": {
+  "text": "هفت و نیم.",
+  "voice": "d"
+ },
+ "audio/tts/966558e7655e.mp3": {
+  "text": "وای، دیرم شد!",
+  "voice": "f"
+ },
+ "audio/tts/3c2c5ec0bc4f.mp3": {
+  "text": "نه، وقت داری. یه ربع وقت داری.",
+  "voice": "d"
+ },
+ "audio/tts/d956f4582156.mp3": {
+  "text": "امروز ظهر کار دارم.",
+  "voice": "f"
+ },
+ "audio/tts/96cbaa436c45.mp3": {
+  "text": "ساعت شش.",
+  "voice": "f"
+ },
+ "audio/tts/d2e679fd1f9c.mp3": {
+  "text": "شام می‌خوای؟",
+  "voice": "d"
+ },
+ "audio/tts/0dfc56086cd2.mp3": {
+  "text": "آره! همیشه می‌خوام.",
+  "voice": "f"
+ },
+ "audio/tts/scene_39f7e97aa60e.mp3": {
+  "concat": [
+   "audio/tts/000cfee65f93.mp3",
+   "audio/tts/5ca2d0799d96.mp3",
+   "audio/tts/966558e7655e.mp3",
+   "audio/tts/3c2c5ec0bc4f.mp3",
+   "audio/tts/d956f4582156.mp3",
+   "audio/tts/90953d6bdc27.mp3",
+   "audio/tts/96cbaa436c45.mp3",
+   "audio/tts/d2e679fd1f9c.mp3",
+   "audio/tts/0dfc56086cd2.mp3"
+  ],
+  "gap": 0.6
+ },
+ "audio/tts/f515d18a947f.mp3": {
+  "text": "ساعت چنده؟",
+  "voice": "d"
+ },
+ "audio/tts/13f5e91ef7d2.mp3": {
+  "text": "قند",
+  "voice": "f"
+ },
+ "audio/tts/727eed111da6.mp3": {
+  "text": "قند",
+  "voice": "d"
+ },
+ "audio/tts/7240c35854e7.mp3": {
+  "text": "گند",
+  "voice": "d"
+ },
+ "audio/tts/65a0cdaf5935.mp3": {
+  "text": "گند",
+  "voice": "f"
+ },
+ "audio/tts/f6dbe4f3749c.mp3": {
+  "text": "غاز",
+  "voice": "f"
+ },
+ "audio/tts/5779f8fe9c81.mp3": {
+  "text": "غاز",
+  "voice": "d"
+ },
+ "audio/tts/bb3467e9965d.mp3": {
+  "text": "گاز",
+  "voice": "d"
+ },
+ "audio/tts/032d9b17336d.mp3": {
+  "text": "گاز",
+  "voice": "f"
+ },
+ "audio/tts/d27c08e328e2.mp3": {
+  "text": "غول",
+  "voice": "f"
+ },
+ "audio/tts/cff2cb2433f1.mp3": {
+  "text": "غول",
+  "voice": "d"
+ },
+ "audio/tts/e51664526853.mp3": {
+  "text": "گول",
+  "voice": "d"
+ },
+ "audio/tts/9542b03e11e6.mp3": {
+  "text": "گول",
+  "voice": "f"
+ },
+ "audio/tts/0cd9ec571244.mp3": {
+  "text": "روز",
+  "voice": "f"
+ },
+ "audio/tts/966705c8744c.mp3": {
+  "text": "زود",
+  "voice": "d"
+ },
+ "audio/tts/76b9b2966ee0.mp3": {
+  "text": "ذرت",
+  "voice": "f"
+ },
+ "audio/tts/00bfbecbc20f.mp3": {
+  "text": "ژاپن",
+  "voice": "d"
+ },
+ "audio/tts/81053c849248.mp3": {
+  "text": "ساعت هفت و نیمه",
+  "voice": "f"
+ },
+ "audio/tts/a69e9a198a43.mp3": {
+  "text": "امروز چی کار داری؟",
+  "voice": "f"
+ },
+ "audio/tts/ca2b451f3518.mp3": {
+  "text": "ساعت چنده، آقا گرگه؟",
+  "voice": "d"
+ },
+ "audio/tts/9e8f53369c06.mp3": {
+  "text": "ساعت سه!",
+  "voice": "f"
+ },
+ "audio/tts/912bfcc2bc0b.mp3": {
+  "text": "ساعت پنج!",
+  "voice": "d"
+ },
+ "audio/tts/02e7e094ef9b.mp3": {
+  "text": "یک، دو، سه، چهار، پنج",
+  "voice": "f"
+ },
+ "audio/tts/bef90fddee89.mp3": {
+  "text": "وقت شامه!",
+  "voice": "d"
+ },
+ "audio/tts/d2cc01e05853.mp3": {
+  "text": "خسته نباشی!",
+  "voice": "d"
+ },
+ "audio/tts/47172ab2a547.mp3": {
+  "text": "مرسی. سرم خیلی شلوغ بود.",
+  "voice": "f"
+ },
+ "audio/tts/df0435ced01b.mp3": {
+  "text": "جلسه داشتی؟",
+  "voice": "d"
+ },
+ "audio/tts/4a1d29192ca2.mp3": {
+  "text": "آره، سه تا. معمولاً یکی دارم.",
+  "voice": "f"
+ },
+ "audio/tts/5f547f07cad1.mp3": {
+  "text": "فردا ظهر میای خونه؟",
+  "voice": "d"
+ },
+ "audio/tts/a3bd5c3176b1.mp3": {
+  "text": "نه، نمی‌تونم. فردا هم جلسه دارم.",
+  "voice": "f"
+ },
+ "audio/tts/fa34b257c072.mp3": {
+  "text": "تو هیچ‌وقت خونه نیستی!",
+  "voice": "d"
+ },
+ "audio/tts/7fd4ba62a2d6.mp3": {
+  "text": "می‌دونم، می‌دونم…",
+  "voice": "f"
+ },
+ "audio/tts/scene_380580a3bdfd.mp3": {
+  "concat": [
+   "audio/tts/d2cc01e05853.mp3",
+   "audio/tts/47172ab2a547.mp3",
+   "audio/tts/df0435ced01b.mp3",
+   "audio/tts/4a1d29192ca2.mp3",
+   "audio/tts/5f547f07cad1.mp3",
+   "audio/tts/a3bd5c3176b1.mp3",
+   "audio/tts/fa34b257c072.mp3",
+   "audio/tts/7fd4ba62a2d6.mp3"
+  ],
+  "gap": 0.6
+ },
+ "audio/tts/70e5681563ed.mp3": {
+  "text": "بعد",
+  "voice": "f"
+ },
+ "audio/tts/e67204c5573d.mp3": {
+  "text": "بعد",
+  "voice": "d"
+ },
+ "audio/tts/0af318405c3b.mp3": {
+  "text": "رد",
+  "voice": "d"
+ },
+ "audio/tts/ebd31e81691a.mp3": {
+  "text": "رد",
+  "voice": "f"
+ },
+ "audio/tts/065a8085d818.mp3": {
+  "text": "رعد",
+  "voice": "f"
+ },
+ "audio/tts/9d5ab17491bc.mp3": {
+  "text": "رعد",
+  "voice": "d"
+ },
+ "audio/tts/0697f511b950.mp3": {
+  "text": "چای",
+  "voice": "d"
+ },
+ "audio/tts/93b6daaab008.mp3": {
+  "text": "برنج",
+  "voice": "f"
+ },
+ "audio/tts/5a207430b00e.mp3": {
+  "text": "خوب",
+  "voice": "d"
+ },
+ "audio/tts/2d6efc11f397.mp3": {
+  "text": "خسته نباشی!",
+  "voice": "f"
+ },
+ "audio/tts/8beac1dadec6.mp3": {
+  "text": "سرت شلوغه؟",
+  "voice": "f"
+ },
+ "audio/tts/5160f860a9bf.mp3": {
+  "text": "کجایی؟",
+  "voice": "d"
+ },
+ "audio/tts/b48864090ea3.mp3": {
+  "text": "تو ماشینم. ترافیکه!",
+  "voice": "f"
+ },
+ "audio/tts/39317c0f40c6.mp3": {
+  "text": "می‌ری دنبال بچه‌ها؟",
+  "voice": "d"
+ },
+ "audio/tts/b6f387ea787c.mp3": {
+  "text": "آره. مدرسه ساعت سه تعطیل می‌شه؟",
+  "voice": "f"
+ },
+ "audio/tts/f8c869fde184.mp3": {
+  "text": "نه، سه و ربع.",
+  "voice": "d"
+ },
+ "audio/tts/6ad85d8fe1a1.mp3": {
+  "text": "باشه. چیزی می‌خوای؟",
+  "voice": "f"
+ },
+ "audio/tts/f50719f0ced5.mp3": {
+  "text": "آره، شیر می‌خوام.",
+  "voice": "d"
+ },
+ "audio/tts/8078dba27cfe.mp3": {
+  "text": "به بچه‌ها بگو شام ماکارونیه!",
+  "voice": "d"
+ },
+ "audio/tts/3a7515ce68c0.mp3": {
+  "text": "می‌گم.",
+  "voice": "f"
+ },
+ "audio/tts/scene_f65f79378d21.mp3": {
+  "concat": [
+   "audio/tts/5160f860a9bf.mp3",
+   "audio/tts/b48864090ea3.mp3",
+   "audio/tts/39317c0f40c6.mp3",
+   "audio/tts/b6f387ea787c.mp3",
+   "audio/tts/f8c869fde184.mp3",
+   "audio/tts/6ad85d8fe1a1.mp3",
+   "audio/tts/f50719f0ced5.mp3",
+   "audio/tts/8078dba27cfe.mp3",
+   "audio/tts/3a7515ce68c0.mp3"
+  ],
+  "gap": 0.6
+ },
+ "audio/tts/11a8844f89aa.mp3": {
+  "text": "دنبال بچه‌ها",
+  "voice": "d"
+ },
+ "audio/tts/f56a05787029.mp3": {
+  "text": "می‌خواهم",
+  "voice": "d"
+ },
+ "audio/tts/8eceb4ab599d.mp3": {
+  "text": "می‌خوام",
+  "voice": "d"
+ },
+ "audio/tts/a497df3930e8.mp3": {
+  "text": "می‌دانم",
+  "voice": "f"
+ },
+ "audio/tts/a8a142564f76.mp3": {
+  "text": "می‌توانم",
+  "voice": "d"
+ },
+ "audio/tts/31ac4499965e.mp3": {
+  "text": "می‌تونم",
+  "voice": "d"
+ },
+ "audio/tts/e2727d6f7e70.mp3": {
+  "text": "می‌گویم",
+  "voice": "f"
+ },
+ "audio/tts/e02bdfbfde04.mp3": {
+  "text": "می‌دهم",
+  "voice": "d"
+ },
+ "audio/tts/ec208db2924e.mp3": {
+  "text": "می‌دم",
+  "voice": "d"
+ },
+ "audio/tts/f225cbd2a13f.mp3": {
+  "text": "ساعت هفت است",
+  "voice": "f"
+ },
+ "audio/tts/35ad215d13f3.mp3": {
+  "text": "ساعت هفته",
+  "voice": "f"
+ },
+ "audio/tts/10161cdeaaa2.mp3": {
+  "text": "کجا است؟",
+  "voice": "d"
+ },
+ "audio/tts/60934615f269.mp3": {
+  "text": "کجاست؟",
+  "voice": "d"
+ },
+ "audio/tts/314f3f53e96e.mp3": {
+  "text": "چه است؟",
+  "voice": "f"
+ },
+ "audio/tts/09949918d97f.mp3": {
+  "text": "چیه؟",
+  "voice": "f"
+ },
+ "audio/tts/0f33ccb1e6e6.mp3": {
+  "text": "خوب است",
+  "voice": "d"
+ },
+ "audio/tts/921c3e5860fc.mp3": {
+  "text": "خوبه",
+  "voice": "d"
+ },
+ "audio/tts/9ac0152ffbf1.mp3": {
+  "text": "سیب",
+  "voice": "f"
+ },
+ "audio/tts/ec35ae7570fb.mp3": {
+  "text": "می‌دونم",
+  "voice": "d"
+ },
+ "audio/tts/ac60ac44c42c.mp3": {
+  "text": "می‌رم دنبال بچه‌ها",
+  "voice": "d"
+ },
+ "audio/tts/b6ab26cf0c75.mp3": {
+  "text": "شب",
+  "voice": "d"
+ },
+ "audio/tts/0a046685fdfb.mp3": {
+  "text": "کی می‌ره دنبال بچه‌ها؟",
+  "voice": "d"
+ },
+ "audio/tts/0f75a4ef59dc.mp3": {
+  "text": "چیزی می‌خوای؟",
+  "voice": "f"
+ },
+ "audio/tts/25e5e68d24f6.mp3": {
+  "text": "پنج‌شنبه‌ست. سام و معصومه دوباره پشت پنجره‌ان.",
+  "voice": "d"
+ },
+ "audio/tts/d29bc174d52d.mp3": {
+  "text": "ببین! همسایه داره میاد.",
+  "voice": "d"
+ },
+ "audio/tts/1f980dfc2547.mp3": {
+  "text": "چی داره؟",
+  "voice": "f"
+ },
+ "audio/tts/ebad7288f212.mp3": {
+  "text": "یه بوقلمون! خیلی بزرگه.",
+  "voice": "d"
+ },
+ "audio/tts/d8aa10cec793.mp3": {
+  "text": "برای کیه؟",
+  "voice": "f"
+ },
+ "audio/tts/e95f1867e5d4.mp3": {
+  "text": "نمی‌دونم. ولی اون هیچ‌وقت مهمون نداره!",
+  "voice": "d"
+ },
+ "audio/tts/d51199a99463.mp3": {
+  "text": "شاید امسال داره.",
+  "voice": "f"
+ },
+ "audio/tts/2299d3b67afa.mp3": {
+  "text": "هیس! داره گوش می‌ده!",
+  "voice": "d"
+ },
+ "audio/tts/8b53cbe0a81f.mp3": {
+  "text": "چیزی نگفتیم که!",
+  "voice": "f"
+ },
+ "audio/tts/scene_60072725b958.mp3": {
+  "concat": [
+   "audio/tts/25e5e68d24f6.mp3",
+   "audio/tts/d29bc174d52d.mp3",
+   "audio/tts/1f980dfc2547.mp3",
+   "audio/tts/ebad7288f212.mp3",
+   "audio/tts/d8aa10cec793.mp3",
+   "audio/tts/e95f1867e5d4.mp3",
+   "audio/tts/d51199a99463.mp3",
+   "audio/tts/2299d3b67afa.mp3",
+   "audio/tts/8b53cbe0a81f.mp3"
+  ],
+  "gap": 0.6
+ },
+ "audio/tts/c141bb661cbf.mp3": {
+  "text": "این قافلهٔ عمر عجب می‌گذرد",
+  "voice": "f"
+ },
+ "audio/tts/7201f6c505c7.mp3": {
+  "text": "دریاب دمی که با طرب می‌گذرد",
+  "voice": "f"
+ },
+ "audio/tts/3c485ef28dfd.mp3": {
+  "text": "می‌دونی چی شد؟",
+  "voice": "f"
+ },
+ "audio/tts/f798bb7d2f37.mp3": {
+  "text": "بگو!",
+  "voice": "d"
+ },
+ "audio/tts/8b4f77df1f84.mp3": {
+  "text": "نمی‌دونم.",
+  "voice": "f"
+ },
+ "audio/tts/eec1b6bd80f8.mp3": {
+  "text": "کسی نمی‌دونه.",
+  "voice": "d"
+ },
+ "audio/tts/7cf785cd84e6.mp3": {
+  "text": "به کسی نگو!",
+  "voice": "f"
+ },
+ "audio/tts/9a89f53d900b.mp3": {
+  "text": "داره میاد!",
+  "voice": "d"
+ },
+ "audio/tts/d0336f10ed7e.mp3": {
+  "text": "داره گوش می‌ده.",
+  "voice": "f"
+ },
+ "audio/tts/1a3c4649c92e.mp3": {
+  "text": "زبان سرخ سر سبز می‌دهد بر باد",
+  "voice": "d"
+ },
+ "audio/tts/15ab42cdd69e.mp3": {
+  "text": "دانشگاه",
+  "voice": "f"
+ },
+ "audio/tts/2f5cff7fe8d8.mp3": {
+  "text": "فرودگاه",
+  "voice": "d"
+ },
+ "audio/tts/8d93517fa62a.mp3": {
+  "text": "خوابگاه",
+  "voice": "f"
+ },
+ "audio/tts/621503c77677.mp3": {
+  "text": "ایستگاه",
+  "voice": "d"
+ },
+ "audio/tts/fb6a3228df23.mp3": {
+  "text": "گاهی",
+  "voice": "f"
+ },
+ "audio/tts/54bcaa79d704.mp3": {
+  "text": "به کسی نگو",
+  "voice": "d"
+ },
+ "audio/tts/5144d100244a.mp3": {
+  "text": "چرا",
+  "voice": "f"
+ },
+ "audio/tts/53df34c572c9.mp3": {
+  "text": "چی دوست داری؟",
+  "voice": "f"
+ },
+ "audio/tts/d9692288a71b.mp3": {
+  "text": "مهمون داریم؟",
+  "voice": "d"
+ },
+ "audio/tts/38fb950b9fbb.mp3": {
+  "text": "چای می‌خوری؟",
+  "voice": "f"
+ },
+ "audio/tts/1dd16f2722ae.mp3": {
+  "text": "شب بخیر!",
+  "voice": "d"
+ },
+ "audio/tts/d823facf644c.mp3": {
+  "text": "زود باش!",
+  "voice": "f"
+ },
+ "audio/tts/01417ddca523.mp3": {
+  "text": "نمی‌دونم.",
+  "voice": "d"
+ },
+ "audio/tts/6713c272746f.mp3": {
+  "text": "امروز و دیروز",
+  "voice": "f"
+ },
+ "audio/tts/a4736b747ddc.mp3": {
+  "text": "سیب و پنیر",
+  "voice": "d"
+ },
+ "audio/tts/a42419d315e5.mp3": {
+  "text": "می‌خوام بخوابم.",
+  "voice": "f"
+ },
+ "audio/tts/4a9080049570.mp3": {
+  "text": "هفته‌ی ما",
+  "voice": "d"
+ },
+ "audio/tts/0be92647f750.mp3": {
+  "text": "یکشنبه",
+  "voice": "f"
+ },
+ "audio/tts/dd6146e783f4.mp3": {
+  "text": "دوشنبه",
+  "voice": "d"
+ },
+ "audio/tts/c33da04bb6b7.mp3": {
+  "text": "جمعه",
+  "voice": "d"
+ },
+ "audio/tts/5a0ec69cdba2.mp3": {
+  "text": "سه و ربع",
+  "voice": "f"
+ },
+ "audio/tts/c3b681059b3d.mp3": {
+  "text": "هفته‌ت چطور بود؟",
+  "voice": "f"
+ },
+ "audio/tts/067cdd5c8f20.mp3": {
+  "text": "چی دوست داشتی؟",
+  "voice": "d"
+ },
+ "audio/tts/6a1dc3590ca3.mp3": {
+  "text": "تونستی بخوابی؟",
+  "voice": "f"
+ },
+ "audio/tts/410be99a8f06.mp3": {
+  "text": "روزت چطور بود؟",
+  "voice": "d"
+ },
+ "audio/tts/3c51463874f8.mp3": {
+  "text": "خوب بود؟",
+  "voice": "f"
+ },
+ "audio/tts/5a3054fda785.mp3": {
+  "text": "چی خوردی؟",
+  "voice": "d"
+ },
+ "audio/tts/4f642154bc15.mp3": {
+  "text": "بزن بریم!",
+  "voice": "d"
+ },
+ "audio/tts/f0f619aabb86.mp3": {
+  "text": "داد نزن!",
+  "voice": "f"
+ },
+ "audio/tts/bb8a0f2bbc7f.mp3": {
+  "text": "هفت و نیم.",
+  "voice": "f"
+ },
+ "audio/tts/ec9d1feece04.mp3": {
+  "text": "نمی‌دونم، نمی‌تونم.",
+  "voice": "f"
+ },
+ "audio/tts/a8921e0ff395.mp3": {
+  "text": "به بچه‌ها بگو شام ماکارونیه!",
+  "voice": "f"
+ },
+ "audio/tts/bfb2f65d99b6.mp3": {
+  "text": "هیس! داره گوش می‌ده!",
+  "voice": "f"
+ },
+ "audio/tts/3e5a8bbc0ca0.mp3": {
+  "text": "وقت شامه!",
+  "voice": "f"
+ },
+ "audio/tts/4c8586612bbc.mp3": {
+  "text": "سه‌شنبه",
+  "voice": "d"
+ },
+ "audio/tts/ab54ad753f0d.mp3": {
+  "text": "چهارشنبه",
+  "voice": "f"
+ },
+ "audio/tts/c37e9734fd67.mp3": {
+  "text": "پنج‌شنبه",
+  "voice": "d"
+ },
+ "audio/tts/76b9160f7810.mp3": {
+  "text": "شیر",
+  "voice": "d"
+ },
+ "audio/tts/22c4b8f2884f.mp3": {
+  "text": "گوش بده!",
+  "voice": "f"
+ },
+ "audio/tts/61a3c8c66b42.mp3": {
+  "text": "نمی‌دونم!",
+  "voice": "d"
+ },
+ "audio/tts/99c79ae9cbaa.mp3": {
+  "text": "این هفته چی کار داری؟",
+  "voice": "f"
+ },
+ "audio/tts/f3506b35bca3.mp3": {
+  "text": "دوشنبه کجایی؟",
+  "voice": "d"
+ },
+ "audio/tts/03ea8c990581.mp3": {
+  "text": "کی می‌ره دنبال بچه‌ها؟",
+  "voice": "f"
+ },
+ "audio/tts/7dad333d4191.mp3": {
+  "text": "می‌دونی چی شد؟",
+  "voice": "d"
+ },
+ "audio/tts/e67c81d23ac1.mp3": {
+  "text": "داره گوش می‌ده!",
+  "voice": "d"
+ },
+ "audio/tts/6f8eb51c9082.mp3": {
+  "text": "روزمون",
+  "voice": "f"
  }
 }

@@ -10480,6 +10480,4493 @@
      ]
     }
    ]
+  },
+  "dashtan": {
+   "inf": {
+    "fa": "داشتن",
+    "tr": "dāshtan",
+    "en": "to have",
+    "audio": "audio/tts/bcc6aca2c461.mp3"
+   },
+   "stems": {
+    "past": "dāsht-",
+    "present": "dār-"
+   },
+   "irregular": true,
+   "story": "Have. The one everyday verb that refuses mi- in the present: dāram, never midāram. It also runs the “right now” tense: dāram miram, literally “I have going,” means I’m on my way (Day 4). With dust (friend) in front it’s how Persian likes and loves: dust dāram, I like it; dustet dāram, I love you, literally “I have you as a friend.”",
+   "noImp": "No everyday command. To say “keep it,” Persian switches verbs: negah dār (hold).",
+   "variants": [
+    {
+     "id": "dashtan",
+     "label": {
+      "fa": "داشتن",
+      "tr": "dāshtan",
+      "en": "to have",
+      "audio": "audio/tts/e64ed271bb34.mp3"
+     },
+     "present": [
+      {
+       "fa": "دارم",
+       "tr": "dāram",
+       "trp": [
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I have",
+       "audio": "audio/tts/27e3c3906d45.mp3"
+      },
+      {
+       "fa": "داری",
+       "tr": "dāri",
+       "trp": [
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you have",
+       "audio": "audio/tts/201359b2e321.mp3"
+      },
+      {
+       "fa": "داره",
+       "tr": "dāre",
+       "trp": [
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she has",
+       "w": "دارد",
+       "wtr": "dārad",
+       "audio": "audio/tts/0c673d84ccc4.mp3"
+      },
+      {
+       "fa": "داریم",
+       "tr": "dārim",
+       "trp": [
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we have",
+       "audio": "audio/tts/3d78279fffc9.mp3"
+      },
+      {
+       "fa": "دارین",
+       "tr": "dārin",
+       "trp": [
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) have",
+       "w": "دارید",
+       "wtr": "dārid",
+       "audio": "audio/tts/4d22a3103e41.mp3"
+      },
+      {
+       "fa": "دارن",
+       "tr": "dāran",
+       "trp": [
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they have",
+       "w": "دارند",
+       "wtr": "dārand",
+       "audio": "audio/tts/b49cf33f511a.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "داشتم",
+       "tr": "dāshtam",
+       "trp": [
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I had",
+       "audio": "audio/tts/010aabcdcdf6.mp3"
+      },
+      {
+       "fa": "داشتی",
+       "tr": "dāshti",
+       "trp": [
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you had",
+       "audio": "audio/tts/7dcdf9fe7c6a.mp3"
+      },
+      {
+       "fa": "داشت",
+       "tr": "dāsht",
+       "trp": [
+        [
+         "s",
+         "dāsht"
+        ]
+       ],
+       "en": "he/she had",
+       "audio": "audio/tts/a696801f78e8.mp3"
+      },
+      {
+       "fa": "داشتیم",
+       "tr": "dāshtim",
+       "trp": [
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we had",
+       "audio": "audio/tts/92a1aa33b9f7.mp3"
+      },
+      {
+       "fa": "داشتین",
+       "tr": "dāshtin",
+       "trp": [
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) had",
+       "w": "داشتید",
+       "wtr": "dāshtid",
+       "audio": "audio/tts/dd0b9c8cfefe.mp3"
+      },
+      {
+       "fa": "داشتن",
+       "tr": "dāshtan",
+       "trp": [
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they had",
+       "w": "داشتند",
+       "wtr": "dāshtand",
+       "audio": "audio/tts/e64ed271bb34.mp3"
+      }
+     ],
+     "imperative": [],
+     "neg_present": [
+      {
+       "fa": "ندارم",
+       "tr": "nadāram",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t have",
+       "audio": "audio/tts/eaf28981064d.mp3"
+      },
+      {
+       "fa": "نداری",
+       "tr": "nadāri",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t have",
+       "audio": "audio/tts/cbc996ba1b2c.mp3"
+      },
+      {
+       "fa": "نداره",
+       "tr": "nadāre",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t have",
+       "w": "ندارد",
+       "wtr": "nadārad",
+       "audio": "audio/tts/b490c790fa68.mp3"
+      },
+      {
+       "fa": "نداریم",
+       "tr": "nadārim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t have",
+       "audio": "audio/tts/28cb418e0e57.mp3"
+      },
+      {
+       "fa": "ندارین",
+       "tr": "nadārin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t have",
+       "w": "ندارید",
+       "wtr": "nadārid",
+       "audio": "audio/tts/9331749c7a6f.mp3"
+      },
+      {
+       "fa": "ندارن",
+       "tr": "nadāran",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t have",
+       "w": "ندارند",
+       "wtr": "nadārand",
+       "audio": "audio/tts/842595da8821.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نداشتم",
+       "tr": "nadāshtam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t have",
+       "audio": "audio/tts/86071c3b4a70.mp3"
+      },
+      {
+       "fa": "نداشتی",
+       "tr": "nadāshti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t have",
+       "audio": "audio/tts/cb2a3c329cfc.mp3"
+      },
+      {
+       "fa": "نداشت",
+       "tr": "nadāsht",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ]
+       ],
+       "en": "he/she didn’t have",
+       "audio": "audio/tts/eaebea8555ec.mp3"
+      },
+      {
+       "fa": "نداشتیم",
+       "tr": "nadāshtim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t have",
+       "audio": "audio/tts/b97da545f98d.mp3"
+      },
+      {
+       "fa": "نداشتین",
+       "tr": "nadāshtin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t have",
+       "w": "نداشتید",
+       "wtr": "nadāshtid",
+       "audio": "audio/tts/6bc92c99cc23.mp3"
+      },
+      {
+       "fa": "نداشتن",
+       "tr": "nadāshtan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t have",
+       "w": "نداشتند",
+       "wtr": "nadāshtand",
+       "audio": "audio/tts/ea14650312be.mp3"
+      }
+     ]
+    },
+    {
+     "id": "dust_dashtan",
+     "label": {
+      "fa": "دوست داشتن",
+      "tr": "dust dāshtan",
+      "en": "to like, to love",
+      "audio": "audio/tts/ea5e9186f60a.mp3"
+     },
+     "present": [
+      {
+       "fa": "دوست دارم",
+       "tr": "dust dāram",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I like",
+       "audio": "audio/tts/590058ab733b.mp3"
+      },
+      {
+       "fa": "دوست داری",
+       "tr": "dust dāri",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you like",
+       "audio": "audio/tts/b0896704c235.mp3"
+      },
+      {
+       "fa": "دوست داره",
+       "tr": "dust dāre",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she likes",
+       "w": "دوست دارد",
+       "wtr": "dust dārad",
+       "audio": "audio/tts/200bda1d6663.mp3"
+      },
+      {
+       "fa": "دوست داریم",
+       "tr": "dust dārim",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we like",
+       "audio": "audio/tts/7b07e22cb56a.mp3"
+      },
+      {
+       "fa": "دوست دارین",
+       "tr": "dust dārin",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) like",
+       "w": "دوست دارید",
+       "wtr": "dust dārid",
+       "audio": "audio/tts/cd1da5c824a7.mp3"
+      },
+      {
+       "fa": "دوست دارن",
+       "tr": "dust dāran",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they like",
+       "w": "دوست دارند",
+       "wtr": "dust dārand",
+       "audio": "audio/tts/fe2a9b1e4011.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "دوست داشتم",
+       "tr": "dust dāshtam",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I liked",
+       "audio": "audio/tts/d2cc8e889210.mp3"
+      },
+      {
+       "fa": "دوست داشتی",
+       "tr": "dust dāshti",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you liked",
+       "audio": "audio/tts/d6bdf5d3272f.mp3"
+      },
+      {
+       "fa": "دوست داشت",
+       "tr": "dust dāsht",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dāsht"
+        ]
+       ],
+       "en": "he/she liked",
+       "audio": "audio/tts/81045072fc11.mp3"
+      },
+      {
+       "fa": "دوست داشتیم",
+       "tr": "dust dāshtim",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we liked",
+       "audio": "audio/tts/d1142edb65c4.mp3"
+      },
+      {
+       "fa": "دوست داشتین",
+       "tr": "dust dāshtin",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) liked",
+       "w": "دوست داشتید",
+       "wtr": "dust dāshtid",
+       "audio": "audio/tts/981c0e87bb79.mp3"
+      },
+      {
+       "fa": "دوست داشتن",
+       "tr": "dust dāshtan",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they liked",
+       "w": "دوست داشتند",
+       "wtr": "dust dāshtand",
+       "audio": "audio/tts/ea5e9186f60a.mp3"
+      }
+     ],
+     "imperative": [],
+     "neg_present": [
+      {
+       "fa": "دوست ندارم",
+       "tr": "dust nadāram",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t like",
+       "audio": "audio/tts/325dd5997dc3.mp3"
+      },
+      {
+       "fa": "دوست نداری",
+       "tr": "dust nadāri",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t like",
+       "audio": "audio/tts/ff7f16acd1f4.mp3"
+      },
+      {
+       "fa": "دوست نداره",
+       "tr": "dust nadāre",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t like",
+       "w": "دوست ندارد",
+       "wtr": "dust nadārad",
+       "audio": "audio/tts/92e128f383b0.mp3"
+      },
+      {
+       "fa": "دوست نداریم",
+       "tr": "dust nadārim",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t like",
+       "audio": "audio/tts/7f61fcf349f6.mp3"
+      },
+      {
+       "fa": "دوست ندارین",
+       "tr": "dust nadārin",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t like",
+       "w": "دوست ندارید",
+       "wtr": "dust nadārid",
+       "audio": "audio/tts/b251379f5b50.mp3"
+      },
+      {
+       "fa": "دوست ندارن",
+       "tr": "dust nadāran",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dār"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t like",
+       "w": "دوست ندارند",
+       "wtr": "dust nadārand",
+       "audio": "audio/tts/4aa2a0e620bb.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "دوست نداشتم",
+       "tr": "dust nadāshtam",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t like",
+       "audio": "audio/tts/7c4fb48c3d93.mp3"
+      },
+      {
+       "fa": "دوست نداشتی",
+       "tr": "dust nadāshti",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t like",
+       "audio": "audio/tts/c6ee22a626c2.mp3"
+      },
+      {
+       "fa": "دوست نداشت",
+       "tr": "dust nadāsht",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ]
+       ],
+       "en": "he/she didn’t like",
+       "audio": "audio/tts/78317386f505.mp3"
+      },
+      {
+       "fa": "دوست نداشتیم",
+       "tr": "dust nadāshtim",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t like",
+       "audio": "audio/tts/77e8f6147e57.mp3"
+      },
+      {
+       "fa": "دوست نداشتین",
+       "tr": "dust nadāshtin",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t like",
+       "w": "دوست نداشتید",
+       "wtr": "dust nadāshtid",
+       "audio": "audio/tts/bdfc9828e69a.mp3"
+      },
+      {
+       "fa": "دوست نداشتن",
+       "tr": "dust nadāshtan",
+       "trp": [
+        [
+         "w",
+         "dust "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dāsht"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t like",
+       "w": "دوست نداشتند",
+       "wtr": "dust nadāshtand",
+       "audio": "audio/tts/bbdc5cc6906d.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "khastan": {
+   "inf": {
+    "fa": "خواستن",
+    "tr": "khāstan",
+    "en": "to want",
+    "audio": "audio/tts/a9b3192b8c98.mp3"
+   },
+   "stems": {
+    "past": "khāst-",
+    "present": "khā- (written khāh-)"
+   },
+   "irregular": true,
+   "story": "Want. Spelled with a silent vāv: خواستن is khāstan. A thousand years ago it was said khvāstan, and the spelling never let go; the same ghost vāv sits in khāb (sleep) and khāhar (sister). Speech squeezes the present hard: written mikhāham, Mass says mikhām. In Chapter 4 it learns to pull another verb behind it: mikhām beram, I want to go.",
+   "noImp": "Commands of khāstan exist but are rare. You won’t need them.",
+   "variants": [
+    {
+     "id": "khastan",
+     "label": {
+      "fa": "خواستن",
+      "tr": "khāstan",
+      "en": "to want",
+      "audio": "audio/tts/68ddf6eadfb0.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌خوام",
+       "tr": "mikhām",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "m"
+        ]
+       ],
+       "en": "I want",
+       "w": "می‌خواهم",
+       "wtr": "mikhāham",
+       "audio": "audio/tts/501d0d5ba3be.mp3"
+      },
+      {
+       "fa": "می‌خوای",
+       "tr": "mikhāy",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "y"
+        ]
+       ],
+       "en": "you want",
+       "w": "می‌خواهی",
+       "wtr": "mikhāhi",
+       "audio": "audio/tts/7cd363c17607.mp3"
+      },
+      {
+       "fa": "می‌خواد",
+       "tr": "mikhād",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "d"
+        ]
+       ],
+       "en": "he/she wants",
+       "w": "می‌خواهد",
+       "wtr": "mikhāhad",
+       "audio": "audio/tts/01902e21816a.mp3"
+      },
+      {
+       "fa": "می‌خوایم",
+       "tr": "mikhāym",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "ym"
+        ]
+       ],
+       "en": "we want",
+       "w": "می‌خواهیم",
+       "wtr": "mikhāhim",
+       "audio": "audio/tts/51e462f4bb9b.mp3"
+      },
+      {
+       "fa": "می‌خواین",
+       "tr": "mikhāyn",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "yn"
+        ]
+       ],
+       "en": "you (polite/plural) want",
+       "w": "می‌خواهید",
+       "wtr": "mikhāhid",
+       "audio": "audio/tts/915c8fa871d3.mp3"
+      },
+      {
+       "fa": "می‌خوان",
+       "tr": "mikhān",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "n"
+        ]
+       ],
+       "en": "they want",
+       "w": "می‌خواهند",
+       "wtr": "mikhāhand",
+       "audio": "audio/tts/11ab0c286ae3.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "خواستم",
+       "tr": "khāstam",
+       "trp": [
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I wanted",
+       "audio": "audio/tts/50fd3545fb76.mp3"
+      },
+      {
+       "fa": "خواستی",
+       "tr": "khāsti",
+       "trp": [
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you wanted",
+       "audio": "audio/tts/941fb385993d.mp3"
+      },
+      {
+       "fa": "خواست",
+       "tr": "khāst",
+       "trp": [
+        [
+         "s",
+         "khāst"
+        ]
+       ],
+       "en": "he/she wanted",
+       "audio": "audio/tts/74e9ac408273.mp3"
+      },
+      {
+       "fa": "خواستیم",
+       "tr": "khāstim",
+       "trp": [
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we wanted",
+       "audio": "audio/tts/6946f1a74314.mp3"
+      },
+      {
+       "fa": "خواستین",
+       "tr": "khāstin",
+       "trp": [
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) wanted",
+       "w": "خواستید",
+       "wtr": "khāstid",
+       "audio": "audio/tts/c8f7074f1607.mp3"
+      },
+      {
+       "fa": "خواستن",
+       "tr": "khāstan",
+       "trp": [
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they wanted",
+       "w": "خواستند",
+       "wtr": "khāstand",
+       "audio": "audio/tts/68ddf6eadfb0.mp3"
+      }
+     ],
+     "imperative": [],
+     "neg_present": [
+      {
+       "fa": "نمی‌خوام",
+       "tr": "nemikhām",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "m"
+        ]
+       ],
+       "en": "I don’t want",
+       "w": "نمی‌خواهم",
+       "wtr": "nemikhāham",
+       "audio": "audio/tts/865d8e65e90f.mp3"
+      },
+      {
+       "fa": "نمی‌خوای",
+       "tr": "nemikhāy",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "y"
+        ]
+       ],
+       "en": "you don’t want",
+       "w": "نمی‌خواهی",
+       "wtr": "nemikhāhi",
+       "audio": "audio/tts/52d233101709.mp3"
+      },
+      {
+       "fa": "نمی‌خواد",
+       "tr": "nemikhād",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "d"
+        ]
+       ],
+       "en": "he/she doesn’t want",
+       "w": "نمی‌خواهد",
+       "wtr": "nemikhāhad",
+       "audio": "audio/tts/da223acc0fd9.mp3"
+      },
+      {
+       "fa": "نمی‌خوایم",
+       "tr": "nemikhāym",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "ym"
+        ]
+       ],
+       "en": "we don’t want",
+       "w": "نمی‌خواهیم",
+       "wtr": "nemikhāhim",
+       "audio": "audio/tts/7179332c2139.mp3"
+      },
+      {
+       "fa": "نمی‌خواین",
+       "tr": "nemikhāyn",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "yn"
+        ]
+       ],
+       "en": "you (polite/plural) don’t want",
+       "w": "نمی‌خواهید",
+       "wtr": "nemikhāhid",
+       "audio": "audio/tts/9196fe614860.mp3"
+      },
+      {
+       "fa": "نمی‌خوان",
+       "tr": "nemikhān",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "khā"
+        ],
+        [
+         "e",
+         "n"
+        ]
+       ],
+       "en": "they don’t want",
+       "w": "نمی‌خواهند",
+       "wtr": "nemikhāhand",
+       "audio": "audio/tts/1c240d5d616b.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نخواستم",
+       "tr": "nakhāstam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t want",
+       "audio": "audio/tts/9eafcc1527c9.mp3"
+      },
+      {
+       "fa": "نخواستی",
+       "tr": "nakhāsti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t want",
+       "audio": "audio/tts/2bafb025bfa1.mp3"
+      },
+      {
+       "fa": "نخواست",
+       "tr": "nakhāst",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khāst"
+        ]
+       ],
+       "en": "he/she didn’t want",
+       "audio": "audio/tts/3efef084eff8.mp3"
+      },
+      {
+       "fa": "نخواستیم",
+       "tr": "nakhāstim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t want",
+       "audio": "audio/tts/c79aa8dd82d7.mp3"
+      },
+      {
+       "fa": "نخواستین",
+       "tr": "nakhāstin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t want",
+       "w": "نخواستید",
+       "wtr": "nakhāstid",
+       "audio": "audio/tts/3e601dc12d00.mp3"
+      },
+      {
+       "fa": "نخواستن",
+       "tr": "nakhāstan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "khāst"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t want",
+       "w": "نخواستند",
+       "wtr": "nakhāstand",
+       "audio": "audio/tts/a7ad667c0e03.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "dunestan": {
+   "inf": {
+    "fa": "دونستن",
+    "tr": "dunestan",
+    "en": "to know",
+    "w": "دانستن",
+    "wtr": "dānestan",
+    "audio": "audio/tts/8780efe2f057.mp3"
+   },
+   "stems": {
+    "past": "dunest- (written dānest-)",
+    "present": "dun- (written dān-)"
+   },
+   "irregular": false,
+   "story": "Know (a fact). The ān→un rule again: written midānam, Mass says midunam. The family: dānesh (knowledge), dānā (wise), and dāneshgāh, the place of knowledge, a university (Day 4). Knowing a person is a different verb, shenākhtan. Nemidunam (I don’t know) may be the most useful word in this chapter.",
+   "noImp": "Bedun ke… (know that…) exists in speeches and love songs, but you won’t need a command for “know.”",
+   "variants": [
+    {
+     "id": "dunestan",
+     "label": {
+      "fa": "دونستن",
+      "tr": "dunestan",
+      "en": "to know",
+      "audio": "audio/tts/0d7f8687091b.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌دونم",
+       "tr": "midunam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I know",
+       "w": "می‌دانم",
+       "wtr": "midānam",
+       "audio": "audio/tts/e5f6a518534f.mp3"
+      },
+      {
+       "fa": "می‌دونی",
+       "tr": "miduni",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you know",
+       "w": "می‌دانی",
+       "wtr": "midāni",
+       "audio": "audio/tts/b99a22a8ad10.mp3"
+      },
+      {
+       "fa": "می‌دونه",
+       "tr": "midune",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she knows",
+       "w": "می‌داند",
+       "wtr": "midānad",
+       "audio": "audio/tts/4520ed176046.mp3"
+      },
+      {
+       "fa": "می‌دونیم",
+       "tr": "midunim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we know",
+       "w": "می‌دانیم",
+       "wtr": "midānim",
+       "audio": "audio/tts/07c20d660d80.mp3"
+      },
+      {
+       "fa": "می‌دونین",
+       "tr": "midunin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) know",
+       "w": "می‌دانید",
+       "wtr": "midānid",
+       "audio": "audio/tts/3ff905174229.mp3"
+      },
+      {
+       "fa": "می‌دونن",
+       "tr": "midunan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they know",
+       "w": "می‌دانند",
+       "wtr": "midānand",
+       "audio": "audio/tts/4b03dfb1a658.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "دونستم",
+       "tr": "dunestam",
+       "trp": [
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I knew",
+       "w": "دانستم",
+       "wtr": "dānestam",
+       "audio": "audio/tts/bb3d2f9a7abd.mp3"
+      },
+      {
+       "fa": "دونستی",
+       "tr": "dunesti",
+       "trp": [
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you knew",
+       "w": "دانستی",
+       "wtr": "dānesti",
+       "audio": "audio/tts/4e6153be7986.mp3"
+      },
+      {
+       "fa": "دونست",
+       "tr": "dunest",
+       "trp": [
+        [
+         "s",
+         "dunest"
+        ]
+       ],
+       "en": "he/she knew",
+       "w": "دانست",
+       "wtr": "dānest",
+       "audio": "audio/tts/b87c0485b06f.mp3"
+      },
+      {
+       "fa": "دونستیم",
+       "tr": "dunestim",
+       "trp": [
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we knew",
+       "w": "دانستیم",
+       "wtr": "dānestim",
+       "audio": "audio/tts/2ab08cd8058d.mp3"
+      },
+      {
+       "fa": "دونستین",
+       "tr": "dunestin",
+       "trp": [
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) knew",
+       "w": "دانستید",
+       "wtr": "dānestid",
+       "audio": "audio/tts/b9e2a4f235dc.mp3"
+      },
+      {
+       "fa": "دونستن",
+       "tr": "dunestan",
+       "trp": [
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they knew",
+       "w": "دانستند",
+       "wtr": "dānestand",
+       "audio": "audio/tts/0d7f8687091b.mp3"
+      }
+     ],
+     "imperative": [],
+     "neg_present": [
+      {
+       "fa": "نمی‌دونم",
+       "tr": "nemidunam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t know",
+       "w": "نمی‌دانم",
+       "wtr": "nemidānam",
+       "audio": "audio/tts/5772265d7bb4.mp3"
+      },
+      {
+       "fa": "نمی‌دونی",
+       "tr": "nemiduni",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t know",
+       "w": "نمی‌دانی",
+       "wtr": "nemidāni",
+       "audio": "audio/tts/a19daf31d7bb.mp3"
+      },
+      {
+       "fa": "نمی‌دونه",
+       "tr": "nemidune",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t know",
+       "w": "نمی‌داند",
+       "wtr": "nemidānad",
+       "audio": "audio/tts/25a8f787ec95.mp3"
+      },
+      {
+       "fa": "نمی‌دونیم",
+       "tr": "nemidunim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t know",
+       "w": "نمی‌دانیم",
+       "wtr": "nemidānim",
+       "audio": "audio/tts/10473e93b092.mp3"
+      },
+      {
+       "fa": "نمی‌دونین",
+       "tr": "nemidunin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t know",
+       "w": "نمی‌دانید",
+       "wtr": "nemidānid",
+       "audio": "audio/tts/1ecdad634de5.mp3"
+      },
+      {
+       "fa": "نمی‌دونن",
+       "tr": "nemidunan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "dun"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t know",
+       "w": "نمی‌دانند",
+       "wtr": "nemidānand",
+       "audio": "audio/tts/cc4e45689495.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "ندونستم",
+       "tr": "nadunestam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t know",
+       "w": "ندانستم",
+       "wtr": "nadānestam",
+       "audio": "audio/tts/b674bf2dc4fc.mp3"
+      },
+      {
+       "fa": "ندونستی",
+       "tr": "nadunesti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t know",
+       "w": "ندانستی",
+       "wtr": "nadānesti",
+       "audio": "audio/tts/917a860d1b66.mp3"
+      },
+      {
+       "fa": "ندونست",
+       "tr": "nadunest",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dunest"
+        ]
+       ],
+       "en": "he/she didn’t know",
+       "w": "ندانست",
+       "wtr": "nadānest",
+       "audio": "audio/tts/107c84cc32e2.mp3"
+      },
+      {
+       "fa": "ندونستیم",
+       "tr": "nadunestim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t know",
+       "w": "ندانستیم",
+       "wtr": "nadānestim",
+       "audio": "audio/tts/70946dcb251f.mp3"
+      },
+      {
+       "fa": "ندونستین",
+       "tr": "nadunestin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t know",
+       "w": "ندانستید",
+       "wtr": "nadānestid",
+       "audio": "audio/tts/58efac69721c.mp3"
+      },
+      {
+       "fa": "ندونستن",
+       "tr": "nadunestan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dunest"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t know",
+       "w": "ندانستند",
+       "wtr": "nadānestand",
+       "audio": "audio/tts/afe3b3295d59.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "tunestan": {
+   "inf": {
+    "fa": "تونستن",
+    "tr": "tunestan",
+    "en": "to be able, can",
+    "w": "توانستن",
+    "wtr": "tavānestan",
+    "audio": "audio/tts/d167f81e58b7.mp3"
+   },
+   "stems": {
+    "past": "tunest- (written tavānest-)",
+    "present": "tun- (written tavān-)"
+   },
+   "irregular": false,
+   "story": "Can. Written mitavānam shrinks to mitunam. The root tavān means power: tavānā is powerful. The past tunestam means “I managed to,” not “I could if I wanted.” On its own, nemitunam is a full sentence: I can’t.",
+   "noImp": "No command form. You can’t order someone to be able.",
+   "variants": [
+    {
+     "id": "tunestan",
+     "label": {
+      "fa": "تونستن",
+      "tr": "tunestan",
+      "en": "can",
+      "audio": "audio/tts/43a767064f93.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌تونم",
+       "tr": "mitunam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I can",
+       "w": "می‌توانم",
+       "wtr": "mitavānam",
+       "audio": "audio/tts/d2139de4e1ce.mp3"
+      },
+      {
+       "fa": "می‌تونی",
+       "tr": "mituni",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you can",
+       "w": "می‌توانی",
+       "wtr": "mitavāni",
+       "audio": "audio/tts/b9f27637ffaf.mp3"
+      },
+      {
+       "fa": "می‌تونه",
+       "tr": "mitune",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she can",
+       "w": "می‌تواند",
+       "wtr": "mitavānad",
+       "audio": "audio/tts/8fdeac82b81c.mp3"
+      },
+      {
+       "fa": "می‌تونیم",
+       "tr": "mitunim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we can",
+       "w": "می‌توانیم",
+       "wtr": "mitavānim",
+       "audio": "audio/tts/1f516c6c6086.mp3"
+      },
+      {
+       "fa": "می‌تونین",
+       "tr": "mitunin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) can",
+       "w": "می‌توانید",
+       "wtr": "mitavānid",
+       "audio": "audio/tts/09cdcaddc110.mp3"
+      },
+      {
+       "fa": "می‌تونن",
+       "tr": "mitunan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they can",
+       "w": "می‌توانند",
+       "wtr": "mitavānand",
+       "audio": "audio/tts/c80e3f1168cb.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "تونستم",
+       "tr": "tunestam",
+       "trp": [
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I was able to",
+       "w": "توانستم",
+       "wtr": "tavānestam",
+       "audio": "audio/tts/e3f55690bb33.mp3"
+      },
+      {
+       "fa": "تونستی",
+       "tr": "tunesti",
+       "trp": [
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you were able to",
+       "w": "توانستی",
+       "wtr": "tavānesti",
+       "audio": "audio/tts/fec15deb833a.mp3"
+      },
+      {
+       "fa": "تونست",
+       "tr": "tunest",
+       "trp": [
+        [
+         "s",
+         "tunest"
+        ]
+       ],
+       "en": "he/she was able to",
+       "w": "توانست",
+       "wtr": "tavānest",
+       "audio": "audio/tts/ae459652e7be.mp3"
+      },
+      {
+       "fa": "تونستیم",
+       "tr": "tunestim",
+       "trp": [
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we were able to",
+       "w": "توانستیم",
+       "wtr": "tavānestim",
+       "audio": "audio/tts/ccd68bf1756b.mp3"
+      },
+      {
+       "fa": "تونستین",
+       "tr": "tunestin",
+       "trp": [
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) were able to",
+       "w": "توانستید",
+       "wtr": "tavānestid",
+       "audio": "audio/tts/a1d73ed20a35.mp3"
+      },
+      {
+       "fa": "تونستن",
+       "tr": "tunestan",
+       "trp": [
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they were able to",
+       "w": "توانستند",
+       "wtr": "tavānestand",
+       "audio": "audio/tts/43a767064f93.mp3"
+      }
+     ],
+     "imperative": [],
+     "neg_present": [
+      {
+       "fa": "نمی‌تونم",
+       "tr": "nemitunam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I can’t",
+       "w": "نمی‌توانم",
+       "wtr": "nemitavānam",
+       "audio": "audio/tts/8c24bbe85c0e.mp3"
+      },
+      {
+       "fa": "نمی‌تونی",
+       "tr": "nemituni",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you can’t",
+       "w": "نمی‌توانی",
+       "wtr": "nemitavāni",
+       "audio": "audio/tts/f41f5dab3cd6.mp3"
+      },
+      {
+       "fa": "نمی‌تونه",
+       "tr": "nemitune",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she can’t",
+       "w": "نمی‌تواند",
+       "wtr": "nemitavānad",
+       "audio": "audio/tts/762c92ec27de.mp3"
+      },
+      {
+       "fa": "نمی‌تونیم",
+       "tr": "nemitunim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we can’t",
+       "w": "نمی‌توانیم",
+       "wtr": "nemitavānim",
+       "audio": "audio/tts/b8f730629a18.mp3"
+      },
+      {
+       "fa": "نمی‌تونین",
+       "tr": "nemitunin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) can’t",
+       "w": "نمی‌توانید",
+       "wtr": "nemitavānid",
+       "audio": "audio/tts/f005b36b22d6.mp3"
+      },
+      {
+       "fa": "نمی‌تونن",
+       "tr": "nemitunan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "tun"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they can’t",
+       "w": "نمی‌توانند",
+       "wtr": "nemitavānand",
+       "audio": "audio/tts/1db7081ae00d.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نتونستم",
+       "tr": "natunestam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I couldn’t",
+       "w": "نتوانستم",
+       "wtr": "natavānestam",
+       "audio": "audio/tts/ef28407a0bb4.mp3"
+      },
+      {
+       "fa": "نتونستی",
+       "tr": "natunesti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you couldn’t",
+       "w": "نتوانستی",
+       "wtr": "natavānesti",
+       "audio": "audio/tts/baa843a667c8.mp3"
+      },
+      {
+       "fa": "نتونست",
+       "tr": "natunest",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "tunest"
+        ]
+       ],
+       "en": "he/she couldn’t",
+       "w": "نتوانست",
+       "wtr": "natavānest",
+       "audio": "audio/tts/98f72741b08b.mp3"
+      },
+      {
+       "fa": "نتونستیم",
+       "tr": "natunestim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we couldn’t",
+       "w": "نتوانستیم",
+       "wtr": "natavānestim",
+       "audio": "audio/tts/452511ec5566.mp3"
+      },
+      {
+       "fa": "نتونستین",
+       "tr": "natunestin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) couldn’t",
+       "w": "نتوانستید",
+       "wtr": "natavānestid",
+       "audio": "audio/tts/e48bbfe5085c.mp3"
+      },
+      {
+       "fa": "نتونستن",
+       "tr": "natunestan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "tunest"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they couldn’t",
+       "w": "نتوانستند",
+       "wtr": "natavānestand",
+       "audio": "audio/tts/e34ccab55bb8.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "goftan": {
+   "inf": {
+    "fa": "گفتن",
+    "tr": "goftan",
+    "en": "to say, to tell",
+    "audio": "audio/tts/0f8db737d5a4.mp3"
+   },
+   "stems": {
+    "past": "goft-",
+    "present": "g- (written gu-)"
+   },
+   "irregular": true,
+   "story": "Say, tell. Past goft-, present gu-, which Tehrani speech crushes to g-: written miguyam, Mass says migam. You already know mige from “Bābā mige.” Begu! (tell me!) is the gossip’s second favorite word, after didi?!",
+   "variants": [
+    {
+     "id": "goftan",
+     "label": {
+      "fa": "گفتن",
+      "tr": "goftan",
+      "en": "to say",
+      "audio": "audio/tts/528aa00845e6.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌گم",
+       "tr": "migam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I say",
+       "w": "می‌گویم",
+       "wtr": "miguyam",
+       "audio": "audio/tts/8415c7cf3390.mp3"
+      },
+      {
+       "fa": "می‌گی",
+       "tr": "migi",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you say",
+       "w": "می‌گویی",
+       "wtr": "miguyi",
+       "audio": "audio/tts/60e351ed46bd.mp3"
+      },
+      {
+       "fa": "می‌گه",
+       "tr": "mige",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she says",
+       "w": "می‌گوید",
+       "wtr": "miguyad",
+       "audio": "audio/tts/5e9b53cf092b.mp3"
+      },
+      {
+       "fa": "می‌گیم",
+       "tr": "migim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we say",
+       "w": "می‌گوییم",
+       "wtr": "miguyim",
+       "audio": "audio/tts/2ece40193f37.mp3"
+      },
+      {
+       "fa": "می‌گین",
+       "tr": "migin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) say",
+       "w": "می‌گویید",
+       "wtr": "miguyid",
+       "audio": "audio/tts/19053cbcd57f.mp3"
+      },
+      {
+       "fa": "می‌گن",
+       "tr": "migan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they say",
+       "w": "می‌گویند",
+       "wtr": "miguyand",
+       "audio": "audio/tts/3eb84ef6c212.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "گفتم",
+       "tr": "goftam",
+       "trp": [
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I said",
+       "audio": "audio/tts/ef25a0145cf0.mp3"
+      },
+      {
+       "fa": "گفتی",
+       "tr": "gofti",
+       "trp": [
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you said",
+       "audio": "audio/tts/07e0758e2ef3.mp3"
+      },
+      {
+       "fa": "گفت",
+       "tr": "goft",
+       "trp": [
+        [
+         "s",
+         "goft"
+        ]
+       ],
+       "en": "he/she said",
+       "audio": "audio/tts/95de5861be40.mp3"
+      },
+      {
+       "fa": "گفتیم",
+       "tr": "goftim",
+       "trp": [
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we said",
+       "audio": "audio/tts/970eca0070e5.mp3"
+      },
+      {
+       "fa": "گفتین",
+       "tr": "goftin",
+       "trp": [
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) said",
+       "w": "گفتید",
+       "wtr": "goftid",
+       "audio": "audio/tts/bfdf0c675e01.mp3"
+      },
+      {
+       "fa": "گفتن",
+       "tr": "goftan",
+       "trp": [
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they said",
+       "w": "گفتند",
+       "wtr": "goftand",
+       "audio": "audio/tts/528aa00845e6.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بگو",
+       "tr": "begu",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "gu"
+        ]
+       ],
+       "en": "say!",
+       "audio": "audio/tts/f5169d405e20.mp3"
+      },
+      {
+       "fa": "بگین",
+       "tr": "begin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "say! (polite, or to more than one)",
+       "w": "بگویید",
+       "wtr": "beguyid",
+       "audio": "audio/tts/9d5c98e9ffcd.mp3"
+      },
+      {
+       "fa": "نگو",
+       "tr": "nagu",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "gu"
+        ]
+       ],
+       "en": "don’t say!",
+       "audio": "audio/tts/80c66cfa969c.mp3"
+      },
+      {
+       "fa": "نگین",
+       "tr": "nagin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t say! (polite, or to more than one)",
+       "w": "نگویید",
+       "wtr": "naguyid",
+       "audio": "audio/tts/f09e199e1988.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌گم",
+       "tr": "nemigam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t say",
+       "w": "نمی‌گویم",
+       "wtr": "nemiguyam",
+       "audio": "audio/tts/846301cf28ff.mp3"
+      },
+      {
+       "fa": "نمی‌گی",
+       "tr": "nemigi",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t say",
+       "w": "نمی‌گویی",
+       "wtr": "nemiguyi",
+       "audio": "audio/tts/35ea8640a05b.mp3"
+      },
+      {
+       "fa": "نمی‌گه",
+       "tr": "nemige",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t say",
+       "w": "نمی‌گوید",
+       "wtr": "nemiguyad",
+       "audio": "audio/tts/fb6a40830e50.mp3"
+      },
+      {
+       "fa": "نمی‌گیم",
+       "tr": "nemigim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t say",
+       "w": "نمی‌گوییم",
+       "wtr": "nemiguyim",
+       "audio": "audio/tts/dfea73dc0a75.mp3"
+      },
+      {
+       "fa": "نمی‌گین",
+       "tr": "nemigin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t say",
+       "w": "نمی‌گویید",
+       "wtr": "nemiguyid",
+       "audio": "audio/tts/3040cd474f9d.mp3"
+      },
+      {
+       "fa": "نمی‌گن",
+       "tr": "nemigan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "g"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t say",
+       "w": "نمی‌گویند",
+       "wtr": "nemiguyand",
+       "audio": "audio/tts/b68e1dfba73e.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "نگفتم",
+       "tr": "nagoftam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t say",
+       "audio": "audio/tts/5b15d0a06a29.mp3"
+      },
+      {
+       "fa": "نگفتی",
+       "tr": "nagofti",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t say",
+       "audio": "audio/tts/1b44da73c9f1.mp3"
+      },
+      {
+       "fa": "نگفت",
+       "tr": "nagoft",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "goft"
+        ]
+       ],
+       "en": "he/she didn’t say",
+       "audio": "audio/tts/5d26e0577d71.mp3"
+      },
+      {
+       "fa": "نگفتیم",
+       "tr": "nagoftim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t say",
+       "audio": "audio/tts/c776e09eae9e.mp3"
+      },
+      {
+       "fa": "نگفتین",
+       "tr": "nagoftin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t say",
+       "w": "نگفتید",
+       "wtr": "nagoftid",
+       "audio": "audio/tts/dd4d2a65da1a.mp3"
+      },
+      {
+       "fa": "نگفتن",
+       "tr": "nagoftan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "goft"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t say",
+       "w": "نگفتند",
+       "wtr": "nagoftand",
+       "audio": "audio/tts/be3c46912a3c.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  "dadan": {
+   "inf": {
+    "fa": "دادن",
+    "tr": "dādan",
+    "en": "to give",
+    "audio": "audio/tts/fb165cfef98c.mp3"
+   },
+   "stems": {
+    "past": "dād-",
+    "present": "d- (written dah-)"
+   },
+   "irregular": true,
+   "story": "Give. Past dād-, present dah-, which speech softens to d-: written midaham, Mass says midam. Like kardan, it builds verbs from nouns: gush (ear) + dādan = listen, “give ear.” A look-alike word, dād, means a shout: dād nazan! is “don’t yell!”",
+   "variants": [
+    {
+     "id": "dadan",
+     "label": {
+      "fa": "دادن",
+      "tr": "dādan",
+      "en": "to give",
+      "audio": "audio/tts/3b96779a04c8.mp3"
+     },
+     "present": [
+      {
+       "fa": "می‌دم",
+       "tr": "midam",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I give",
+       "w": "می‌دهم",
+       "wtr": "midaham",
+       "audio": "audio/tts/34364b01ff09.mp3"
+      },
+      {
+       "fa": "می‌دی",
+       "tr": "midi",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you give",
+       "w": "می‌دهی",
+       "wtr": "midahi",
+       "audio": "audio/tts/0491a5dd1f4a.mp3"
+      },
+      {
+       "fa": "می‌ده",
+       "tr": "mide",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she gives",
+       "w": "می‌دهد",
+       "wtr": "midahad",
+       "audio": "audio/tts/d1b0cbf8002f.mp3"
+      },
+      {
+       "fa": "می‌دیم",
+       "tr": "midim",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we give",
+       "w": "می‌دهیم",
+       "wtr": "midahim",
+       "audio": "audio/tts/0fadabf6bc3d.mp3"
+      },
+      {
+       "fa": "می‌دین",
+       "tr": "midin",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) give",
+       "w": "می‌دهید",
+       "wtr": "midahid",
+       "audio": "audio/tts/691df3d675b1.mp3"
+      },
+      {
+       "fa": "می‌دن",
+       "tr": "midan",
+       "trp": [
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they give",
+       "w": "می‌دهند",
+       "wtr": "midahand",
+       "audio": "audio/tts/51e255bc72f0.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "دادم",
+       "tr": "dādam",
+       "trp": [
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I gave",
+       "audio": "audio/tts/7551257a37a7.mp3"
+      },
+      {
+       "fa": "دادی",
+       "tr": "dādi",
+       "trp": [
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you gave",
+       "audio": "audio/tts/01787ec3a131.mp3"
+      },
+      {
+       "fa": "داد",
+       "tr": "dād",
+       "trp": [
+        [
+         "s",
+         "dād"
+        ]
+       ],
+       "en": "he/she gave",
+       "audio": "audio/tts/37cdc28cd9f3.mp3"
+      },
+      {
+       "fa": "دادیم",
+       "tr": "dādim",
+       "trp": [
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we gave",
+       "audio": "audio/tts/daca939562c2.mp3"
+      },
+      {
+       "fa": "دادین",
+       "tr": "dādin",
+       "trp": [
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) gave",
+       "w": "دادید",
+       "wtr": "dādid",
+       "audio": "audio/tts/91d3845c12eb.mp3"
+      },
+      {
+       "fa": "دادن",
+       "tr": "dādan",
+       "trp": [
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they gave",
+       "w": "دادند",
+       "wtr": "dādand",
+       "audio": "audio/tts/3b96779a04c8.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "بده",
+       "tr": "bede",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "de"
+        ]
+       ],
+       "en": "give!",
+       "audio": "audio/tts/735959c0b119.mp3"
+      },
+      {
+       "fa": "بدین",
+       "tr": "bedin",
+       "trp": [
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "give! (polite, or to more than one)",
+       "w": "بدهید",
+       "wtr": "bedahid",
+       "audio": "audio/tts/81c65609aedd.mp3"
+      },
+      {
+       "fa": "نده",
+       "tr": "nade",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "de"
+        ]
+       ],
+       "en": "don’t give!",
+       "audio": "audio/tts/2d5c8cf74e37.mp3"
+      },
+      {
+       "fa": "ندین",
+       "tr": "nadin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t give! (polite, or to more than one)",
+       "w": "ندهید",
+       "wtr": "nadahid",
+       "audio": "audio/tts/e63a50654168.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "نمی‌دم",
+       "tr": "nemidam",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t give",
+       "w": "نمی‌دهم",
+       "wtr": "nemidaham",
+       "audio": "audio/tts/1a0c1179cae8.mp3"
+      },
+      {
+       "fa": "نمی‌دی",
+       "tr": "nemidi",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t give",
+       "w": "نمی‌دهی",
+       "wtr": "nemidahi",
+       "audio": "audio/tts/514a4d068aa7.mp3"
+      },
+      {
+       "fa": "نمی‌ده",
+       "tr": "nemide",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t give",
+       "w": "نمی‌دهد",
+       "wtr": "nemidahad",
+       "audio": "audio/tts/f4c2cb9cd5bd.mp3"
+      },
+      {
+       "fa": "نمی‌دیم",
+       "tr": "nemidim",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t give",
+       "w": "نمی‌دهیم",
+       "wtr": "nemidahim",
+       "audio": "audio/tts/435d91124d2c.mp3"
+      },
+      {
+       "fa": "نمی‌دین",
+       "tr": "nemidin",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t give",
+       "w": "نمی‌دهید",
+       "wtr": "nemidahid",
+       "audio": "audio/tts/6ffb2c5227ce.mp3"
+      },
+      {
+       "fa": "نمی‌دن",
+       "tr": "nemidan",
+       "trp": [
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t give",
+       "w": "نمی‌دهند",
+       "wtr": "nemidahand",
+       "audio": "audio/tts/6fff04e012f5.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "ندادم",
+       "tr": "nadādam",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t give",
+       "audio": "audio/tts/c721afded97a.mp3"
+      },
+      {
+       "fa": "ندادی",
+       "tr": "nadādi",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t give",
+       "audio": "audio/tts/eb03d85e7b29.mp3"
+      },
+      {
+       "fa": "نداد",
+       "tr": "nadād",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ]
+       ],
+       "en": "he/she didn’t give",
+       "audio": "audio/tts/7049b9c32502.mp3"
+      },
+      {
+       "fa": "ندادیم",
+       "tr": "nadādim",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t give",
+       "audio": "audio/tts/d036d7a34583.mp3"
+      },
+      {
+       "fa": "ندادین",
+       "tr": "nadādin",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t give",
+       "w": "ندادید",
+       "wtr": "nadādid",
+       "audio": "audio/tts/38d8a2ece47b.mp3"
+      },
+      {
+       "fa": "ندادن",
+       "tr": "nadādan",
+       "trp": [
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t give",
+       "w": "ندادند",
+       "wtr": "nadādand",
+       "audio": "audio/tts/a0d1de94ba48.mp3"
+      }
+     ]
+    },
+    {
+     "id": "gush_dadan",
+     "label": {
+      "fa": "گوش دادن",
+      "tr": "gush dādan",
+      "en": "to listen",
+      "audio": "audio/tts/56a27f3c8c7b.mp3"
+     },
+     "present": [
+      {
+       "fa": "گوش می‌دم",
+       "tr": "gush midam",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I listen",
+       "w": "گوش می‌دهم",
+       "wtr": "gush midaham",
+       "audio": "audio/tts/f5e3d09d2c0a.mp3"
+      },
+      {
+       "fa": "گوش می‌دی",
+       "tr": "gush midi",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you listen",
+       "w": "گوش می‌دهی",
+       "wtr": "gush midahi",
+       "audio": "audio/tts/f945ed96f3e4.mp3"
+      },
+      {
+       "fa": "گوش می‌ده",
+       "tr": "gush mide",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she listens",
+       "w": "گوش می‌دهد",
+       "wtr": "gush midahad",
+       "audio": "audio/tts/02654d9194dc.mp3"
+      },
+      {
+       "fa": "گوش می‌دیم",
+       "tr": "gush midim",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we listen",
+       "w": "گوش می‌دهیم",
+       "wtr": "gush midahim",
+       "audio": "audio/tts/1cd83f9b4acd.mp3"
+      },
+      {
+       "fa": "گوش می‌دین",
+       "tr": "gush midin",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) listen",
+       "w": "گوش می‌دهید",
+       "wtr": "gush midahid",
+       "audio": "audio/tts/c1eb229ed7c8.mp3"
+      },
+      {
+       "fa": "گوش می‌دن",
+       "tr": "gush midan",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "mi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they listen",
+       "w": "گوش می‌دهند",
+       "wtr": "gush midahand",
+       "audio": "audio/tts/f927982f8b2f.mp3"
+      }
+     ],
+     "past": [
+      {
+       "fa": "گوش دادم",
+       "tr": "gush dādam",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I listened",
+       "audio": "audio/tts/a3df281fe5ce.mp3"
+      },
+      {
+       "fa": "گوش دادی",
+       "tr": "gush dādi",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you listened",
+       "audio": "audio/tts/003448cffae9.mp3"
+      },
+      {
+       "fa": "گوش داد",
+       "tr": "gush dād",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "s",
+         "dād"
+        ]
+       ],
+       "en": "he/she listened",
+       "audio": "audio/tts/015d301d5799.mp3"
+      },
+      {
+       "fa": "گوش دادیم",
+       "tr": "gush dādim",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we listened",
+       "audio": "audio/tts/92aac479dfc9.mp3"
+      },
+      {
+       "fa": "گوش دادین",
+       "tr": "gush dādin",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) listened",
+       "w": "گوش دادید",
+       "wtr": "gush dādid",
+       "audio": "audio/tts/eb60556d1631.mp3"
+      },
+      {
+       "fa": "گوش دادن",
+       "tr": "gush dādan",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they listened",
+       "w": "گوش دادند",
+       "wtr": "gush dādand",
+       "audio": "audio/tts/56a27f3c8c7b.mp3"
+      }
+     ],
+     "imperative": [
+      {
+       "fa": "گوش بده",
+       "tr": "gush bede",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "de"
+        ]
+       ],
+       "en": "listen!",
+       "audio": "audio/tts/41b1adafddce.mp3"
+      },
+      {
+       "fa": "گوش بدین",
+       "tr": "gush bedin",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "be"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "listen! (polite, or to more than one)",
+       "w": "گوش بدهید",
+       "wtr": "gush bedahid",
+       "audio": "audio/tts/8f723718eb19.mp3"
+      },
+      {
+       "fa": "گوش نده",
+       "tr": "gush nade",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "de"
+        ]
+       ],
+       "en": "don’t listen!",
+       "audio": "audio/tts/977c9cf0f60a.mp3"
+      },
+      {
+       "fa": "گوش ندین",
+       "tr": "gush nadin",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "don’t listen! (polite, or to more than one)",
+       "w": "گوش ندهید",
+       "wtr": "gush nadahid",
+       "audio": "audio/tts/b1a1b114528b.mp3"
+      }
+     ],
+     "neg_present": [
+      {
+       "fa": "گوش نمی‌دم",
+       "tr": "gush nemidam",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I don’t listen",
+       "w": "گوش نمی‌دهم",
+       "wtr": "gush nemidaham",
+       "audio": "audio/tts/be13a5033610.mp3"
+      },
+      {
+       "fa": "گوش نمی‌دی",
+       "tr": "gush nemidi",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you don’t listen",
+       "w": "گوش نمی‌دهی",
+       "wtr": "gush nemidahi",
+       "audio": "audio/tts/2dfcf0a826eb.mp3"
+      },
+      {
+       "fa": "گوش نمی‌ده",
+       "tr": "gush nemide",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "e"
+        ]
+       ],
+       "en": "he/she doesn’t listen",
+       "w": "گوش نمی‌دهد",
+       "wtr": "gush nemidahad",
+       "audio": "audio/tts/30c3327dc6bf.mp3"
+      },
+      {
+       "fa": "گوش نمی‌دیم",
+       "tr": "gush nemidim",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we don’t listen",
+       "w": "گوش نمی‌دهیم",
+       "wtr": "gush nemidahim",
+       "audio": "audio/tts/5e345c1216d7.mp3"
+      },
+      {
+       "fa": "گوش نمی‌دین",
+       "tr": "gush nemidin",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) don’t listen",
+       "w": "گوش نمی‌دهید",
+       "wtr": "gush nemidahid",
+       "audio": "audio/tts/8222a48e43ad.mp3"
+      },
+      {
+       "fa": "گوش نمی‌دن",
+       "tr": "gush nemidan",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "nemi"
+        ],
+        [
+         "s",
+         "d"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they don’t listen",
+       "w": "گوش نمی‌دهند",
+       "wtr": "gush nemidahand",
+       "audio": "audio/tts/c937bdb2d621.mp3"
+      }
+     ],
+     "neg_past": [
+      {
+       "fa": "گوش ندادم",
+       "tr": "gush nadādam",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "am"
+        ]
+       ],
+       "en": "I didn’t listen",
+       "audio": "audio/tts/b393d43ec654.mp3"
+      },
+      {
+       "fa": "گوش ندادی",
+       "tr": "gush nadādi",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "i"
+        ]
+       ],
+       "en": "you didn’t listen",
+       "audio": "audio/tts/c22792a33095.mp3"
+      },
+      {
+       "fa": "گوش نداد",
+       "tr": "gush nadād",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ]
+       ],
+       "en": "he/she didn’t listen",
+       "audio": "audio/tts/d05697220f4b.mp3"
+      },
+      {
+       "fa": "گوش ندادیم",
+       "tr": "gush nadādim",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "im"
+        ]
+       ],
+       "en": "we didn’t listen",
+       "audio": "audio/tts/24f23b86af22.mp3"
+      },
+      {
+       "fa": "گوش ندادین",
+       "tr": "gush nadādin",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "in"
+        ]
+       ],
+       "en": "you (polite/plural) didn’t listen",
+       "w": "گوش ندادید",
+       "wtr": "gush nadādid",
+       "audio": "audio/tts/7e44dd2a605f.mp3"
+      },
+      {
+       "fa": "گوش ندادن",
+       "tr": "gush nadādan",
+       "trp": [
+        [
+         "w",
+         "gush "
+        ],
+        [
+         "p",
+         "na"
+        ],
+        [
+         "s",
+         "dād"
+        ],
+        [
+         "e",
+         "an"
+        ]
+       ],
+       "en": "they didn’t listen",
+       "w": "گوش ندادند",
+       "wtr": "gush nadādand",
+       "audio": "audio/tts/de9ed75fcd41.mp3"
+      }
+     ]
+    }
+   ]
   }
  }
 }

@@ -1,0 +1,3915 @@
+{
+ "number": 2,
+ "season": 1,
+ "week": "2026-11-23",
+ "title": {
+  "fa": "روزمون",
+  "tr": "ruzemun",
+  "en": "Our day",
+  "audio": "audio/tts/6f8eb51c9082.mp3"
+ },
+ "description": "Schedules, work, and the school run. Six verbs that run a day (have, want, know, can, say, give), telling time, and ten more letters.",
+ "objectives": [
+  "Ask and tell the time, and talk about today, this week, work, and pickups.",
+  "Conjugate six new verbs (have, want, know, can, say, give) in present and past, with negatives, and say what’s happening right now (dāram miram).",
+  "Hear gh against g, catch the glottal stop, and recognize how this week’s verbs shrink in speech.",
+  "Read and write 10 more letters (ز ذ ژ ج چ ح خ س ش م): 21 in all, including every letter that never joins forward.",
+  "Add eight phrases to the gossip kit, and play “Sā’at chande, āghā gorge?” with the girls."
+ ],
+ "letters": [
+  "ز",
+  "ذ",
+  "ژ",
+  "ج",
+  "چ",
+  "ح",
+  "خ",
+  "س",
+  "ش",
+  "م"
+ ],
+ "words": [
+  {
+   "id": 1019,
+   "isNew": true,
+   "fa": "وقت",
+   "tr": "vaght",
+   "en": "time",
+   "audio": "audio/tts/6e16c26e463b.mp3",
+   "root": "From Arabic. Vaght dāri? is “do you have time?”, and vaght-e shām is dinner time.",
+   "example": {
+    "fa": "وقت داری؟",
+    "tr": "vaght dāri?",
+    "en": "Do you have time?",
+    "audio": "audio/tts/247d9ccd0fce.mp3"
+   }
+  },
+  {
+   "id": 1020,
+   "isNew": true,
+   "fa": "کی",
+   "tr": "key",
+   "en": "when?",
+   "audio": "audio/tts/bed44d5a609d.mp3",
+   "root": "Spelled exactly like ki (who?): کی. Only the vowel and the context tell them apart. Key miyāy? When are you coming? Ki miyād? Who’s coming?",
+   "example": {
+    "fa": "کی میای خونه؟",
+    "tr": "key miyāy khune?",
+    "en": "When are you coming home?",
+    "audio": "audio/tts/90953d6bdc27.mp3"
+   }
+  },
+  {
+   "id": 1021,
+   "isNew": true,
+   "fa": "نیم",
+   "tr": "nim",
+   "en": "half",
+   "audio": "audio/tts/a5002f2839d1.mp3",
+   "root": "Clock times add -o nim, “and a half”: haft-o nim is 7:30. A nimru (half-face) is a fried egg, sunny side up.",
+   "example": {
+    "fa": "ساعت هفت و نیمه.",
+    "tr": "sā’at haft-o nime.",
+    "en": "It’s seven thirty.",
+    "audio": "audio/tts/ca24a523a1ec.mp3"
+   }
+  },
+  {
+   "id": 1022,
+   "isNew": true,
+   "fa": "ربع",
+   "tr": "rob’",
+   "en": "quarter (of an hour)",
+   "audio": "audio/tts/effc122ba457.mp3",
+   "root": "Arabic for one fourth. Listen for the catch at the end: rob’. Se-o rob’ is 3:15.",
+   "example": {
+    "fa": "یه ربع صبر کن.",
+    "tr": "ye rob’ sabr kon.",
+    "en": "Wait a quarter of an hour.",
+    "audio": "audio/tts/82f931af7423.mp3"
+   }
+  },
+  {
+   "id": 1023,
+   "isNew": true,
+   "fa": "ظهر",
+   "tr": "zohr",
+   "en": "noon",
+   "audio": "audio/tts/c84759065a70.mp3",
+   "root": "Also the name of the noon prayer. Ba’d az zohr, “after noon,” is the afternoon, the same idea as English.",
+   "example": {
+    "fa": "ظهر میای خونه؟",
+    "tr": "zohr miyāy khune?",
+    "en": "Are you coming home at noon?",
+    "audio": "audio/tts/3cf162e63e5c.mp3"
+   }
+  },
+  {
+   "id": 1024,
+   "isNew": true,
+   "fa": "هفته",
+   "tr": "hafte",
+   "en": "week",
+   "audio": "audio/tts/ff8deb752747.mp3",
+   "root": "From haft, seven: a seven-ness. Careful: sā’at hafte means “it’s seven o’clock” (haft + -e, is). Same sound, different words.",
+   "example": {
+    "fa": "این هفته خیلی کار دارم.",
+    "tr": "in hafte kheyli kār dāram.",
+    "en": "I have a lot of work this week.",
+    "audio": "audio/tts/e92f8035e29e.mp3"
+   }
+  },
+  {
+   "id": 1025,
+   "isNew": true,
+   "fa": "سر کار",
+   "tr": "sar-e kār",
+   "en": "at work",
+   "audio": "audio/tts/e202c1c417e1.mp3",
+   "root": "Literally “at the head of the work.” Sar (head) is everywhere: hamsar, and saram sholughe, “my head is crowded,” I’m swamped.",
+   "example": {
+    "fa": "سر کاری؟",
+    "tr": "sar-e kāri?",
+    "en": "Are you at work?",
+    "audio": "audio/tts/9e7c542ce881.mp3"
+   }
+  },
+  {
+   "id": 1026,
+   "isNew": true,
+   "fa": "جلسه",
+   "tr": "jalase",
+   "en": "meeting",
+   "audio": "audio/tts/978007f50214.mp3",
+   "root": "From the Arabic for “to sit”: a sitting.",
+   "example": {
+    "fa": "ساعت ده جلسه دارم.",
+    "tr": "sā’at-e dah jalase dāram.",
+    "en": "I have a meeting at ten.",
+    "audio": "audio/tts/d32353c620ba.mp3"
+   }
+  },
+  {
+   "id": 1027,
+   "isNew": true,
+   "fa": "معمولاً",
+   "tr": "ma’mulan",
+   "en": "usually",
+   "audio": "audio/tts/72af1be38eba.mp3",
+   "root": "The -an ending, written with a little double stroke over the alef (ـاً), makes adverbs out of Arabic words: ma’mulan (usually), ba’dan (later), masalan (for example).",
+   "example": {
+    "fa": "معمولاً ساعت شش میام خونه.",
+    "tr": "ma’mulan sā’at-e shish miyām khune.",
+    "en": "I usually come home at six.",
+    "audio": "audio/tts/effafdc3718c.mp3"
+   }
+  },
+  {
+   "id": 1028,
+   "isNew": true,
+   "fa": "هیچ‌وقت",
+   "tr": "hichvaght",
+   "en": "never",
+   "audio": "audio/tts/009ff63f9f15.mp3",
+   "root": "hich (none) + vaght (time): no-time. Persian doubles the negative: hichvaght nemiyād, literally “he no-time doesn’t come,” is “he never comes.”",
+   "example": {
+    "fa": "هیچ‌وقت دیر نمیاد.",
+    "tr": "hichvaght dir nemiyād.",
+    "en": "He’s never late. (he never comes late)",
+    "audio": "audio/tts/41ab66be9665.mp3"
+   }
+  },
+  {
+   "id": 1029,
+   "isNew": true,
+   "fa": "خسته نباشی",
+   "tr": "khaste nabāshi",
+   "en": "well done; welcome back (to someone who’s been working)",
+   "audio": "audio/tts/e7e4ccdc8f26.mp3",
+   "root": "Literally “may you not be tired.” You say it to anyone who has been working: at the door after work, to a cashier, to a plumber. The answer is salāmat bāshi, “may you be well.”",
+   "example": {
+    "fa": "خسته نباشی! سلامت باشی.",
+    "tr": "khaste nabāshi! salāmat bāshi.",
+    "en": "Well done today! Thanks, you too.",
+    "audio": "audio/tts/f29b316df287.mp3"
+   }
+  },
+  {
+   "id": 1030,
+   "isNew": true,
+   "fa": "مدرسه",
+   "tr": "madrese",
+   "en": "school",
+   "audio": "audio/tts/47ebee3ff555.mp3",
+   "root": "From the Arabic for “to study”: the place of study. The same root gives dars, a lesson.",
+   "example": {
+    "fa": "مدرسه ساعت سه تعطیل می‌شه.",
+    "tr": "madrese sā’at-e se ta’til mishe.",
+    "en": "School gets out at three.",
+    "audio": "audio/tts/ca8cdfceb2e7.mp3"
+   }
+  },
+  {
+   "id": 1031,
+   "isNew": true,
+   "fa": "دنبال",
+   "tr": "donbāl",
+   "en": "after; going to get (someone)",
+   "audio": "audio/tts/f396238e84da.mp3",
+   "root": "Literally “the tail end, following.” Miram donbāl-e bachchehā, “I’m going after the kids,” is how Persian says I’ll pick up the kids.",
+   "example": {
+    "fa": "می‌رم دنبال بچه‌ها.",
+    "tr": "miram donbāl-e bachchehā.",
+    "en": "I’m going to pick up the kids.",
+    "audio": "audio/tts/9e85e31945c0.mp3"
+   }
+  },
+  {
+   "id": 1032,
+   "isNew": true,
+   "fa": "ماشین",
+   "tr": "māshin",
+   "en": "car",
+   "audio": "audio/tts/848acf2f2893.mp3",
+   "root": "From French machine. In Persian, the machine is the car.",
+   "example": {
+    "fa": "ماشین کجاست؟",
+    "tr": "māshin kojāst?",
+    "en": "Where’s the car?",
+    "audio": "audio/tts/6e4dab2733ee.mp3"
+   }
+  },
+  {
+   "id": 1033,
+   "isNew": true,
+   "fa": "ترافیک",
+   "tr": "terāfik",
+   "en": "traffic",
+   "audio": "audio/tts/119d3676b638.mp3",
+   "root": "Tehran’s traffic is legendary, so this word gets a lot of use. Persian doesn’t start a syllable with two consonants, so tr gets an e: te-rāfik.",
+   "example": {
+    "fa": "ترافیکه!",
+    "tr": "terāfike!",
+    "en": "There’s traffic! (it’s traffic)",
+    "audio": "audio/tts/1f7101421ed8.mp3"
+   }
+  },
+  {
+   "id": 1034,
+   "isNew": true,
+   "fa": "سه‌شنبه",
+   "tr": "seshanbe",
+   "en": "Tuesday",
+   "audio": "audio/tts/6d51e291f252.mp3",
+   "root": "se (three) + shanbe (Saturday): the third day after Saturday. The whole system is Day 5’s word story.",
+   "example": {
+    "fa": "سه‌شنبه جلسه دارم.",
+    "tr": "seshanbe jalase dāram.",
+    "en": "I have a meeting on Tuesday.",
+    "audio": "audio/tts/b0accfb55ef1.mp3"
+   }
+  },
+  {
+   "id": 1035,
+   "isNew": true,
+   "fa": "پنج‌شنبه",
+   "tr": "panjshanbe",
+   "en": "Thursday",
+   "audio": "audio/tts/a748ba323e32.mp3",
+   "root": "panj (five) + shanbe. In Iran the weekend is Thursday and Friday, so Thursday night is the big night out.",
+   "example": {
+    "fa": "پنج‌شنبه خونه‌ای؟",
+    "tr": "panjshanbe khune-i?",
+    "en": "Are you home on Thursday?",
+    "audio": "audio/tts/38a798f3ba54.mp3"
+   }
+  },
+  {
+   "id": 1036,
+   "isNew": true,
+   "fa": "بوقلمون",
+   "tr": "bughalamun",
+   "en": "turkey",
+   "audio": "audio/tts/63a3d49ccb41.mp3",
+   "root": "The word also means chameleon, or anything that changes color. The turkey got it for its wattles, which flush red, blue, and white.",
+   "example": {
+    "fa": "بوقلمون دوست داری؟",
+    "tr": "bughalamun dust dāri?",
+    "en": "Do you like turkey?",
+    "audio": "audio/tts/614c70f9810b.mp3"
+   }
+  },
+  {
+   "id": 1037,
+   "isNew": true,
+   "fa": "حرف",
+   "tr": "harf",
+   "en": "talk; a word; a letter",
+   "audio": "audio/tts/20223ba51bef.mp3",
+   "root": "Harf zadan, “to strike words,” is to talk. Harf-e mardom, people’s talk, is gossip. And every letter you’re learning is a harf.",
+   "example": {
+    "fa": "حرف نزن!",
+    "tr": "harf nazan!",
+    "en": "Hush! (don’t talk)",
+    "audio": "audio/tts/f608d70095fa.mp3"
+   }
+  },
+  {
+   "id": 549,
+   "isNew": false,
+   "fa": "ساعت",
+   "tr": "sā’at",
+   "en": "hour; clock; o’clock",
+   "audio": "audio/tts/733f7188d2ff.mp3"
+  },
+  {
+   "id": 472,
+   "isNew": false,
+   "fa": "امروز",
+   "tr": "emruz",
+   "en": "today",
+   "audio": "audio/tts/6e826cd84b6a.mp3"
+  },
+  {
+   "id": 430,
+   "isNew": false,
+   "fa": "شام",
+   "tr": "shām",
+   "en": "dinner",
+   "audio": "audio/tts/59df7f815bae.mp3"
+  },
+  {
+   "id": 639,
+   "isNew": false,
+   "fa": "همیشه",
+   "tr": "hamishe",
+   "en": "always",
+   "audio": "audio/tts/14e6bf56fff4.mp3"
+  },
+  {
+   "id": 434,
+   "isNew": false,
+   "fa": "شلوغ",
+   "tr": "sholugh",
+   "en": "busy; crowded",
+   "audio": "audio/tts/5169e9fdd297.mp3"
+  },
+  {
+   "id": 121,
+   "isNew": false,
+   "fa": "فردا",
+   "tr": "fardā",
+   "en": "tomorrow",
+   "audio": "audio/tts/c6457bc8955b.mp3"
+  },
+  {
+   "id": 489,
+   "isNew": false,
+   "fa": "کار",
+   "tr": "kār",
+   "en": "work",
+   "audio": "audio/tts/475183895e26.mp3"
+  },
+  {
+   "id": 334,
+   "isNew": false,
+   "fa": "بچه",
+   "tr": "bachche",
+   "en": "child",
+   "audio": "audio/tts/7ab0e895a32e.mp3"
+  },
+  {
+   "id": 696,
+   "isNew": false,
+   "fa": "تعطیل",
+   "tr": "ta’til",
+   "en": "closed; off (school, work)",
+   "audio": "audio/tts/8840a1732d8f.mp3"
+  },
+  {
+   "id": 82,
+   "isNew": false,
+   "fa": "کجا",
+   "tr": "kojā",
+   "en": "where",
+   "audio": "audio/tts/b0f13f812394.mp3"
+  },
+  {
+   "id": 482,
+   "isNew": false,
+   "fa": "مهمون",
+   "tr": "mehmun",
+   "en": "guest",
+   "w": "مهمان",
+   "wtr": "mehmān",
+   "audio": "audio/tts/a380d85261c2.mp3"
+  },
+  {
+   "id": 595,
+   "isNew": false,
+   "fa": "شاید",
+   "tr": "shāyad",
+   "en": "maybe",
+   "audio": "audio/tts/8835f8c11bf9.mp3"
+  },
+  {
+   "id": 90,
+   "isNew": false,
+   "fa": "خیلی",
+   "tr": "kheyli",
+   "en": "very; a lot",
+   "audio": "audio/tts/e5268a21219d.mp3"
+  },
+  {
+   "id": 649,
+   "isNew": false,
+   "fa": "شنبه",
+   "tr": "shanbe",
+   "en": "Saturday",
+   "audio": "audio/tts/f35ef2f75dea.mp3"
+  },
+  {
+   "id": 634,
+   "isNew": false,
+   "fa": "یکشنبه",
+   "tr": "yekshanbe",
+   "en": "Sunday",
+   "audio": "audio/tts/2d3df2f342e4.mp3"
+  },
+  {
+   "id": 657,
+   "isNew": false,
+   "fa": "دوشنبه",
+   "tr": "doshanbe",
+   "en": "Monday",
+   "audio": "audio/tts/604994a751c9.mp3"
+  },
+  {
+   "id": 651,
+   "isNew": false,
+   "fa": "چهارشنبه",
+   "tr": "chāharshanbe",
+   "en": "Wednesday",
+   "audio": "audio/tts/607b435a8cf1.mp3"
+  },
+  {
+   "id": 642,
+   "isNew": false,
+   "fa": "جمعه",
+   "tr": "jome",
+   "en": "Friday",
+   "audio": "audio/tts/f09bc74705c2.mp3"
+  }
+ ],
+ "days": [
+  {
+   "number": 1,
+   "title": {
+    "fa": "ساعت چنده؟",
+    "tr": "sā’at chande?",
+    "en": "What time is it?",
+    "audio": "audio/tts/f515d18a947f.mp3"
+   },
+   "subtitle": "Want and have: the two verbs that plan a day",
+   "objective": "Tell the time, say what you want and what you have on today, and read روز (day).",
+   "newWordIds": [
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024
+   ],
+   "reviewWordIds": [
+    549,
+    430,
+    639,
+    472
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 6,
+     "instruction": "A new chapter, the same habit: pull old words out of memory first."
+    },
+    {
+     "type": "listen",
+     "title": "Listen first",
+     "minutes": 3,
+     "audio": "audio/tts/scene_39f7e97aa60e.mp3",
+     "instruction": "Monday morning. Sam has lost track of time. Play the scene twice before you look at the words, then tap a line to reveal its English.",
+     "lines": [
+      {
+       "fa": "ساعت چنده؟",
+       "tr": "sā’at chande?",
+       "en": "What time is it?",
+       "audio": "audio/tts/000cfee65f93.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "هفت و نیم.",
+       "tr": "haft-o nim.",
+       "en": "Seven thirty.",
+       "audio": "audio/tts/5ca2d0799d96.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "وای، دیرم شد!",
+       "tr": "vāy, diram shod!",
+       "en": "Oh no, I’m late!",
+       "audio": "audio/tts/966558e7655e.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "نه، وقت داری. یه ربع وقت داری.",
+       "tr": "na, vaght dāri. ye rob’ vaght dāri.",
+       "en": "No, you have time. You have a quarter of an hour.",
+       "audio": "audio/tts/3c2c5ec0bc4f.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "امروز ظهر کار دارم.",
+       "tr": "emruz zohr kār dāram.",
+       "en": "Today at noon I’m busy. (I have work)",
+       "audio": "audio/tts/d956f4582156.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "کی میای خونه؟",
+       "tr": "key miyāy khune?",
+       "en": "When are you coming home?",
+       "audio": "audio/tts/90953d6bdc27.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "ساعت شش.",
+       "tr": "sā’at-e shish.",
+       "en": "At six.",
+       "audio": "audio/tts/96cbaa436c45.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "شام می‌خوای؟",
+       "tr": "shām mikhāy?",
+       "en": "Do you want dinner?",
+       "audio": "audio/tts/d2e679fd1f9c.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "آره! همیشه می‌خوام.",
+       "tr": "āre! hamishe mikhām.",
+       "en": "Yes! I always want dinner.",
+       "audio": "audio/tts/0dfc56086cd2.mp3",
+       "speaker": "Sam"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "title": "New words",
+     "minutes": 5,
+     "instruction": "Six words for the clock and the calendar. Tap each one, say it out loud, and read its story."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: want and have",
+     "minutes": 8,
+     "verbs": [
+      "khastan",
+      "dashtan"
+     ],
+     "intro": "<b>The present, in depth.</b> One form covers three English tenses: <b>mikhām</b> is I want, I’m wanting, and, with a time word, I’ll want. The mark is <b>mi-</b>, and the stress lands on it: MI-khām. Two everyday verbs break the rule. <b>budan</b> hides inside its endings (khubam), and <b>dāshtan</b> never takes mi-: <b>dāram</b>, I have. Dāshtan is how Persian plans a day: vaght dāram (I have time), kār dāram (I’m busy, literally “I have work”), jalase dāram (I have a meeting). Leave the dust dāshtan tab for Day 4.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "khastan",
+       "variant": "khastan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "khastan",
+       "variant": "khastan",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "khastan",
+       "variant": "khastan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "khastan",
+       "variant": "khastan",
+       "tense": "neg_present",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "neg_present",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "past",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "neg_past",
+       "person": 0
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "Ear gym: gh or g?",
+     "minutes": 3,
+     "instruction": "Persian gh (written ق or غ; Tehranis say them the same) is made farther back than g, where you gargle. English has nothing like it, so your ear keeps filing it under g. Play each pair until the gh sounds rough and the g sounds clean, then take the test.",
+     "pairs": [
+      {
+       "a": {
+        "fa": "قند",
+        "tr": "ghand",
+        "en": "a sugar cube",
+        "audio": "audio/tts/13f5e91ef7d2.mp3",
+        "audio2": "audio/tts/727eed111da6.mp3"
+       },
+       "b": {
+        "fa": "گند",
+        "tr": "gand",
+        "en": "a stink",
+        "audio": "audio/tts/7240c35854e7.mp3",
+        "audio2": "audio/tts/65a0cdaf5935.mp3"
+       },
+       "contrast": "gh / g"
+      },
+      {
+       "a": {
+        "fa": "غاز",
+        "tr": "ghāz",
+        "en": "goose",
+        "audio": "audio/tts/f6dbe4f3749c.mp3",
+        "audio2": "audio/tts/5779f8fe9c81.mp3"
+       },
+       "b": {
+        "fa": "گاز",
+        "tr": "gāz",
+        "en": "gas; a bite",
+        "audio": "audio/tts/bb3467e9965d.mp3",
+        "audio2": "audio/tts/032d9b17336d.mp3"
+       },
+       "contrast": "gh / g"
+      },
+      {
+       "a": {
+        "fa": "غول",
+        "tr": "ghul",
+        "en": "a giant, an ogre",
+        "audio": "audio/tts/d27c08e328e2.mp3",
+        "audio2": "audio/tts/cff2cb2433f1.mp3"
+       },
+       "b": {
+        "fa": "گول",
+        "tr": "gul",
+        "en": "a trick",
+        "audio": "audio/tts/e51664526853.mp3",
+        "audio2": "audio/tts/9542b03e11e6.mp3"
+       },
+       "contrast": "gh / g"
+      }
+     ],
+     "rounds": 6
+    },
+    {
+     "type": "script",
+     "title": "Reading: ز ذ ژ",
+     "minutes": 6,
+     "letters": [
+      {
+       "ch": "ز",
+       "name": "ze",
+       "sound": "z",
+       "forms": {
+        "isolated": "ز",
+        "final": "ـز"
+       },
+       "connects": false,
+       "tip": "Re with a dot on top: the same short slide below the line, and like re it never joins forward.",
+       "examples": [
+        {
+         "fa": "روز",
+         "tr": "ruz",
+         "en": "day",
+         "audio": "audio/tts/b39d3b0038fe.mp3"
+        },
+        {
+         "fa": "زود",
+         "tr": "zud",
+         "en": "early; quick",
+         "audio": "audio/tts/14b0bfe77864.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "ذ",
+       "name": "zāl",
+       "sound": "z (in words from Arabic)",
+       "forms": {
+        "isolated": "ذ",
+        "final": "ـذ"
+       },
+       "connects": false,
+       "tip": "Dāl with a dot. In Arabic it’s the th of “this”; Persian says plain z. It’s rare. Recognize it, don’t sweat it.",
+       "examples": [
+        {
+         "fa": "ذرت",
+         "tr": "zorrat",
+         "en": "corn",
+         "audio": "audio/tts/5f02c22b615f.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "ژ",
+       "name": "zhe",
+       "sound": "zh, like the s in “measure”",
+       "forms": {
+        "isolated": "ژ",
+        "final": "ـژ"
+       },
+       "connects": false,
+       "tip": "Re with three dots. Arabic has no zh, so Persian added dots to make one, the way it did for p. With ژ you’ve met all seven letters that never join forward: ا د ذ ر ز ژ و.",
+       "examples": [
+        {
+         "fa": "ژاپن",
+         "tr": "zhāpon",
+         "en": "Japan",
+         "audio": "audio/tts/1f2bc1b42ae6.mp3"
+        },
+        {
+         "fa": "بیژن",
+         "tr": "bizhan",
+         "en": "Bizhan (a hero of the Shahnameh)",
+         "audio": "audio/tts/e65170b22dae.mp3"
+        }
+       ]
+      }
+     ],
+     "intro": "Week two of the alphabet. You already own the shapes. These three are re and dāl wearing dots, so the only new thing to learn is where the dots go. All three refuse to join forward, like their parents.",
+     "readIt": [
+      {
+       "type": "read",
+       "item": {
+        "fa": "روز",
+        "tr": "ruz",
+        "audio": "audio/tts/0cd9ec571244.mp3"
+       },
+       "options": [
+        "ruz",
+        "zud",
+        "dur",
+        "rāz"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "زود",
+        "tr": "zud",
+        "audio": "audio/tts/966705c8744c.mp3"
+       },
+       "options": [
+        "zud",
+        "dur",
+        "ruz",
+        "zir"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "ذرت",
+        "tr": "zorrat",
+        "audio": "audio/tts/76b9b2966ee0.mp3"
+       },
+       "options": [
+        "zorrat",
+        "dorost",
+        "zard",
+        "barādar"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "ژاپن",
+        "tr": "zhāpon",
+        "audio": "audio/tts/00bfbecbc20f.mp3"
+       },
+       "options": [
+        "zhāpon",
+        "zābon",
+        "pedar",
+        "bizhan"
+       ],
+       "answer": 0
+      }
+     ],
+     "aside": "Roz, the English name, is Persian ruz, day. So is Nowruz, the Persian New Year: now (new) + ruz (day). You can read روز now; you’ll be able to read نوروز in two weeks."
+    },
+    {
+     "type": "shadow",
+     "title": "Shadow the scene",
+     "minutes": 3,
+     "instruction": "Play a line, then say it on top of the voice. Lean on mi-: shām MI-khāy? Record yourself and compare.",
+     "lines": [
+      {
+       "fa": "ساعت چنده؟",
+       "tr": "sā’at chande?",
+       "en": "What time is it?",
+       "audio": "audio/tts/000cfee65f93.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "نه، وقت داری. یه ربع وقت داری.",
+       "tr": "na, vaght dāri. ye rob’ vaght dāri.",
+       "en": "No, you have time. You have a quarter of an hour.",
+       "audio": "audio/tts/3c2c5ec0bc4f.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "کی میای خونه؟",
+       "tr": "key miyāy khune?",
+       "en": "When are you coming home?",
+       "audio": "audio/tts/90953d6bdc27.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "شام می‌خوای؟",
+       "tr": "shām mikhāy?",
+       "en": "Do you want dinner?",
+       "audio": "audio/tts/d2e679fd1f9c.mp3",
+       "speaker": "Mass"
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 1 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "item": {
+        "fa": "ساعت هفت و نیمه",
+        "tr": "sā’at haft-o nime",
+        "en": "It’s seven thirty",
+        "audio": "audio/tts/81053c849248.mp3"
+       },
+       "options": [
+        "It’s 7:30.",
+        "It’s 7:15.",
+        "It’s 6:30.",
+        "It’s 7:00."
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Mass asks “key miyāy khune?” What does she want to know?",
+       "options": [
+        "When you’re coming home",
+        "Who is coming home",
+        "Whether you’re home",
+        "Where you’re going"
+       ],
+       "answer": 0,
+       "explain": "key (when) and ki (who) are both spelled کی. Your ear tells them apart, not your eye."
+      },
+      {
+       "type": "conj",
+       "verb": "khastan",
+       "variant": "khastan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "How do you say “I’m busy” (I have work)?",
+       "options": [
+        {
+         "fa": "کار دارم",
+         "tr": "kār dāram"
+        },
+        {
+         "fa": "کار می‌دارم",
+         "tr": "kār midāram"
+        },
+        {
+         "fa": "کار داشت",
+         "tr": "kār dāsht"
+        },
+        {
+         "fa": "کار می‌خوام",
+         "tr": "kār mikhām"
+        }
+       ],
+       "answer": 0,
+       "explain": "dāshtan never takes mi- in the present."
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "neg_present",
+       "person": 1
+      },
+      {
+       "type": "listen",
+       "item": {
+        "fa": "قند",
+        "tr": "ghand",
+        "en": "a sugar cube",
+        "audio": "audio/tts/727eed111da6.mp3"
+       },
+       "options": [
+        "ghand: a sugar cube",
+        "gand: a stink",
+        "ghāz: goose",
+        "gāz: gas"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "type",
+       "item": {
+        "fa": "ظهر",
+        "tr": "zohr",
+        "en": "noon",
+        "audio": "audio/tts/c84759065a70.mp3"
+       },
+       "prompt": "Type what you hear, in English letters."
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "روز",
+        "tr": "ruz",
+        "audio": "audio/tts/b39d3b0038fe.mp3"
+       },
+       "options": [
+        "ruz",
+        "zud",
+        "dur",
+        "rāz"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "Do you want dinner?",
+       "tiles": [
+        {
+         "fa": "شام",
+         "tr": "shām"
+        },
+        {
+         "fa": "می‌خوای؟",
+         "tr": "mikhāy?"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Write ز, ذ, and ژ five times each, saying the sound every time. Then write all seven letters that never join forward in one row: ا د ذ ر ز ژ و.",
+      "Write روز, زود, ذرت, and ژاپن three times each, with phonetics and meaning underneath.",
+      "Draw a clock face. Around it, write the hours in phonetics: sā’at-e yek… sā’at-e davāzdah. Under it, write haft-o nim and se-o rob’.",
+      "Copy the present of khāstan from the verb lab. Cover it and write it again from memory.",
+      "Add khāstan and dāshtan to “Verbs I own,” with both stems. Note beside dāshtan: no mi-."
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "What’s on today?",
+     "openers": [
+      {
+       "fa": "امروز چی کار داری؟",
+       "tr": "emruz chi kār dāri?",
+       "en": "What do you have on today?",
+       "audio": "audio/tts/a69e9a198a43.mp3"
+      },
+      {
+       "fa": "کی میای خونه؟",
+       "tr": "key miyāy khune?",
+       "en": "When are you coming home?",
+       "audio": "audio/tts/90953d6bdc27.mp3"
+      },
+      {
+       "fa": "ساعت چنده؟",
+       "tr": "sā’at chande?",
+       "en": "What time is it?",
+       "audio": "audio/tts/000cfee65f93.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "وقت",
+       "tr": "vaght"
+      },
+      {
+       "fa": "کی؟",
+       "tr": "key?"
+      },
+      {
+       "fa": "نیم",
+       "tr": "nim"
+      },
+      {
+       "fa": "ربع",
+       "tr": "rob’"
+      },
+      {
+       "fa": "ظهر",
+       "tr": "zohr"
+      },
+      {
+       "fa": "می‌خوام",
+       "tr": "mikhām"
+      },
+      {
+       "fa": "دارم",
+       "tr": "dāram"
+      }
+     ],
+     "massNote": "Sam is learning to tell time. Ask him the time whenever you think of it, and make him answer in Farsi: “haft-o nim,” “se-o rob’.”"
+    },
+    {
+     "type": "teach",
+     "title": "Teach the girls: Sā’at chande, āghā gorge?",
+     "game": "“What’s the time, Mr. Wolf?” in Persian. You’re the wolf (gorg), back turned. The girls call “sā’at chande, āghā gorge?” and you answer an hour; they take that many steps toward you, counting out loud in Farsi. When you shout “vaght-e shāme!” (dinner time!), turn and chase. Whoever gets caught is the next wolf, and has to answer in Farsi.",
+     "items": [
+      {
+       "fa": "ساعت چنده، آقا گرگه؟",
+       "tr": "sā’at chande, āghā gorge?",
+       "en": "What time is it, Mr. Wolf?",
+       "audio": "audio/tts/ca2b451f3518.mp3"
+      },
+      {
+       "fa": "ساعت سه!",
+       "tr": "sā’at se!",
+       "en": "Three o’clock!",
+       "audio": "audio/tts/9e8f53369c06.mp3"
+      },
+      {
+       "fa": "ساعت پنج!",
+       "tr": "sā’at panj!",
+       "en": "Five o’clock!",
+       "audio": "audio/tts/912bfcc2bc0b.mp3"
+      },
+      {
+       "fa": "یک، دو، سه، چهار، پنج",
+       "tr": "yek, do, se, chāhār, panj",
+       "en": "one, two, three, four, five",
+       "audio": "audio/tts/02e7e094ef9b.mp3"
+      },
+      {
+       "fa": "وقت شامه!",
+       "tr": "vaght-e shāme!",
+       "en": "Dinner time! (run!)",
+       "audio": "audio/tts/bef90fddee89.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "title": {
+    "fa": "سر کار",
+    "tr": "sar-e kār",
+    "en": "At work",
+    "audio": "audio/tts/e202c1c417e1.mp3"
+   },
+   "subtitle": "Know and can, and the two most useful “no”s",
+   "objective": "Talk about work and meetings, say what you know and what you can do, hear the glottal stop, and read چای and خواب.",
+   "newWordIds": [
+    1025,
+    1026,
+    1027,
+    1028,
+    1029
+   ],
+   "reviewWordIds": [
+    434,
+    121,
+    489
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 6,
+     "instruction": "Yesterday’s words and some old friends from Mango."
+    },
+    {
+     "type": "listen",
+     "title": "Listen first",
+     "minutes": 3,
+     "audio": "audio/tts/scene_380580a3bdfd.mp3",
+     "instruction": "Evening. Sam comes home from work. Listen twice, then tap lines for the English.",
+     "lines": [
+      {
+       "fa": "خسته نباشی!",
+       "tr": "khaste nabāshi!",
+       "en": "Welcome home! (may you not be tired)",
+       "audio": "audio/tts/d2cc01e05853.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "مرسی. سرم خیلی شلوغ بود.",
+       "tr": "mersi. saram kheyli sholugh bud.",
+       "en": "Thanks. I was swamped. (my head was very crowded)",
+       "audio": "audio/tts/47172ab2a547.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "جلسه داشتی؟",
+       "tr": "jalase dāshti?",
+       "en": "Did you have a meeting?",
+       "audio": "audio/tts/df0435ced01b.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "آره، سه تا. معمولاً یکی دارم.",
+       "tr": "āre, se tā. ma’mulan yeki dāram.",
+       "en": "Yes, three. Usually I have one.",
+       "audio": "audio/tts/4a1d29192ca2.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "فردا ظهر میای خونه؟",
+       "tr": "fardā zohr miyāy khune?",
+       "en": "Are you coming home at noon tomorrow?",
+       "audio": "audio/tts/5f547f07cad1.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "نه، نمی‌تونم. فردا هم جلسه دارم.",
+       "tr": "na, nemitunam. fardā ham jalase dāram.",
+       "en": "No, I can’t. I have a meeting tomorrow too.",
+       "audio": "audio/tts/a3bd5c3176b1.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "تو هیچ‌وقت خونه نیستی!",
+       "tr": "to hichvaght khune nisti!",
+       "en": "You’re never home!",
+       "audio": "audio/tts/fa34b257c072.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "می‌دونم، می‌دونم…",
+       "tr": "midunam, midunam…",
+       "en": "I know, I know…",
+       "audio": "audio/tts/7fd4ba62a2d6.mp3",
+       "speaker": "Sam"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "title": "New words",
+     "minutes": 4,
+     "instruction": "Five words for the working day, including the greeting every Iranian worker hears."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: know and can",
+     "minutes": 8,
+     "verbs": [
+      "dunestan",
+      "tunestan"
+     ],
+     "intro": "<b>dunestan</b> (know) and <b>tunestan</b> (can) are near twins. Both lose a syllable in speech, and their forms rhyme all the way down: midunam, mitunam. Their negatives may be the most useful words this week: <b>nemidunam</b> (I don’t know) and <b>nemitunam</b> (I can’t). The negative of any mi- verb is ne-mi-, and the stress jumps forward to ne-: NE-midunam. Neither verb has an everyday command.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "dunestan",
+       "variant": "dunestan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dunestan",
+       "variant": "dunestan",
+       "tense": "neg_present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dunestan",
+       "variant": "dunestan",
+       "tense": "past",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "neg_present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "neg_past",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "dunestan",
+       "variant": "dunestan",
+       "tense": "neg_present",
+       "person": 4
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "Ear gym: the glottal stop",
+     "minutes": 3,
+     "instruction": "The apostrophe in ba’d, sā’at, and rob’ is a glottal stop: the tiny catch in the middle of “uh-oh.” It’s written with ع or ء, letters you’ll meet next week. In fast Tehrani speech the catch often melts into a longer vowel, so ba’d can sound almost like bād (wind). Listen for the catch.",
+     "pairs": [
+      {
+       "a": {
+        "fa": "بد",
+        "tr": "bad",
+        "en": "bad",
+        "audio": "audio/tts/9e1f6b9f9b08.mp3",
+        "audio2": "audio/tts/d1ba4848fa30.mp3"
+       },
+       "b": {
+        "fa": "بعد",
+        "tr": "ba’d",
+        "en": "after; then",
+        "audio": "audio/tts/70e5681563ed.mp3",
+        "audio2": "audio/tts/e67204c5573d.mp3"
+       },
+       "contrast": "a / a’"
+      },
+      {
+       "a": {
+        "fa": "باد",
+        "tr": "bād",
+        "en": "wind",
+        "audio": "audio/tts/30ba495132e7.mp3",
+        "audio2": "audio/tts/ce2a43018eba.mp3"
+       },
+       "b": {
+        "fa": "بعد",
+        "tr": "ba’d",
+        "en": "after; then",
+        "audio": "audio/tts/70e5681563ed.mp3",
+        "audio2": "audio/tts/e67204c5573d.mp3"
+       },
+       "contrast": "ā / a’"
+      },
+      {
+       "a": {
+        "fa": "رد",
+        "tr": "rad",
+        "en": "a trace, a mark",
+        "audio": "audio/tts/0af318405c3b.mp3",
+        "audio2": "audio/tts/ebd31e81691a.mp3"
+       },
+       "b": {
+        "fa": "رعد",
+        "tr": "ra’d",
+        "en": "thunder",
+        "audio": "audio/tts/065a8085d818.mp3",
+        "audio2": "audio/tts/9d5ab17491bc.mp3"
+       },
+       "contrast": "a / a’"
+      }
+     ],
+     "rounds": 6
+    },
+    {
+     "type": "script",
+     "title": "Reading: ج چ ح خ",
+     "minutes": 7,
+     "letters": [
+      {
+       "ch": "ج",
+       "name": "jim",
+       "sound": "j",
+       "forms": {
+        "initial": "جـ",
+        "medial": "ـجـ",
+        "final": "ـج",
+        "isolated": "ج"
+       },
+       "connects": true,
+       "tip": "A cup with a tail and one dot inside. At the start or in the middle of a word the tail drops off and only the hook is left.",
+       "examples": [
+        {
+         "fa": "جا",
+         "tr": "jā",
+         "en": "place",
+         "audio": "audio/tts/faa3e56c1473.mp3"
+        },
+        {
+         "fa": "برنج",
+         "tr": "berenj",
+         "en": "rice",
+         "audio": "audio/tts/77648c4000e5.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "چ",
+       "name": "che",
+       "sound": "ch",
+       "forms": {
+        "initial": "چـ",
+        "medial": "ـچـ",
+        "final": "ـچ",
+        "isolated": "چ"
+       },
+       "connects": true,
+       "tip": "The same cup with three dots: another Persian addition (p, ch, zh, and next week g). Now you can write chāy.",
+       "examples": [
+        {
+         "fa": "چای",
+         "tr": "chāy",
+         "en": "tea",
+         "audio": "audio/tts/98f1f90e61cd.mp3"
+        },
+        {
+         "fa": "چرا",
+         "tr": "cherā",
+         "en": "why",
+         "audio": "audio/tts/e033a6bced68.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "ح",
+       "name": "he",
+       "sound": "h",
+       "forms": {
+        "initial": "حـ",
+        "medial": "ـحـ",
+        "final": "ـح",
+        "isolated": "ح"
+       },
+       "connects": true,
+       "tip": "The cup with no dots. One of two letters for h; this one comes in words from Arabic, like hāl and hosele. Say it as plain breath.",
+       "examples": [
+        {
+         "fa": "حنا",
+         "tr": "hanā",
+         "en": "henna",
+         "audio": "audio/tts/b45e6d107479.mp3"
+        },
+        {
+         "fa": "حتی",
+         "tr": "hattā",
+         "en": "even",
+         "audio": "audio/tts/e3e6d336478c.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "خ",
+       "name": "khe",
+       "sound": "kh, the scrape in “Bach”",
+       "forms": {
+        "initial": "خـ",
+        "medial": "ـخـ",
+        "final": "ـخ",
+        "isolated": "خ"
+       },
+       "connects": true,
+       "tip": "The cup with one dot on top. Watch for خوا: when kh is followed by وا, the و is silent. خواب is khāb. It’s why khāstan (want) is spelled خواستن.",
+       "examples": [
+        {
+         "fa": "خوب",
+         "tr": "khub",
+         "en": "good",
+         "audio": "audio/tts/70d660bebeb5.mp3"
+        },
+        {
+         "fa": "خواب",
+         "tr": "khāb",
+         "en": "sleep",
+         "audio": "audio/tts/2b14380fbcb3.mp3"
+        },
+        {
+         "fa": "بخور",
+         "tr": "bokhor",
+         "en": "eat!",
+         "audio": "audio/tts/f16a46fa3593.mp3"
+        }
+       ]
+      }
+     ],
+     "intro": "One body, four letters. The cup-with-a-tail shape is the same in all of them; the dots do the work: one inside for j, three inside for ch, none for h, one on top for kh. Learn the body once and the dots are just labels.",
+     "readIt": [
+      {
+       "type": "read",
+       "item": {
+        "fa": "چای",
+        "tr": "chāy",
+        "audio": "audio/tts/0697f511b950.mp3"
+       },
+       "options": [
+        "chāy",
+        "jā",
+        "khāb",
+        "hanā"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "برنج",
+        "tr": "berenj",
+        "audio": "audio/tts/93b6daaab008.mp3"
+       },
+       "options": [
+        "berenj",
+        "pedar",
+        "birun",
+        "panj"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "خوب",
+        "tr": "khub",
+        "audio": "audio/tts/5a207430b00e.mp3"
+       },
+       "options": [
+        "khub",
+        "khāb",
+        "jub",
+        "chub"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "خواب",
+        "tr": "khāb",
+        "audio": "audio/tts/9622522d34d8.mp3"
+       },
+       "options": [
+        "khāb",
+        "khub",
+        "āb",
+        "khāhar"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "چرا",
+        "tr": "cherā",
+        "audio": "audio/tts/e033a6bced68.mp3"
+       },
+       "options": [
+        "cherā",
+        "jā",
+        "chāy",
+        "harā"
+       ],
+       "answer": 0
+      }
+     ],
+     "aside": "You can now read the word on every Persian tea glass: چای. And خواب has a ghost in it: the و is silent, a leftover from how the word was said a thousand years ago."
+    },
+    {
+     "type": "shadow",
+     "title": "Shadow the scene",
+     "minutes": 3,
+     "instruction": "Copy the tune of “khaste nabāshi”: it falls at the end, like a kind word, not a question. In nemitunam, lean on ne-.",
+     "lines": [
+      {
+       "fa": "خسته نباشی!",
+       "tr": "khaste nabāshi!",
+       "en": "Welcome home! (may you not be tired)",
+       "audio": "audio/tts/d2cc01e05853.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "آره، سه تا. معمولاً یکی دارم.",
+       "tr": "āre, se tā. ma’mulan yeki dāram.",
+       "en": "Yes, three. Usually I have one.",
+       "audio": "audio/tts/4a1d29192ca2.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "نه، نمی‌تونم. فردا هم جلسه دارم.",
+       "tr": "na, nemitunam. fardā ham jalase dāram.",
+       "en": "No, I can’t. I have a meeting tomorrow too.",
+       "audio": "audio/tts/a3bd5c3176b1.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "می‌دونم، می‌دونم…",
+       "tr": "midunam, midunam…",
+       "en": "I know, I know…",
+       "audio": "audio/tts/7fd4ba62a2d6.mp3",
+       "speaker": "Sam"
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 2 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "item": {
+        "fa": "خسته نباشی",
+        "tr": "khaste nabāshi",
+        "en": "Well done; welcome back",
+        "audio": "audio/tts/e7e4ccdc8f26.mp3"
+       },
+       "options": [
+        "Well done / welcome back",
+        "Are you tired?",
+        "I’m not tired.",
+        "Don’t be late."
+       ],
+       "answer": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dunestan",
+       "variant": "dunestan",
+       "tense": "neg_present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "neg_past",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "How do you say “He’s never late”?",
+       "options": [
+        {
+         "fa": "هیچ‌وقت دیر نمیاد",
+         "tr": "hichvaght dir nemiyād"
+        },
+        {
+         "fa": "هیچ‌وقت دیر میاد",
+         "tr": "hichvaght dir miyād"
+        },
+        {
+         "fa": "همیشه دیر میاد",
+         "tr": "hamishe dir miyād"
+        },
+        {
+         "fa": "معمولاً دیر میاد",
+         "tr": "ma’mulan dir miyād"
+        }
+       ],
+       "answer": 0,
+       "explain": "Persian doubles the negative: “never” plus “doesn’t come.”"
+      },
+      {
+       "type": "listen",
+       "item": {
+        "fa": "بعد",
+        "tr": "ba’d",
+        "en": "after; then",
+        "audio": "audio/tts/e67204c5573d.mp3"
+       },
+       "options": [
+        "ba’d: after",
+        "bad: bad",
+        "bād: wind"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "چای",
+        "tr": "chāy",
+        "audio": "audio/tts/98f1f90e61cd.mp3"
+       },
+       "options": [
+        "chāy",
+        "jā",
+        "khāb",
+        "chub"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "خواب",
+        "tr": "khāb",
+        "audio": "audio/tts/2b14380fbcb3.mp3"
+       },
+       "options": [
+        "khāb",
+        "khub",
+        "āb",
+        "khāhar"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "I usually have one meeting.",
+       "tiles": [
+        {
+         "fa": "معمولاً",
+         "tr": "ma’mulan"
+        },
+        {
+         "fa": "یه جلسه",
+         "tr": "ye jalase"
+        },
+        {
+         "fa": "دارم",
+         "tr": "dāram"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Write ج, چ, ح, and خ in all four shapes. The body never changes; say the sound as you add the dots.",
+      "Write چای, برنج, خوب, and خواب with phonetics and meaning. Under خواب, write: the و is silent.",
+      "Write tomorrow’s real schedule in phonetics: sā’at-e hasht…, zohr…, sā’at-e shish… Use ma’mulan or hichvaght at least once.",
+      "Write two tables side by side, all six persons: midunam / nemidunam and mitunam / nemitunam.",
+      "Add dunestan and tunestan to “Verbs I own.”"
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "Work",
+     "openers": [
+      {
+       "fa": "خسته نباشی!",
+       "tr": "khaste nabāshi!",
+       "en": "Well done today!",
+       "audio": "audio/tts/2d6efc11f397.mp3"
+      },
+      {
+       "fa": "جلسه داشتی؟",
+       "tr": "jalase dāshti?",
+       "en": "Did you have a meeting?",
+       "audio": "audio/tts/df0435ced01b.mp3"
+      },
+      {
+       "fa": "سرت شلوغه؟",
+       "tr": "saret sholughe?",
+       "en": "Are you busy?",
+       "audio": "audio/tts/8beac1dadec6.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "سر کار",
+       "tr": "sar-e kār"
+      },
+      {
+       "fa": "جلسه",
+       "tr": "jalase"
+      },
+      {
+       "fa": "معمولاً",
+       "tr": "ma’mulan"
+      },
+      {
+       "fa": "هیچ‌وقت",
+       "tr": "hichvaght"
+      },
+      {
+       "fa": "می‌دونم",
+       "tr": "midunam"
+      },
+      {
+       "fa": "نمی‌تونم",
+       "tr": "nemitunam"
+      }
+     ],
+     "massNote": "When Sam finishes work, greet him with “khaste nabāshi!” He should answer “salāmat bāshi.” Then ask about his day."
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "title": {
+    "fa": "دنبال بچه‌ها",
+    "tr": "donbāl-e bachchehā",
+    "en": "Picking up the kids",
+    "audio": "audio/tts/11a8844f89aa.mp3"
+   },
+   "subtitle": "Say and give, and how verbs shrink in Mass’s mouth",
+   "objective": "Follow a phone call from the car, tell and give, hear written verbs shrink into spoken ones, and read امروز and شام. That makes 21 letters.",
+   "newWordIds": [
+    1030,
+    1031,
+    1032,
+    1033
+   ],
+   "reviewWordIds": [
+    334,
+    696,
+    82
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 6,
+     "instruction": "Retrieval first, always."
+    },
+    {
+     "type": "listen",
+     "title": "Listen first",
+     "minutes": 3,
+     "audio": "audio/tts/scene_f65f79378d21.mp3",
+     "instruction": "A phone call at 2:45. Sam is stuck in traffic. Listen twice before reading.",
+     "lines": [
+      {
+       "fa": "کجایی؟",
+       "tr": "kojāyi?",
+       "en": "Where are you?",
+       "audio": "audio/tts/5160f860a9bf.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "تو ماشینم. ترافیکه!",
+       "tr": "tu māshinam. terāfike!",
+       "en": "I’m in the car. There’s traffic!",
+       "audio": "audio/tts/b48864090ea3.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "می‌ری دنبال بچه‌ها؟",
+       "tr": "miri donbāl-e bachchehā?",
+       "en": "Are you picking up the kids?",
+       "audio": "audio/tts/39317c0f40c6.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "آره. مدرسه ساعت سه تعطیل می‌شه؟",
+       "tr": "āre. madrese sā’at-e se ta’til mishe?",
+       "en": "Yes. School gets out at three?",
+       "audio": "audio/tts/b6f387ea787c.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "نه، سه و ربع.",
+       "tr": "na, se-o rob’.",
+       "en": "No, three fifteen.",
+       "audio": "audio/tts/f8c869fde184.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "باشه. چیزی می‌خوای؟",
+       "tr": "bāshe. chizi mikhāy?",
+       "en": "Okay. Do you want anything?",
+       "audio": "audio/tts/6ad85d8fe1a1.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "آره، شیر می‌خوام.",
+       "tr": "āre, shir mikhām.",
+       "en": "Yes, I want milk.",
+       "audio": "audio/tts/f50719f0ced5.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "به بچه‌ها بگو شام ماکارونیه!",
+       "tr": "be bachchehā begu shām mākāroniye!",
+       "en": "Tell the kids dinner is macaroni!",
+       "audio": "audio/tts/8078dba27cfe.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "می‌گم.",
+       "tr": "migam.",
+       "en": "I’ll tell them.",
+       "audio": "audio/tts/3a7515ce68c0.mp3",
+       "speaker": "Sam"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "title": "New words",
+     "minutes": 4,
+     "instruction": "Four words for the school run."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: say and give",
+     "minutes": 8,
+     "verbs": [
+      "goftan",
+      "dadan"
+     ],
+     "intro": "<b>goftan</b> (say) and <b>dādan</b> (give) both have written present stems that speech crushes: gu- becomes g-, dah- becomes d-. That leaves pairs one sound apart: <b>mige</b> (says) and <b>mide</b> (gives). Commands are back: <b>begu!</b> (tell me!), <b>nagu!</b> (don’t tell!), <b>bede!</b> (give it!), <b>nade!</b> (don’t give it!). Leave the gush dādan tab for Day 4.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "past",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "present",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "neg_past",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "imperative",
+       "person": 3
+      }
+     ]
+    },
+    {
+     "type": "rule",
+     "title": "Ear gym: written vs. spoken, part 2",
+     "minutes": 4,
+     "instruction": "Last week: ān becomes un, and -ad becomes -e. This week’s verbs lose whole chunks, and “is” shrinks to a single sound. Learn both columns: the left is what you’ll read, the right is what you’ll hear.",
+     "rules": [
+      {
+       "name": "stems shrink",
+       "text": "In speech, the middle of the present stem drops out: khāh → khā, dān → dun, tavān → tun, guy → g, dah → d.",
+       "examples": [
+        [
+         {
+          "fa": "می‌خواهم",
+          "tr": "mikhāham",
+          "en": "I want (written)",
+          "audio": "audio/tts/f56a05787029.mp3"
+         },
+         {
+          "fa": "می‌خوام",
+          "tr": "mikhām",
+          "en": "I want (spoken)",
+          "audio": "audio/tts/8eceb4ab599d.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "می‌دانم",
+          "tr": "midānam",
+          "en": "I know (written)",
+          "audio": "audio/tts/a497df3930e8.mp3"
+         },
+         {
+          "fa": "می‌دونم",
+          "tr": "midunam",
+          "en": "I know (spoken)",
+          "audio": "audio/tts/e5f6a518534f.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "می‌توانم",
+          "tr": "mitavānam",
+          "en": "I can (written)",
+          "audio": "audio/tts/a8a142564f76.mp3"
+         },
+         {
+          "fa": "می‌تونم",
+          "tr": "mitunam",
+          "en": "I can (spoken)",
+          "audio": "audio/tts/31ac4499965e.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "می‌گویم",
+          "tr": "miguyam",
+          "en": "I say (written)",
+          "audio": "audio/tts/e2727d6f7e70.mp3"
+         },
+         {
+          "fa": "می‌گم",
+          "tr": "migam",
+          "en": "I say (spoken)",
+          "audio": "audio/tts/8415c7cf3390.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "می‌دهم",
+          "tr": "midaham",
+          "en": "I give (written)",
+          "audio": "audio/tts/e02bdfbfde04.mp3"
+         },
+         {
+          "fa": "می‌دم",
+          "tr": "midam",
+          "en": "I give (spoken)",
+          "audio": "audio/tts/ec208db2924e.mp3"
+         }
+        ]
+       ]
+      },
+      {
+       "name": "ast → -e",
+       "text": "“Is” (ast) becomes an -e stuck to the end of the word, or -st after a vowel.",
+       "examples": [
+        [
+         {
+          "fa": "ساعت هفت است",
+          "tr": "sā’at haft ast",
+          "en": "it’s seven o’clock (written)",
+          "audio": "audio/tts/f225cbd2a13f.mp3"
+         },
+         {
+          "fa": "ساعت هفته",
+          "tr": "sā’at hafte",
+          "en": "it’s seven o’clock (spoken)",
+          "audio": "audio/tts/35ad215d13f3.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "کجا است؟",
+          "tr": "kojā ast?",
+          "en": "where is it? (written)",
+          "audio": "audio/tts/10161cdeaaa2.mp3"
+         },
+         {
+          "fa": "کجاست؟",
+          "tr": "kojāst?",
+          "en": "where is it? (spoken)",
+          "audio": "audio/tts/60934615f269.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "چه است؟",
+          "tr": "che ast?",
+          "en": "what is it? (written)",
+          "audio": "audio/tts/314f3f53e96e.mp3"
+         },
+         {
+          "fa": "چیه؟",
+          "tr": "chiye?",
+          "en": "what is it? (spoken)",
+          "audio": "audio/tts/09949918d97f.mp3"
+         }
+        ],
+        [
+         {
+          "fa": "خوب است",
+          "tr": "khub ast",
+          "en": "it’s good (written)",
+          "audio": "audio/tts/0f33ccb1e6e6.mp3"
+         },
+         {
+          "fa": "خوبه",
+          "tr": "khube",
+          "en": "it’s good (spoken)",
+          "audio": "audio/tts/921c3e5860fc.mp3"
+         }
+        ]
+       ]
+      }
+     ],
+     "rounds": 6
+    },
+    {
+     "type": "script",
+     "title": "Reading: س ش م",
+     "minutes": 6,
+     "letters": [
+      {
+       "ch": "س",
+       "name": "sin",
+       "sound": "s",
+       "forms": {
+        "initial": "سـ",
+        "medial": "ـسـ",
+        "final": "ـس",
+        "isolated": "س"
+       },
+       "connects": true,
+       "tip": "Three little teeth on the line, then a bowl at the end of a word. Joined up, it’s just the row of teeth.",
+       "examples": [
+        {
+         "fa": "سیب",
+         "tr": "sib",
+         "en": "apple",
+         "audio": "audio/tts/61cd38ac8cd4.mp3"
+        },
+        {
+         "fa": "دست",
+         "tr": "dast",
+         "en": "hand",
+         "audio": "audio/tts/172072a3d5ab.mp3"
+        },
+        {
+         "fa": "سبز",
+         "tr": "sabz",
+         "en": "green",
+         "audio": "audio/tts/11cd075b3594.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "ش",
+       "name": "shin",
+       "sound": "sh",
+       "forms": {
+        "initial": "شـ",
+        "medial": "ـشـ",
+        "final": "ـش",
+        "isolated": "ش"
+       },
+       "connects": true,
+       "tip": "The same teeth with three dots on top. Three dots over teeth is sh.",
+       "examples": [
+        {
+         "fa": "شب",
+         "tr": "shab",
+         "en": "night",
+         "audio": "audio/tts/e0a9d9607c73.mp3"
+        },
+        {
+         "fa": "پیش",
+         "tr": "pish",
+         "en": "ago; near",
+         "audio": "audio/tts/2b7d433d39c5.mp3"
+        }
+       ]
+      },
+      {
+       "ch": "م",
+       "name": "mim",
+       "sound": "m",
+       "forms": {
+        "initial": "مـ",
+        "medial": "ـمـ",
+        "final": "ـم",
+        "isolated": "م"
+       },
+       "connects": true,
+       "tip": "A small loop. At the end of a word it drops a tail straight down. You’ll write it constantly: it’s the -am of every “I” verb.",
+       "examples": [
+        {
+         "fa": "شام",
+         "tr": "shām",
+         "en": "dinner",
+         "audio": "audio/tts/2ac41961be84.mp3"
+        },
+        {
+         "fa": "امروز",
+         "tr": "emruz",
+         "en": "today",
+         "audio": "audio/tts/16a3bf4a70b3.mp3"
+        },
+        {
+         "fa": "می‌دونم",
+         "tr": "midunam",
+         "en": "I know",
+         "audio": "audio/tts/e5f6a518534f.mp3"
+        }
+       ]
+      }
+     ],
+     "intro": "Teeth and a loop. Sin and shin are the same row of teeth; three dots make it sh. Mim is the last letter of the week, and the one you’ll write most, because every “I” verb ends in it: midunam, mikhām, dāram.",
+     "readIt": [
+      {
+       "type": "read",
+       "item": {
+        "fa": "شب",
+        "tr": "shab",
+        "audio": "audio/tts/e0a9d9607c73.mp3"
+       },
+       "options": [
+        "shab",
+        "sib",
+        "sabz",
+        "shām"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "امروز",
+        "tr": "emruz",
+        "audio": "audio/tts/16a3bf4a70b3.mp3"
+       },
+       "options": [
+        "emruz",
+        "diruz",
+        "emshab",
+        "ruz"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "سیب",
+        "tr": "sib",
+        "audio": "audio/tts/9ac0152ffbf1.mp3"
+       },
+       "options": [
+        "sib",
+        "shab",
+        "dast",
+        "sabz"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "می‌دونم",
+        "tr": "midunam",
+        "audio": "audio/tts/ec35ae7570fb.mp3"
+       },
+       "options": [
+        "midunam",
+        "midunan",
+        "nemidunam",
+        "midam"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "شام",
+        "tr": "shām",
+        "audio": "audio/tts/2ac41961be84.mp3"
+       },
+       "options": [
+        "shām",
+        "shab",
+        "sām",
+        "jām"
+       ],
+       "answer": 0
+      }
+     ],
+     "aside": "With mim you can read the endings of every verb you know. Try دارم (dāram), می‌خوام (mikhām), and نمی‌دونم (nemidunam): every letter in them is yours."
+    },
+    {
+     "type": "shadow",
+     "title": "Shadow the scene",
+     "minutes": 3,
+     "instruction": "Stress lives on mi-: MI-ri, MI-gam. In a negative it jumps to ne-: NE-migam. Match where Mass leans, then record.",
+     "lines": [
+      {
+       "fa": "می‌ری دنبال بچه‌ها؟",
+       "tr": "miri donbāl-e bachchehā?",
+       "en": "Are you picking up the kids?",
+       "audio": "audio/tts/39317c0f40c6.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "نه، سه و ربع.",
+       "tr": "na, se-o rob’.",
+       "en": "No, three fifteen.",
+       "audio": "audio/tts/f8c869fde184.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "به بچه‌ها بگو شام ماکارونیه!",
+       "tr": "be bachchehā begu shām mākāroniye!",
+       "en": "Tell the kids dinner is macaroni!",
+       "audio": "audio/tts/8078dba27cfe.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "می‌گم.",
+       "tr": "migam.",
+       "en": "I’ll tell them.",
+       "audio": "audio/tts/3a7515ce68c0.mp3",
+       "speaker": "Sam"
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 3 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "item": {
+        "fa": "می‌رم دنبال بچه‌ها",
+        "tr": "miram donbāl-e bachchehā",
+        "en": "I’m going to pick up the kids",
+        "audio": "audio/tts/ac60ac44c42c.mp3"
+       },
+       "options": [
+        "I’m going to pick up the kids.",
+        "The kids are at school.",
+        "I’m in the car.",
+        "There’s traffic."
+       ],
+       "answer": 0
+      },
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "present",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "past",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Mass says “sā’at hafte.” What does she mean?",
+       "options": [
+        "It’s seven o’clock.",
+        "It’s a week.",
+        "Seven weeks.",
+        "For an hour."
+       ],
+       "answer": 0,
+       "explain": "haft (seven) + -e (is). It sounds exactly like hafte, week. Context decides."
+      },
+      {
+       "type": "mc",
+       "prompt": "Mass would say می‌خواهم (mikhāham) as…",
+       "options": [
+        {
+         "fa": "می‌خوام",
+         "tr": "mikhām"
+        },
+        {
+         "fa": "می‌خواد",
+         "tr": "mikhād"
+        },
+        {
+         "fa": "خواستم",
+         "tr": "khāstam"
+        },
+        {
+         "fa": "می‌خوای",
+         "tr": "mikhāy"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "امروز",
+        "tr": "emruz",
+        "audio": "audio/tts/6e826cd84b6a.mp3"
+       },
+       "options": [
+        "emruz",
+        "diruz",
+        "emshab",
+        "ruz"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "شب",
+        "tr": "shab",
+        "audio": "audio/tts/b6ab26cf0c75.mp3"
+       },
+       "options": [
+        "shab",
+        "sib",
+        "shām",
+        "sabz"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "type",
+       "item": {
+        "fa": "ماشین",
+        "tr": "māshin",
+        "en": "car",
+        "audio": "audio/tts/848acf2f2893.mp3"
+       },
+       "prompt": "Type what you hear, in English letters."
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Write س, ش, and م five times each. Then write all 21 letters you know, from memory, and check.",
+      "Write شب, سیب, شام, امروز, and می‌دونم with phonetics and meaning.",
+      "Write the five written → spoken verb pairs from the ear gym (mikhāham → mikhām…). Say each spoken one with the stress on mi-.",
+      "Write five things you say to the kids, in phonetics, using begu, nagu, bede, and nade.",
+      "Add goftan and dādan to “Verbs I own.”"
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "Pickups and errands",
+     "openers": [
+      {
+       "fa": "کی می‌ره دنبال بچه‌ها؟",
+       "tr": "ki mire donbāl-e bachchehā?",
+       "en": "Who’s picking up the kids?",
+       "audio": "audio/tts/0a046685fdfb.mp3"
+      },
+      {
+       "fa": "چیزی می‌خوای؟",
+       "tr": "chizi mikhāy?",
+       "en": "Do you want anything?",
+       "audio": "audio/tts/0f75a4ef59dc.mp3"
+      },
+      {
+       "fa": "ماشین کجاست؟",
+       "tr": "māshin kojāst?",
+       "en": "Where’s the car?",
+       "audio": "audio/tts/6e4dab2733ee.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "دنبال",
+       "tr": "donbāl"
+      },
+      {
+       "fa": "مدرسه",
+       "tr": "madrese"
+      },
+      {
+       "fa": "ماشین",
+       "tr": "māshin"
+      },
+      {
+       "fa": "ترافیک",
+       "tr": "terāfik"
+      },
+      {
+       "fa": "بگو",
+       "tr": "begu"
+      },
+      {
+       "fa": "بده",
+       "tr": "bede"
+      }
+     ],
+     "massNote": "Sam is learning say and give. At dinner, ask him for things in Farsi (“nun-o bede,” pass the bread) and make him tell you things (“begu!”)."
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": {
+    "fa": "بوقلمون",
+    "tr": "bughalamun",
+    "en": "The turkey",
+    "audio": "audio/tts/63a3d49ccb41.mp3"
+   },
+   "subtitle": "Story day: right now (dāram miram), gossip kit part 2, and Khayyam on time",
+   "objective": "Follow the second story, say what’s happening right now, gossip with dunestan and goftan, and read a quatrain of Khayyam with a word-by-word key.",
+   "newWordIds": [
+    1034,
+    1035,
+    1036,
+    1037
+   ],
+   "reviewWordIds": [
+    482,
+    595,
+    90
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: what do you remember?",
+     "minutes": 2,
+     "count": 8,
+     "instruction": "Mixed: this week and older words."
+    },
+    {
+     "type": "story",
+     "title": "Story, episode 2: The turkey",
+     "minutes": 6,
+     "audio": "audio/tts/scene_60072725b958.mp3",
+     "instruction": "Thanksgiving. The lazy neighbor from episode 1 is up to something. Listen to the whole episode before reading, then read along line by line.",
+     "lines": [
+      {
+       "fa": "پنج‌شنبه‌ست. سام و معصومه دوباره پشت پنجره‌ان.",
+       "tr": "panjshanbe-st. sām-o ma’sume dobāre posht-e panjere-an.",
+       "en": "It’s Thursday. Sam and Massoumeh are at the window again.",
+       "audio": "audio/tts/25e5e68d24f6.mp3"
+      },
+      {
+       "fa": "ببین! همسایه داره میاد.",
+       "tr": "bebin! hamsāye dāre miyād.",
+       "en": "Look! The neighbor’s coming.",
+       "audio": "audio/tts/d29bc174d52d.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "چی داره؟",
+       "tr": "chi dāre?",
+       "en": "What’s he got?",
+       "audio": "audio/tts/1f980dfc2547.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "یه بوقلمون! خیلی بزرگه.",
+       "tr": "ye bughalamun! kheyli bozorge.",
+       "en": "A turkey! It’s huge.",
+       "audio": "audio/tts/ebad7288f212.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "برای کیه؟",
+       "tr": "barāye kiye?",
+       "en": "Who’s it for?",
+       "audio": "audio/tts/d8aa10cec793.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "نمی‌دونم. ولی اون هیچ‌وقت مهمون نداره!",
+       "tr": "nemidunam. vali un hichvaght mehmun nadāre!",
+       "en": "I don’t know. But he never has guests!",
+       "audio": "audio/tts/e95f1867e5d4.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "شاید امسال داره.",
+       "tr": "shāyad emsāl dāre.",
+       "en": "Maybe this year he does.",
+       "audio": "audio/tts/d51199a99463.mp3",
+       "speaker": "Sam"
+      },
+      {
+       "fa": "هیس! داره گوش می‌ده!",
+       "tr": "his! dāre gush mide!",
+       "en": "Shh! He’s listening!",
+       "audio": "audio/tts/2299d3b67afa.mp3",
+       "speaker": "Mass"
+      },
+      {
+       "fa": "چیزی نگفتیم که!",
+       "tr": "chizi nagoftim ke!",
+       "en": "We didn’t say anything!",
+       "audio": "audio/tts/8b53cbe0a81f.mp3",
+       "speaker": "Sam"
+      }
+     ],
+     "questions": [
+      {
+       "type": "mc",
+       "prompt": "What is the neighbor carrying?",
+       "options": [
+        "a huge turkey",
+        "groceries",
+        "a child",
+        "nothing"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Why is Mass surprised?",
+       "options": [
+        "He never has guests.",
+        "He’s never home.",
+        "He never cooks.",
+        "He’s never late."
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Why does Mass say “his!”?",
+       "options": [
+        {
+         "fa": "داره گوش می‌ده",
+         "tr": "dāre gush mide",
+         "en": "He’s listening."
+        },
+        {
+         "fa": "داره میاد",
+         "tr": "dāre miyād",
+         "en": "He’s coming."
+        },
+        {
+         "fa": "نمی‌دونم",
+         "tr": "nemidunam",
+         "en": "I don’t know."
+        },
+        {
+         "fa": "خیلی بزرگه",
+         "tr": "kheyli bozorge",
+         "en": "It’s huge."
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "title": "New words",
+     "minutes": 3,
+     "instruction": "Two days of the week, the bird of the day, and the word for talk."
+    },
+    {
+     "type": "verbs",
+     "title": "Verb lab: right now, and two compounds",
+     "minutes": 8,
+     "verbs": [
+      "dashtan",
+      "dadan"
+     ],
+     "intro": "<b>Right now.</b> The plain present already means “I go, I’m going, I’ll go.” When you need “I’m in the middle of it,” put dāshtan in front, conjugated for the same person: <b>dāram miram</b> (I’m on my way), <b>dāre miyād</b> (he’s coming), <b>dārim mikhorim</b> (we’re eating). Both halves change with the person. This form has no negative: for “I’m not going,” just say nemiram. <b>Two compounds.</b> Open the tabs: dust (friend) + dāshtan = like or love, and gush (ear) + dādan = listen. As with sabr kardan, only the verb changes.",
+     "quiz": [
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dust_dashtan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dust_dashtan",
+       "tense": "neg_present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "gush_dadan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "gush_dadan",
+       "tense": "past",
+       "person": 2
+      },
+      {
+       "type": "mc",
+       "prompt": "“We’re eating” (right now):",
+       "options": [
+        {
+         "fa": "داریم می‌خوریم",
+         "tr": "dārim mikhorim"
+        },
+        {
+         "fa": "داریم خوردیم",
+         "tr": "dārim khordim"
+        },
+        {
+         "fa": "می‌خوریم داریم",
+         "tr": "mikhorim dārim"
+        },
+        {
+         "fa": "داره می‌خوره",
+         "tr": "dāre mikhore"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "“I’m not going” is…",
+       "options": [
+        {
+         "fa": "نمی‌رم",
+         "tr": "nemiram"
+        },
+        {
+         "fa": "ندارم می‌رم",
+         "tr": "nadāram miram"
+        },
+        {
+         "fa": "دارم نمی‌رم",
+         "tr": "dāram nemiram"
+        },
+        {
+         "fa": "نرفتم",
+         "tr": "naraftam"
+        }
+       ],
+       "answer": 0,
+       "explain": "The “right now” form has no negative. Use the plain present."
+      },
+      {
+       "type": "mc",
+       "prompt": "“The kids are coming” (right now):",
+       "options": [
+        {
+         "fa": "بچه‌ها دارن میان",
+         "tr": "bachchehā dāran miyān"
+        },
+        {
+         "fa": "بچه‌ها داره میاد",
+         "tr": "bachchehā dāre miyād"
+        },
+        {
+         "fa": "بچه‌ها دارن اومدن",
+         "tr": "bachchehā dāran umadan"
+        },
+        {
+         "fa": "بچه‌ها میان",
+         "tr": "bachchehā miyān"
+        }
+       ],
+       "answer": 0,
+       "explain": "Both halves agree with “they”: dāran + miyān."
+      }
+     ]
+    },
+    {
+     "type": "gossip",
+     "title": "Gossip kit, part 2",
+     "minutes": 3,
+     "intro": "Part 1 was for pointing. Part 2 is for the news itself: who knows, who’s telling, and who might be listening.",
+     "phrases": [
+      {
+       "fa": "می‌دونی چی شد؟",
+       "tr": "miduni chi shod?",
+       "en": "Do you know what happened?",
+       "audio": "audio/tts/3c485ef28dfd.mp3"
+      },
+      {
+       "fa": "بگو!",
+       "tr": "begu!",
+       "en": "Tell me!",
+       "audio": "audio/tts/f798bb7d2f37.mp3"
+      },
+      {
+       "fa": "نمی‌دونم.",
+       "tr": "nemidunam.",
+       "en": "I don’t know.",
+       "audio": "audio/tts/8b4f77df1f84.mp3"
+      },
+      {
+       "fa": "کسی نمی‌دونه.",
+       "tr": "kasi nemidune.",
+       "en": "Nobody knows.",
+       "audio": "audio/tts/eec1b6bd80f8.mp3"
+      },
+      {
+       "fa": "به کسی نگو!",
+       "tr": "be kasi nagu!",
+       "en": "Don’t tell anyone!",
+       "audio": "audio/tts/7cf785cd84e6.mp3"
+      },
+      {
+       "fa": "داره میاد!",
+       "tr": "dāre miyād!",
+       "en": "Here he comes! (he’s coming)",
+       "audio": "audio/tts/9a89f53d900b.mp3"
+      },
+      {
+       "fa": "داره گوش می‌ده.",
+       "tr": "dāre gush mide.",
+       "en": "He’s listening.",
+       "audio": "audio/tts/d0336f10ed7e.mp3"
+      },
+      {
+       "fa": "حرف نزن!",
+       "tr": "harf nazan!",
+       "en": "Hush! (don’t talk)",
+       "audio": "audio/tts/f608d70095fa.mp3"
+      }
+     ],
+     "proverb": {
+      "fa": "زبان سرخ سر سبز می‌دهد بر باد",
+      "tr": "zabān-e sorkh sar-e sabz midahad bar bād",
+      "en": "The red tongue gives the green head to the wind. (Loose talk costs heads.)",
+      "audio": "audio/tts/1a3c4649c92e.mp3"
+     },
+     "tip": "When the person you’re talking about walks in, switch topics without a pause. Ask loudly: “shām chi dārim?” (What’s for dinner?)"
+    },
+    {
+     "type": "verse",
+     "title": "Khayyam on time",
+     "minutes": 4,
+     "poet": "Omar Khayyam of Nishapur, 11th–12th century",
+     "lines": [
+      {
+       "fa": "این قافلهٔ عمر عجب می‌گذرد",
+       "tr": "in ghāfele-ye omr ajab migozarad",
+       "en": "This caravan of life passes strangely.",
+       "audio": "audio/tts/c141bb661cbf.mp3"
+      },
+      {
+       "fa": "دریاب دمی که با طرب می‌گذرد",
+       "tr": "daryāb dami ke bā tarab migozarad",
+       "en": "Seize a moment that passes in joy.",
+       "audio": "audio/tts/7201f6c505c7.mp3"
+      }
+     ],
+     "gloss": [
+      {
+       "fa": "این",
+       "tr": "in",
+       "en": "this"
+      },
+      {
+       "fa": "قافله",
+       "tr": "ghāfele",
+       "en": "caravan"
+      },
+      {
+       "fa": "ـهٔ",
+       "tr": "-ye",
+       "en": "of"
+      },
+      {
+       "fa": "عمر",
+       "tr": "omr",
+       "en": "life, a lifetime"
+      },
+      {
+       "fa": "عجب",
+       "tr": "ajab",
+       "en": "strangely, wondrously"
+      },
+      {
+       "fa": "می‌گذرد",
+       "tr": "migozarad",
+       "en": "passes (Mass would say migzare)"
+      },
+      {
+       "fa": "دریاب",
+       "tr": "daryāb",
+       "en": "seize! grasp!"
+      },
+      {
+       "fa": "دمی",
+       "tr": "dami",
+       "en": "a breath; a moment"
+      },
+      {
+       "fa": "که",
+       "tr": "ke",
+       "en": "that"
+      },
+      {
+       "fa": "با",
+       "tr": "bā",
+       "en": "with"
+      },
+      {
+       "fa": "طرب",
+       "tr": "tarab",
+       "en": "joy"
+      }
+     ],
+     "note": "Khayyam was an astronomer before he was a poet. He helped reform the Persian solar calendar, famously accurate and still in use, so this is a poem about time from a man who measured it. Dam means breath, and a moment is one breath long. The quatrain ends: “Cupbearer, why grieve over tomorrow? Bring the cup: the night is passing.”"
+    },
+    {
+     "type": "roots",
+     "title": "Word stories: the -gāh family",
+     "minutes": 3,
+     "intro": "-gāh turns a noun or a verb stem into the place where it happens. It also means time: gāhi is “sometimes.” Place and time in one syllable.",
+     "items": [
+      {
+       "word": {
+        "fa": "دانشگاه",
+        "tr": "dāneshgāh",
+        "en": "university",
+        "audio": "audio/tts/15ab42cdd69e.mp3"
+       },
+       "parts": [
+        {
+         "fa": "دانش",
+         "tr": "dānesh",
+         "en": "knowledge (from dunestan)"
+        },
+        {
+         "fa": "گاه",
+         "tr": "gāh",
+         "en": "place"
+        }
+       ],
+       "story": "The place of knowing. The dān is the same as in midunam."
+      },
+      {
+       "word": {
+        "fa": "فرودگاه",
+        "tr": "forudgāh",
+        "en": "airport",
+        "audio": "audio/tts/2f5cff7fe8d8.mp3"
+       },
+       "parts": [
+        {
+         "fa": "فرود",
+         "tr": "forud",
+         "en": "landing, coming down"
+        },
+        {
+         "fa": "گاه",
+         "tr": "gāh",
+         "en": "place"
+        }
+       ],
+       "story": "The place of coming down."
+      },
+      {
+       "word": {
+        "fa": "خوابگاه",
+        "tr": "khābgāh",
+        "en": "dormitory",
+        "audio": "audio/tts/8d93517fa62a.mp3"
+       },
+       "parts": [
+        {
+         "fa": "خواب",
+         "tr": "khāb",
+         "en": "sleep"
+        },
+        {
+         "fa": "گاه",
+         "tr": "gāh",
+         "en": "place"
+        }
+       ],
+       "story": "The place of sleep, with the silent vāv you met on Day 2."
+      },
+      {
+       "word": {
+        "fa": "ایستگاه",
+        "tr": "istgāh",
+        "en": "station; bus stop",
+        "audio": "audio/tts/621503c77677.mp3"
+       },
+       "parts": [
+        {
+         "fa": "ایست",
+         "tr": "ist",
+         "en": "stop (stem of istādan, to stand)"
+        },
+        {
+         "fa": "گاه",
+         "tr": "gāh",
+         "en": "place"
+        }
+       ],
+       "story": "The place of standing still."
+      },
+      {
+       "word": {
+        "fa": "گاهی",
+        "tr": "gāhi",
+        "en": "sometimes",
+        "audio": "audio/tts/fb6a3228df23.mp3"
+       },
+       "parts": [
+        {
+         "fa": "گاه",
+         "tr": "gāh",
+         "en": "time"
+        },
+        {
+         "fa": "ی",
+         "tr": "-i",
+         "en": "a, one"
+        }
+       ],
+       "story": "A time: sometimes."
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Day 4 check",
+     "minutes": 4,
+     "questions": [
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dust_dashtan",
+       "tense": "present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "gush_dadan",
+       "tense": "imperative",
+       "person": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "How do you say “He’s coming” (right now)?",
+       "options": [
+        {
+         "fa": "داره میاد",
+         "tr": "dāre miyād"
+        },
+        {
+         "fa": "میاد داره",
+         "tr": "miyād dāre"
+        },
+        {
+         "fa": "داره",
+         "tr": "dāre"
+        },
+        {
+         "fa": "اومد",
+         "tr": "umad"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "listen",
+       "item": {
+        "fa": "به کسی نگو",
+        "tr": "be kasi nagu",
+        "en": "Don’t tell anyone",
+        "audio": "audio/tts/54bcaa79d704.mp3"
+       },
+       "options": [
+        "Don’t tell anyone!",
+        "Nobody knows.",
+        "Tell me!",
+        "I don’t know."
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "-gāh means…",
+       "options": [
+        "place (and sometimes time)",
+        "knowledge",
+        "sleep",
+        "to stand"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "چرا",
+        "tr": "cherā",
+        "audio": "audio/tts/5144d100244a.mp3"
+       },
+       "options": [
+        "cherā",
+        "jā",
+        "chāy",
+        "harā"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "Do you know what happened?",
+       "tiles": [
+        {
+         "fa": "می‌دونی",
+         "tr": "miduni"
+        },
+        {
+         "fa": "چی",
+         "tr": "chi"
+        },
+        {
+         "fa": "شد؟",
+         "tr": "shod?"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 10,
+     "print": true,
+     "tasks": [
+      "Copy Khayyam’s two lines in phonetics with the English under them. Underline both migozarad.",
+      "Add the -gāh family to “Word stories,” with the parts of each word.",
+      "Write the gossip kit, part 2, in phonetics. Mark three for Sunday’s walk.",
+      "Write five “right now” sentences about your house in phonetics: dāram chāy mikhoram, bachchehā dāran miyān…"
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "Thanksgiving",
+     "openers": [
+      {
+       "fa": "بوقلمون دوست داری؟",
+       "tr": "bughalamun dust dāri?",
+       "en": "Do you like turkey?",
+       "audio": "audio/tts/614c70f9810b.mp3"
+      },
+      {
+       "fa": "چی دوست داری؟",
+       "tr": "chi dust dāri?",
+       "en": "What do you like?",
+       "audio": "audio/tts/53df34c572c9.mp3"
+      },
+      {
+       "fa": "مهمون داریم؟",
+       "tr": "mehmun dārim?",
+       "en": "Do we have guests?",
+       "audio": "audio/tts/d9692288a71b.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "دوست دارم",
+       "tr": "dust dāram"
+      },
+      {
+       "fa": "دوست ندارم",
+       "tr": "dust nadāram"
+      },
+      {
+       "fa": "بوقلمون",
+       "tr": "bughalamun"
+      },
+      {
+       "fa": "پنج‌شنبه",
+       "tr": "panjshanbe"
+      },
+      {
+       "fa": "داره میاد",
+       "tr": "dāre miyād"
+      }
+     ],
+     "massNote": "It’s Thanksgiving week. At dinner, go around the table: “chi dust dāri?” Sam answers with “… dust dāram.”"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": {
+    "fa": "هفته‌ی ما",
+    "tr": "hafte-ye mā",
+    "en": "Our week",
+    "audio": "audio/tts/4a9080049570.mp3"
+   },
+   "subtitle": "Review day: six verbs, ten letters, and the days of the week",
+   "objective": "Conjugate the six new verbs on demand, read seven phrases with no help, and plan next week with Mass.",
+   "newWordIds": [],
+   "reviewWordIds": [
+    649,
+    634,
+    657,
+    651,
+    642
+   ],
+   "steps": [
+    {
+     "type": "warmup",
+     "title": "Warm-up: the whole week",
+     "minutes": 3,
+     "count": 10,
+     "chapterOnly": true,
+     "instruction": "Ten words from this chapter, shuffled."
+    },
+    {
+     "type": "earmix",
+     "title": "Ear gym: mixed review",
+     "minutes": 4,
+     "instruction": "gh against g, and the glottal stop, shuffled together.",
+     "rounds": 10
+    },
+    {
+     "type": "verbgym",
+     "title": "Verb gym: this week’s six",
+     "minutes": 8,
+     "count": 14,
+     "verbs": [
+      "dashtan",
+      "khastan",
+      "dunestan",
+      "tunestan",
+      "goftan",
+      "dadan"
+     ],
+     "instruction": "Random persons, tenses, and verbs, negatives included. A wrong answer shows you the right one."
+    },
+    {
+     "type": "secret",
+     "title": "Secret messages",
+     "minutes": 5,
+     "instruction": "Every letter in these is one you’ve learned. Read each one out loud, then tap to check.",
+     "items": [
+      {
+       "fa": "چای می‌خوری؟",
+       "tr": "chāy mikhori?",
+       "en": "Will you have some tea?",
+       "audio": "audio/tts/38fb950b9fbb.mp3"
+      },
+      {
+       "fa": "شب بخیر!",
+       "tr": "shab bekheyr!",
+       "en": "Good night!",
+       "audio": "audio/tts/1dd16f2722ae.mp3"
+      },
+      {
+       "fa": "زود باش!",
+       "tr": "zud bāsh!",
+       "en": "Hurry up!",
+       "audio": "audio/tts/d823facf644c.mp3"
+      },
+      {
+       "fa": "نمی‌دونم.",
+       "tr": "nemidunam.",
+       "en": "I don’t know.",
+       "audio": "audio/tts/01417ddca523.mp3"
+      },
+      {
+       "fa": "امروز و دیروز",
+       "tr": "emruz-o diruz",
+       "en": "today and yesterday",
+       "audio": "audio/tts/6713c272746f.mp3"
+      },
+      {
+       "fa": "سیب و پنیر",
+       "tr": "sib-o panir",
+       "en": "apples and cheese",
+       "audio": "audio/tts/a4736b747ddc.mp3"
+      },
+      {
+       "fa": "می‌خوام بخوابم.",
+       "tr": "mikhām bekhābam.",
+       "en": "I want to sleep.",
+       "audio": "audio/tts/a42419d315e5.mp3"
+      }
+     ]
+    },
+    {
+     "type": "roots",
+     "title": "Word stories: the days of the week",
+     "minutes": 4,
+     "intro": "Shanbe, from the same root as Sabbath, anchors the Persian week. After it, the days are just a count: one-shanbe, two-shanbe, up to five. Then Friday, jome, breaks the pattern. In fast speech the n slides toward m before b: shambe, yekshambe.",
+     "items": [
+      {
+       "word": {
+        "fa": "یکشنبه",
+        "tr": "yekshanbe",
+        "en": "Sunday",
+        "audio": "audio/tts/0be92647f750.mp3"
+       },
+       "parts": [
+        {
+         "fa": "یک",
+         "tr": "yek",
+         "en": "one"
+        },
+        {
+         "fa": "شنبه",
+         "tr": "shanbe",
+         "en": "Saturday"
+        }
+       ],
+       "story": "One after Saturday."
+      },
+      {
+       "word": {
+        "fa": "دوشنبه",
+        "tr": "doshanbe",
+        "en": "Monday",
+        "audio": "audio/tts/dd6146e783f4.mp3"
+       },
+       "parts": [
+        {
+         "fa": "دو",
+         "tr": "do",
+         "en": "two"
+        },
+        {
+         "fa": "شنبه",
+         "tr": "shanbe",
+         "en": "Saturday"
+        }
+       ],
+       "story": "Two after Saturday."
+      },
+      {
+       "word": {
+        "fa": "سه‌شنبه",
+        "tr": "seshanbe",
+        "en": "Tuesday",
+        "audio": "audio/tts/6d51e291f252.mp3"
+       },
+       "parts": [
+        {
+         "fa": "سه",
+         "tr": "se",
+         "en": "three"
+        },
+        {
+         "fa": "شنبه",
+         "tr": "shanbe",
+         "en": "Saturday"
+        }
+       ],
+       "story": "Three after Saturday."
+      },
+      {
+       "word": {
+        "fa": "چهارشنبه",
+        "tr": "chāharshanbe",
+        "en": "Wednesday",
+        "audio": "audio/tts/607b435a8cf1.mp3"
+       },
+       "parts": [
+        {
+         "fa": "چهار",
+         "tr": "chāhār",
+         "en": "four"
+        },
+        {
+         "fa": "شنبه",
+         "tr": "shanbe",
+         "en": "Saturday"
+        }
+       ],
+       "story": "Four after Saturday. Chāharshanbe Suri, the fire-jumping night before Nowruz, is held on the eve of the year’s last Wednesday."
+      },
+      {
+       "word": {
+        "fa": "پنج‌شنبه",
+        "tr": "panjshanbe",
+        "en": "Thursday",
+        "audio": "audio/tts/a748ba323e32.mp3"
+       },
+       "parts": [
+        {
+         "fa": "پنج",
+         "tr": "panj",
+         "en": "five"
+        },
+        {
+         "fa": "شنبه",
+         "tr": "shanbe",
+         "en": "Saturday"
+        }
+       ],
+       "story": "Five after Saturday, and the start of the Iranian weekend."
+      },
+      {
+       "word": {
+        "fa": "جمعه",
+        "tr": "jome",
+        "en": "Friday",
+        "audio": "audio/tts/c33da04bb6b7.mp3"
+       },
+       "parts": [
+        {
+         "fa": "جمع",
+         "tr": "jam’",
+         "en": "gathering"
+        }
+       ],
+       "story": "The day of gathering, for Friday prayers. The pattern breaks for the day of rest."
+      }
+     ]
+    },
+    {
+     "type": "check",
+     "title": "Chapter 2 check",
+     "minutes": 5,
+     "questions": [
+      {
+       "type": "conj",
+       "verb": "khastan",
+       "variant": "khastan",
+       "tense": "present",
+       "person": 3
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "neg_present",
+       "person": 0
+      },
+      {
+       "type": "conj",
+       "verb": "dunestan",
+       "variant": "dunestan",
+       "tense": "present",
+       "person": 1
+      },
+      {
+       "type": "conj",
+       "verb": "tunestan",
+       "variant": "tunestan",
+       "tense": "neg_present",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "goftan",
+       "variant": "goftan",
+       "tense": "imperative",
+       "person": 2
+      },
+      {
+       "type": "conj",
+       "verb": "dadan",
+       "variant": "dadan",
+       "tense": "present",
+       "person": 4
+      },
+      {
+       "type": "conj",
+       "verb": "dashtan",
+       "variant": "dashtan",
+       "tense": "past",
+       "person": 3
+      },
+      {
+       "type": "listen",
+       "item": {
+        "fa": "سه و ربع",
+        "tr": "se-o rob’",
+        "en": "three fifteen",
+        "audio": "audio/tts/5a0ec69cdba2.mp3"
+       },
+       "options": [
+        "3:15",
+        "3:30",
+        "3:45",
+        "4:15"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "mc",
+       "prompt": "Which day is Tuesday?",
+       "options": [
+        {
+         "fa": "سه‌شنبه",
+         "tr": "seshanbe"
+        },
+        {
+         "fa": "شنبه",
+         "tr": "shanbe"
+        },
+        {
+         "fa": "چهارشنبه",
+         "tr": "chāharshanbe"
+        },
+        {
+         "fa": "دوشنبه",
+         "tr": "doshanbe"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "type": "read",
+       "item": {
+        "fa": "سیب",
+        "tr": "sib",
+        "audio": "audio/tts/61cd38ac8cd4.mp3"
+       },
+       "options": [
+        "sib",
+        "shab",
+        "sabz",
+        "dast"
+       ],
+       "answer": 0
+      },
+      {
+       "type": "build",
+       "en": "I don’t know, I can’t.",
+       "tiles": [
+        {
+         "fa": "نمی‌دونم",
+         "tr": "nemidunam"
+        },
+        {
+         "fa": "نمی‌تونم",
+         "tr": "nemitunam"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "notebook",
+     "title": "In your notebook",
+     "minutes": 12,
+     "print": true,
+     "tasks": [
+      "From memory, write this week’s 10 letters in every shape they take. Then check.",
+      "Write the days of the week in phonetics, Saturday first, and circle the number hiding in each.",
+      "Write the seven secret messages in script, with phonetics under each.",
+      "Verb chart from memory: the present of all six new verbs, I-form only, positive and negative (dāram / nadāram…).",
+      "Write a paragraph in phonetics about a normal weekday: when you get up, work, pick up the kids, and eat dinner."
+     ]
+    },
+    {
+     "type": "talk",
+     "title": "Talk with Mass",
+     "topic": "How was the week?",
+     "openers": [
+      {
+       "fa": "هفته‌ت چطور بود؟",
+       "tr": "hafte-t chetor bud?",
+       "en": "How was your week?",
+       "audio": "audio/tts/c3b681059b3d.mp3"
+      },
+      {
+       "fa": "چی دوست داشتی؟",
+       "tr": "chi dust dāshti?",
+       "en": "What did you like?",
+       "audio": "audio/tts/067cdd5c8f20.mp3"
+      },
+      {
+       "fa": "تونستی بخوابی؟",
+       "tr": "tunesti bekhābi?",
+       "en": "Did you manage to sleep?",
+       "audio": "audio/tts/6a1dc3590ca3.mp3"
+      }
+     ],
+     "practice": [
+      {
+       "fa": "داشتم",
+       "tr": "dāshtam"
+      },
+      {
+       "fa": "خواستم",
+       "tr": "khāstam"
+      },
+      {
+       "fa": "گفتم",
+       "tr": "goftam"
+      },
+      {
+       "fa": "دادم",
+       "tr": "dādam"
+      },
+      {
+       "fa": "تونستم",
+       "tr": "tunestam"
+      },
+      {
+       "fa": "نمی‌دونم",
+       "tr": "nemidunam"
+      }
+     ],
+     "massNote": "Sam knows the past tense of six new verbs. Ask him about his week and push for full sentences."
+    },
+    {
+     "type": "teach",
+     "title": "Teach the girls: the pickup routine",
+     "game": "Use these at every pickup this week, same order, same tune. Kids learn routines, not vocabulary. The first week, accept any answer to “ruzet chetor bud?” in any language.",
+     "items": [
+      {
+       "fa": "روزت چطور بود؟",
+       "tr": "ruzet chetor bud?",
+       "en": "How was your day?",
+       "audio": "audio/tts/410be99a8f06.mp3"
+      },
+      {
+       "fa": "خوب بود؟",
+       "tr": "khub bud?",
+       "en": "Was it good?",
+       "audio": "audio/tts/3c51463874f8.mp3"
+      },
+      {
+       "fa": "چی خوردی؟",
+       "tr": "chi khordi?",
+       "en": "What did you eat?",
+       "audio": "audio/tts/5a3054fda785.mp3"
+      },
+      {
+       "fa": "خسته نباشی!",
+       "tr": "khaste nabāshi!",
+       "en": "Good job today!",
+       "audio": "audio/tts/2d6efc11f397.mp3"
+      },
+      {
+       "fa": "بزن بریم!",
+       "tr": "bezan berim!",
+       "en": "Let’s go! (literally “hit it, let’s go”)",
+       "audio": "audio/tts/4f642154bc15.mp3"
+      },
+      {
+       "fa": "داد نزن!",
+       "tr": "dād nazan!",
+       "en": "Don’t yell!",
+       "audio": "audio/tts/f0f619aabb86.mp3"
+      }
+     ]
+    },
+    {
+     "type": "massvoice",
+     "title": "Optional: Mass’s voice",
+     "minutes": 0,
+     "instruction": "If Mass is willing, ask her to record these on her phone at her normal speed. Her real voice will teach your ear more than any computer. Listen on walks.",
+     "items": [
+      {
+       "fa": "ساعت چنده؟",
+       "tr": "sā’at chande?",
+       "en": "What time is it?",
+       "audio": "audio/tts/f515d18a947f.mp3"
+      },
+      {
+       "fa": "هفت و نیم.",
+       "tr": "haft-o nim.",
+       "en": "Seven thirty.",
+       "audio": "audio/tts/bb8a0f2bbc7f.mp3"
+      },
+      {
+       "fa": "خسته نباشی!",
+       "tr": "khaste nabāshi!",
+       "en": "Welcome home!",
+       "audio": "audio/tts/d2cc01e05853.mp3"
+      },
+      {
+       "fa": "نمی‌دونم، نمی‌تونم.",
+       "tr": "nemidunam, nemitunam.",
+       "en": "I don’t know, I can’t.",
+       "audio": "audio/tts/ec9d1feece04.mp3"
+      },
+      {
+       "fa": "می‌ری دنبال بچه‌ها؟",
+       "tr": "miri donbāl-e bachchehā?",
+       "en": "Are you picking up the kids?",
+       "audio": "audio/tts/39317c0f40c6.mp3"
+      },
+      {
+       "fa": "به بچه‌ها بگو شام ماکارونیه!",
+       "tr": "be bachchehā begu shām mākāroniye!",
+       "en": "Tell the kids dinner is macaroni!",
+       "audio": "audio/tts/a8921e0ff395.mp3"
+      },
+      {
+       "fa": "ببین! همسایه داره میاد.",
+       "tr": "bebin! hamsāye dāre miyād.",
+       "en": "Look! The neighbor’s coming.",
+       "audio": "audio/tts/d29bc174d52d.mp3"
+      },
+      {
+       "fa": "هیس! داره گوش می‌ده!",
+       "tr": "his! dāre gush mide!",
+       "en": "Shh! He’s listening!",
+       "audio": "audio/tts/bfb2f65d99b6.mp3"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "weekendCards": [
+  {
+   "day": "Saturday",
+   "topic": "Next week, day by day",
+   "openers": [
+    {
+     "fa": "این هفته چی کار داری؟",
+     "tr": "in hafte chi kār dāri?",
+     "en": "What do you have on this week?",
+     "audio": "audio/tts/99c79ae9cbaa.mp3"
+    },
+    {
+     "fa": "دوشنبه کجایی؟",
+     "tr": "doshanbe kojāyi?",
+     "en": "Where are you on Monday?",
+     "audio": "audio/tts/f3506b35bca3.mp3"
+    },
+    {
+     "fa": "کی می‌ره دنبال بچه‌ها؟",
+     "tr": "ki mire donbāl-e bachchehā?",
+     "en": "Who’s picking up the kids?",
+     "audio": "audio/tts/03ea8c990581.mp3"
+    }
+   ],
+   "practice": [
+    {
+     "fa": "شنبه",
+     "tr": "shanbe"
+    },
+    {
+     "fa": "سه‌شنبه",
+     "tr": "seshanbe"
+    },
+    {
+     "fa": "پنج‌شنبه",
+     "tr": "panjshanbe"
+    },
+    {
+     "fa": "جلسه دارم",
+     "tr": "jalase dāram"
+    },
+    {
+     "fa": "نمی‌تونم",
+     "tr": "nemitunam"
+    }
+   ],
+   "massNote": "Plan next week together, day by day, in Farsi. Sam knows the days and can say what he has on each: “seshanbe jalase dāram.”"
+  },
+  {
+   "day": "Sunday",
+   "topic": "Gossip walk, part 2",
+   "openers": [
+    {
+     "fa": "می‌دونی چی شد؟",
+     "tr": "miduni chi shod?",
+     "en": "Do you know what happened?",
+     "audio": "audio/tts/7dad333d4191.mp3"
+    },
+    {
+     "fa": "به کسی نگو!",
+     "tr": "be kasi nagu!",
+     "en": "Don’t tell anyone!",
+     "audio": "audio/tts/7cf785cd84e6.mp3"
+    },
+    {
+     "fa": "داره گوش می‌ده!",
+     "tr": "dāre gush mide!",
+     "en": "He’s listening!",
+     "audio": "audio/tts/e67c81d23ac1.mp3"
+    }
+   ],
+   "practice": [
+    {
+     "fa": "بگو!",
+     "tr": "begu!"
+    },
+    {
+     "fa": "نمی‌دونم",
+     "tr": "nemidunam"
+    },
+    {
+     "fa": "کسی نمی‌دونه",
+     "tr": "kasi nemidune"
+    },
+    {
+     "fa": "حرف نزن!",
+     "tr": "harf nazan!"
+    },
+    {
+     "fa": "داره میاد!",
+     "tr": "dāre miyād!"
+    }
+   ],
+   "massNote": "Go somewhere with people. Tell Sam a piece of gossip in Farsi (real or invented), starting with “miduni chi shod?” He has to say “begu!”"
+  }
+ ],
+ "labels": [
+  {
+   "fa": "ساعت",
+   "tr": "sā’at",
+   "en": "clock",
+   "audio": "audio/tts/733f7188d2ff.mp3"
+  },
+  {
+   "fa": "وقت شامه!",
+   "tr": "vaght-e shāme!",
+   "en": "dinner time! (stove)",
+   "audio": "audio/tts/3e5a8bbc0ca0.mp3"
+  },
+  {
+   "fa": "خسته نباشی!",
+   "tr": "khaste nabāshi!",
+   "en": "welcome home! (front door, inside)",
+   "audio": "audio/tts/d2cc01e05853.mp3"
+  },
+  {
+   "fa": "ماشین",
+   "tr": "māshin",
+   "en": "car (key hook)",
+   "audio": "audio/tts/848acf2f2893.mp3"
+  },
+  {
+   "fa": "امروز",
+   "tr": "emruz",
+   "en": "today (calendar)",
+   "audio": "audio/tts/16a3bf4a70b3.mp3"
+  },
+  {
+   "fa": "شنبه",
+   "tr": "shanbe",
+   "en": "Saturday (calendar)",
+   "audio": "audio/tts/f35ef2f75dea.mp3"
+  },
+  {
+   "fa": "یکشنبه",
+   "tr": "yekshanbe",
+   "en": "Sunday (calendar)",
+   "audio": "audio/tts/2d3df2f342e4.mp3"
+  },
+  {
+   "fa": "دوشنبه",
+   "tr": "doshanbe",
+   "en": "Monday (calendar)",
+   "audio": "audio/tts/604994a751c9.mp3"
+  },
+  {
+   "fa": "سه‌شنبه",
+   "tr": "seshanbe",
+   "en": "Tuesday (calendar)",
+   "audio": "audio/tts/4c8586612bbc.mp3"
+  },
+  {
+   "fa": "چهارشنبه",
+   "tr": "chāharshanbe",
+   "en": "Wednesday (calendar)",
+   "audio": "audio/tts/ab54ad753f0d.mp3"
+  },
+  {
+   "fa": "پنج‌شنبه",
+   "tr": "panjshanbe",
+   "en": "Thursday (calendar)",
+   "audio": "audio/tts/c37e9734fd67.mp3"
+  },
+  {
+   "fa": "جمعه",
+   "tr": "jome",
+   "en": "Friday (calendar)",
+   "audio": "audio/tts/f09bc74705c2.mp3"
+  },
+  {
+   "fa": "شیر",
+   "tr": "shir",
+   "en": "milk (fridge)",
+   "audio": "audio/tts/76b9160f7810.mp3"
+  },
+  {
+   "fa": "برنج",
+   "tr": "berenj",
+   "en": "rice (pantry)",
+   "audio": "audio/tts/93b6daaab008.mp3"
+  },
+  {
+   "fa": "سیب",
+   "tr": "sib",
+   "en": "apples (fruit bowl)",
+   "audio": "audio/tts/61cd38ac8cd4.mp3"
+  },
+  {
+   "fa": "گوش بده!",
+   "tr": "gush bede!",
+   "en": "listen! (kids’ room)",
+   "audio": "audio/tts/22c4b8f2884f.mp3"
+  },
+  {
+   "fa": "نمی‌دونم!",
+   "tr": "nemidunam!",
+   "en": "I don’t know! (junk drawer)",
+   "audio": "audio/tts/61a3c8c66b42.mp3"
+  }
+ ]
+}

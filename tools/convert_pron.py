@@ -38,6 +38,9 @@ OVERRIDES = {
     159: 'punzdah', 160: 'shunzdah', 161: 'hivdah', 162: 'hijdah', 163: 'nuzdah',
     215: 'negah dār', 241: 'badan', 278: 'neveshtan', 374: 'bah bah',
     607: 'sahrā', 266: 'tāblo',
+    # Chapter 2 review words
+    549: 'sā’at', 121: 'fardā', 105: 'ghabl', 146: 'do', 203: 'chāy', 201: 'shekar',
+    268: 'telefon', 90: 'kheyli', 364: 'panjere', 696: 'ta’til', 651: 'chāharshanbe',
 }
 
 
