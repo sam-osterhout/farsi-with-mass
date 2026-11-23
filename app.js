@@ -226,7 +226,15 @@
   function render() {
     LEARNED = learnedLetters();
     const views = { dashboard: renderDashboard, map: renderMap, chapter: renderChapter, day: renderDay, flashcards: renderFlashcards, wordlog: renderWordLog, print: renderPrint, labels: renderLabels };
-    let html = (views[state.view] || renderDashboard)();
+    let html;
+    try {
+      html = (views[state.view] || renderDashboard)();
+    } catch (err) {
+      // Never fail silently: say so, and offer the fix that almost always works.
+      console.error(err);
+      html = '<div class="main"><div class="empty-state"><h3>This page didn’t load properly.</h3><p>Usually the browser is holding on to an old copy of the app. Refresh the page (on a laptop, Cmd+Shift+R; on an iPhone, close the tab and open it again).</p>' +
+        '<p class="text-xs text-muted">' + esc(err && err.message) + '</p><p><a href="#dashboard" class="btn btn-primary">Home</a></p></div></div>';
+    }
     if (state.view !== 'print' && state.view !== 'labels') html += renderNav();
     $('#app').innerHTML = html;
     afterRender();
